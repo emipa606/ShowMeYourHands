@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.3.5 - Republish, apparently steam did not update correctly
+
+
 1.3.4 - Caching of hand-meshes, hopefully improving performance. Thanks 624932690 for the info!
 
 
