@@ -496,7 +496,10 @@ public class HandDrawer : ThingComp
         if (ShowMeYourHandsMod.instance.Settings.RepositionHands && mainHandWeapon.def.graphicData != null &&
             mainHandWeapon.def?.graphicData?.drawSize.x != 1f)
         {
-            drawSize = mainHandWeapon.def.graphicData.drawSize.x;
+            if (mainHandWeapon.def is { graphicData: { } })
+            {
+                drawSize = mainHandWeapon.def.graphicData.drawSize.x;
+            }
         }
 
         if (!pawnBodySizes.ContainsKey(pawn) || GenTicks.TicksAbs % GenTicks.TickLongInterval == 0)
