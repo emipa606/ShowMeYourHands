@@ -35,6 +35,7 @@
   <SMYH.error.hands>Error, could not find handinfo of {0} in the database</SMYH.error.hands>
   <SMYH.error.texture>Error, could not find texture info of {0} in the database</SMYH.error.texture>
   <SMYH.twohands.label>Uses two hands</SMYH.twohands.label>
+  <SMYH.nohands.label>Uses no hands</SMYH.nohands.label>
   <SMYH.mainhandhorizontal.label>Main hand horizontal</SMYH.mainhandhorizontal.label>
   <SMYH.mainhandvertical.label>Main hand vertical</SMYH.mainhandvertical.label>
   <SMYH.renderbehind.label>Render behind weapon</SMYH.renderbehind.label>

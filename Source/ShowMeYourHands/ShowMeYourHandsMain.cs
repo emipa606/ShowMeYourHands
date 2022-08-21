@@ -85,7 +85,10 @@ public static class ShowMeYourHandsMain
         // Performance optimizer
         "PerformanceOptimizer.Main",
         // RIMMSqol
-        "RIMMSqol"
+        "RIMMSqol",
+        // Projectile position
+        "Mlie.BetterProjectileOrigin",
+        "Explorite.rimworld.mod.HarmonyPatches"
     };
 
     static ShowMeYourHandsMain()

@@ -69,8 +69,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                 else
                 {
                     ShowMeYourHandsMain.LogMessage(
-                        $"There is an unexpected patch of the weapon-rendering function. This may affect hand-positions. Please report the following information to the author of the 'Show Me Your Hands'-mod\nPrefix - Owner: {patch.owner}, Method: {patch.PatchMethod.Name}, Prio: {patch.priority}",
-                        false, true);
+                        $"There is an unexpected patch of the weapon-rendering function. This may affect hand-positions. Please report the following information to the author of the 'Show Me Your Hands'-mod\nPrefix - Owner: {patch.owner}, Method: {patch.PatchMethod.Name}, Prio: {patch.priority}");
                 }
             }
         }
@@ -218,7 +217,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
             return;
         }
 
-        foreach (var keyValuePair in ShowMeYourHandsMod.instance?.Settings?.ManualMainHandPositions)
+        foreach (var keyValuePair in ShowMeYourHandsMod.instance.Settings.ManualMainHandPositions)
         {
             var weapon = DefDatabase<ThingDef>.GetNamedSilentFail(keyValuePair.Key);
             if (weapon == null)

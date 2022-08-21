@@ -41,6 +41,8 @@ internal class ShowMeYourHandsMod : Mod
 
     private static bool currentHasOffHand;
 
+    private static bool currentNoHands;
+
     private static bool currentMainBehind;
 
     private static bool currentOffBehind;
@@ -324,14 +326,17 @@ internal class ShowMeYourHandsMod : Mod
             handSize.x,
             handSize.y);
 
-        if (currentMainBehind)
+        if (!currentNoHands)
         {
-            GUI.DrawTexture(mainHandRect, HandTex.MatEast.mainTexture);
-        }
+            if (currentMainBehind)
+            {
+                GUI.DrawTexture(mainHandRect, HandTex.MatEast.mainTexture);
+            }
 
-        if (currentHasOffHand && currentOffBehind)
-        {
-            GUI.DrawTexture(offHandRect, HandTex.MatEast.mainTexture);
+            if (currentHasOffHand && currentOffBehind)
+            {
+                GUI.DrawTexture(offHandRect, HandTex.MatEast.mainTexture);
+            }
         }
 
         if (thing.IsRangedWeapon)
@@ -342,6 +347,11 @@ internal class ShowMeYourHandsMod : Mod
         else
         {
             GUI.DrawTexture(rect, texture);
+        }
+
+        if (currentNoHands)
+        {
+            return true;
         }
 
         if (!currentMainBehind)
@@ -632,7 +642,7 @@ internal class ShowMeYourHandsMod : Mod
                 var weaponRect = new Rect(labelPoint.x + 270, labelPoint.y + 5, weaponSize.x,
                     weaponSize.y);
 
-                if (currentMainHand == Vector3.zero)
+                if (currentMainHand == Vector3.zero && !currentNoHands)
                 {
                     currentMainHand = compProperties.MainHand;
                     currentOffHand = compProperties.SecHand;
@@ -640,6 +650,8 @@ internal class ShowMeYourHandsMod : Mod
                     currentMainBehind = compProperties.MainHand.y < 0;
                     currentOffBehind = compProperties.SecHand.y < 0 || currentOffHand == Vector3.zero;
                 }
+
+                currentNoHands = currentMainHand == Vector3.zero;
 
                 if (!DrawIcon(currentDef, weaponRect, currentMainHand, currentOffHand))
                 {
@@ -651,18 +663,39 @@ internal class ShowMeYourHandsMod : Mod
 
                 listing_Standard.Gap(20);
                 listing_Standard.CheckboxLabeled("SMYH.twohands.label".Translate(), ref currentHasOffHand);
+                if (currentHasOffHand)
+                {
+                    currentNoHands = false;
+                }
+
+                listing_Standard.CheckboxLabeled("SMYH.nohands.label".Translate(), ref currentNoHands);
+                if (currentNoHands)
+                {
+                    currentHasOffHand = false;
+                    currentMainHand = Vector3.zero;
+                    currentOffHand = Vector3.zero;
+                }
+
                 listing_Standard.GapLine();
                 listing_Standard.ColumnWidth = 230;
-                listing_Standard.Label("SMYH.mainhandhorizontal.label".Translate());
-                currentMainHand.x = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
-                    currentMainHand.x, -0.5f, 0.5f, false,
-                    currentMainHand.x.ToString(), null, null, 0.001f);
-                var lastMainLabel = listing_Standard.Label("SMYH.mainhandvertical.label".Translate());
-                currentMainHand.z = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
-                    currentMainHand.z, -0.5f, 0.5f, false,
-                    currentMainHand.z.ToString(), null, null, 0.001f);
-                listing_Standard.Gap();
-                listing_Standard.CheckboxLabeled("SMYH.renderbehind.label".Translate(), ref currentMainBehind);
+                Rect lastMainLabel;
+                if (!currentNoHands)
+                {
+                    listing_Standard.Label("SMYH.mainhandhorizontal.label".Translate());
+                    currentMainHand.x = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
+                        currentMainHand.x, -0.5f, 0.5f, false,
+                        currentMainHand.x.ToString(), null, null, 0.001f);
+                    lastMainLabel = listing_Standard.Label("SMYH.mainhandvertical.label".Translate());
+                    currentMainHand.z = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
+                        currentMainHand.z, -0.5f, 0.5f, false,
+                        currentMainHand.z.ToString(), null, null, 0.001f);
+                    listing_Standard.Gap();
+                    listing_Standard.CheckboxLabeled("SMYH.renderbehind.label".Translate(), ref currentMainBehind);
+                }
+                else
+                {
+                    lastMainLabel = listing_Standard.Label("");
+                }
 
                 if (currentHasOffHand)
                 {
@@ -705,6 +738,7 @@ internal class ShowMeYourHandsMod : Mod
                 {
                     DrawButton(() =>
                     {
+                        currentNoHands = currentMainHand == Vector3.zero;
                         currentMainHand = compProperties.MainHand;
                         currentOffHand = compProperties.SecHand;
                         currentHasOffHand = currentOffHand != Vector3.zero;
@@ -718,6 +752,11 @@ internal class ShowMeYourHandsMod : Mod
                         if (!currentHasOffHand)
                         {
                             currentOffHand = Vector3.zero;
+                        }
+
+                        if (currentNoHands)
+                        {
+                            currentMainHand = Vector3.zero;
                         }
 
                         compProperties.MainHand = currentMainHand;

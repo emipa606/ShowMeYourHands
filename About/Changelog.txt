@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.3.7 - Fixed some prefix-warnings. Also added no-hands option, for boxing gloves and similar
+
+
 1.3.6 - Rebuilt since the hands were no longer showing on some races (skeleton races)
 
 
