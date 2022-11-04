@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Harkon.GunNut.Chapter2">
+    <defName>ClutterHandsSettings_GunNutChapterTwo</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.068)</MainHand>
+        <SecHand>(0.234, -0.100, -0.151)</SecHand>
+        <ThingTargets>
+          <li>GN_GThirtySix</li>
+          <!-- G36 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.182, 0.100, -0.133)</MainHand>
+        <SecHand>(0.159, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>GN_ASVAL</li>
+          <!-- AS VAL -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.031, 0.100, -0.100)</MainHand>
+        <SecHand>(0.164, -0.100, -0.128)</SecHand>
+        <ThingTargets>
+          <li>GN_AShTwelve</li>
+          <!-- ASh-12 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.224, 0.100, -0.110)</MainHand>
+        <SecHand>(0.103, -0.100, -0.100)</SecHand>
+        <ThingTargets>
+          <li>GN_SKS</li>
+          <!-- Custom SKS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.164, 0.100, -0.110)</MainHand>
+        <SecHand>(0.092, -0.100, -0.100)</SecHand>
+        <ThingTargets>
+          <li>GN_GMSix</li>
+          <!-- GM6 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.059, 0.100, -0.110)</MainHand>
+        <SecHand>(0.214, -0.100, -0.160)</SecHand>
+        <ThingTargets>
+          <li>GN_HKGL</li>
+          <!-- M320 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.257, 0.100, -0.165)</MainHand>
+        <SecHand>(0.425, -0.100, -0.142)</SecHand>
+        <ThingTargets>
+          <li>GN_MThreeEOne</li>
+          <!-- M3E1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.169, 0.100, -0.105)</MainHand>
+        <SecHand>(0.241, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>GN_Neopup</li>
+          <!-- Neopup -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.136, 0.100, -0.142)</MainHand>
+        <SecHand>(0.163, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>GN_NGFive</li>
+          <!-- NG5 -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

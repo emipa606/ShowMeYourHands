@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Ogliss.AlienVsPredator">
+    <defName>ClutterHandsSettings_AlienVsPredator</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.069, 0.100, 0.018)</MainHand>
+        <ThingTargets>
+          <li>AvP_USCM_Gun_88mod4P</li>
+          <!-- 88 Mod 4 Combat Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.133)</MainHand>
+        <SecHand>(0.124, -0.100, 0.137)</SecHand>
+        <ThingTargets>
+          <li>AvP_Yautja_Melee_Combistaff</li>
+          <!-- Combistaff -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, 0.101)</MainHand>
+        <SecHand>(0.044, -0.100, 0.092)</SecHand>
+        <ThingTargets>
+          <li>AvP_USCM_Gun_M240Incinerator</li>
+          <!-- M240 incinerator -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.253, 0.100, 0.083)</MainHand>
+        <SecHand>(0.058, -0.100, 0.120)</SecHand>
+        <ThingTargets>
+          <li>AvP_USCM_M240A2Incinerator_Heavy</li>
+          <!-- M2402 heavy incinerator -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.314, 0.100, -0.027)</MainHand>
+        <SecHand>(0.200, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>AvP_USCM_Gun_M37A2S</li>
+          <!-- M37A2 Pump Shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.082, 0.100, -0.050)</MainHand>
+        <SecHand>(0.328, -0.100, -0.027)</SecHand>
+        <ThingTargets>
+          <li>AvP_USCM_Gun_M39SMG</li>
+          <!-- M39 submachine gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.204, 0.100, -0.114)</MainHand>
+        <SecHand>(0.200, -0.100, -0.128)</SecHand>
+        <ThingTargets>
+          <li>AvP_USCM_Gun_M41APR</li>
+          <!-- M41A pulse rifle (Grenade) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.192, 0.100, -0.128)</MainHand>
+        <SecHand>(0.163, -0.100, -0.142)</SecHand>
+        <ThingTargets>
+          <li>AvP_USCM_Gun_M41BPR</li>
+          <!-- M41A pulse rifle (Shotgun) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.136, 0.100, -0.078)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>AvP_USCM_Gun_M42ASR</li>
+          <!-- M42A Sniper Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.074, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>AvP_USCM_Gun_M4A3P</li>
+          <!-- M4A3 Service Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.092, 0.100, -0.037)</MainHand>
+        <ThingTargets>
+          <li>AvP_USCM_Gun_M4A4P</li>
+          <!-- M4A4 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.078)</MainHand>
+        <SecHand>(0.237, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>AvP_USCM_Gun_M5RPG</li>
+          <!-- M5 Rocket Propelled Grenade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.356, 0.100, -0.050)</MainHand>
+        <SecHand>(0.094, -0.100, -0.027)</SecHand>
+        <ThingTargets>
+          <li>AvP_USCM_Gun_M56SmartGun</li>
+          <!-- M56 smartgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.108, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>AvP_USCM_MaintenanceJack</li>
+          <!-- Maintenance Jack -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.127, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>AvP_Yautja_Gun_Needler</li>
+          <!-- Needler -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.257, 0.100, -0.009)</MainHand>
+        <ThingTargets>
+          <li>AvP_Yautja_Gun_Blaster</li>
+          <!-- Plasma Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.213, 0.100, -0.119)</MainHand>
+        <SecHand>(0.117, -0.100, -0.123)</SecHand>
+        <ThingTargets>
+          <li>AvP_Yautja_Gun_SpearRifle</li>
+          <!-- spear rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.053, 0.100, -0.110)</MainHand>
+        <ThingTargets>
+          <li>AvP_Xenomorph_TailSpike</li>
+          <!-- xenomorph tailspike -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.346, 0.100, -0.216)</MainHand>
+        <SecHand>(-0.055, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>AvP_MeleeWeapon_XenoSpear</li>
+          <!-- xenomorph-tail spear -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.002, 0.100, 0.202)</MainHand>
+        <ThingTargets>
+          <li>AvP_Yautja_Melee_BladedMaul</li>
+          <!-- Yautja Bladed Maul -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.119, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.060, -0.100, -0.032)</SecHand>
+        <ThingTargets>
+          <li>AvP_Yautja_Gun_Compound_Bow</li>
+          <!-- yautja compound bow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.128, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.106, -0.100, -0.041)</SecHand>
+        <ThingTargets>
+          <li>AvP_Yautja_Gun_Hunting_Bow</li>
+          <!-- yautja hunting bow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.012, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>AvP_Yautja_Gun_SmartDisk</li>
+          <!-- Yautja Smart Disk -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

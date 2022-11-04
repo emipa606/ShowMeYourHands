@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="trahspanda.botw.ancientweapons">
+    <defName>ClutterHandsSettings_TRAHSBOTWAncientArmory</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.291, 0.100, -0.225)</MainHand>
+        <ThingTargets>
+          <li>TRAHS_AncientAxeMKI</li>
+          <!-- ancient axe MKI -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.261)</MainHand>
+        <ThingTargets>
+          <li>TRAHS_AncientAxeMKII</li>
+          <!-- ancient axe MKII -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.287, 0.100, -0.302)</MainHand>
+        <ThingTargets>
+          <li>TRAHS_AncientAxeMKIII</li>
+          <!-- ancient axe MKIII -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.193, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.032, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>TRAHS_BowAncient</li>
+          <!-- ancient bow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.248)</MainHand>
+        <SecHand>(-0.073, -0.100, -0.096)</SecHand>
+        <ThingTargets>
+          <li>TRAHS_AncientSpearMKI</li>
+          <!-- ancient spear MKI -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.234)</MainHand>
+        <SecHand>(-0.078, -0.100, -0.096)</SecHand>
+        <ThingTargets>
+          <li>TRAHS_AncientSpearMKII</li>
+          <!-- ancient spear MKII -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.243)</MainHand>
+        <SecHand>(-0.069, -0.100, -0.096)</SecHand>
+        <ThingTargets>
+          <li>TRAHS_AncientSpearMKIII</li>
+          <!-- ancient spear MKIII -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.222, 0.100, -0.234)</MainHand>
+        <ThingTargets>
+          <li>TRAHS_MeleeWeapon_AncientSwordMKI</li>
+          <!-- ancient sword MKI -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.273, 0.100, -0.257)</MainHand>
+        <ThingTargets>
+          <li>TRAHS_MeleeWeapon_AncientSwordMKII</li>
+          <!-- ancient sword MKII -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.321)</MainHand>
+        <ThingTargets>
+          <li>TRAHS_MeleeWeapon_AncientSwordMKIII</li>
+          <!-- ancient sword MKIII -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

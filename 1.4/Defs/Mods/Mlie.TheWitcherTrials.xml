@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.TheWitcherTrials">
+    <defName>ClutterHandsSettings_TheWitcherTrialsContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(0.034, 0.100, -0.335)</MainHand>
+        <ThingTargets>
+          <li>WitcherTrials_Melee_SilverSword</li>
+          <!-- Witcher's Silver Sword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.025, 0.100, -0.321)</MainHand>
+        <ThingTargets>
+          <li>WitcherTrials_Melee_SteelSword</li>
+          <!-- Witcher's Steel Sword -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

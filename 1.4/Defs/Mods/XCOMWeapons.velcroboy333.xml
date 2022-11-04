@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="XCOMWeapons.velcroboy333">
+    <defName>ClutterHandsSettings_XCOMWeapons</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.122, 0.100, -0.165)</MainHand>
+        <SecHand>(0.319, -0.100, -0.160)</SecHand>
+        <ThingTargets>
+          <li>VBY_XCom_Acid_Grenade_Launcher</li>
+          <!-- Acid Grenade Launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.097, 0.100, 0.133)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCom_Acid_Grenade</li>
+          <!-- acid grenades -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.209, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, 0.023)</SecHand>
+        <ThingTargets>
+          <li>VBY_XCom_Arashi</li>
+          <!-- Arashi -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.319, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>VBY_Arc_Blade</li>
+          <!-- Arc Blade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.362, 0.100, 0.166)</MainHand>
+        <SecHand>(0.094, -0.100, 0.166)</SecHand>
+        <ThingTargets>
+          <li>VBY_XCom_Beam_Cannon</li>
+          <!-- Beam Cannon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCOM_Plasma_Pistol</li>
+          <!-- Beam Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.178, 0.100, -0.110)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>VBY_XCom_Plasma_AssaultRifle</li>
+          <!-- Beam Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.197, 0.100, -0.119)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCom_Bolt_Caster</li>
+          <!-- Bolt Caster -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.169, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCOM_Darkclaw</li>
+          <!-- Darkclaw -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.055)</MainHand>
+        <SecHand>(0.200, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>VBY_Xcom_Darklance</li>
+          <!-- Darklance -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.091)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>VBY_XCom_Disrupter_Rifle</li>
+          <!-- Disrupter Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.081, 0.100, 0.133)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCOM_EMP_Grenade</li>
+          <!-- EMP grenades -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.276, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>VBY_Shadowkeeper</li>
+          <!-- Enhanced Shadowkeeper -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.066, 0.100, 0.175)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCom_Flashbang_Grenade</li>
+          <!-- flashbang grenade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.034, 0.100, 0.128)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCom_Frost_Grenade</li>
+          <!-- frost bombs -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.163, 0.100, -0.151)</MainHand>
+        <SecHand>(0.315, -0.100, -0.197)</SecHand>
+        <ThingTargets>
+          <li>VBY_XCom_Frost_Grenade_Launcher</li>
+          <!-- Frost Grenade Launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.333, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>VBY_Fusion_Blade</li>
+          <!-- Fusion Blade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.291, 0.100, -0.119)</MainHand>
+        <SecHand>(0.200, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>VBY_Xcom_GaussRifle</li>
+          <!-- Gauss Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.066, 0.100, 0.248)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCom_Incendiary_Grenade</li>
+          <!-- incendiary grenades -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.037, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>VBY_KAL7_Bullpup</li>
+          <!-- Kal-7 Bullpup -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.383, 0.100, 0.175)</MainHand>
+        <SecHand>(0.053, -0.100, 0.193)</SecHand>
+        <ThingTargets>
+          <li>VBY_XCom_Mag_Cannon</li>
+          <!-- Mag Cannon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.197, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCOM_Mag_Pistol</li>
+          <!-- Mag Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.184, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>VBY_XCom_Mag_AssaultRifle</li>
+          <!-- magnetic rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.174)</MainHand>
+        <SecHand>(0.319, -0.100, -0.174)</SecHand>
+        <ThingTargets>
+          <li>VBY_XCom_Plasma_Grenade_Launcher</li>
+          <!-- Plasma Grenade Launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.081, 0.100, 0.280)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCom_Plasma_Grenade</li>
+          <!-- plasma grenades -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.324, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>VBY_Xcom_PlasmaLance</li>
+          <!-- Plasma Lance -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.237, 0.100, -0.073)</MainHand>
+        <ThingTargets>
+          <li>VBY_Powered_Shadowkeeper</li>
+          <!-- Powered Shadowkeeper -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.168, 0.100, -0.078)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>VBY_XCom_Magnetic_Shotgun</li>
+          <!-- Shard Gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.177, -0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCom_Skulljack</li>
+          <!-- Skulljack -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, 0.197)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCom_Smoke_Grenade</li>
+          <!-- smoke grenades -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.137, 0.100, -0.068)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>VBY_XCom_Plasma_Shotgun</li>
+          <!-- Storm Gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.259, 0.100, -0.078)</MainHand>
+        <SecHand>(0.150, -0.100, -0.004)</SecHand>
+        <ThingTargets>
+          <li>VBY_Temnotic_Rifle</li>
+          <!-- Temnotic Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.055)</MainHand>
+        <SecHand>(0.127, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>VBY_Vektor_Rifle</li>
+          <!-- Vektor Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.222, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.018)</SecHand>
+        <ThingTargets>
+          <li>VBY_XCom_AssaultRifle</li>
+          <!-- X-Assault rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.407, 0.100, 0.179)</MainHand>
+        <SecHand>(-0.034, -0.100, 0.202)</SecHand>
+        <ThingTargets>
+          <li>VBY_XCom_Cannon</li>
+          <!-- X-Cannon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.019, 0.100, 0.119)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCom_Frag_Grenade</li>
+          <!-- X-Frags -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.314, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>VBY_Katana</li>
+          <!-- X-Katana -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCOM_Pistol</li>
+          <!-- X-Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.123, 0.100, -0.082)</MainHand>
+        <SecHand>(0.200, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>VBY_XCom_Shotgun</li>
+          <!-- X-Shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.337, 0.100, -0.105)</MainHand>
+        <SecHand>(0.053, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>VBY_Xcom_SniperRifle</li>
+          <!-- X-Sniper -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.204, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>VBY_XCom_Sword</li>
+          <!-- X-Sword -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

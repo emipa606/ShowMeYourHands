@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="OskarPotocki.VFE.Insectoid">
+    <defName>ClutterHandsSettings_VanillaFactionsExpandedInsectoids</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.385, 0.100, -0.100)</MainHand>
+        <SecHand>(0.205, -0.100, -0.105)</SecHand>
+        <ThingTargets>
+          <li>VFE_Gun_PlasmaScattergun</li>
+          <!-- plasma scattergun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.167, 0.100, -0.091)</MainHand>
+        <SecHand>(0.260, -0.100, -0.078)</SecHand>
+        <ThingTargets>
+          <li>VFE_Gun_PlasmabeamRifle</li>
+          <!-- plasmabeam rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.173, 0.100, -0.037)</MainHand>
+        <ThingTargets>
+          <li>VFE_Gun_Plasmacutter</li>
+          <!-- plasmacutter -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.133)</MainHand>
+        <SecHand>(0.223, -0.100, -0.119)</SecHand>
+        <ThingTargets>
+          <li>VFE_Gun_Plasmapiercer</li>
+          <!-- plasmapiercer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.374, 0.100, -0.371)</MainHand>
+        <SecHand>(-0.362, -0.100, 0.083)</SecHand>
+        <ThingTargets>
+          <li>VFE_Plasmasaw</li>
+          <!-- plasmasaw -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

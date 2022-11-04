@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="rick.fcpfnvarlmg">
+    <defName>ClutterHandsSettings_FCPFalloutNewVegasAssaultRiflesandLMGPack</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.201, 0.100, -0.128)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_All-American</li>
+          <!-- All American -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.100)</MainHand>
+        <SecHand>(0.154, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Assault_Carbine</li>
+          <!-- Assault Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.267, 0.100, -0.110)</MainHand>
+        <SecHand>(0.129, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Automatic_Rifle</li>
+          <!-- Automatic Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.206, 0.100, -0.110)</MainHand>
+        <SecHand>(0.117, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Bozar</li>
+          <!-- Bozar -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.243, 0.100, -0.123)</MainHand>
+        <SecHand>(0.150, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Light_Machine_Gun</li>
+          <!-- Light Machine Gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.183, 0.100, -0.128)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Marksman_Carbine</li>
+          <!-- Marksman Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.208, 0.100, -0.123)</MainHand>
+        <SecHand>(0.154, -0.100, -0.041)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Service_Rifle</li>
+          <!-- Service Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.209, 0.100, -0.123)</MainHand>
+        <SecHand>(0.163, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Survivalist_Rifle</li>
+          <!-- Survivalist Rifle -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

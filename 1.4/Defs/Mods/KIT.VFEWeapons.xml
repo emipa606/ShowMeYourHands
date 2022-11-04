@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="KIT.VFEWeapons">
+    <defName>ClutterHandsSettings_KitsVFEWeapons</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.177, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>KIT_CryptoKnife</li>
+          <!-- crypto knife -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.176, 0.100, -0.193)</MainHand>
+        <SecHand>(-0.371, -0.100, -0.376)</SecHand>
+        <ThingTargets>
+          <li>KIT_CryptoSpear</li>
+          <!-- crypto spear -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.023)</MainHand>
+        <ThingTargets>
+          <li>KIT_CryptoSword</li>
+          <!-- crypto sword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.372, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>KIT_CryptoHammer</li>
+          <!-- crypto hammer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.193, 0.100, -0.115)</MainHand>
+        <ThingTargets>
+          <li>KIT_Gun_PlasmaPistol</li>
+          <!-- plasma pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>KIT_Gun_PlasmaRifle</li>
+          <!-- plasma rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.032)</MainHand>
+        <ThingTargets>
+          <li>KIT_Gun_PlasmaSMG</li>
+          <!-- plasma SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.050)</MainHand>
+        <SecHand>(0.094, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>KIT_Gun_PlasmaSniper</li>
+          <!-- plasma sniper -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

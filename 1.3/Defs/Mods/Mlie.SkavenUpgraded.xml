@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.SkavenUpgraded">
+    <defName>ClutterHandsSettings_SkavenUpgradedContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(0.260, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_BladedSpear</li>
+          <!-- Bladed Spear -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.335, 0.100, 0.060)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_CleaverSpear</li>
+          <!-- Cleaver Spear -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, 0.028)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_SkavenSwordTwo</li>
+          <!-- Die die! -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.133, 0.100, -0.266)</MainHand>
+        <SecHand>(-0.002, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>SU_WarpstoneStaffThree</li>
+          <!-- Dominator Warpstone Staff -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.041)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_DoomHammer</li>
+          <!-- Doom Hammer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.176, 0.100, -0.302)</MainHand>
+        <SecHand>(0.003, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>SU_WarpstoneStaffOne</li>
+          <!-- Focused Warpstone Staff -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.314, 0.100, 0.055)</MainHand>
+        <ThingTargets>
+          <li>Gripper_Sword</li>
+          <!-- Gripper Sword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.329, 0.100, 0.064)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_HookSpear</li>
+          <!-- Hook Spear -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, 0.028)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_SkavenSwordThree</li>
+          <!-- Kill die! -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.337, 0.100, -0.032)</MainHand>
+        <ThingTargets>
+          <li>Pronged_Sword</li>
+          <!-- Pronged Sword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.337, 0.100, 0.065)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_RunedBlade</li>
+          <!-- Runed Blade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.367, 0.100, 0.032)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_SerratedSpear</li>
+          <!-- Serrated Spear -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.101, 0.100, -0.083)</MainHand>
+        <ThingTargets>
+          <li>SKU_RipBladeShuriken</li>
+          <!-- Skaven Rip Blade Shuriken -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.173, 0.100, -0.078)</MainHand>
+        <ThingTargets>
+          <li>SKU_SawShuriken</li>
+          <!-- Skaven Saw Blade Shuriken -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.172, 0.100, -0.330)</MainHand>
+        <SecHand>(0.193, -0.100, -0.138)</SecHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_SkavenFlag</li>
+          <!-- Skaven Standard -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.227, 0.100, 0.041)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_SkavenSwordOne</li>
+          <!-- Slay slay! -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.116, 0.100, -0.261)</MainHand>
+        <SecHand>(0.012, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>SU_WarpstoneStaffTwo</li>
+          <!-- Twin Warpstone Staff -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>War_Axe</li>
+          <!-- War Axe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.351, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>War_Spear</li>
+          <!-- War Spear -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.232, 0.100, -0.032)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_WarpstoneSwordThree</li>
+          <!-- Warpstone Blade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.401, 0.100, 0.009)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_WarpBlessedSword</li>
+          <!-- Warpstone Blessed Sword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.213, 0.100, -0.179)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_WarpflailTwo</li>
+          <!-- Warpstone Crusher Flail -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.186, 0.100, -0.156)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_WarpflailOne</li>
+          <!-- Warpstone Flail -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.232, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_WarpstoneSwordOne</li>
+          <!-- Warpstone Slasher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.227, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>SU_MeleeWeapon_WarpstoneSwordTwo</li>
+          <!-- Warpstone Slicer -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

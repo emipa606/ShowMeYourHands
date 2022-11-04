@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="rick.fcpfnvshotguns">
+    <defName>ClutterHandsSettings_FCPFalloutNewVegasShotguns</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.064)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_Big_Boomer</li>
+          <!-- Big Boomer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.169, 0.100, -0.064)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Caravan_Shotgun</li>
+          <!-- Caravan Shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.222, 0.100, -0.091)</MainHand>
+        <SecHand>(0.154, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Dinner_Bell</li>
+          <!-- Dinner Bell -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.222, 0.100, -0.078)</MainHand>
+        <SecHand>(0.131, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Hunting_Shotgun</li>
+          <!-- Hunting Shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.307, 0.100, -0.073)</MainHand>
+        <SecHand>(0.154, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Lever_Action_Shotgun</li>
+          <!-- Lever Action Shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.370, 0.100, -0.068)</MainHand>
+        <SecHand>(0.053, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Riot_Shotgun</li>
+          <!-- Riot Shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.236, 0.100, -0.082)</MainHand>
+        <SecHand>(0.069, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Single_Shotgun</li>
+          <!-- Single Shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.173, 0.100, -0.073)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Sturdy_Caravan_Shotgun</li>
+          <!-- Sturdy Caravan Shotgun -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

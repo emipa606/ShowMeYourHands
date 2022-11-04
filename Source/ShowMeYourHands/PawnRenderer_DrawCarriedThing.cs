@@ -4,12 +4,11 @@ using Verse;
 
 namespace ShowMeYourHands;
 
-[HarmonyPatch(typeof(PawnRenderer), "DrawCarriedThing")]
+[HarmonyPatch(typeof(PawnRenderer), "DrawCarriedThing", typeof(Pawn), typeof(Vector3), typeof(Thing))]
 public static class PawnRenderer_DrawCarriedThing
 {
-    public static void Postfix(Vector3 drawLoc, Pawn ___pawn)
+    public static void Postfix(Vector3 drawLoc, Pawn pawn, Thing carriedThing)
     {
-        var carriedThing = ___pawn.carryTracker?.CarriedThing;
         if (carriedThing == null)
         {
             return;
@@ -20,7 +19,7 @@ public static class PawnRenderer_DrawCarriedThing
             return;
         }
 
-        var handComp = ___pawn.GetComp<HandDrawer>();
+        var handComp = pawn.GetComp<HandDrawer>();
         if (handComp == null)
         {
             return;
@@ -29,10 +28,10 @@ public static class PawnRenderer_DrawCarriedThing
         var vector = drawLoc;
         var behind = false;
         var flip = false;
-        if (___pawn.CurJob == null ||
-            !___pawn.jobs.curDriver.ModifyCarriedThingDrawPos(ref vector, ref behind, ref flip))
+        if (pawn.CurJob == null ||
+            !pawn.jobs.curDriver.ModifyCarriedThingDrawPos(ref vector, ref behind, ref flip))
         {
-            if (carriedThing is Pawn || carriedThing is Corpse)
+            if (carriedThing is Pawn or Corpse)
             {
                 vector += new Vector3(0.44f, 0f, 0f);
             }

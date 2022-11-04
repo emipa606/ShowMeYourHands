@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="kompadt.warhammer.skaven">
+    <defName>ClutterHandsSettings_WarhammerSkaven</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.154, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>Weapon_SkavenPoisonBottle</li>
+          <!-- chemical bottle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.302, 0.100, -0.266)</MainHand>
+        <SecHand>(-0.069, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>MeleeWeapon_SkavenFlail</li>
+          <!-- flail -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.451, 0.100, 0.175)</MainHand>
+        <SecHand>(-0.144, -0.100, 0.261)</SecHand>
+        <ThingTargets>
+          <li>Gun_MinigunSkaven</li>
+          <!-- ratling gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.122, 0.100, -0.243)</MainHand>
+        <SecHand>(0.214, -0.100, -0.500)</SecHand>
+        <ThingTargets>
+          <li>MeleeWeapon_SkavenBardiche</li>
+          <!-- skaven bardiche -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.321, 0.100, -0.371)</MainHand>
+        <SecHand>(0.085, -0.100, -0.316)</SecHand>
+        <ThingTargets>
+          <li>Gun_SkavenSmallWindMortar</li>
+          <!-- skaven chemical mortar -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.273, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Skaven_Crossbow</li>
+          <!-- skaven crossbow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.213, 0.100, -0.146)</MainHand>
+        <SecHand>(0.184, -0.100, -0.087)</SecHand>
+        <ThingTargets>
+          <li>Gun_SkavenSprayer</li>
+          <!-- skaven poison hose -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.433, 0.100, -0.201)</MainHand>
+        <SecHand>(-0.162, -0.100, -0.083)</SecHand>
+        <ThingTargets>
+          <li>MeleeWeapon_SkavenProd</li>
+          <!-- skaven shock prod -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.016, 0.100, 0.298)</MainHand>
+        <ThingTargets>
+          <li>Slingshot</li>
+          <!-- slingshot -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.233, 0.100, -0.091)</MainHand>
+        <ThingTargets>
+          <li>Gun_WarpPistolSkaven</li>
+          <!-- warplock pistol -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

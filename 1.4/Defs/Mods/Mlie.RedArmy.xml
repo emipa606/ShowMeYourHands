@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.RedArmy">
+    <defName>ClutterHandsSettings_RedArmyContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.342, 0.100, -0.133)</MainHand>
+        <SecHand>(-0.089, -0.100, -0.064)</SecHand>
+        <ThingTargets>
+          <li>DPTwentySeven</li>
+          <!-- DP 27 Light Machine Gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.164, 0.100, -0.022)</MainHand>
+        <SecHand>(0.200, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>MosinSniper</li>
+          <!-- Mosin Nagant - Sniper -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.164, 0.100, -0.045)</MainHand>
+        <SecHand>(0.200, -0.100, -0.004)</SecHand>
+        <ThingTargets>
+          <li>MosinSniperVariant</li>
+          <!-- Mosin Nagant - Sniper variant -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.214, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.009)</SecHand>
+        <ThingTargets>
+          <li>MosinNagant</li>
+          <!-- Mosin Nagant 91/30 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.233, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Nagant1895Pistol</li>
+          <!-- Nagant 1895 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.099, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>PPSh</li>
+          <!-- PPSh Model 41 Drum -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.020, 0.100, -0.032)</MainHand>
+        <ThingTargets>
+          <li>Weapon_RGFortyTwo</li>
+          <!-- RG-42 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.117, 0.100, -0.312)</MainHand>
+        <SecHand>(0.023, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>SovietBanner</li>
+          <!-- Soviet Banner -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.199, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>SVTForty</li>
+          <!-- SVT-40 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.004, 0.100, 0.358)</MainHand>
+        <ThingTargets>
+          <li>SovietVodka</li>
+          <!-- Vodka -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

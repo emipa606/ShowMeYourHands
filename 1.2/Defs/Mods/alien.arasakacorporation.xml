@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="alien.arasakacorporation">
+    <defName>ClutterHandsSettings_ArasakaCorporation</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.342, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Millitary_Katana_AC</li>
+          <!-- Arasaka Millitary Katana -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.161, 0.100, -0.110)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Nowaki_AC</li>
+          <!-- Arasaka Nowaki -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.024, 0.100, -0.119)</MainHand>
+        <SecHand>(0.283, -0.100, -0.078)</SecHand>
+        <ThingTargets>
+          <li>Gun_Shigure_AC</li>
+          <!-- Arasaka Shigure -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.227, 0.100, -0.247)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Thermal_Katana_AC</li>
+          <!-- Arasaka Thermal Katana -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.212, 0.100, -0.082)</MainHand>
+        <ThingTargets>
+          <li>Gun_HJKE-11_Yukimura_AC</li>
+          <!-- HJKE-11 Yukimura -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.237, 0.100, -0.087)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_HJSH_18_Masamune_AC</li>
+          <!-- HJSH-18 Masamune -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.236, 0.100, -0.092)</MainHand>
+        <ThingTargets>
+          <li>Gun_JKE-X2_Kenshin_AC</li>
+          <!-- JKE-X2 Kenshin -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.059, 0.100, -0.123)</MainHand>
+        <SecHand>(0.292, -0.100, -0.091)</SecHand>
+        <ThingTargets>
+          <li>Gun_TKI-20_Shingen_AC</li>
+          <!-- TKI-20 Shingen -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

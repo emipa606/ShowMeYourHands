@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.Pirates">
+    <defName>ClutterHandsSettings_PiratesContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.087)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gunnar_arquebus</li>
+          <!-- arquebus -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.087, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Gunnar_Bluth</li>
+          <!-- blunderbuss -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.287, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>PirateSlasher_Cutlass</li>
+          <!-- cutlass -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.112, 0.100, -0.028)</MainHand>
+        <ThingTargets>
+          <li>PirateSlasher_Dirkenstone</li>
+          <!-- Dirk -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.081, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gunnar_Esqubus</li>
+          <!-- esquebus -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.107, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Gunnar_Handy</li>
+          <!-- handcannon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.131, 0.100, -0.170)</MainHand>
+        <ThingTargets>
+          <li>PirateSlasher_Rapier</li>
+          <!-- rapier -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.204, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>PirateSlasher_Sabre</li>
+          <!-- sabre -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

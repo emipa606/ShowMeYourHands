@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="rick.fcpfnvpsitols">
+    <defName>ClutterHandsSettings_FCPFalloutNewVegasPistols</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.133)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_10mm_Pistol</li>
+          <!-- 10mm Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.126, 0.100, -0.096)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_127mm_Pistol</li>
+          <!-- 12.7mm Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.096)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_45_Auto_Pistol</li>
+          <!-- 45 Auto Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.114, 0.100, -0.091)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_9mm_Pistol</li>
+          <!-- 9mm Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.091)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_A_Light_Shining_in_Darkness</li>
+          <!-- A Light Shining in Darkness  -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.126, 0.100, -0.101)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_Lil_Devil</li>
+          <!-- Lil Devil -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.128, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_Maria</li>
+          <!-- Maria -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.122, 0.100, -0.100)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_Sileneced_22mm_Pistol</li>
+          <!-- Silenced 22mm Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.138, 0.100, -0.128)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_Weathered_10mm_Pistol</li>
+          <!-- Weathered 10mm Pistol -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

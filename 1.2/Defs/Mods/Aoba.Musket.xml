@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Aoba.Musket">
+    <defName>ClutterHandsSettings_TheBlackArmory</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.266, 0.100, -0.050)</MainHand>
+        <SecHand>(0.129, -0.100, -0.018)</SecHand>
+        <ThingTargets>
+          <li>BA_Gun_Arquebus_R</li>
+          <!-- Arquebus -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.027, 0.100, 0.005)</MainHand>
+        <SecHand>(0.264, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>BA_Gun_Blunderbuss_R</li>
+          <!-- Blunderbuss -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.449, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>BA_Gun_HandCannon_R</li>
+          <!-- Hand Culverin -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.407, 0.100, -0.009)</MainHand>
+        <SecHand>(0.017, -0.100, -0.018)</SecHand>
+        <ThingTargets>
+          <li>BA_Gun_HandCannon_S</li>
+          <!-- Hand Gonne -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.362, 0.100, -0.004)</MainHand>
+        <SecHand>(0.058, -0.100, -0.009)</SecHand>
+        <ThingTargets>
+          <li>BA_Gun_Emishi_H</li>
+          <!-- Ishibiya -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>BA_Gun_Jezail_R</li>
+          <!-- Jezail Musket -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.083, 0.100, -0.027)</MainHand>
+        <ThingTargets>
+          <li>BA_Gun_Jezail_P</li>
+          <!-- Jezail Short musket -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.154, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>BA_Gun_Blunderbuss_P</li>
+          <!-- Short Blunderbuss -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.144, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>BA_Gun_Wheellock_P</li>
+          <!-- Short wheellock musket -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.316, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>BA_Gun_Tanegashima_R</li>
+          <!-- Tanegashima Musket -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.191, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>BA_Gun_Tanegashima_P</li>
+          <!-- Tanegashima Short musket -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.156, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>BA_Gun_Emishi_R</li>
+          <!-- Teppo -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.322, 0.100, -0.050)</MainHand>
+        <SecHand>(-0.045, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>BA_Gun_HandCannon_T</li>
+          <!-- Triple Hand Gonne -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.158, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>BA_Gun_Tanegashima_T</li>
+          <!-- Triple musket -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.344, 0.100, -0.050)</MainHand>
+        <SecHand>(0.104, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>BA_Gun_WallGun</li>
+          <!-- Wall Gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.384, 0.100, -0.142)</MainHand>
+        <SecHand>(0.090, -0.100, -0.027)</SecHand>
+        <ThingTargets>
+          <li>BA_Gun_Wheellock_R</li>
+          <!-- Wheellock Musket -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

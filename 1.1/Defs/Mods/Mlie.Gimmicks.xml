@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.Gimmicks">
+    <defName>ClutterHandsSettings_GimmicksContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.261)</MainHand>
+        <ThingTargets>
+          <li>Tool_Flowers</li>
+          <!-- bouquet -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.236, 0.100, -0.128)</MainHand>
+        <ThingTargets>
+          <li>Tool_Chefs_Knife</li>
+          <!-- chef's knife -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.046)</MainHand>
+        <ThingTargets>
+          <li>Tool_Coupon_Book</li>
+          <!-- coupon book -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.002, 0.100, -0.206)</MainHand>
+        <ThingTargets>
+          <li>Tool_Fan</li>
+          <!-- fan -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.342, 0.100, 0.266)</MainHand>
+        <ThingTargets>
+          <li>Tool_Saw</li>
+          <!-- foxtail -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.204, 0.100, 0.087)</MainHand>
+        <ThingTargets>
+          <li>Tool_How_To</li>
+          <!-- how to -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.021, 0.100, -0.206)</MainHand>
+        <ThingTargets>
+          <li>Tool_Encyclopedia</li>
+          <!-- interstellar encyclopedia -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.319, 0.100, 0.037)</MainHand>
+        <ThingTargets>
+          <li>Tool_Screwdriver</li>
+          <!-- magnetic screwdriver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, 0.262)</MainHand>
+        <ThingTargets>
+          <li>Tool_Laptop</li>
+          <!-- notebook -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.365, 0.100, -0.257)</MainHand>
+        <ThingTargets>
+          <li>Tool_Pillow</li>
+          <!-- pillow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.181, 0.100, 0.028)</MainHand>
+        <ThingTargets>
+          <li>Tool_Power_Drill</li>
+          <!-- power drill -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, 0.275)</MainHand>
+        <ThingTargets>
+          <li>Tool_Scissors</li>
+          <!-- scissors -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.204, 0.100, 0.193)</MainHand>
+        <ThingTargets>
+          <li>Tool_Shovel</li>
+          <!-- shovel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.287, 0.100, -0.124)</MainHand>
+        <ThingTargets>
+          <li>Tool_Sickle</li>
+          <!-- sickle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.232, 0.100, 0.197)</MainHand>
+        <ThingTargets>
+          <li>Tool_Skill_Saw</li>
+          <!-- skill Saw -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.209, 0.100, -0.161)</MainHand>
+        <ThingTargets>
+          <li>Tool_Skinning_Knife</li>
+          <!-- skinning Knife -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.206)</MainHand>
+        <ThingTargets>
+          <li>Tool_Whip</li>
+          <!-- whip -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.108, 0.100, 0.404)</MainHand>
+        <ThingTargets>
+          <li>Tool_Whistle</li>
+          <!-- whistle -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

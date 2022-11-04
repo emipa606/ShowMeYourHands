@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.OuterRimTatooine">
+    <defName>ClutterHandsSettings_OuterRimTatooineContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(0.108, -0.100, 0.000)</MainHand>
+        <SecHand>(-0.124, 0.100, -0.252)</SecHand>
+        <ThingTargets>
+          <li>O21_Gaderffii</li>
+          <!-- Gaderffii -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.137, 0.100, -0.068)</MainHand>
+        <ThingTargets>
+          <li>O21_JawaIonBlaster</li>
+          <!-- Ion Blaster -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.274, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.027)</SecHand>
+        <ThingTargets>
+          <li>O21_TuskenCycler</li>
+          <!-- Tusken Cycler -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

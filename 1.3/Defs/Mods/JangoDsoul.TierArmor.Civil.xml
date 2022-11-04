@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="JangoDsoul.TierArmor.Civil">
+    <defName>ClutterHandsSettings_CivilizationBeyondEarthArmorSets</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.146)</MainHand>
+        <SecHand>(0.248, -0.100, -0.201)</SecHand>
+        <ThingTargets>
+          <li>Tier1_Carbine_Soldier</li>
+          <!-- Tier 1 Soldier Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.263, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Tier2_Soldier_Gun</li>
+          <!-- Tier 2 Soldier Weapon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.243, 0.100, -0.160)</MainHand>
+        <SecHand>(0.161, -0.100, -0.137)</SecHand>
+        <ThingTargets>
+          <li>Tier3_Harmony_Gun</li>
+          <!-- Tier 3 Brawler Weapon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.261, 0.100, -0.146)</MainHand>
+        <SecHand>(0.203, -0.100, -0.068)</SecHand>
+        <ThingTargets>
+          <li>Tier3_Supremacy_Gun</li>
+          <!-- Tier 3 Disciple Weapon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.162, 0.100, -0.110)</MainHand>
+        <SecHand>(0.193, -0.100, -0.137)</SecHand>
+        <ThingTargets>
+          <li>Tier3_Purity_Gun</li>
+          <!-- Tier 3 Sentinel Power Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.100)</MainHand>
+        <SecHand>(0.172, -0.100, -0.087)</SecHand>
+        <ThingTargets>
+          <li>Tier4_Supremacy_Gun</li>
+          <!-- Tier 4 Apostle Weapon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.241, 0.100, -0.078)</MainHand>
+        <SecHand>(0.225, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Tier4_Purity_Gun</li>
+          <!-- Tier 4 Centurion Power Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.188, 0.100, -0.119)</MainHand>
+        <SecHand>(0.195, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Tier4_Eidolon_Gun</li>
+          <!-- Tier 4 Eidolon Power Rifle -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

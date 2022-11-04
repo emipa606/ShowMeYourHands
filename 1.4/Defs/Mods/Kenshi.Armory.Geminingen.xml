@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Kenshi.Armory.Geminingen">
+    <defName>ClutterHandsSettings_KenshiArmory</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.333, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Kenshi_ForeignSabre</li>
+          <!-- Foreign Sabre -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.374, 0.100, -0.363)</MainHand>
+        <SecHand>(-0.276, -0.100, -0.280)</SecHand>
+        <ThingTargets>
+          <li>Kenshi_FragmentAxe</li>
+          <!-- Fragment Axe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.351, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Kenshi_CombatCleaver</li>
+          <!-- Combat Cleaver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.257)</MainHand>
+        <SecHand>(-0.363, -0.100, -0.313)</SecHand>
+        <ThingTargets>
+          <li>Kenshi_FallingSun</li>
+          <!-- Falling Sun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.356, 0.100, 0.023)</MainHand>
+        <ThingTargets>
+          <li>Kenshi_GuardlessKatana</li>
+          <!-- Guardless Katana -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.314, 0.100, -0.023)</MainHand>
+        <ThingTargets>
+          <li>Kenshi_Jitte</li>
+          <!-- Jitte -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.351, 0.100, 0.033)</MainHand>
+        <ThingTargets>
+          <li>Kenshi_Katana</li>
+          <!-- Katana -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.311, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Kenshi_MercenaryClub</li>
+          <!-- Mercenary Club -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.261, 0.100, -0.283)</MainHand>
+        <SecHand>(-0.362, -0.100, -0.353)</SecHand>
+        <ThingTargets>
+          <li>Kenshi_Naginata</li>
+          <!-- Naginata -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.268, 0.100, -0.284)</MainHand>
+        <SecHand>(-0.417, -0.100, -0.385)</SecHand>
+        <ThingTargets>
+          <li>Kenshi_NaginataKatana</li>
+          <!-- Naginata Katana -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.346, 0.100, -0.367)</MainHand>
+        <SecHand>(-0.427, -0.100, -0.398)</SecHand>
+        <ThingTargets>
+          <li>Kenshi_PaladinsCross</li>
+          <!-- Paladins cross -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.328, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Kenshi_RingedSabre</li>
+          <!-- Ringed Sabre -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

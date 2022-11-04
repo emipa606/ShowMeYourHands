@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="rick.fcpfnvrevolvers">
+    <defName>ClutterHandsSettings_FCPFalloutNewVegasRevolvers</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.236, 0.100, -0.105)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_357_Magnum_Revolver</li>
+          <!-- .357 Magnum Revolver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.247, 0.100, -0.073)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_44_Magnum_Revolver</li>
+          <!-- .44 Magnum Revolver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.222, 0.100, -0.082)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_556_Pistol</li>
+          <!-- 556 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.276, 0.100, -0.146)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_Hunting_Revolver</li>
+          <!-- Hunting Revolver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.241, 0.100, -0.091)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_Lucky</li>
+          <!-- Lucky -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.236, 0.100, -0.078)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_Mysterious_Magnum</li>
+          <!-- Mysterious Magnum -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.238, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_Police_Revolver</li>
+          <!-- Police Revolver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.281, 0.100, -0.138)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_Ranger_Sequoia</li>
+          <!-- Ranger Sequoia -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

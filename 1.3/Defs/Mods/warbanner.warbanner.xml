@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="warbanner.warbanner">
+    <defName>ClutterHandsSettings_OgamsWarbannerMod</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(0.138, 0.100, -0.280)</MainHand>
+        <ThingTargets>
+          <li>FlagMode_AnimaFlag</li>
+          <!-- Anima flag -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.110, 0.100, -0.243)</MainHand>
+        <ThingTargets>
+          <li>FlagMode_AxeFlag</li>
+          <!-- Axe flag -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.114, 0.100, -0.234)</MainHand>
+        <ThingTargets>
+          <li>FlagMode_BearFlag</li>
+          <!-- Bear flag -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.101, 0.100, -0.216)</MainHand>
+        <ThingTargets>
+          <li>FlagMode_BasicFlagg</li>
+          <!-- Crown flag -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.092, 0.100, -0.211)</MainHand>
+        <ThingTargets>
+          <li>FlagMode_CrownFlagSecond</li>
+          <!-- Crown flag 2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.055, 0.100, -0.142)</MainHand>
+        <ThingTargets>
+          <li>FlagMode_MuffaloFlag</li>
+          <!-- Muffalo flag -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.069, 0.100, -0.170)</MainHand>
+        <ThingTargets>
+          <li>FlagMode_RatsFlag</li>
+          <!-- Rats flag -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.115, 0.100, -0.243)</MainHand>
+        <ThingTargets>
+          <li>FlagMode_ReunionFlag</li>
+          <!-- Reunion flag -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.140, 0.100, -0.234)</MainHand>
+        <ThingTargets>
+          <li>FlagMode_RoseFlag</li>
+          <!-- Rose flag -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.087, 0.100, -0.220)</MainHand>
+        <ThingTargets>
+          <li>FlagMode_ThrumboFlag</li>
+          <!-- Thrumbo flag -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.123, 0.100, -0.275)</MainHand>
+        <ThingTargets>
+          <li>FlagMode_RhodesFlag</li>
+          <!-- Thrumbo flag -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.097, 0.100, -0.243)</MainHand>
+        <ThingTargets>
+          <li>FlagMode_TribalFlag</li>
+          <!-- Tribal flag -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.109, 0.100, -0.225)</MainHand>
+        <ThingTargets>
+          <li>FlagMode_WargFlag</li>
+          <!-- Warg flag -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="aelanna.eccentrictech.flares2">
+    <defName>ClutterHandsSettings_EccentricTechFlares</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.007, 0.100, -0.069)</MainHand>
+        <ThingTargets>
+          <li>EccentricChemlightYellow</li>
+          <!-- yellow chemlight -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.022, 0.100, -0.096)</MainHand>
+        <ThingTargets>
+          <li>EccentricChemlightBlue</li>
+          <!-- blue chemlight -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.030, 0.100, -0.156)</MainHand>
+        <ThingTargets>
+          <li>Eccentric_Flare</li>
+          <!-- flare -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.226, 0.100, -0.091)</MainHand>
+        <ThingTargets>
+          <li>Eccentric_FlareGun</li>
+          <!-- flare gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.007, 0.100, -0.064)</MainHand>
+        <ThingTargets>
+          <li>EccentricChemlightGreen</li>
+          <!-- green chemlight -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.002, 0.100, -0.036)</MainHand>
+        <ThingTargets>
+          <li>EccentricChemlightRed</li>
+          <!-- red chemlight -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

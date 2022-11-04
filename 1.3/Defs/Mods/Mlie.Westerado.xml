@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.Westerado">
+    <defName>ClutterHandsSettings_WesteradoContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.214, 0.100, -0.036)</MainHand>
+        <SecHand>(0.200, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>Gun_MusketRifleBayonet_Westerado</li>
+          <!-- bayoneted musket rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.103, 0.100, -0.138)</MainHand>
+        <ThingTargets>
+          <li>BisonHorn_Westerado</li>
+          <!-- bison horn -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.057, 0.100, -0.115)</MainHand>
+        <ThingTargets>
+          <li>BoarTusk_Westerado</li>
+          <!-- boar tusk -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.133, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>Gun_BoltActionPistol_Westerado</li>
+          <!-- bolt-action pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.231, 0.100, -0.022)</MainHand>
+        <SecHand>(0.200, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>Gun_BoltActionSniperRifle_Westerado</li>
+          <!-- bolt-action sniper rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.213, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_BowieKnife_Westerado</li>
+          <!-- bowie knife -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.178, 0.100, -0.073)</MainHand>
+        <ThingTargets>
+          <li>Gun_BreakActionRevolver_Westerado</li>
+          <!-- break-action revolver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.176, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>Gun_BreakActionShotgun_Westerado</li>
+          <!-- break-action shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.222, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>Gun_BreechblockRifle_Westerado</li>
+          <!-- breechblock rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, 0.019)</SecHand>
+        <ThingTargets>
+          <li>Gun_BreechblockSniperRifle_Westerado</li>
+          <!-- breechblock sniper rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.138, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Gun_BroomhandlePistol_Westerado</li>
+          <!-- broomhandle pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.112, 0.100, -0.183)</MainHand>
+        <ThingTargets>
+          <li>CaribouAntler_Westerado</li>
+          <!-- caribou antler -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.167, 0.100, -0.100)</MainHand>
+        <ThingTargets>
+          <li>Gun_Cattleman_Westerado</li>
+          <!-- cattleman -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.333, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_CavalrySaber_Westerado</li>
+          <!-- cavalry saber -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.188, 0.100, -0.096)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_CoachGun_Westerado</li>
+          <!-- coach gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.209, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.027)</SecHand>
+        <ThingTargets>
+          <li>Gun_MusketRifleDecorated_Westerado</li>
+          <!-- decorated musket rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.091)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_RepeatingRifleDecorated_Westerado</li>
+          <!-- decorated repeating rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.053, 0.100, -0.170)</MainHand>
+        <ThingTargets>
+          <li>DeerAntler_Westerado</li>
+          <!-- deer antler -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.159, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>Gun_DoubleActionRevolver_Westerado</li>
+          <!-- double-action revolver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.036, 0.100, -0.147)</MainHand>
+        <ThingTargets>
+          <li>Weapon_GrenadeDynamiteBundle_Westerado</li>
+          <!-- dynamite bundle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, 0.000)</MainHand>
+        <SecHand>(0.119, 0.100, -0.170)</SecHand>
+        <ThingTargets>
+          <li>Weapon_GrenadeDynamite_Westerado</li>
+          <!-- dynamite stick -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.241, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>ElkAntler_Westerado</li>
+          <!-- elk antler -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.198, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Gun_FlintlockPistol_Westerado</li>
+          <!-- flintlock pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.172, 0.100, -0.178)</MainHand>
+        <ThingTargets>
+          <li>GazelleHorn_Westerado</li>
+          <!-- gazelle horn -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.237, 0.100, -0.091)</MainHand>
+        <ThingTargets>
+          <li>Gun_HarlowRevolver_Westerado</li>
+          <!-- harlow's revolver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.337, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>IbexHorn_Westerado</li>
+          <!-- ibex horn -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.231, 0.100, -0.100)</MainHand>
+        <ThingTargets>
+          <li>Gun_LeverActionPistol_Westerado</li>
+          <!-- lever-action pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.203, 0.100, -0.100)</MainHand>
+        <SecHand>(0.168, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>Gun_LeverActionShotgun_Westerado</li>
+          <!-- lever-action shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.142, 0.100, -0.073)</MainHand>
+        <ThingTargets>
+          <li>Gun_MaresLegShotgun_Westerado</li>
+          <!-- mare's leg shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.028, 0.100, -0.124)</MainHand>
+        <ThingTargets>
+          <li>MeteoriteGenerator</li>
+          <!-- meteorite generator -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.133, 0.100, 0.234)</MainHand>
+        <ThingTargets>
+          <li>Moonshine_Westerado</li>
+          <!-- Moonshine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.085, 0.100, -0.147)</MainHand>
+        <ThingTargets>
+          <li>MooseAntler_Westerado</li>
+          <!-- moose antler -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.209, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.009)</SecHand>
+        <ThingTargets>
+          <li>Gun_MusketRifle_Westerado</li>
+          <!-- musket rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.179, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>Gun_PercussionPistol_Westerado</li>
+          <!-- percussion pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.198, 0.100, -0.105)</MainHand>
+        <ThingTargets>
+          <li>Gun_PercussionRevolver_Westerado</li>
+          <!-- percussion revolver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.087)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_PercussionRifle_Westerado</li>
+          <!-- percussion rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.209, 0.100, -0.078)</MainHand>
+        <ThingTargets>
+          <li>Gun_NavyRevolver_Westerado</li>
+          <!-- rebel revolver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.233, 0.100, -0.114)</MainHand>
+        <SecHand>(0.200, -0.100, -0.036)</SecHand>
+        <ThingTargets>
+          <li>Gun_RepeatingRifle_Westerado</li>
+          <!-- repeating rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.062, 0.100, -0.083)</MainHand>
+        <ThingTargets>
+          <li>RhinoHorn_Westerado</li>
+          <!-- rhinoceros horn -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.016, 0.100, 0.257)</MainHand>
+        <ThingTargets>
+          <li>RyeWhiskey_Westerado</li>
+          <!-- Rye whiskey -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.183, 0.100, -0.096)</MainHand>
+        <ThingTargets>
+          <li>Gun_CoachGunSawed_Westerado</li>
+          <!-- sawed-off coach gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.204, 0.100, -0.078)</MainHand>
+        <ThingTargets>
+          <li>Gun_LeverActionShotgunSawed_Westerado</li>
+          <!-- sawed-off lever-action shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.002, 0.100, 0.358)</MainHand>
+        <ThingTargets>
+          <li>Schnapps_Westerado</li>
+          <!-- Schnapps -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, 0.051)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Tomahawk_Westerado</li>
+          <!-- tomahawk -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.182, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_TrenchPumpShotgun_Westerado</li>
+          <!-- trench gun -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

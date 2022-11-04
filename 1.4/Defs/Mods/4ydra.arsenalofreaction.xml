@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="4ydra.arsenalofreaction">
+    <defName>ClutterHandsSettings_ArsenalofReaction</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.261, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>AOR_Argus_Gun</li>
+          <!-- Argus shotgun "Solomon" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.178, 0.100, -0.050)</MainHand>
+        <SecHand>(0.177, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>AOR_WolfSTG_Gun</li>
+          <!-- Assault rifle "Frateris" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.211, 0.100, -0.004)</MainHand>
+        <SecHand>(0.172, -0.100, 0.056)</SecHand>
+        <ThingTargets>
+          <li>AOR_WolfSTGext_Gun</li>
+          <!-- Assault rifle "Frateris" (Extended magazine) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.073)</MainHand>
+        <ThingTargets>
+          <li>AOR_Boltok_Gun</li>
+          <!-- Boltok revolver "Raynor" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.119)</MainHand>
+        <SecHand>(-0.348, -0.100, -0.018)</SecHand>
+        <ThingTargets>
+          <li>AOR_Boltokdoppel_Gun</li>
+          <!-- Boltok revolver "Raynor" (dual) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.098, 0.100, -0.009)</MainHand>
+        <SecHand>(0.106, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>AOR_BuStG_Gun</li>
+          <!-- Bullup-StG404 "Romanov" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.018)</MainHand>
+        <SecHand>(0.073, -0.100, 0.014)</SecHand>
+        <ThingTargets>
+          <li>AOR_BuStGSD_Gun</li>
+          <!-- Bullup-StG404 "Romanov" (Okhrana) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.209, 0.100, 0.014)</MainHand>
+        <ThingTargets>
+          <li>AOR_Melee_ConfBowie</li>
+          <!-- Combat bowie "Carolina" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.218, 0.100, 0.018)</MainHand>
+        <ThingTargets>
+          <li>AOR_Melee_Smaug</li>
+          <!-- Combat Knife "Smaug" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.128, 0.100, 0.083)</MainHand>
+        <ThingTargets>
+          <li>AOR_Melee_KukriL</li>
+          <!-- Combat kukri "Dundee" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.201, 0.100, 0.055)</MainHand>
+        <ThingTargets>
+          <li>AOR_Melee_KukriP</li>
+          <!-- Combat kukri "Tosh" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.351, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>AOR_Melee_KultSchwert</li>
+          <!-- Crusader sword "Jeanne" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.272, 0.100, -0.045)</MainHand>
+        <SecHand>(0.092, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>AOR_GoWGnasher_Gun</li>
+          <!-- Gnasher Shotgun "Hillbilly" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.032)</MainHand>
+        <SecHand>(0.156, -0.100, -0.101)</SecHand>
+        <ThingTargets>
+          <li>AOR_Gorgon_Gun</li>
+          <!-- Gorgon SMG "Reaper" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.252, 0.100, -0.050)</MainHand>
+        <SecHand>(0.088, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>AOR_Markza_Gun</li>
+          <!-- GZ18 Markza "Wrangel" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.231, 0.100, -0.027)</MainHand>
+        <SecHand>(0.124, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>AOR_Hammerburst_Gun</li>
+          <!-- Hammerburst rifle "Korhal" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.256, 0.100, -0.073)</MainHand>
+        <ThingTargets>
+          <li>AOR_HAP_Gun</li>
+          <!-- Heavy Assault Pistol "Seraphim" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.206, 0.100, -0.211)</MainHand>
+        <SecHand>(-0.293, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>AOR_HAPdual_Gun</li>
+          <!-- Heavy Assault Pistol "Seraphim" (dual) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.249, 0.100, 0.028)</MainHand>
+        <SecHand>(0.124, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>AOR_COMBolter_Gun</li>
+          <!-- Heavy assault rifle "Duke" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.251, 0.100, 0.078)</MainHand>
+        <SecHand>(0.124, -0.100, 0.033)</SecHand>
+        <ThingTargets>
+          <li>AOR_COMBolterdual_Gun</li>
+          <!-- Heavy assault rifle "Duke" (jungle style) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.256, 0.100, 0.028)</MainHand>
+        <SecHand>(0.106, -0.100, 0.046)</SecHand>
+        <ThingTargets>
+          <li>AOR_HelBolter_Gun</li>
+          <!-- Heavy assault rifle "Vandire" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.232, 0.100, 0.120)</MainHand>
+        <SecHand>(0.106, -0.100, 0.119)</SecHand>
+        <ThingTargets>
+          <li>AOR_HelBolterdual_Gun</li>
+          <!-- Heavy assault rifle "Vandire" (jungle style) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.087)</MainHand>
+        <SecHand>(0.087, -0.100, -0.078)</SecHand>
+        <ThingTargets>
+          <li>AOR_HelComBolter_Gun</li>
+          <!-- Heavy commando rifle "Vandire" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.186, 0.100, 0.005)</MainHand>
+        <SecHand>(0.173, -0.100, 0.051)</SecHand>
+        <ThingTargets>
+          <li>AOR_HVK_Gun</li>
+          <!-- HVK-30 "FAKK2" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.188, 0.100, -0.041)</MainHand>
+        <SecHand>(0.143, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>AOR_HVKdual_Gun</li>
+          <!-- HVK-30 "FAKK2" (jungle style) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.163, 0.100, -0.041)</MainHand>
+        <SecHand>(0.147, -0.100, 0.037)</SecHand>
+        <ThingTargets>
+          <li>AOR_KNfourtyfour_Gun</li>
+          <!-- KN-44 "Mengsk" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, 0.028)</MainHand>
+        <SecHand>(0.147, -0.100, 0.064)</SecHand>
+        <ThingTargets>
+          <li>AOR_KNfourtyfourDM_Gun</li>
+          <!-- KN-44 "Mengsk" (jungle style) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.014)</MainHand>
+        <ThingTargets>
+          <li>AOR_Melee_LancerBayonet</li>
+          <!-- Lancer bayonet "Knoxville" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.086, 0.100, 0.060)</MainHand>
+        <ThingTargets>
+          <li>AOR_LCAR_Gun</li>
+          <!-- LCAR9 SMG "Snoop" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.067, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.132, -0.100, 0.068)</SecHand>
+        <ThingTargets>
+          <li>AOR_LCARdoppel_Gun</li>
+          <!-- LCAR9 SMG "Snoop" (dual) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.184, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>AOR_WesSni_Gun</li>
+          <!-- Mac-101 "Daywalker" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.387, 0.100, -0.073)</MainHand>
+        <SecHand>(-0.002, -0.100, -0.041)</SecHand>
+        <ThingTargets>
+          <li>AOR_RetroLancer_Gun</li>
+          <!-- MK I Lancer "New Gettysburg" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.389, 0.100, -0.027)</MainHand>
+        <SecHand>(0.017, -0.100, -0.004)</SecHand>
+        <ThingTargets>
+          <li>AOR_RetroLancerEM_Gun</li>
+          <!-- MK I Lancer "New Gettysburg" (ext. mag.) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.325, 0.100, -0.050)</MainHand>
+        <SecHand>(0.072, -0.100, -0.018)</SecHand>
+        <ThingTargets>
+          <li>AOR_LancerMK2_Gun</li>
+          <!-- MK II Lancer "Mar Sara" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.202, 0.100, -0.041)</MainHand>
+        <ThingTargets>
+          <li>AOR_Wolfpistol_Gun</li>
+          <!-- P3-TR0VNA pistol "Tatiana" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.122, 0.100, -0.013)</MainHand>
+        <SecHand>(0.166, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>AOR_NeoPPSh_Gun</li>
+          <!-- PPSh-82 "Vlassov" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.228, 0.100, -0.045)</MainHand>
+        <SecHand>(0.028, -0.100, -0.018)</SecHand>
+        <ThingTargets>
+          <li>AOR_NeoPPShSD_Gun</li>
+          <!-- PPSh-82 "Vlassov" (Okhrana) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.401, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>AOR_Melee_Shashka</li>
+          <!-- Shashka "Gogol" -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

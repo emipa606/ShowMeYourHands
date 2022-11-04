@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="rick.lunz.fcpmks">
+    <defName>ClutterHandsSettings_FCPMakeshiftWeaponsPack</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.305, 0.100, -0.280)</MainHand>
+        <ThingTargets>
+          <li>FCP_Melee_Baseball_Bat</li>
+          <!-- baseball bat -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.270)</MainHand>
+        <ThingTargets>
+          <li>FCP_Melee_Buzzsaw</li>
+          <!-- buzzsaw -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.149, 0.100, -0.188)</MainHand>
+        <ThingTargets>
+          <li>FCP_Melee_Crowbar</li>
+          <!-- crowbar -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.198, 0.100, -0.110)</MainHand>
+        <SecHand>(0.177, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Kalash_Rifle</li>
+          <!-- kalash rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.382, 0.100, -0.123)</MainHand>
+        <SecHand>(-0.039, -0.100, -0.041)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Makeshift_AMR</li>
+          <!-- makeshift AMR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.192, 0.100, -0.073)</MainHand>
+        <SecHand>(0.000, -0.100, -0.165)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_MPL</li>
+          <!-- MPL -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.169, 0.100, -0.128)</MainHand>
+        <SecHand>(0.172, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Nikov_Rifle</li>
+          <!-- nikov rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.212, 0.100, -0.096)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Pumpie</li>
+          <!-- pumpie -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.183, 0.100, -0.174)</MainHand>
+        <ThingTargets>
+          <li>FCP_Melee_Ripper</li>
+          <!-- ripper -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.105)</MainHand>
+        <SecHand>(0.122, -0.100, -0.073)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Sawn_Off_Shotgun</li>
+          <!-- sawn off shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.241, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>FCP_Melee_Scissor_Pipe</li>
+          <!-- scissor pipe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.236, 0.100, -0.279)</MainHand>
+        <ThingTargets>
+          <li>FCP_Melee_Sishkebab</li>
+          <!-- sishkebab -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.110)</MainHand>
+        <SecHand>(0.117, -0.100, -0.032)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Syringer</li>
+          <!-- syringer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.222, 0.100, 0.033)</MainHand>
+        <ThingTargets>
+          <li>FCP_Melee_Throat_Cutter</li>
+          <!-- throat cutter -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.126, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_Tomacuzi</li>
+          <!-- Tomacuzzi -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.282, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>FCP_Melee_Wack_Saw</li>
+          <!-- wack saw -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.126, 0.100, 0.032)</MainHand>
+        <ThingTargets>
+          <li>FCP_Melee_Wrench_Knife</li>
+          <!-- wrench knife -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Harkon.GunNut.ColtAnaconda">
+    <defName>ClutterHandsSettings_GunNutColtAnaconda</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.312, 0.100, -0.150)</MainHand>
+        <ThingTargets>
+          <li>GN_Colt_Anaconda_M</li>
+          <!-- Colt Anaconda -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.317, 0.100, -0.156)</MainHand>
+        <ThingTargets>
+          <li>GN_Colt_Anaconda_S</li>
+          <!-- Colt Anaconda (Snubnosed) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.317, 0.100, -0.156)</MainHand>
+        <ThingTargets>
+          <li>GN_Colt_Anaconda_L</li>
+          <!-- Colt Anaconda (Spacer) -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

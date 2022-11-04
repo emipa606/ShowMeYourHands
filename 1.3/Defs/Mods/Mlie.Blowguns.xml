@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.Blowguns">
+    <defName>ClutterHandsSettings_BlowgunsContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.211, 0.100, 0.019)</MainHand>
+        <SecHand>(0.195, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>Blowgun_Lethal</li>
+          <!-- blowgun (lethal) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, 0.023)</MainHand>
+        <SecHand>(0.200, -0.100, -0.027)</SecHand>
+        <ThingTargets>
+          <li>Blowgun_Nonlethal</li>
+          <!-- blowgun (nonlethal) -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

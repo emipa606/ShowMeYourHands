@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.21stCenturyArsenal">
+    <defName>21stCenturyArsenal_HandsSettings</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.147, 0.100, 0.014)</MainHand>
+        <SecHand>(0.127, -0.100, 0.033)</SecHand>
+        <ThingTargets>
+          <li>Axi_AR_AK12_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.259, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>Axi_AMR_M107_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.035, 0.100, -0.032)</MainHand>
+        <SecHand>(0.209, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>Axi_SMG_Scorpion_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.133, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Axi_AMR_HTI_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.111, 0.100, -0.050)</MainHand>
+        <SecHand>(0.140, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Axi_AR_MDR_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Axi_SR_DSR1_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.099, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Axi_P_FNX45_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.080, 0.100, 0.051)</MainHand>
+        <ThingTargets>
+          <li>Axi_SMG_MP7_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.036)</MainHand>
+        <SecHand>(0.136, -0.100, -0.009)</SecHand>
+        <ThingTargets>
+          <li>Axi_SR_Bravo_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.154, 0.100, -0.050)</MainHand>
+        <SecHand>(0.209, -0.100, -0.009)</SecHand>
+        <ThingTargets>
+          <li>Axi_LMG_LAMG_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.179, 0.100, -0.050)</MainHand>
+        <SecHand>(0.127, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>Axi_S_M26MASS_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.058, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Axi_AR_PDR_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.183, 0.100, 0.051)</MainHand>
+        <SecHand>(0.200, -0.100, 0.065)</SecHand>
+        <ThingTargets>
+          <li>Axi_AR_Mk18_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.076, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>Axi_P_MP443_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.172, 0.100, 0.010)</MainHand>
+        <SecHand>(0.200, -0.100, 0.051)</SecHand>
+        <ThingTargets>
+          <li>Axi_LMG_PKP_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.004)</MainHand>
+        <SecHand>(0.140, 0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>Axi_AR_ACR_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.204, 0.100, 0.023)</MainHand>
+        <SecHand>(0.200, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>Axi_SR_RPR_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.106, 0.100, 0.014)</MainHand>
+        <SecHand>(0.182, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>Axi_SMG_MPX_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Axi_P_M17_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.078, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Axi_AR_Bulldog_21CA</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.137, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.009)</SecHand>
+        <ThingTargets>
+          <li>Axi_S_VEPR12_21CA</li>
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

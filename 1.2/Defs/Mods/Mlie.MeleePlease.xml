@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.MeleePlease">
+    <defName>ClutterHandsSettings_MeleePleaseContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.131, 0.100, -0.298)</MainHand>
+        <ThingTargets>
+          <li>Melee_Axe</li>
+          <!-- axe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.342, 0.100, -0.087)</MainHand>
+        <SecHand>(-0.018, -0.100, -0.041)</SecHand>
+        <ThingTargets>
+          <li>Melee_Ram</li>
+          <!-- battering ram -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.415, 0.100, -0.055)</MainHand>
+        <SecHand>(-0.078, -0.100, 0.096)</SecHand>
+        <ThingTargets>
+          <li>Melee_Chainsaw</li>
+          <!-- chainsaw -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.069)</MainHand>
+        <ThingTargets>
+          <li>Melee_Claymore</li>
+          <!-- claymore -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.411, 0.100, -0.101)</MainHand>
+        <SecHand>(-0.385, -0.100, 0.142)</SecHand>
+        <ThingTargets>
+          <li>Melee_Drill</li>
+          <!-- drill -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.282, 0.100, -0.353)</MainHand>
+        <ThingTargets>
+          <li>Melee_Machete</li>
+          <!-- machete -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.258, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Melee_Pike</li>
+          <!-- pike -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.296, 0.100, -0.335)</MainHand>
+        <ThingTargets>
+          <li>Melee_Shishkebab</li>
+          <!-- Shishkebab -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.232, 0.100, -0.028)</MainHand>
+        <ThingTargets>
+          <li>Melee_Stabhappy</li>
+          <!-- stab happy -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.309, 0.100, -0.317)</MainHand>
+        <SecHand>(0.151, -0.100, 0.151)</SecHand>
+        <ThingTargets>
+          <li>Melee_Stick</li>
+          <!-- stick -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.007, 0.100, -0.266)</MainHand>
+        <ThingTargets>
+          <li>Melee_Torch</li>
+          <!-- torch -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.186, 0.100, -0.321)</MainHand>
+        <ThingTargets>
+          <li>Melee_Vibraslicer</li>
+          <!-- vibraslicer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.291, 0.100, 0.028)</MainHand>
+        <SecHand>(-0.073, -0.100, 0.018)</SecHand>
+        <ThingTargets>
+          <li>Melee_Warhammer</li>
+          <!-- warhammer -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

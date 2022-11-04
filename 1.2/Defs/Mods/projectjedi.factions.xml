@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="projectjedi.factions">
+    <defName>ClutterHandsSettings_StarWarsFactionsContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.091)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>PJ_DC15Rifle</li>
+          <!-- DC-15 Blaster Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.142, 0.100, -0.083)</MainHand>
+        <ThingTargets>
+          <li>PJ_DH17Blaster</li>
+          <!-- DH-17 Blaster Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.174, 0.100, -0.083)</MainHand>
+        <ThingTargets>
+          <li>PJ_DL44blaster</li>
+          <!-- DL-44 Blaster -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.224, 0.100, -0.078)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>PJ_DLT19Rifle</li>
+          <!-- DLT-19 Heavy BLaster Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.002, 0.100, -0.096)</MainHand>
+        <SecHand>(0.342, -0.100, -0.087)</SecHand>
+        <ThingTargets>
+          <li>PJ_DXR6Carb</li>
+          <!-- DXR-6 Blaster Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.234, 0.100, -0.110)</MainHand>
+        <SecHand>(0.200, -0.100, -0.078)</SecHand>
+        <ThingTargets>
+          <li>PJ_E11Blaster</li>
+          <!-- E-11 Blaster Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.227, 0.100, -0.083)</MainHand>
+        <ThingTargets>
+          <li>PJ_Vibrosword</li>
+          <!-- Echani Vibrosword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.063, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.004)</SecHand>
+        <ThingTargets>
+          <li>PJ_EE3Carbine</li>
+          <!-- EE-3 Blaster Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.168, 0.100, -0.146)</MainHand>
+        <SecHand>(0.200, -0.100, -0.082)</SecHand>
+        <ThingTargets>
+          <li>PJ_JawaIon</li>
+          <!-- Jawa Ion Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.083)</MainHand>
+        <ThingTargets>
+          <li>PJ_LauncherP</li>
+          <!-- Launcher Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.181, 0.100, -0.261)</MainHand>
+        <ThingTargets>
+          <li>PJ_Vibrocleaver</li>
+          <!-- Mando Vibro Cleaver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.032)</MainHand>
+        <SecHand>(0.223, -0.100, -0.009)</SecHand>
+        <ThingTargets>
+          <li>PJ_NymSlug</li>
+          <!-- Nym's Slugthrower -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.076, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>PJ_Scoutblaster</li>
+          <!-- Scout Blaster -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.014, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>PJ_SE14blaster</li>
+          <!-- SE14 Blaster -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.229, 0.100, -0.045)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>PJ_T21Rifle</li>
+          <!-- T-21 Blaster Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.337, 0.100, -0.339)</MainHand>
+        <SecHand>(-0.078, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>PJ_TStaff</li>
+          <!-- Tusken Vibrostaff -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.000)</MainHand>
+        <SecHand>(0.128, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>PJ_Vibrodouble</li>
+          <!-- Vibro Double-Blade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.044, 0.100, -0.229)</MainHand>
+        <ThingTargets>
+          <li>PJ_VScythe</li>
+          <!-- Vibro Scythe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.245, 0.100, 0.000)</MainHand>
+        <SecHand>(0.023, -0.100, -0.018)</SecHand>
+        <ThingTargets>
+          <li>PJ_Vibroaxe</li>
+          <!-- Vibroaxe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.104, 0.100, -0.060)</MainHand>
+        <SecHand>(0.096, -0.100, 0.041)</SecHand>
+        <ThingTargets>
+          <li>PJ_StaffX</li>
+          <!-- Vibrostaff -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

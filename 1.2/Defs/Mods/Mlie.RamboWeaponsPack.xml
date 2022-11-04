@@ -1,0 +1,2052 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.RamboWeaponsPack">
+    <defName>ClutterHandsSettings_RamboWeaponsPackContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.149, 0.100, -0.110)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AA-12_RWP</li>
+          <!-- AA-12 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.144, 0.100, -0.091)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AK-101_RWP</li>
+          <!-- AK-101 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.122, 0.100, -0.096)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AK-102_RWP</li>
+          <!-- AK-102 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.167, 0.100, -0.087)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AK-103_RWP</li>
+          <!-- AK-103 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.127, 0.100, -0.087)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AK-104_RWP</li>
+          <!-- AK-104 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.113, 0.100, -0.068)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AK-105_RWP</li>
+          <!-- AK-105 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.123, 0.100, -0.091)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AK-47_RWP</li>
+          <!-- AK-47 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.158, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AK-74_RWP</li>
+          <!-- AK-74 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.153, 0.100, -0.082)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AK-74M_RWP</li>
+          <!-- AK-74M -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.137, 0.100, -0.114)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AKM_RWP</li>
+          <!-- AKM -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.139, 0.100, -0.096)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AKMS_RWP</li>
+          <!-- AKMS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.139, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AKS-47_RWP</li>
+          <!-- AKS-47 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.153, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AKS-74_RWP</li>
+          <!-- AKS-74 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.094, 0.100, -0.110)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AKS-74U_RWP</li>
+          <!-- AKS-74U -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.133, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AKS-74UB_RWP</li>
+          <!-- AKS-74UB -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_American-180_RWP</li>
+          <!-- American-180 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.222, 0.100, -0.133)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AN-94_RWP</li>
+          <!-- AN-94 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, 0.014)</MainHand>
+        <SecHand>(0.200, -0.100, 0.028)</SecHand>
+        <ThingTargets>
+          <li>Gun_Arisaka_Type_38_RWP</li>
+          <!-- Arisaka Type 38 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.222, 0.100, -0.009)</MainHand>
+        <SecHand>(0.200, -0.100, 0.014)</SecHand>
+        <ThingTargets>
+          <li>Gun_Arisaka_Type_99_Long_RWP</li>
+          <!-- Arisaka Type 99 Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.177, 0.100, -0.123)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AS_Val_RWP</li>
+          <!-- AS Val -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.029, 0.100, -0.087)</MainHand>
+        <SecHand>(0.241, -0.100, -0.110)</SecHand>
+        <ThingTargets>
+          <li>Gun_ASh-127_RWP</li>
+          <!-- ASh-12.7 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.071, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.101)</SecHand>
+        <ThingTargets>
+          <li>Gun_AUG_A1_RWP</li>
+          <!-- AUG A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.048, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AUG_A1_Carbine_RWP</li>
+          <!-- AUG A1 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.052, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AUG_A3_Carbine_RWP</li>
+          <!-- AUG A3 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.254, 0.100, -0.091)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AVT-40_RWP</li>
+          <!-- AVT-40 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.050)</MainHand>
+        <SecHand>(0.099, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AWSM_RWP</li>
+          <!-- AWSM -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.091)</MainHand>
+        <SecHand>(0.030, -0.100, -0.059)</SecHand>
+        <ThingTargets>
+          <li>Gun_Barret_M82A1_RWP</li>
+          <!-- Barrett M82A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.084, 0.100, -0.083)</MainHand>
+        <ThingTargets>
+          <li>Gun_Beretta_92f_RWP</li>
+          <!-- Beretta 92F -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.083, 0.100, -0.078)</MainHand>
+        <ThingTargets>
+          <li>Gun_Beretta_92fs_Inox_RWP</li>
+          <!-- Beretta 92FS Inox -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.213, 0.100, -0.128)</MainHand>
+        <SecHand>(0.200, -0.100, -0.082)</SecHand>
+        <ThingTargets>
+          <li>Gun_Bren_Mk1_RWP</li>
+          <!-- Bren Mk I -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.231, 0.100, -0.050)</MainHand>
+        <SecHand>(0.094, -0.100, -0.027)</SecHand>
+        <ThingTargets>
+          <li>Gun_Browning_Auto-5_RWP</li>
+          <!-- Browning Auto-5 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.097, 0.100, -0.096)</MainHand>
+        <ThingTargets>
+          <li>Gun_Browning_Hi-Power_P35_RWP</li>
+          <!-- Browning Hi-Power P35 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.222, 0.100, -0.082)</MainHand>
+        <SecHand>(0.127, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_C1A1_SLR_RWP</li>
+          <!-- C1A1 SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Carl_Gustav_M45_RWP</li>
+          <!-- Carl Gustav M/45 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.050)</MainHand>
+        <SecHand>(0.154, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Chauchat_Mle_1915_RWP</li>
+          <!-- Chauchat Mle 1915 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.110)</MainHand>
+        <SecHand>(0.200, -0.100, -0.123)</SecHand>
+        <ThingTargets>
+          <li>Gun_China_Lake_RWP</li>
+          <!-- China Lake -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.153, 0.100, -0.106)</MainHand>
+        <ThingTargets>
+          <li>Gun_Colt_Anaconda_RWP</li>
+          <!-- Colt Anaconda -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.087, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>Gun_Colt_Python_RWP</li>
+          <!-- Colt Python -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.096)</MainHand>
+        <SecHand>(0.159, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Cx4_Storm_RWP</li>
+          <!-- Cx4 Storm -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.126, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>Gun_CZ_75B_RWP</li>
+          <!-- CZ 75B -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.108, 0.100, -0.083)</MainHand>
+        <ThingTargets>
+          <li>Gun_CZ_75B_Full_Auto_RWP</li>
+          <!-- CZ 75B Full Auto -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.096)</MainHand>
+        <SecHand>(0.113, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Daewoo_K2_RWP</li>
+          <!-- Daewoo K2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.153, 0.100, -0.096)</MainHand>
+        <SecHand>(0.172, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_De_Lisle_Commando_Carbine_RWP</li>
+          <!-- De Lisle Commando Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.154, 0.100, -0.105)</MainHand>
+        <ThingTargets>
+          <li>Gun_Desert_Eagle_357_RWP</li>
+          <!-- Desert Eagle .357 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.163, 0.100, -0.101)</MainHand>
+        <ThingTargets>
+          <li>Gun_Desert_Eagle_44_RWP</li>
+          <!-- Desert Eagle .44 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.164, 0.100, -0.101)</MainHand>
+        <ThingTargets>
+          <li>Gun_Desert_Eagle_50AE_RWP</li>
+          <!-- Desert Eagle .50AE -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.231, 0.100, -0.050)</MainHand>
+        <SecHand>(0.159, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_DP-28_RWP</li>
+          <!-- DP-28 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.263, 0.100, -0.050)</MainHand>
+        <SecHand>(0.145, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_DPM_RWP</li>
+          <!-- DPM -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.096, 0.100, -0.128)</MainHand>
+        <SecHand>(0.209, -0.100, -0.146)</SecHand>
+        <ThingTargets>
+          <li>Gun_F2000_RWP</li>
+          <!-- F2000 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.068, 0.100, -0.123)</MainHand>
+        <SecHand>(0.209, -0.100, -0.169)</SecHand>
+        <ThingTargets>
+          <li>Gun_F2000_Tactical_RWP</li>
+          <!-- F2000 Tactical -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.217, 0.100, -0.087)</MainHand>
+        <SecHand>(0.154, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Fal_50_00_RWP</li>
+          <!-- Fal 50.00 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.222, 0.100, -0.082)</MainHand>
+        <SecHand>(0.136, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Fal_50_61_RWP</li>
+          <!-- Fal 50.61 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.026, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_FAMAS_F1_RWP</li>
+          <!-- FAMAS F1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.030, 0.100, -0.082)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_FAMAS_G1_RWP</li>
+          <!-- FAMAS G1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.017, 0.100, -0.087)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_FAMAS_G2_RWP</li>
+          <!-- FAMAS G2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.069)</MainHand>
+        <ThingTargets>
+          <li>Gun_Fort-12_RWP</li>
+          <!-- Fort-12 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.199, 0.100, -0.082)</MainHand>
+        <SecHand>(0.172, -0.100, -0.059)</SecHand>
+        <ThingTargets>
+          <li>Gun_Fort-500_RWP</li>
+          <!-- Fort-500 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.157, 0.100, -0.100)</MainHand>
+        <SecHand>(0.186, -0.100, -0.087)</SecHand>
+        <ThingTargets>
+          <li>Gun_Fort-500FS_RWP</li>
+          <!-- Fort-500FS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.281, 0.100, -0.110)</MainHand>
+        <SecHand>(0.111, -0.100, -0.087)</SecHand>
+        <ThingTargets>
+          <li>Gun_Fort-500P_RWP</li>
+          <!-- Fort-500P -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.005, 0.100, -0.069)</MainHand>
+        <ThingTargets>
+          <li>Gun_FP-45_Liberator_RWP</li>
+          <!-- FP-45 Liberator -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.027, 0.100, -0.142)</MainHand>
+        <SecHand>(0.234, -0.100, -0.082)</SecHand>
+        <ThingTargets>
+          <li>Gun_G11_K2_RWP</li>
+          <!-- G11 K2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.176, 0.100, -0.068)</MainHand>
+        <SecHand>(0.200, -0.100, -0.013)</SecHand>
+        <ThingTargets>
+          <li>Gun_G3_RWP</li>
+          <!-- G3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.213, 0.100, -0.137)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_G36_RWP</li>
+          <!-- G36 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.119, 0.100, -0.142)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_G36C_RWP</li>
+          <!-- G36C -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.142, 0.100, -0.133)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_G36K_RWP</li>
+          <!-- G36K -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.009)</SecHand>
+        <ThingTargets>
+          <li>Gun_G3A3_RWP</li>
+          <!-- G3A3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.176, 0.100, -0.064)</MainHand>
+        <SecHand>(0.200, -0.100, -0.013)</SecHand>
+        <ThingTargets>
+          <li>Gun_G3A4_RWP</li>
+          <!-- G3A4 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.064)</MainHand>
+        <SecHand>(0.200, -0.100, -0.013)</SecHand>
+        <ThingTargets>
+          <li>Gun_G3KA4_RWP</li>
+          <!-- G3KA4 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.158, 0.100, -0.050)</MainHand>
+        <SecHand>(0.205, -0.100, -0.013)</SecHand>
+        <ThingTargets>
+          <li>Gun_G43_RWP</li>
+          <!-- G43 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.172, 0.100, -0.096)</MainHand>
+        <SecHand>(0.175, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Galil_AR_556mm_RWP</li>
+          <!-- Galil AR 5.56mm -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Galil_ARM_556mm_RWP</li>
+          <!-- Galil ARM 5.56mm -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.069, 0.100, -0.100)</MainHand>
+        <SecHand>(0.223, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Galil_MAR_556mm_RWP</li>
+          <!-- Galil MAR 5.56mm -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.181, 0.100, -0.105)</MainHand>
+        <SecHand>(0.131, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Galil_SAR_556mm_RWP</li>
+          <!-- Galil SAR 5.56mm -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.092, 0.100, -0.092)</MainHand>
+        <ThingTargets>
+          <li>Gun_Glock_17_RWP</li>
+          <!-- Glock 17 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.079, 0.100, -0.092)</MainHand>
+        <ThingTargets>
+          <li>Gun_Glock_17L_RWP</li>
+          <!-- Glock 17L -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.092, 0.100, -0.083)</MainHand>
+        <ThingTargets>
+          <li>Gun_Glock_18_RWP</li>
+          <!-- Glock 18 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.107, 0.100, -0.083)</MainHand>
+        <ThingTargets>
+          <li>Gun_Glock_19_RWP</li>
+          <!-- Glock 19 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.106, 0.100, -0.064)</MainHand>
+        <ThingTargets>
+          <li>Gun_Glock_26_RWP</li>
+          <!-- Glock 26 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.181, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.013)</SecHand>
+        <ThingTargets>
+          <li>Gun_HK21_RWP</li>
+          <!-- HK21 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.114)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_HK416_D10RS_RWP</li>
+          <!-- HK416 D10RS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.146, 0.100, -0.114)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_HK416_D145RS_RWP</li>
+          <!-- HK416 D145RS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.204, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.013)</SecHand>
+        <ThingTargets>
+          <li>Gun_Howa_Type_64_RWP</li>
+          <!-- Howa Type 64 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.009)</SecHand>
+        <ThingTargets>
+          <li>Gun_Howa_Type_89_RWP</li>
+          <!-- Howa Type 89 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.162, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Ithaca_37_Riot_RWP</li>
+          <!-- Ithaca 37 Riot -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.032)</SecHand>
+        <ThingTargets>
+          <li>Gun_Ithaca_37_Stakeout_RWP</li>
+          <!-- Ithaca 37 Stakeout -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.149, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>Gun_Ithaca_37_Trench_RWP</li>
+          <!-- Ithaca 37 Trench -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.083, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>Gun_Jericho_941R_RWP</li>
+          <!-- Jericho 941R -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.032)</MainHand>
+        <SecHand>(0.200, -0.100, 0.023)</SecHand>
+        <ThingTargets>
+          <li>Gun_Kar_98k_RWP</li>
+          <!-- Kar 98k -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.050)</MainHand>
+        <SecHand>(0.154, -0.100, -0.082)</SecHand>
+        <ThingTargets>
+          <li>Gun_KP_M44_RWP</li>
+          <!-- KP M/44 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.050)</MainHand>
+        <SecHand>(0.273, -0.100, -0.119)</SecHand>
+        <ThingTargets>
+          <li>Gun_KRISS_Vector_Gen1_RWP</li>
+          <!-- KRISS Vector Gen1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.112, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_KS-23_RWP</li>
+          <!-- KS-23 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.083, 0.100, -0.119)</MainHand>
+        <SecHand>(0.250, -0.100, -0.123)</SecHand>
+        <ThingTargets>
+          <li>Gun_KS-23M_RWP</li>
+          <!-- KS-23M -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.213, 0.100, -0.082)</MainHand>
+        <SecHand>(0.136, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_L1A1_SLR_RWP</li>
+          <!-- L1A1 SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_L85A1_RWP</li>
+          <!-- L85A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.114)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_L85A2_RWP</li>
+          <!-- L85A2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.174, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Lewis_Gun_RWP</li>
+          <!-- Lewis Gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.102, 0.100, -0.123)</MainHand>
+        <SecHand>(0.200, -0.100, -0.078)</SecHand>
+        <ThingTargets>
+          <li>Gun_LR-300-ML_RWP</li>
+          <!-- LR-300-ML -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.103, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Gun_Luger_P08_RWP</li>
+          <!-- Luger P08 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.158, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.018)</SecHand>
+        <ThingTargets>
+          <li>Gun_M1_Carbine_RWP</li>
+          <!-- M1 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.176, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_M1_Garand_RWP</li>
+          <!-- M1 Garand -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.009)</SecHand>
+        <ThingTargets>
+          <li>Gun_M14_RWP</li>
+          <!-- M14 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.078)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_M16A1_RWP</li>
+          <!-- M16A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.176, 0.100, -0.068)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_M16A2_RWP</li>
+          <!-- M16A2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.204, 0.100, -0.073)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_M16A4_RWP</li>
+          <!-- M16A4 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.282, 0.100, -0.078)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_M1918_BAR_RWP</li>
+          <!-- M1918 BAR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.162, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>Gun_M1A1_Carbine_RWP</li>
+          <!-- M1A1 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.144, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.009)</SecHand>
+        <ThingTargets>
+          <li>Gun_M2_Carbine_RWP</li>
+          <!-- M2 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.004)</SecHand>
+        <ThingTargets>
+          <li>Gun_M21_RWP</li>
+          <!-- M21 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.199, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.091)</SecHand>
+        <ThingTargets>
+          <li>Gun_M240B_RWP</li>
+          <!-- M240B -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.158, 0.100, -0.110)</MainHand>
+        <SecHand>(0.200, -0.100, -0.078)</SecHand>
+        <ThingTargets>
+          <li>Gun_M249_RWP</li>
+          <!-- M249 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.078, 0.100, -0.050)</MainHand>
+        <SecHand>(0.159, -0.100, -0.119)</SecHand>
+        <ThingTargets>
+          <li>Gun_M3_RWP</li>
+          <!-- M3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.068, 0.100, -0.050)</MainHand>
+        <SecHand>(0.163, -0.100, -0.105)</SecHand>
+        <ThingTargets>
+          <li>Gun_M3A1_RWP</li>
+          <!-- M3A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.147, 0.100, -0.096)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_M4_RWP</li>
+          <!-- M4 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.133)</MainHand>
+        <SecHand>(0.200, -0.100, -0.068)</SecHand>
+        <ThingTargets>
+          <li>Gun_M40_RWP</li>
+          <!-- M40 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.110)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_M60_RWP</li>
+          <!-- M60 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.026, 0.100, -0.110)</MainHand>
+        <SecHand>(0.218, -0.100, -0.091)</SecHand>
+        <ThingTargets>
+          <li>Gun_M79_RWP</li>
+          <!-- M79 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.015, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>Gun_MAC-10_RWP</li>
+          <!-- MAC-10 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.058, 0.100, -0.119)</MainHand>
+        <ThingTargets>
+          <li>Gun_MAC-11_RWP</li>
+          <!-- MAC-11 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.126, 0.100, -0.046)</MainHand>
+        <ThingTargets>
+          <li>Gun_MCM_RWP</li>
+          <!-- Margolin MCM -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.153, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>Gun_MAS-36_RWP</li>
+          <!-- MAS-36 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.064)</MainHand>
+        <ThingTargets>
+          <li>Gun_MAT-49_762x25mm_RWP</li>
+          <!-- MAT-49 7.62x25mm -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.044, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>Gun_MAT-49_9x19mm_RWP</li>
+          <!-- MAT-49 9x19mm -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.167, 0.100, -0.083)</MainHand>
+        <ThingTargets>
+          <li>Gun_Mauser_C96_RWP</li>
+          <!-- Mauser C96 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.071, 0.100, -0.096)</MainHand>
+        <ThingTargets>
+          <li>Gun_Medusa_M-47_RWP</li>
+          <!-- Medusa M-47 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.021, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Gun_MG2R_RWP</li>
+          <!-- MG2R -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.208, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_MG3_RWP</li>
+          <!-- MG3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.078)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_MG34_RWP</li>
+          <!-- MG34 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_MG42_RWP</li>
+          <!-- MG42 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.064, 0.100, -0.046)</MainHand>
+        <ThingTargets>
+          <li>Gun_Micro-UZI_RWP</li>
+          <!-- Micro-UZI -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.053, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Gun_Mini-UZI_RWP</li>
+          <!-- Mini-UZI -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.146, 0.100, -0.013)</MainHand>
+        <SecHand>(0.200, -0.100, 0.046)</SecHand>
+        <ThingTargets>
+          <li>Gun_MKb42_H_RWP</li>
+          <!-- MKb.42(H) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.227, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Mle_1886_RWP</li>
+          <!-- Mle 1886 M93 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.217, 0.100, -0.087)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_MN91-30_RWP</li>
+          <!-- Mosin Nagant 91/30 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.131, 0.100, -0.082)</MainHand>
+        <SecHand>(0.108, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_MP-18_RWP</li>
+          <!-- MP-18 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.127, 0.100, -0.059)</MainHand>
+        <SecHand>(0.127, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_MP-28_RWP</li>
+          <!-- MP-28 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.138, 0.100, -0.050)</MainHand>
+        <SecHand>(0.140, -0.100, -0.100)</SecHand>
+        <ThingTargets>
+          <li>Gun_MP-3008_RWP</li>
+          <!-- MP-3008 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.147, 0.100, -0.105)</MainHand>
+        <SecHand>(0.150, -0.100, -0.133)</SecHand>
+        <ThingTargets>
+          <li>Gun_MP-38_RWP</li>
+          <!-- MP-38 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.110)</MainHand>
+        <SecHand>(0.140, -0.100, -0.156)</SecHand>
+        <ThingTargets>
+          <li>Gun_MP-40_RWP</li>
+          <!-- MP-40 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.126, 0.100, -0.050)</MainHand>
+        <SecHand>(0.159, -0.100, -0.114)</SecHand>
+        <ThingTargets>
+          <li>Gun_MP-41_RWP</li>
+          <!-- MP-41 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.092, 0.100, -0.046)</MainHand>
+        <ThingTargets>
+          <li>Gun_MP-443_Grach_RWP</li>
+          <!-- MP-443 Grach -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.126, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>Gun_MP5-10A2_RWP</li>
+          <!-- MP5/10A2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.064)</MainHand>
+        <SecHand>(0.177, -0.100, -0.004)</SecHand>
+        <ThingTargets>
+          <li>Gun_MP5-40A2_RWP</li>
+          <!-- MP5/40A2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.144, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>Gun_MP5A1_RWP</li>
+          <!-- MP5A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.112, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>Gun_MP5A2_RWP</li>
+          <!-- MP5A2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, 0.014)</SecHand>
+        <ThingTargets>
+          <li>Gun_MP5A3_RWP</li>
+          <!-- MP5A3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.064)</MainHand>
+        <ThingTargets>
+          <li>Gun_MP5K_RWP</li>
+          <!-- MP5K -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.064)</MainHand>
+        <ThingTargets>
+          <li>Gun_MP5KA1_RWP</li>
+          <!-- MP5KA1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.139, 0.100, -0.073)</MainHand>
+        <SecHand>(0.182, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_MP5K-PDW_RWP</li>
+          <!-- MP5K-PDW -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.149, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>Gun_MP5SD1_RWP</li>
+          <!-- MP5SD1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.142, 0.100, -0.073)</MainHand>
+        <SecHand>(0.200, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>Gun_MP5SD2_RWP</li>
+          <!-- MP5SD2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.144, 0.100, -0.096)</MainHand>
+        <SecHand>(0.200, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>Gun_MP5SD3_RWP</li>
+          <!-- MP5SD3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.097, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>Gun_MP7_RWP</li>
+          <!-- MP7 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.115)</MainHand>
+        <ThingTargets>
+          <li>Gun_Nagant_M1895_RWP</li>
+          <!-- Nagant M1895 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.082)</MainHand>
+        <SecHand>(0.085, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Orsis_T-5000_338_RWP</li>
+          <!-- Orsis T-5000 .338 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.282, 0.100, -0.114)</MainHand>
+        <SecHand>(0.200, -0.100, -0.082)</SecHand>
+        <ThingTargets>
+          <li>Gun_OSV-96_RWP</li>
+          <!-- OSV-96 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.036, 0.100, -0.100)</MainHand>
+        <ThingTargets>
+          <li>Gun_OTs-14-1A-01_Groza-1_RWP</li>
+          <!-- OTs-14-1A-01 Groza-1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.013, 0.100, -0.114)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_OTs-14-4A-01_Groza-4_RWP</li>
+          <!-- OTs-14-4A-01 Groza-4 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.071, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Gun_P38_RWP</li>
+          <!-- P38 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.066, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Gun_P38K_RWP</li>
+          <!-- P38K -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.075, 0.100, -0.050)</MainHand>
+        <SecHand>(0.214, -0.100, -0.091)</SecHand>
+        <ThingTargets>
+          <li>Gun_P90_RWP</li>
+          <!-- P90 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.021, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Gun_Pardini_SP_RWP</li>
+          <!-- Pardini SP -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.098, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Gun_PB_RWP</li>
+          <!-- PB -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.162, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_PK_RWP</li>
+          <!-- PK -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.162, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_PKM_RWP</li>
+          <!-- PKM -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.162, 0.100, -0.073)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_PKP_Pecheneg_RWP</li>
+          <!-- PKP Pecheneg -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.121, 0.100, -0.078)</MainHand>
+        <ThingTargets>
+          <li>Gun_PM_RWP</li>
+          <!-- PM -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.083, 0.100, -0.064)</MainHand>
+        <ThingTargets>
+          <li>Gun_PMM_RWP</li>
+          <!-- PMM -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.087, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_PP-19_Bizon-1_RWP</li>
+          <!-- PP-19 Bizon-1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.068, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_PP-19_Bizon-2_RWP</li>
+          <!-- PP-19 Bizon-2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.073, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_PP-19_Bizon-2-01_RWP</li>
+          <!-- PP-19 Bizon-2-01 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.031, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Gun_PP-2000_RWP</li>
+          <!-- PP-2000 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.101, 0.100, -0.073)</MainHand>
+        <ThingTargets>
+          <li>Gun_PP-9_Klin_RWP</li>
+          <!-- PP-9 Klin -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.096, 0.100, -0.101)</MainHand>
+        <ThingTargets>
+          <li>Gun_PP-91_Kedr_RWP</li>
+          <!-- PP-91 Kedr -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.022, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Gun_PP-91-01_Kedr-B_RWP</li>
+          <!-- PP-91-01 Kedr-B -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.067, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_PPD-34_RWP</li>
+          <!-- PPD-34 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.067, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_PPD-34-38_RWP</li>
+          <!-- PPD-34/38 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_PPD-40_RWP</li>
+          <!-- PPD-40 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.159, 0.100, -0.027)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_PPS-43_RWP</li>
+          <!-- PPS-43 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.063, 0.100, -0.050)</MainHand>
+        <SecHand>(0.168, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_PPSh-41d_RWP</li>
+          <!-- PPSh-41 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.067, 0.100, -0.050)</MainHand>
+        <SecHand>(0.172, -0.100, -0.091)</SecHand>
+        <ThingTargets>
+          <li>Gun_PPSh-41s_RWP</li>
+          <!-- PPSh-41 (Stick) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.162, 0.100, -0.114)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_PSG1_RWP</li>
+          <!-- PSG1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.305, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.046)</SecHand>
+        <ThingTargets>
+          <li>Gun_PTRD-41_RWP</li>
+          <!-- PTRD-41 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.319, 0.100, -0.009)</MainHand>
+        <SecHand>(0.200, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>Gun_PTRS-41_RWP</li>
+          <!-- PTRS-41 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.239, 0.100, -0.170)</MainHand>
+        <ThingTargets>
+          <li>Gun_Raging_Judge_RWP</li>
+          <!-- Raging Judge -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.024, 0.100, -0.101)</MainHand>
+        <ThingTargets>
+          <li>Gun_Remington_Model_95_RWP</li>
+          <!-- Remington Model 95 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.259, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_RPD_RWP</li>
+          <!-- RPD -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.268, 0.100, -0.096)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_RPK_RWP</li>
+          <!-- RPK -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.091)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_RPK-74_RWP</li>
+          <!-- RPK-74 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.227, 0.100, -0.096)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_RPKS_RWP</li>
+          <!-- RPKS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.231, 0.100, -0.091)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_RPKS-74_RWP</li>
+          <!-- RPKS-74 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.104, 0.100, -0.050)</MainHand>
+        <SecHand>(0.159, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SW_M76_RWP</li>
+          <!-- S&W M76 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.142)</MainHand>
+        <ThingTargets>
+          <li>Gun_SW_Model_500_RWP</li>
+          <!-- S&W Model 500 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.159, 0.100, -0.123)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SA_vz58P_RWP</li>
+          <!-- SA vz. 58 P -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.173, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SA_vz58V_RWP</li>
+          <!-- SA vz. 58 V -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Saiga-12K_RWP</li>
+          <!-- Saiga-12K -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.181, 0.100, -0.110)</MainHand>
+        <SecHand>(0.122, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SCAR-H_CQC_RWP</li>
+          <!-- SCAR-H CQC -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.199, 0.100, -0.050)</MainHand>
+        <SecHand>(0.117, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SCAR-H_LB_RWP</li>
+          <!-- SCAR-H LB -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.166, 0.100, -0.100)</MainHand>
+        <SecHand>(0.136, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SCAR-H_STD_RWP</li>
+          <!-- SCAR-H STD -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.181, 0.100, -0.087)</MainHand>
+        <SecHand>(0.131, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SCAR-L_CQC_RWP</li>
+          <!-- SCAR-L CQC -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.096)</MainHand>
+        <SecHand>(0.131, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SCAR-L_LB_RWP</li>
+          <!-- SCAR-L LB -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.181, 0.100, -0.114)</MainHand>
+        <SecHand>(0.117, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SCAR-L_STD_RWP</li>
+          <!-- SCAR-L STD -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.199, 0.100, -0.114)</MainHand>
+        <SecHand>(0.117, -0.100, -0.087)</SecHand>
+        <ThingTargets>
+          <li>Gun_SG_550_RWP</li>
+          <!-- SG 550 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.091)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SG_551_RWP</li>
+          <!-- SG 551 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.072, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SG_552_RWP</li>
+          <!-- SG 552 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.003, 0.100, -0.110)</MainHand>
+        <ThingTargets>
+          <li>Gun_Skorpion_SA_Vz61_RWP</li>
+          <!-- Skorpion vz.61 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.012, 0.100, -0.101)</MainHand>
+        <ThingTargets>
+          <li>Gun_Skorpion_SA_Vz82_RWP</li>
+          <!-- Skorpion vz.82 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.174, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SKS-45_RWP</li>
+          <!-- SKS-45 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.153, 0.100, -0.078)</MainHand>
+        <ThingTargets>
+          <li>Gun_SP89_RWP</li>
+          <!-- SP89 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.174, 0.100, -0.142)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SPAS-12_RWP</li>
+          <!-- SPAS-12 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.059)</MainHand>
+        <SecHand>(0.200, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>Gun_Springfield_M1903_RWP</li>
+          <!-- Springfield M1903 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.231, 0.100, -0.036)</MainHand>
+        <SecHand>(0.200, -0.100, 0.009)</SecHand>
+        <ThingTargets>
+          <li>Gun_Springfield_M1903A1_RWP</li>
+          <!-- Springfield M1903A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.217, 0.100, -0.027)</MainHand>
+        <SecHand>(0.200, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>Gun_Springfield_M1903A3_RWP</li>
+          <!-- Springfield M1903A3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.158, 0.100, -0.050)</MainHand>
+        <SecHand>(0.108, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Sten_Mk_I_RWP</li>
+          <!-- Sten Mk I -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.147, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, 0.033)</SecHand>
+        <ThingTargets>
+          <li>Gun_Sten_Mk_II_RWP</li>
+          <!-- Sten Mk II -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.134, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>Gun_Sten_Mk_III_RWP</li>
+          <!-- Sten Mk III -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, 0.014)</SecHand>
+        <ThingTargets>
+          <li>Gun_Sten_Mk_V_RWP</li>
+          <!-- Sten Mk V -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.013, 0.100, -0.096)</MainHand>
+        <ThingTargets>
+          <li>Gun_Sterling_L2A3_RWP</li>
+          <!-- Sterling L2A3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.088, 0.100, -0.128)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Steyr_Scout_RWP</li>
+          <!-- Steyr Scout -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.146, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, 0.033)</SecHand>
+        <ThingTargets>
+          <li>Gun_StG44_RWP</li>
+          <!-- StG.44 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.105)</MainHand>
+        <SecHand>(0.085, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SV-98_RWP</li>
+          <!-- SV-98 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.272, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.004)</SecHand>
+        <ThingTargets>
+          <li>Gun_SVD_RWP</li>
+          <!-- SVD -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SVT-40_RWP</li>
+          <!-- SVT-40 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.204, 0.100, -0.091)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SVU_RWP</li>
+          <!-- SVU -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.010, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>Gun_Tavor_CTAR-21_RWP</li>
+          <!-- Tavor CTAR-21 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.010, 0.100, -0.100)</MainHand>
+        <ThingTargets>
+          <li>Gun_Tavor_TAR-21_RWP</li>
+          <!-- Tavor TAR-21 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.136, 0.100, -0.037)</MainHand>
+        <ThingTargets>
+          <li>Gun_Tec-9_RWP</li>
+          <!-- Tec-9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Thompson_M1_RWP</li>
+          <!-- Thompson M1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.128)</MainHand>
+        <SecHand>(0.200, -0.100, -0.082)</SecHand>
+        <ThingTargets>
+          <li>Gun_Thompson_M1921_RWP</li>
+          <!-- Thompson M1921 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.123)</MainHand>
+        <SecHand>(0.214, -0.100, -0.091)</SecHand>
+        <ThingTargets>
+          <li>Gun_Thompson_M1928_RWP</li>
+          <!-- Thompson M1928 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.104, 0.100, -0.123)</MainHand>
+        <SecHand>(0.260, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>Gun_Thompson_M1928A1_RWP</li>
+          <!-- Thompson M1928A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.113, 0.100, -0.110)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Thompson_M1A1_RWP</li>
+          <!-- Thompson M1A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.076, 0.100, -0.110)</MainHand>
+        <ThingTargets>
+          <li>Gun_TKB-022PM_RWP</li>
+          <!-- TKB-022PM -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.199, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_TOZ-34_RWP</li>
+          <!-- TOZ-34 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.174, 0.100, -0.059)</MainHand>
+        <ThingTargets>
+          <li>Gun_TOZ-34_Sawed-off_RWP</li>
+          <!-- TOZ-34 Sawed-off -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.153, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_TOZ-66_RWP</li>
+          <!-- TOZ-66 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.077)</MainHand>
+        <ThingTargets>
+          <li>Gun_TOZ-66_Sawed-off_RWP</li>
+          <!-- TOZ-66 Sawed-off -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.263, 0.100, -0.188)</MainHand>
+        <SecHand>(0.200, -0.100, -0.156)</SecHand>
+        <ThingTargets>
+          <li>Gun_TRG-21_RWP</li>
+          <!-- TRG-21 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.174)</MainHand>
+        <SecHand>(0.200, -0.100, -0.156)</SecHand>
+        <ThingTargets>
+          <li>Gun_TRG-22_RWP</li>
+          <!-- TRG-22 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.183)</MainHand>
+        <SecHand>(0.200, -0.100, -0.123)</SecHand>
+        <ThingTargets>
+          <li>Gun_TRG-41_RWP</li>
+          <!-- TRG-41 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.156)</MainHand>
+        <SecHand>(0.200, -0.100, -0.160)</SecHand>
+        <ThingTargets>
+          <li>Gun_TRG-42_RWP</li>
+          <!-- TRG-42 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.094, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>Gun_TT-33_RWP</li>
+          <!-- TT-33 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Gun_Thompson_UMP40_RWP</li>
+          <!-- UMP40 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.112, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Gun_Thompson_UMP45_RWP</li>
+          <!-- UMP45 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.149, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Gun_Thompson_UMP9_RWP</li>
+          <!-- UMP9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.058, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>Gun_USP45_RWP</li>
+          <!-- USP45 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.053, 0.100, -0.032)</MainHand>
+        <ThingTargets>
+          <li>Gun_USP9_RWP</li>
+          <!-- USP9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.042, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>Gun_UZI_Pistol_RWP</li>
+          <!-- UZI Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.162, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_VSS_Vintorez_RWP</li>
+          <!-- VSS Vintorez -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.172, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_VSSK_Vykhlop_RWP</li>
+          <!-- VSSK Vykhlop -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.087)</SecHand>
+        <ThingTargets>
+          <li>Gun_WA_2000_RWP</li>
+          <!-- WA 2000 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.073)</MainHand>
+        <ThingTargets>
+          <li>Gun_PP_RWP</li>
+          <!-- Walther PP -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.084, 0.100, -0.064)</MainHand>
+        <ThingTargets>
+          <li>Gun_PPK_RWP</li>
+          <!-- Walther PPK -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.088, 0.100, -0.100)</MainHand>
+        <ThingTargets>
+          <li>Gun_Welrod_Mk1_RWP</li>
+          <!-- Welrod Mk I -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.129, 0.100, -0.096)</MainHand>
+        <ThingTargets>
+          <li>Gun_Welrod_Mk2_RWP</li>
+          <!-- Welrod Mk II -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.146, 0.100, -0.087)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Winchester_M1873_RWP</li>
+          <!-- Winchester M1873 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.158, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Winchester_M1897_Riot_RWP</li>
+          <!-- Winchester M1897 Riot -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Winchester_M1897_Trench_RWP</li>
+          <!-- Winchester M1897 Trench -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.176, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Winchester_M1912_Riot_RWP</li>
+          <!-- Winchester M1912 Riot -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.181, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Winchester_M1912_Trench_RWP</li>
+          <!-- Winchester M1912 Trench -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.036, 0.100, -0.160)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_XM25_CDTE_RWP</li>
+          <!-- XM25 CDTE -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.172, 0.100, -0.091)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Zastava_M53_RWP</li>
+          <!-- Zastava M53 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.149, 0.100, -0.110)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Zastava_M70_RWP</li>
+          <!-- Zastava M70 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.167, 0.100, -0.096)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Zastava_M70A_RWP</li>
+          <!-- Zastava M70 A -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.199, 0.100, -0.091)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Zastava_M72_RWP</li>
+          <!-- Zastava M72 -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>
