@@ -16,11 +16,26 @@
   <SMYH.resetselected.button>重置選定</SMYH.resetselected.button>
   <SMYH.logging.label>啟用詳細記錄</SMYH.logging.label>
   <SMYH.logging.tooltip>顯示詳細的日誌記錄，以查找錯誤</SMYH.logging.tooltip>
+  <SMYH.matchartificiallimb.label>嘗試匹配假肢</SMYH.matchartificiallimb.label>
+  <SMYH.matchartificiallimb.tooltip>如果手換成假肢，MOD會嘗試顯示假肢的顏色</SMYH.matchartificiallimb.tooltip>
+  <SMYH.matchhandamounts.label>不顯示殘缺</SMYH.matchhandamounts.label>
+  <SMYH.matchhandamounts.tooltip>如果缺少手臂/手，MOD在雙手武器上只顯示主手</SMYH.matchhandamounts.tooltip>
+  <SMYH.showwhencarry.label>搬運東西顯示手部</SMYH.showwhencarry.label>
+  <SMYH.showwhencarry.tooltip>當小人拿東西時會拿出手</SMYH.showwhencarry.tooltip>
+  <SMYH.showothertimes.label>雙手顯示 (BETA)</SMYH.showothertimes.label>
+  <SMYH.showothertimes.tooltip>即使沒有工作，也會在小人的兩側顯示雙手，已收獲到一些他人回覆問題，我正在研究一種更好的方法。</SMYH.showothertimes.tooltip>
+  <SMYH.matcharmor.label>匹配裝備</SMYH.matcharmor.label>
+  <SMYH.matcharmor.tooltip>如果殖民者穿著覆蓋手的裝備，手部紋理將嘗試匹配顏色</SMYH.matcharmor.tooltip>
+  <SMYH.resizehands.label>匹配體形</SMYH.resizehands.label>
+  <SMYH.resizehands.tooltip>繪製手部時，試圖匹配殖民者的體型。如果種族定義使用意外值，這會看起來很奇怪。</SMYH.resizehands.tooltip>
+  <SMYH.repositionhands.label>重新定位雙手超大武器</SMYH.repositionhands.label>
+  <SMYH.repositionhands.tooltip>將彌補具有更大繪製大小的武器。在某些情況下，可以關閉此選項，其中另一個Mod覆蓋繪製大小，例如Yayo Combat 3中的動畫。</SMYH.repositionhands.tooltip>
   <SMYH.version.label>模組版本：{0}</SMYH.version.label>
   <SMYH.error.weapon>錯誤，資料庫中沒有找到{0}</SMYH.error.weapon>
   <SMYH.error.hands>錯誤，資料庫中沒有找到{0}的手部位置</SMYH.error.hands>
   <SMYH.error.texture>錯誤，資料庫中沒有找到{0}的紋理圖檔</SMYH.error.texture>
   <SMYH.twohands.label>使用雙手持武</SMYH.twohands.label>
+  <SMYH.nohands.label>空手</SMYH.nohands.label>
   <SMYH.mainhandhorizontal.label>水平(主手)</SMYH.mainhandhorizontal.label>
   <SMYH.mainhandvertical.label>垂直(主手)</SMYH.mainhandvertical.label>
   <SMYH.renderbehind.label>手改到背面</SMYH.renderbehind.label>
@@ -36,4 +51,5 @@
   <SMYH.weaponrow.red>使用預設</SMYH.weaponrow.red>
   <SMYH.weaponrow.cyan>mod原設置</SMYH.weaponrow.cyan>
   <SMYH.weaponrow.green>個人自訂設置</SMYH.weaponrow.green>
+
 </LanguageData>
