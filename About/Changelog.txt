@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.4.3 - Fix to support the continued version of Yayos Animation, thanks SokyranTheDragon!
+
+
 1.4.2 - Updated chinese translation, thanks shiuanyue!
 
 
