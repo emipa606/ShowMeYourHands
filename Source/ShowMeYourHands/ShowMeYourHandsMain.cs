@@ -49,6 +49,7 @@ public static class ShowMeYourHandsMain
         "com.yayo.combat",
         "com.yayo.combat3",
         "com.yayo.yayoAni",
+        "com.yayo.yayoAni.continued",
         // Dual Wield
         // Replaces weapon drawer if dual wielding
         "Roolo.DualWield",
