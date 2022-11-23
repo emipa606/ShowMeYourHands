@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.4.4 - Fixed carrying children and also no longer shows hands when eating
+
+
 1.4.3 - Fix to support the continued version of Yayos Animation, thanks SokyranTheDragon!
 
 
