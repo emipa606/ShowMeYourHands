@@ -631,7 +631,7 @@ internal class ShowMeYourHandsMod : Mod
                 {
                     if (description.Length > 250)
                     {
-                        description = description.Substring(0, 250) + "...";
+                        description = $"{description.Substring(0, 250)}...";
                     }
 
                     Widgets.Label(new Rect(labelPoint.x, labelPoint.y + 50, 250, 150), description);
@@ -682,11 +682,11 @@ internal class ShowMeYourHandsMod : Mod
                 if (!currentNoHands)
                 {
                     listing_Standard.Label("SMYH.mainhandhorizontal.label".Translate());
-                    currentMainHand.x = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
+                    currentMainHand.x = Widgets.HorizontalSlider_NewTemp(listing_Standard.GetRect(20),
                         currentMainHand.x, -0.5f, 0.5f, false,
                         currentMainHand.x.ToString(), null, null, 0.001f);
                     lastMainLabel = listing_Standard.Label("SMYH.mainhandvertical.label".Translate());
-                    currentMainHand.z = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
+                    currentMainHand.z = Widgets.HorizontalSlider_NewTemp(listing_Standard.GetRect(20),
                         currentMainHand.z, -0.5f, 0.5f, false,
                         currentMainHand.z.ToString(), null, null, 0.001f);
                     listing_Standard.Gap();
@@ -702,11 +702,11 @@ internal class ShowMeYourHandsMod : Mod
                     listing_Standard.NewColumn();
                     listing_Standard.Gap(262);
                     listing_Standard.Label("SMYH.offhandhorizontal.label".Translate());
-                    currentOffHand.x = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
+                    currentOffHand.x = Widgets.HorizontalSlider_NewTemp(listing_Standard.GetRect(20),
                         currentOffHand.x, -0.5f, 0.5f, false,
                         currentOffHand.x.ToString(), null, null, 0.001f);
                     listing_Standard.Label("SMYH.offhandvertical.label".Translate());
-                    currentOffHand.z = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
+                    currentOffHand.z = Widgets.HorizontalSlider_NewTemp(listing_Standard.GetRect(20),
                         currentOffHand.z, -0.5f, 0.5f, false,
                         currentOffHand.z.ToString(), null, null, 0.001f);
                     listing_Standard.Gap();
@@ -784,11 +784,22 @@ internal class ShowMeYourHandsMod : Mod
         var stringBuilder = new StringBuilder();
         stringBuilder.AppendLine("<?xml version=\"1.0\" encoding=\"utf-8\"?>");
         stringBuilder.AppendLine("<Defs>");
-        stringBuilder.AppendLine("  <WHands.ClutterHandsTDef>");
+        if (onlySelected)
+        {
+            var selectedMod = ModsConfig.ActiveModsInLoadOrder.FirstOrDefault(data => data?.Name == selectedSubDef);
+            stringBuilder.AppendLine(selectedMod is { PackageIdNonUnique: { } }
+                ? $"  <WHands.ClutterHandsTDef MayRequire=\"{selectedMod.PackageIdNonUnique}\">"
+                : "  <WHands.ClutterHandsTDef>");
+        }
+        else
+        {
+            stringBuilder.AppendLine("  <WHands.ClutterHandsTDef>");
+        }
+
         stringBuilder.AppendLine(
             onlySelected
-                ? $"     <defName>ClutterHandsSettings_{Regex.Replace(selectedSubDef, "[^a-zA-Z0-9_.]+", "", RegexOptions.Compiled)}_{SystemInfo.deviceName.GetHashCode()}</defName>"
-                : $"     <defName>ClutterHandsSettings_All_{SystemInfo.deviceName.GetHashCode()}</defName>");
+                ? $"     <defName>ClutterHandsSettings_{Regex.Replace(selectedSubDef, "[^a-zA-Z0-9_.]+", "", RegexOptions.Compiled)}</defName>"
+                : $"     <defName>ClutterHandsSettings_{SystemInfo.deviceName.GetHashCode()}_All</defName>");
 
         stringBuilder.AppendLine("      <label>Weapon hand settings</label>");
         stringBuilder.AppendLine("      <thingClass>Thing</thingClass>");

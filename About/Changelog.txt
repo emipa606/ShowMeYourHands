@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.4.5 - More hand-definitions, thanks pointfeev! Also cleaned up the settings-export a bit
+
+
 1.4.4 - Fixed carrying children and also no longer shows hands when eating
 
 
