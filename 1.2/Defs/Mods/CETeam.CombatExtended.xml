@@ -49,6 +49,28 @@
           <!-- stick bomb -->
         </ThingTargets>
       </li>
+      <li>
+        <MainHand>(-0.004, 0.100, -0.078)</MainHand>
+        <ThingTargets>
+          <li>Weapon_GrenadeConcussion</li>
+          <!-- concussion grenade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.273, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CE_DisposableRocketLauncher</li>
+          <!-- M72 LAW -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CE_FlareGun</li>
+          <!-- flare gun -->
+        </ThingTargets>
+      </li>
     </WeaponCompLoader>
   </WHands.ClutterHandsTDef>
 </Defs>

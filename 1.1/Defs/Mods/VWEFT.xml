@@ -42,6 +42,43 @@
           <!-- volcanic pistol -->
         </ThingTargets>
       </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.032)</MainHand>
+        <SecHand>(0.230, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>VWEFT_Gun_GaussRepeater</li>
+          <!-- gauss repeater -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.247, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>VWEFT_Gun_GaussRevolver</li>
+          <!-- gauss revolver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.403, 0.100, 0.051)</MainHand>
+        <SecHand>(-0.156, -0.100, -0.233)</SecHand>
+        <ThingTargets>
+          <li>VWEFT_Gun_HandheldGatlingGun</li>
+          <!-- handheld gatling gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.178, 0.100, -0.078)</MainHand>
+        <ThingTargets>
+          <li>VWEFT_Gun_Derringer</li>
+          <!-- Remington M95 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.073)</MainHand>
+        <ThingTargets>
+          <li>VWEFT_Gun_LeverActionShotgun</li>
+          <!-- Winchester M1887 (sawed-off) -->
+        </ThingTargets>
+      </li>
     </WeaponCompLoader>
   </WHands.ClutterHandsTDef>
 </Defs>
