@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <WHands.ClutterHandsTDef>
+  <WHands.ClutterHandsTDef MayRequire="OskarPotocki.VFE.Pirates">
      <defName>ClutterHandsSettings_VanillaFactionsExpandedPirates</defName>
       <label>Weapon hand settings</label>
       <thingClass>Thing</thingClass>

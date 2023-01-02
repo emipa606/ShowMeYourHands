@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <WHands.ClutterHandsTDef>
+  <WHands.ClutterHandsTDef MayRequire="Albion.SparklingWorlds.Full">
      <defName>ClutterHandsSettings_SparklingWorldsFullMod</defName>
       <label>Weapon hand settings</label>
       <thingClass>Thing</thingClass>
