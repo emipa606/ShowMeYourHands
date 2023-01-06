@@ -24,7 +24,6 @@
   <SMYH.showwhencarry.tooltip>當單位拿東西時會出現手部</SMYH.showwhencarry.tooltip>
   <SMYH.showothertimes.label>雙手顯示 (BETA)</SMYH.showothertimes.label>
   <SMYH.showothertimes.tooltip>在閒置狀態下，單位也會在顯示雙手，已收獲到一些他人問題回報，我正在研究一種更好的方法。</SMYH.showothertimes.tooltip>
-  <SMYH.showothertimes.tooltip>在閒置狀態下，單位也會在顯示雙手，已收獲到一些他人問題回報，我正在研究一種更好的方法。</SMYH.showothertimes.tooltip>
   <SMYH.matcharmor.label>匹配裝備</SMYH.matcharmor.label>
   <SMYH.matcharmor.tooltip>如果單位穿著覆蓋手的裝備，將嘗試匹配顏色</SMYH.matcharmor.tooltip>
   <SMYH.resizehands.label>匹配體形</SMYH.resizehands.label>
