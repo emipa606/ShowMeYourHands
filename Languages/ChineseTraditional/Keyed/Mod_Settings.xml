@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <SMYH.settings>設置</SMYH.settings>
   <SMYH.summary>總結</SMYH.summary>
@@ -51,5 +51,4 @@
   <SMYH.weaponrow.red>使用預設</SMYH.weaponrow.red>
   <SMYH.weaponrow.cyan>模組預設</SMYH.weaponrow.cyan>
   <SMYH.weaponrow.green>自訂設置</SMYH.weaponrow.green>
-
 </LanguageData>

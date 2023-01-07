@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <WHands.ClutterHandsTDef>
+  <WHands.ClutterHandsTDef MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">
     <defName>ClutterHandsSettings_VanillaFactionsExpandedSettlers</defName>
     <label>Weapon hand settings</label>
     <thingClass>Thing</thingClass>

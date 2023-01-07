@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.4.6 - Updated Chinese translation, thanks shiuanyue!
+
+
 1.4.5 - More hand-definitions, thanks pointfeev! Also cleaned up the settings-export a bit
 
 
