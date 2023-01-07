@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <SMYH.settings>設置</SMYH.settings>
   <SMYH.summary>總結</SMYH.summary>
-  <SMYH.summary.tooltip>按一下mod名稱以篩選清單，僅顯示該mod中的武器</SMYH.summary.tooltip>
+  <SMYH.summary.tooltip>按一下模組名稱以篩選清單，僅顯示該模組中的武器</SMYH.summary.tooltip>
   <SMYH.unknown>不明</SMYH.unknown>
   <SMYH.uiscale.label>INFO \nUI比例未設置為1.0x。對於某些武器，設置GUI看起來會很奇怪。</SMYH.uiscale.label>
-  <SMYH.uiscale.tooltip>有些武器紋理需要旋轉，因為圖檔沒有預設角度。 當UI比例設置為1.0倍以上時，旋轉功能會出現問題。它不需要更改設置才能產生效果。</SMYH.uiscale.tooltip>
+  <SMYH.uiscale.tooltip>有些武器紋理需要旋轉，因為圖檔沒有預設角度。 當UI比例設置為1.0倍以上時，旋轉功能會出現問題。不更改設置才能產生效果。</SMYH.uiscale.tooltip>
   <SMYH.copy.label>複製自訂值</SMYH.copy.label>
-  <SMYH.copy.tooltip>將更改的數值複製到XML文件裡，可用於創建更好的預設</SMYH.copy.tooltip>
+  <SMYH.copy.tooltip>將更改數值複製到XML文件裡，可用於創建更好的預設</SMYH.copy.tooltip>
   <SMYH.copy.button>複製到剪貼簿</SMYH.copy.button>
   <SMYH.copyselected.button>複製選定</SMYH.copyselected.button>
   <SMYH.resetall.label>重置自訂設置</SMYH.resetall.label>
@@ -16,31 +16,31 @@
   <SMYH.resetselected.button>重置選定</SMYH.resetselected.button>
   <SMYH.logging.label>啟用詳細記錄</SMYH.logging.label>
   <SMYH.logging.tooltip>顯示詳細的日誌記錄，以查找錯誤</SMYH.logging.tooltip>
-  <SMYH.matchartificiallimb.label>嘗試匹配假肢</SMYH.matchartificiallimb.label>
-  <SMYH.matchartificiallimb.tooltip>如果手換成假肢，MOD會嘗試顯示假肢的顏色</SMYH.matchartificiallimb.tooltip>
+  <SMYH.matchartificiallimb.label>嘗試匹配義肢</SMYH.matchartificiallimb.label>
+  <SMYH.matchartificiallimb.tooltip>如果手換成義體，模組會嘗試顯示義體的顏色</SMYH.matchartificiallimb.tooltip>
   <SMYH.matchhandamounts.label>不顯示殘缺</SMYH.matchhandamounts.label>
-  <SMYH.matchhandamounts.tooltip>如果缺少手臂/手，MOD在雙手武器上只顯示主手</SMYH.matchhandamounts.tooltip>
-  <SMYH.showwhencarry.label>搬運東西顯示手部</SMYH.showwhencarry.label>
-  <SMYH.showwhencarry.tooltip>當小人拿東西時會拿出手</SMYH.showwhencarry.tooltip>
+  <SMYH.matchhandamounts.tooltip>如果缺少手臂/手，模組在雙手武器上只顯示主手</SMYH.matchhandamounts.tooltip>
+  <SMYH.showwhencarry.label>搬運時顯示手部</SMYH.showwhencarry.label>
+  <SMYH.showwhencarry.tooltip>當單位拿東西時會出現手部</SMYH.showwhencarry.tooltip>
   <SMYH.showothertimes.label>雙手顯示 (BETA)</SMYH.showothertimes.label>
-  <SMYH.showothertimes.tooltip>即使沒有工作，也會在小人的兩側顯示雙手，已收獲到一些他人回覆問題，我正在研究一種更好的方法。</SMYH.showothertimes.tooltip>
+  <SMYH.showothertimes.tooltip>在閒置狀態下，單位也會在顯示雙手，已收獲到一些他人問題回報，我正在研究一種更好的方法。</SMYH.showothertimes.tooltip>
   <SMYH.matcharmor.label>匹配裝備</SMYH.matcharmor.label>
-  <SMYH.matcharmor.tooltip>如果殖民者穿著覆蓋手的裝備，手部紋理將嘗試匹配顏色</SMYH.matcharmor.tooltip>
+  <SMYH.matcharmor.tooltip>如果單位穿著覆蓋手的裝備，將嘗試匹配顏色</SMYH.matcharmor.tooltip>
   <SMYH.resizehands.label>匹配體形</SMYH.resizehands.label>
-  <SMYH.resizehands.tooltip>繪製手部時，試圖匹配殖民者的體型。如果種族定義使用意外值，這會看起來很奇怪。</SMYH.resizehands.tooltip>
-  <SMYH.repositionhands.label>重新定位雙手超大武器</SMYH.repositionhands.label>
-  <SMYH.repositionhands.tooltip>將彌補具有更大繪製大小的武器。在某些情況下，可以關閉此選項，其中另一個Mod覆蓋繪製大小，例如Yayo Combat 3中的動畫。</SMYH.repositionhands.tooltip>
+  <SMYH.resizehands.tooltip>繪製手部時，試圖匹配單位的體型。如果種族定義使用意外值，這會看起來很奇怪。</SMYH.resizehands.tooltip>
+  <SMYH.repositionhands.label>重新定位巨型雙手武器</SMYH.repositionhands.label>
+  <SMYH.repositionhands.tooltip>將彌補具有巨型繪圖的武器。在某些情況下，可以關閉此選項，其中另一個模組覆蓋繪製大小，例如Yayo Combat 3中的動畫。</SMYH.repositionhands.tooltip>
   <SMYH.version.label>模組版本：{0}</SMYH.version.label>
   <SMYH.error.weapon>錯誤，資料庫中沒有找到{0}</SMYH.error.weapon>
   <SMYH.error.hands>錯誤，資料庫中沒有找到{0}的手部位置</SMYH.error.hands>
   <SMYH.error.texture>錯誤，資料庫中沒有找到{0}的紋理圖檔</SMYH.error.texture>
   <SMYH.twohands.label>使用雙手持武</SMYH.twohands.label>
   <SMYH.nohands.label>空手</SMYH.nohands.label>
-  <SMYH.mainhandhorizontal.label>水平(主手)</SMYH.mainhandhorizontal.label>
-  <SMYH.mainhandvertical.label>垂直(主手)</SMYH.mainhandvertical.label>
+  <SMYH.mainhandhorizontal.label>水平移動(主手)</SMYH.mainhandhorizontal.label>
+  <SMYH.mainhandvertical.label>垂直移動(主手)</SMYH.mainhandvertical.label>
   <SMYH.renderbehind.label>手改到背面</SMYH.renderbehind.label>
-  <SMYH.offhandhorizontal.label>水平(副手)</SMYH.offhandhorizontal.label>
-  <SMYH.offhandvertical.label>垂直(副手)</SMYH.offhandvertical.label>
+  <SMYH.offhandhorizontal.label>水平移動(副手)</SMYH.offhandhorizontal.label>
+  <SMYH.offhandvertical.label>垂直移動(副手)</SMYH.offhandvertical.label>
   <SMYH.reset.button>重置</SMYH.reset.button>
   <SMYH.undo.button>撤銷</SMYH.undo.button>
   <SMYH.save.button>保存</SMYH.save.button>
@@ -49,6 +49,7 @@
   <SMYH.resetselected.confirm>將刪除{0}的所有已保存的自訂設置</SMYH.resetselected.confirm>
   <SMYH.showhidden>顯示{0}個武器</SMYH.showhidden>
   <SMYH.weaponrow.red>使用預設</SMYH.weaponrow.red>
-  <SMYH.weaponrow.cyan>mod原設置</SMYH.weaponrow.cyan>
-  <SMYH.weaponrow.green>個人自訂設置</SMYH.weaponrow.green>
+  <SMYH.weaponrow.cyan>模組預設</SMYH.weaponrow.cyan>
+  <SMYH.weaponrow.green>自訂設置</SMYH.weaponrow.green>
+
 </LanguageData>
