@@ -21,7 +21,6 @@ public class PawnRenderer_DrawEquipmentAiming
     //    "com.yayo.combat3")]
     public static void SaveWeaponLocation(ref Thing eq, ref Vector3 drawLoc, ref float aimAngle)
     {
-        //ShowMeYourHandsMain.LogMessage($"Saving from vanilla {eq.def.defName}, {drawLoc}, {aimAngle}");
         ShowMeYourHandsMain.weaponLocations[eq] = new Tuple<Vector3, float>(drawLoc, aimAngle);
     }
 }

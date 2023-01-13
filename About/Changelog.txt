@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.4.7 - Some major memory optimizations. Should no longer eat up all ram with lots of pawns active.
+
+
 1.4.6 - Updated Chinese translation, thanks shiuanyue!
 
 

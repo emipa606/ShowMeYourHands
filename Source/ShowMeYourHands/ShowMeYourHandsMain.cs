@@ -19,6 +19,14 @@ public static class ShowMeYourHandsMain
     public static readonly Dictionary<ThingDef, Vector3> northOffsets = new Dictionary<ThingDef, Vector3>();
     public static readonly Dictionary<ThingDef, Vector3> eastOffsets = new Dictionary<ThingDef, Vector3>();
     public static readonly Dictionary<ThingDef, Vector3> westOffsets = new Dictionary<ThingDef, Vector3>();
+    public static Dictionary<Pawn, Graphic> mainHandGraphics = new Dictionary<Pawn, Graphic>();
+    public static Dictionary<Pawn, Graphic> offHandGraphics = new Dictionary<Pawn, Graphic>();
+    public static Dictionary<Pawn, float> pawnBodySizes = new Dictionary<Pawn, float>();
+    public static Dictionary<Pawn, bool> pawnsMissingAHand = new Dictionary<Pawn, bool>();
+    public static Dictionary<Thing, Color> colorDictionary = new Dictionary<Thing, Color>();
+    public static Dictionary<Pawn, Mesh> pawnMeshes = new Dictionary<Pawn, Mesh>();
+    public static Dictionary<Pawn, Mesh> handMeshes = new Dictionary<Pawn, Mesh>();
+    public static Dictionary<Pawn, Mesh> flippedHandMeshes = new Dictionary<Pawn, Mesh>();
 
     public static readonly List<ThingDef> IsColorable;
 
@@ -179,6 +187,36 @@ public static class ShowMeYourHandsMain
         }
 
         Log.Message($"[ShowMeYourHands]: {message}");
+    }
+
+    public static Mesh GetMeshFromPawn(Pawn pawn)
+    {
+        if (!pawnMeshes.ContainsKey(pawn))
+        {
+            pawnMeshes[pawn] = MeshMakerPlanes.NewPlaneMesh(pawnBodySizes[pawn], false);
+        }
+
+        return pawnMeshes[pawn];
+    }
+
+    public static Mesh GetMeshFromPawn(Pawn pawn, bool flipped)
+    {
+        if (flipped)
+        {
+            if (!flippedHandMeshes.ContainsKey(pawn))
+            {
+                flippedHandMeshes[pawn] = MeshMakerPlanes.NewPlaneMesh(pawnBodySizes[pawn], true);
+            }
+
+            return flippedHandMeshes[pawn];
+        }
+
+        if (!handMeshes.ContainsKey(pawn))
+        {
+            handMeshes[pawn] = MeshMakerPlanes.NewPlaneMesh(pawnBodySizes[pawn], false);
+        }
+
+        return handMeshes[pawn];
     }
 
 

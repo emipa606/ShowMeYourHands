@@ -45,32 +45,6 @@ public static class PawnRenderer_DrawCarriedThing
             drawLoc.x *= -1;
         }
 
-        handComp.DrawHands(carriedThing, drawLoc);
-
-        //var behind = false;
-        //var flip = false;
-        //if (pawn.CurJob == null ||
-        //    !pawn.jobs.curDriver.ModifyCarriedThingDrawPos(ref vector, ref behind, ref flip))
-        //{
-        //if (carriedThing is Pawn or Corpse)
-        //{
-        //    vector += new Vector3(0.44f, 0f, 0f);
-        //}
-        //else
-        //{
-        //    vector += new Vector3(0.18f, 0f, 0.05f);
-        //}
-        ////}
-
-        //if (behind)
-        //{
-        //    vector.y -= 0.03474903f;
-        //}
-        //else
-        //{
-        //    vector.y += 0.03474903f;
-        //}
-
-        //handComp.DrawHands(carriedThing, drawLoc);
+        handComp.DrawHands(drawLoc);
     }
 }

@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using ColorMine.ColorSpaces;
 using ColorMine.ColorSpaces.Comparisons;
 using UnityEngine;
@@ -12,14 +11,6 @@ namespace ShowMeYourHands;
 [StaticConstructorOnStartup]
 public class HandDrawer : ThingComp
 {
-    private static Dictionary<Thing, Color> colorDictionary;
-
-
-    public static readonly Dictionary<Pawn, Graphic> mainHandGraphics = new Dictionary<Pawn, Graphic>();
-    public static readonly Dictionary<Pawn, Graphic> offHandGraphics = new Dictionary<Pawn, Graphic>();
-    public static readonly Dictionary<Pawn, float> pawnBodySizes = new Dictionary<Pawn, float>();
-    public static readonly Dictionary<Pawn, bool> pawnsMissingAHand = new Dictionary<Pawn, bool>();
-
     private Color handColor;
     private Mesh handMesh;
     private int LastDrawn;
@@ -35,36 +26,40 @@ public class HandDrawer : ThingComp
                 return handColor;
             }
 
-            if (!(parent is Pawn pawn))
+            if (parent is not Pawn pawn)
             {
                 return Color.white;
             }
 
             handColor = getHandColor(pawn, out var hasGloves, out var secondColor);
-            if (!mainHandGraphics.ContainsKey(pawn) || mainHandGraphics[pawn].color != handColor)
+            if (!ShowMeYourHandsMain.mainHandGraphics.ContainsKey(pawn) ||
+                ShowMeYourHandsMain.mainHandGraphics[pawn].color != handColor)
             {
                 if (hasGloves)
                 {
-                    mainHandGraphics[pawn] = GraphicDatabase.Get<Graphic_Single>("HandClean", ShaderDatabase.Cutout,
+                    ShowMeYourHandsMain.mainHandGraphics[pawn] = GraphicDatabase.Get<Graphic_Single>("HandClean",
+                        ShaderDatabase.Cutout,
                         new Vector2(1f, 1f),
                         handColor, handColor);
                 }
                 else
                 {
-                    mainHandGraphics[pawn] = GraphicDatabase.Get<Graphic_Single>("Hand", ShaderDatabase.Cutout,
+                    ShowMeYourHandsMain.mainHandGraphics[pawn] = GraphicDatabase.Get<Graphic_Single>("Hand",
+                        ShaderDatabase.Cutout,
                         new Vector2(1f, 1f),
                         handColor, handColor);
                 }
             }
 
-            if (offHandGraphics.ContainsKey(pawn) && offHandGraphics[pawn].color == handColor)
+            if (ShowMeYourHandsMain.offHandGraphics.ContainsKey(pawn) &&
+                ShowMeYourHandsMain.offHandGraphics[pawn].color == handColor)
             {
                 return handColor;
             }
 
             if (hasGloves)
             {
-                offHandGraphics[pawn] = GraphicDatabase.Get<Graphic_Single>("OffHandClean",
+                ShowMeYourHandsMain.offHandGraphics[pawn] = GraphicDatabase.Get<Graphic_Single>("OffHandClean",
                     ShaderDatabase.Cutout,
                     new Vector2(1f, 1f),
                     handColor, handColor);
@@ -73,14 +68,15 @@ public class HandDrawer : ThingComp
             {
                 if (secondColor != default)
                 {
-                    offHandGraphics[pawn] = GraphicDatabase.Get<Graphic_Single>("OffHand",
+                    ShowMeYourHandsMain.offHandGraphics[pawn] = GraphicDatabase.Get<Graphic_Single>("OffHand",
                         ShaderDatabase.Cutout,
                         new Vector2(1f, 1f),
                         secondColor, secondColor);
                 }
                 else
                 {
-                    offHandGraphics[pawn] = GraphicDatabase.Get<Graphic_Single>("OffHand", ShaderDatabase.Cutout,
+                    ShowMeYourHandsMain.offHandGraphics[pawn] = GraphicDatabase.Get<Graphic_Single>("OffHand",
+                        ShaderDatabase.Cutout,
                         new Vector2(1f, 1f),
                         handColor, handColor);
                 }
@@ -105,18 +101,9 @@ public class HandDrawer : ThingComp
         }
     }
 
-    private bool CarryWeaponOpenly(Pawn pawn)
-    {
-        return pawn.carryTracker?.CarriedThing == null && (pawn.Drafted ||
-                                                           pawn.CurJob != null &&
-                                                           pawn.CurJob.def.alwaysShowWeapon ||
-                                                           pawn.mindState.duty != null &&
-                                                           pawn.mindState.duty.def.alwaysShowWeapon);
-    }
-
     private void AngleCalc()
     {
-        if (!(parent is Pawn pawn) || pawn.Dead || !pawn.Spawned)
+        if (parent is not Pawn pawn || pawn.Dead || !pawn.Spawned)
         {
             return;
         }
@@ -173,10 +160,7 @@ public class HandDrawer : ThingComp
             return;
         }
 
-        var baseType = pawn.Drawer.renderer.GetType();
-        var methodInfo = baseType.GetMethod("CarryWeaponOpenly", BindingFlags.NonPublic | BindingFlags.Instance);
-        var result = methodInfo?.Invoke(pawn.Drawer.renderer, null);
-        if (result == null || !(bool)result)
+        if (!pawn.Drawer.renderer.CarryWeaponOpenly())
         {
             return;
         }
@@ -204,12 +188,12 @@ public class HandDrawer : ThingComp
 
     public void DrawHands()
     {
-        if (!(parent is Pawn pawn) || pawn.DestroyedOrNull() || pawn.Map == null)
+        if (parent is not Pawn pawn || pawn.DestroyedOrNull() || pawn.Map == null)
         {
             return;
         }
 
-        if (!pawnBodySizes.ContainsKey(pawn) || GenTicks.TicksAbs % GenTicks.TickLongInterval == 0)
+        if (!ShowMeYourHandsMain.pawnBodySizes.ContainsKey(pawn) || GenTicks.TicksAbs % GenTicks.TickLongInterval == 0)
         {
             var bodySize = 1f;
             if (ShowMeYourHandsMod.instance.Settings.ResizeHands)
@@ -225,17 +209,17 @@ public class HandDrawer : ThingComp
                 }
             }
 
-            pawnBodySizes[pawn] = 0.8f * bodySize;
+            ShowMeYourHandsMain.pawnBodySizes[pawn] = 0.8f * bodySize;
         }
 
         var unused = HandColor;
         if (handMesh == null)
         {
-            handMesh = MeshMakerPlanes.NewPlaneMesh(pawnBodySizes[pawn]);
+            handMesh = MeshMakerPlanes.NewPlaneMesh(ShowMeYourHandsMain.pawnBodySizes[pawn]);
         }
 
-        var mainHandTex = mainHandGraphics[pawn];
-        var offHandTex = offHandGraphics[pawn];
+        var mainHandTex = ShowMeYourHandsMain.mainHandGraphics[pawn];
+        var offHandTex = ShowMeYourHandsMain.offHandGraphics[pawn];
 
         if (mainHandTex == null || offHandTex == null)
         {
@@ -244,7 +228,7 @@ public class HandDrawer : ThingComp
 
         var mainSingle = mainHandTex.MatSingle;
         var offSingle = offHandTex.MatSingle;
-        var heightOffset = new Vector3(0, 0, 0.7f * pawnBodySizes[pawn] / 2);
+        var heightOffset = new Vector3(0, 0, 0.7f * ShowMeYourHandsMain.pawnBodySizes[pawn] / 2);
         var sideOffset = new Vector3(0.2f, 0, 0);
         var layerOffset = new Vector3(0, 0.0001f, 0);
 
@@ -268,7 +252,7 @@ public class HandDrawer : ThingComp
             return;
         }
 
-        if (pawnsMissingAHand.ContainsKey(pawn) && pawnsMissingAHand[pawn])
+        if (ShowMeYourHandsMain.pawnsMissingAHand.ContainsKey(pawn) && ShowMeYourHandsMain.pawnsMissingAHand[pawn])
         {
             return;
         }
@@ -291,14 +275,14 @@ public class HandDrawer : ThingComp
             basePosition + layerOffset, new Quaternion(), offSingle, 0);
     }
 
-    public void DrawHands(Thing carriedThing, Vector3 thingPosition)
+    public void DrawHands(Vector3 thingPosition)
     {
-        if (!(parent is Pawn pawn))
+        if (parent is not Pawn pawn)
         {
             return;
         }
 
-        if (!pawnBodySizes.ContainsKey(pawn) || GenTicks.TicksAbs % GenTicks.TickLongInterval == 0)
+        if (!ShowMeYourHandsMain.pawnBodySizes.ContainsKey(pawn) || GenTicks.TicksAbs % GenTicks.TickLongInterval == 0)
         {
             var bodySize = 1f;
             if (ShowMeYourHandsMod.instance.Settings.ResizeHands)
@@ -314,13 +298,13 @@ public class HandDrawer : ThingComp
                 }
             }
 
-            pawnBodySizes[pawn] = 0.8f * bodySize;
+            ShowMeYourHandsMain.pawnBodySizes[pawn] = 0.8f * bodySize;
         }
 
         var unused = HandColor;
-        var mesh = MeshMakerPlanes.NewPlaneMesh(pawnBodySizes[pawn]);
-        var mainHandTex = mainHandGraphics[pawn];
-        var offHandTex = offHandGraphics[pawn];
+        var mesh = ShowMeYourHandsMain.GetMeshFromPawn(pawn);
+        var mainHandTex = ShowMeYourHandsMain.mainHandGraphics[pawn];
+        var offHandTex = ShowMeYourHandsMain.offHandGraphics[pawn];
 
 
         if (mainHandTex == null || offHandTex == null)
@@ -341,7 +325,7 @@ public class HandDrawer : ThingComp
         Graphics.DrawMesh(mesh,
             thingPosition + height + width, new Quaternion(), matSingle, 0);
 
-        if (pawnsMissingAHand.ContainsKey(pawn) && pawnsMissingAHand[pawn])
+        if (ShowMeYourHandsMain.pawnsMissingAHand.ContainsKey(pawn) && ShowMeYourHandsMain.pawnsMissingAHand[pawn])
         {
             return;
         }
@@ -354,7 +338,7 @@ public class HandDrawer : ThingComp
         bool aiming = false)
     {
         var flipped = false;
-        if (!(parent is Pawn pawn))
+        if (parent is not Pawn pawn)
         {
             return;
         }
@@ -474,13 +458,14 @@ public class HandDrawer : ThingComp
 
         var unused = HandColor;
 
-        if (!mainHandGraphics.ContainsKey(pawn) || !offHandGraphics.ContainsKey(pawn))
+        if (!ShowMeYourHandsMain.mainHandGraphics.ContainsKey(pawn) ||
+            !ShowMeYourHandsMain.offHandGraphics.ContainsKey(pawn))
         {
             return;
         }
 
-        var mainHandTex = mainHandGraphics[pawn];
-        var offHandTex = offHandGraphics[pawn];
+        var mainHandTex = ShowMeYourHandsMain.mainHandGraphics[pawn];
+        var offHandTex = ShowMeYourHandsMain.offHandGraphics[pawn];
 
 
         if (mainHandTex == null || offHandTex == null)
@@ -502,7 +487,7 @@ public class HandDrawer : ThingComp
             }
         }
 
-        if (!pawnBodySizes.ContainsKey(pawn) || GenTicks.TicksAbs % GenTicks.TickLongInterval == 0)
+        if (!ShowMeYourHandsMain.pawnBodySizes.ContainsKey(pawn) || GenTicks.TicksAbs % GenTicks.TickLongInterval == 0)
         {
             var bodySize = 1f;
             if (ShowMeYourHandsMod.instance.Settings.ResizeHands)
@@ -518,10 +503,10 @@ public class HandDrawer : ThingComp
                 }
             }
 
-            pawnBodySizes[pawn] = 0.8f * bodySize;
+            ShowMeYourHandsMain.pawnBodySizes[pawn] = 0.8f * bodySize;
         }
 
-        var mesh = MeshMakerPlanes.NewPlaneMesh(pawnBodySizes[pawn], flipped);
+        var mesh = ShowMeYourHandsMain.GetMeshFromPawn(pawn, flipped);
 
         if (MainHand != Vector3.zero)
         {
@@ -546,7 +531,8 @@ public class HandDrawer : ThingComp
                 Quaternion.AngleAxis(mainHandAngle, Vector3.up), y >= 0 ? matSingle : offSingle, 0);
         }
 
-        if (OffHand == Vector3.zero || pawnsMissingAHand.ContainsKey(pawn) && pawnsMissingAHand[pawn])
+        if (OffHand == Vector3.zero || ShowMeYourHandsMain.pawnsMissingAHand.ContainsKey(pawn) &&
+            ShowMeYourHandsMain.pawnsMissingAHand[pawn])
         {
             return;
         }
@@ -661,7 +647,7 @@ public class HandDrawer : ThingComp
 
         if (ShowMeYourHandsMod.instance.Settings.MatchHandAmounts && pawn.health is { hediffSet: { } })
         {
-            pawnsMissingAHand[pawn] = pawn.health.hediffSet
+            ShowMeYourHandsMain.pawnsMissingAHand[pawn] = pawn.health.hediffSet
                     .GetNotMissingParts().Count(record => record.def == ShowMeYourHandsMain.HandDef) +
                 addedHands?.Count < 2;
         }
@@ -738,9 +724,9 @@ public class HandDrawer : ThingComp
         }
 
         hasGloves = true;
-        if (colorDictionary == null)
+        if (ShowMeYourHandsMain.colorDictionary == null)
         {
-            colorDictionary = new Dictionary<Thing, Color>();
+            ShowMeYourHandsMain.colorDictionary = new Dictionary<Thing, Color>();
         }
 
         if (ShowMeYourHandsMain.IsColorable.Contains(outerApparel.def))
@@ -752,22 +738,22 @@ public class HandDrawer : ThingComp
             }
         }
 
-        if (colorDictionary.ContainsKey(outerApparel))
+        if (ShowMeYourHandsMain.colorDictionary.ContainsKey(outerApparel))
         {
-            return colorDictionary[outerApparel];
+            return ShowMeYourHandsMain.colorDictionary[outerApparel];
         }
 
         if (outerApparel.Stuff != null && outerApparel.Graphic.Shader != ShaderDatabase.CutoutComplex)
         {
-            colorDictionary[outerApparel] = outerApparel.def.GetColorForStuff(outerApparel.Stuff);
+            ShowMeYourHandsMain.colorDictionary[outerApparel] = outerApparel.def.GetColorForStuff(outerApparel.Stuff);
         }
         else
         {
-            colorDictionary[outerApparel] =
+            ShowMeYourHandsMain.colorDictionary[outerApparel] =
                 AverageColorFromTexture((Texture2D)outerApparel.Graphic.MatSingle.mainTexture);
         }
 
-        return colorDictionary[outerApparel];
+        return ShowMeYourHandsMain.colorDictionary[outerApparel];
     }
 
     private Color32 AverageColorFromTexture(Texture2D texture)
