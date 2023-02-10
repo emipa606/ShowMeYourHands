@@ -565,9 +565,9 @@ internal class ShowMeYourHandsMod : Mod
                 foreach (var keyValuePair in totalWeaponsByMod)
                 {
                     var fixedWeapons = 0;
-                    if (fixedWeaponsByMod.ContainsKey(keyValuePair.Key))
+                    if (fixedWeaponsByMod.TryGetValue(keyValuePair.Key, out var value))
                     {
-                        fixedWeapons = fixedWeaponsByMod[keyValuePair.Key];
+                        fixedWeapons = value;
                     }
 
                     var percent = fixedWeapons / (decimal)keyValuePair.Value * 100;
@@ -822,12 +822,12 @@ internal class ShowMeYourHandsMod : Mod
         {
             stringBuilder.AppendLine("          <li>");
             stringBuilder.AppendLine($"              <MainHand>{settingsManualMainHandPosition.Value}</MainHand>");
-            if (instance.Settings.ManualOffHandPositions.ContainsKey(settingsManualMainHandPosition.Key))
+            if (instance.Settings.ManualOffHandPositions.TryGetValue(settingsManualMainHandPosition.Key,
+                    out var position))
             {
-                var secHand = instance.Settings.ManualOffHandPositions[settingsManualMainHandPosition.Key];
-                if (secHand.ToVector3() != Vector3.zero)
+                if (position.ToVector3() != Vector3.zero)
                 {
-                    stringBuilder.AppendLine($"              <SecHand>{secHand}</SecHand>");
+                    stringBuilder.AppendLine($"              <SecHand>{position}</SecHand>");
                 }
             }
 

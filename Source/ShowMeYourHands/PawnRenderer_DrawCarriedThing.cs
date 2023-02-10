@@ -19,7 +19,7 @@ public static class PawnRenderer_DrawCarriedThing
             return;
         }
 
-        if (pawn.CurJob?.def.defName == "Ingest" && !pawn.pather.Moving)
+        if (pawn.CurJob?.def.defName is "Ingest" or "SocialRelax" && !pawn.pather.Moving)
         {
             return;
         }

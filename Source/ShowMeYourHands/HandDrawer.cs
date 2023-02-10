@@ -738,9 +738,9 @@ public class HandDrawer : ThingComp
             }
         }
 
-        if (ShowMeYourHandsMain.colorDictionary.ContainsKey(outerApparel))
+        if (ShowMeYourHandsMain.colorDictionary.TryGetValue(outerApparel, out var color))
         {
-            return ShowMeYourHandsMain.colorDictionary[outerApparel];
+            return color;
         }
 
         if (outerApparel.Stuff != null && outerApparel.Graphic.Shader != ShaderDatabase.CutoutComplex)
