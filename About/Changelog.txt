@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.4.9 - Should work better with the Fog Of War mod now. Moved all hand-drawning to the PostDraw override (where they should have been from the start)
+
+
 1.4.8 - Drinks consumed while social relaxing will not show hands
 
 

@@ -19,11 +19,6 @@ public static class PawnRenderer_DrawCarriedThing
             return;
         }
 
-        if (pawn.CurJob?.def.defName is "Ingest" or "SocialRelax" && !pawn.pather.Moving)
-        {
-            return;
-        }
-
         var handComp = pawn.GetComp<HandDrawer>();
         if (handComp == null)
         {
@@ -45,6 +40,6 @@ public static class PawnRenderer_DrawCarriedThing
             drawLoc.x *= -1;
         }
 
-        handComp.DrawHands(drawLoc);
+        handComp.ItemHeldLocation = drawLoc;
     }
 }

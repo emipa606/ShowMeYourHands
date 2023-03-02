@@ -13,6 +13,7 @@ public class HandDrawer : ThingComp
 {
     private Color handColor;
     private Mesh handMesh;
+    public Vector3 ItemHeldLocation;
     private int LastDrawn;
     private Vector3 MainHand;
     private Vector3 OffHand;
@@ -101,23 +102,8 @@ public class HandDrawer : ThingComp
         }
     }
 
-    private void AngleCalc()
+    private void DrawHandsOnWeapon(Pawn pawn)
     {
-        if (parent is not Pawn pawn || pawn.Dead || !pawn.Spawned)
-        {
-            return;
-        }
-
-        if (pawn.equipment?.Primary == null)
-        {
-            return;
-        }
-
-        if (pawn.CurJob != null && pawn.CurJob.def.neverShowWeapon)
-        {
-            return;
-        }
-
         var mainhandWeapon = pawn.equipment.Primary;
         var compProperties = mainhandWeapon.def.GetCompProperties<WhandCompProps>();
         if (compProperties != null)
@@ -156,7 +142,7 @@ public class HandDrawer : ThingComp
                 num = (a - pawn.DrawPos).AngleFlat();
             }
 
-            DrawHands(mainhandWeapon, num, offhandWeapon, false, true);
+            DrawHandsOnWeapon(mainhandWeapon, num, pawn, offhandWeapon, false, true);
             return;
         }
 
@@ -167,13 +153,13 @@ public class HandDrawer : ThingComp
 
         if (pawn.Rotation == Rot4.South || pawn.Rotation == Rot4.North)
         {
-            DrawHands(mainhandWeapon, 143f, offhandWeapon, true);
+            DrawHandsOnWeapon(mainhandWeapon, 143f, pawn, offhandWeapon, true);
             return;
         }
 
         if (pawn.Rotation == Rot4.East)
         {
-            DrawHands(mainhandWeapon, 143f, offhandWeapon);
+            DrawHandsOnWeapon(mainhandWeapon, 143f, pawn, offhandWeapon);
             return;
         }
 
@@ -182,17 +168,12 @@ public class HandDrawer : ThingComp
             return;
         }
 
-        DrawHands(mainhandWeapon, 217f, offhandWeapon);
+        DrawHandsOnWeapon(mainhandWeapon, 217f, pawn, offhandWeapon);
     }
 
 
-    public void DrawHands()
+    public void DrawHandsAllTheTime(Pawn pawn)
     {
-        if (parent is not Pawn pawn || pawn.DestroyedOrNull() || pawn.Map == null)
-        {
-            return;
-        }
-
         if (!ShowMeYourHandsMain.pawnBodySizes.ContainsKey(pawn) || GenTicks.TicksAbs % GenTicks.TickLongInterval == 0)
         {
             var bodySize = 1f;
@@ -275,9 +256,9 @@ public class HandDrawer : ThingComp
             basePosition + layerOffset, new Quaternion(), offSingle, 0);
     }
 
-    public void DrawHands(Vector3 thingPosition)
+    public void DrawHandsOnItem(Pawn pawn)
     {
-        if (parent is not Pawn pawn)
+        if (pawn.CurJob?.def.defName is "Ingest" or "SocialRelax" && !pawn.pather.Moving)
         {
             return;
         }
@@ -323,7 +304,7 @@ public class HandDrawer : ThingComp
         }
 
         Graphics.DrawMesh(mesh,
-            thingPosition + height + width, new Quaternion(), matSingle, 0);
+            ItemHeldLocation + height + width, new Quaternion(), matSingle, 0);
 
         if (ShowMeYourHandsMain.pawnsMissingAHand.ContainsKey(pawn) && ShowMeYourHandsMain.pawnsMissingAHand[pawn])
         {
@@ -331,17 +312,14 @@ public class HandDrawer : ThingComp
         }
 
         Graphics.DrawMesh(mesh,
-            thingPosition + (height * -1) + (width * -1), new Quaternion(), offSingle, 0);
+            ItemHeldLocation + (height * -1) + (width * -1), new Quaternion(), offSingle, 0);
     }
 
-    private void DrawHands(Thing mainHandWeapon, float aimAngle, Thing offHandWeapon = null, bool idle = false,
+    private void DrawHandsOnWeapon(Thing mainHandWeapon, float aimAngle, Pawn pawn, Thing offHandWeapon = null,
+        bool idle = false,
         bool aiming = false)
     {
         var flipped = false;
-        if (parent is not Pawn pawn)
-        {
-            return;
-        }
 
         if (!ShowMeYourHandsMain.weaponLocations.ContainsKey(mainHandWeapon))
         {
@@ -625,7 +603,31 @@ public class HandDrawer : ThingComp
 
     public override void PostDraw()
     {
-        AngleCalc();
+        if (parent is not Pawn { Spawned: true } pawn || pawn.Map == null)
+        {
+            return;
+        }
+
+        if (ShowMeYourHandsMod.instance.Settings.ShowWhenCarry && pawn.carryTracker?.CarriedThing != null)
+        {
+            DrawHandsOnItem(pawn);
+            return;
+        }
+
+
+        if (pawn.equipment?.Primary != null && pawn.CurJob?.def.neverShowWeapon == false)
+        {
+            DrawHandsOnWeapon(pawn);
+            return;
+        }
+
+        if (!ShowMeYourHandsMod.instance.Settings.ShowOtherTmes || LastDrawn >= GenTicks.TicksAbs - 1 ||
+            GenTicks.TicksAbs == 0)
+        {
+            return;
+        }
+
+        DrawHandsAllTheTime(pawn);
     }
 
     private Color getHandColor(Pawn pawn, out bool hasGloves, out Color secondColor)
@@ -824,18 +826,5 @@ public class HandDrawer : ThingComp
         var greatestValue = shadeDictionary.Aggregate((rgb, max) => rgb.Value > max.Value ? rgb : max).Key;
         greatestValue.a = MaxValue;
         return greatestValue;
-    }
-
-
-    public override void CompTick()
-    {
-        base.CompTick();
-        if (!ShowMeYourHandsMod.instance.Settings.ShowOtherTmes || LastDrawn >= GenTicks.TicksAbs - 1 ||
-            GenTicks.TicksAbs == 0)
-        {
-            return;
-        }
-
-        DrawHands();
     }
 }
