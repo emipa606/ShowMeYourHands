@@ -6,40 +6,40 @@
     <thingClass>Thing</thingClass>
     <WeaponCompLoader>
       <li>
-        <MainHand>(-0.128, 0.100, 0.129)</MainHand>
-        <SecHand>(-0.023, -0.100, 0.092)</SecHand>
+        <MainHand>(-0.367, 0.100, 0.092)</MainHand>
+        <SecHand>(-0.041, -0.100, 0.143)</SecHand>
         <ThingTargets>
           <li>VWE_Gun_Autocannon</li>
           <!-- autocannon -->
         </ThingTargets>
       </li>
       <li>
-        <MainHand>(-0.220, 0.100, 0.189)</MainHand>
-        <SecHand>(-0.071, -0.100, 0.161)</SecHand>
+        <MainHand>(-0.371, 0.100, -0.022)</MainHand>
+        <SecHand>(-0.123, -0.100, 0.225)</SecHand>
         <ThingTargets>
           <li>VWE_Gun_HandheldMortar</li>
           <!-- handheld mortar -->
         </ThingTargets>
       </li>
       <li>
-        <MainHand>(-0.059, 0.100, 0.065)</MainHand>
-        <SecHand>(0.072, -0.100, 0.005)</SecHand>
+        <MainHand>(-0.412, 0.100, 0.000)</MainHand>
+        <SecHand>(0.023, -0.100, 0.083)</SecHand>
         <ThingTargets>
           <li>VWE_Gun_HeavyFlamer</li>
           <!-- heavy flamer -->
         </ThingTargets>
       </li>
       <li>
-        <MainHand>(-0.036, 0.100, 0.147)</MainHand>
-        <SecHand>(0.129, -0.100, 0.069)</SecHand>
+        <MainHand>(-0.357, 0.100, 0.060)</MainHand>
+        <SecHand>(0.056, -0.100, 0.138)</SecHand>
         <ThingTargets>
           <li>VWE_Gun_SwarmMissileLauncher</li>
           <!-- swarm missile launcher -->
         </ThingTargets>
       </li>
       <li>
-        <MainHand>(-0.283, 0.100, -0.206)</MainHand>
-        <SecHand>(0.088, -0.100, -0.100)</SecHand>
+        <MainHand>(-0.412, 0.100, 0.101)</MainHand>
+        <SecHand>(-0.215, -0.100, -0.243)</SecHand>
         <ThingTargets>
           <li>VWE_Gun_UraniumSlugRifle</li>
           <!-- uranium slug rifle -->
