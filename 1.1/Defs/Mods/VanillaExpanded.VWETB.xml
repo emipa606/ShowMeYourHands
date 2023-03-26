@@ -36,7 +36,7 @@
         </ThingTargets>
       </li>
       <li>
-        <MainHand>(-0.045, 0.100, -0.239)</MainHand>
+        <MainHand>(-0.018, 0.100, -0.169)</MainHand>
         <ThingTargets>
           <li>VWE_Throwing_Shards</li>
           <!-- throwing shards -->
@@ -50,8 +50,7 @@
         </ThingTargets>
       </li>
       <li>
-        <MainHand>(-0.253, -0.100, -0.050)</MainHand>
-        <SecHand>(0.269, 0.100, -0.050)</SecHand>
+        <MainHand>(-0.027, 0.100, -0.050)</MainHand>
         <ThingTargets>
           <li>VWE_Weapon_FireBomb</li>
           <!-- fire bombs -->

@@ -30,6 +30,14 @@
         </ThingTargets>
       </li>
       <li>
+        <MainHand>(-0.165, 0.100, -0.087)</MainHand>
+        <SecHand>(0.308, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_FlintlockBlunderbuss</li>
+          <!-- flintlock blunderbuss -->
+        </ThingTargets>
+      </li>
+      <li>
         <MainHand>(-0.279, 0.100, 0.005)</MainHand>
         <SecHand>(0.202, -0.100, 0.019)</SecHand>
         <ThingTargets>

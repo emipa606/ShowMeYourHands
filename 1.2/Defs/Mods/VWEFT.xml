@@ -59,7 +59,7 @@
       </li>
       <li>
         <MainHand>(-0.403, 0.100, 0.051)</MainHand>
-        <SecHand>(-0.156, -0.100, -0.233)</SecHand>
+        <SecHand>(-0.119, -0.100, 0.138)</SecHand>
         <ThingTargets>
           <li>VWEFT_Gun_HandheldGatlingGun</li>
           <!-- handheld gatling gun -->

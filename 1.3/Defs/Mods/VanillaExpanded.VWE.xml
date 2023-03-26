@@ -6,8 +6,8 @@
     <thingClass>Thing</thingClass>
     <WeaponCompLoader>
       <li>
-        <MainHand>(-0.194, 0.100, 0.189)</MainHand>
-        <SecHand>(0.023, -0.100, -0.270)</SecHand>
+        <MainHand>(-0.224, 0.100, 0.189)</MainHand>
+        <SecHand>(0.019, -0.100, -0.334)</SecHand>
         <ThingTargets>
           <li>VWE_Gun_FireExtinguisher</li>
           <!-- fire extinguisher -->
@@ -29,8 +29,8 @@
         </ThingTargets>
       </li>
       <li>
-        <MainHand>(0.098, 0.100, -0.203)</MainHand>
-        <SecHand>(0.330, -0.100, -0.119)</SecHand>
+        <MainHand>(0.051, 0.100, -0.119)</MainHand>
+        <SecHand>(0.244, -0.100, -0.119)</SecHand>
         <ThingTargets>
           <li>Gun_DoomsdayRocket</li>
           <!-- doomsday rocket launcher -->
@@ -265,8 +265,8 @@
         </ThingTargets>
       </li>
       <li>
-        <MainHand>(0.014, 0.100, -0.180)</MainHand>
-        <SecHand>(0.204, -0.100, 0.127)</SecHand>
+        <MainHand>(-0.036, 0.100, -0.146)</MainHand>
+        <SecHand>(0.244, -0.100, -0.128)</SecHand>
         <ThingTargets>
           <li>Gun_TripleRocket</li>
           <!-- triple rocket launcher -->
@@ -281,14 +281,15 @@
         </ThingTargets>
       </li>
       <li>
-        <MainHand>(-0.025, 0.100, -0.050)</MainHand>
+        <MainHand>(-0.252, 0.100, -0.013)</MainHand>
+        <SecHand>(0.184, 0.100, -0.247)</SecHand>
         <ThingTargets>
           <li>VWE_Throwing_Rocks</li>
           <!-- throwing rocks -->
         </ThingTargets>
       </li>
       <li>
-        <MainHand>(-0.052, 0.100, -0.215)</MainHand>
+        <MainHand>(-0.004, 0.100, -0.156)</MainHand>
         <ThingTargets>
           <li>VWE_Throwing_Knives</li>
           <!-- throwing knives -->
@@ -327,7 +328,6 @@
       </li>
       <li>
         <MainHand>(-0.211, 0.100, -0.050)</MainHand>
-        <SecHand>(0.136, -0.100, -0.022)</SecHand>
         <ThingTargets>
           <li>VWE_SawedOffShotgun</li>
           <!-- sawed-off Shotgun -->
@@ -365,7 +365,8 @@
         </ThingTargets>
       </li>
       <li>
-        <MainHand>(-0.324, 0.100, 0.000)</MainHand>
+        <MainHand>(-0.302, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.105, -0.100, 0.000)</SecHand>
         <ThingTargets>
           <li>VWE_MeleeWeapon_Shovel</li>
           <!-- shovel -->
