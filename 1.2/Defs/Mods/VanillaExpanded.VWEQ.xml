@@ -13,7 +13,7 @@
         </ThingTargets>
       </li>
       <li>
-        <MainHand>(-0.190, 0.100, -0.078)</MainHand>
+        <MainHand>(-0.178, 0.100, -0.078)</MainHand>
         <SecHand>(0.175, -0.100, -0.018)</SecHand>
         <ThingTargets>
           <li>VWE_Gun_BullpupDMR</li>
@@ -21,8 +21,8 @@
         </ThingTargets>
       </li>
       <li>
-        <MainHand>(-0.219, 0.100, -0.096)</MainHand>
-        <SecHand>(-0.033, -0.100, -0.050)</SecHand>
+        <MainHand>(-0.027, 0.100, -0.114)</MainHand>
+        <SecHand>(0.234, -0.100, -0.045)</SecHand>
         <ThingTargets>
           <li>VWE_Gun_BullpupRifle</li>
           <!-- bullpup rifle -->
@@ -30,7 +30,7 @@
       </li>
       <li>
         <MainHand>(-0.026, 0.100, -0.110)</MainHand>
-        <SecHand>(0.168, -0.100, -0.133)</SecHand>
+        <SecHand>(0.267, -0.100, -0.151)</SecHand>
         <ThingTargets>
           <li>VWE_Gun_PDW</li>
           <!-- PDW -->

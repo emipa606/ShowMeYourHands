@@ -309,6 +309,29 @@
           <!-- breach axe -->
         </ThingTargets>
       </li>
+      <li>
+        <MainHand>(0.164, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.092, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>Flamebow</li>
+          <!-- flamebow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.041, 0.100, -0.100)</MainHand>
+        <ThingTargets>
+          <li>Weapon_GrenadeTox</li>
+          <!-- tox grenades -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.142, 0.100, -0.179)</MainHand>
+        <SecHand>(0.163, -0.100, -0.169)</SecHand>
+        <ThingTargets>
+          <li>Gun_ToxbombLauncher</li>
+          <!-- toxbomb launcher -->
+        </ThingTargets>
+      </li>
     </WeaponCompLoader>
   </WHands.ClutterHandsTDef>
 </Defs>

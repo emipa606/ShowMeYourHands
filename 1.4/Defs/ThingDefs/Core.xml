@@ -318,7 +318,7 @@
         </ThingTargets>
       </li>
       <li>
-        <MainHand>(-0.019, 0.100, 0.128)</MainHand>
+        <MainHand>(-0.041, 0.100, -0.100)</MainHand>
         <ThingTargets>
           <li>Weapon_GrenadeTox</li>
           <!-- tox grenades -->
