@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.4.10 - A bunch of new hand positions as well as corrections to a lot more. Thanks to pointfeev!
+
+
 1.4.9 - Should work better with the Fog Of War mod now. Moved all hand-drawning to the PostDraw override (where they should have been from the start)
 
 
