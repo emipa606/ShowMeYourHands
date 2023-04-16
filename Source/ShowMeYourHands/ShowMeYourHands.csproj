@@ -6,7 +6,7 @@
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <DebugType>None</DebugType>
     <LangVersion>latest</LangVersion>
-    <FileVersion>1.4.9</FileVersion>
+    <FileVersion>1.4.11</FileVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="ColorMine" Version="*" />

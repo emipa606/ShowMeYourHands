@@ -73,7 +73,7 @@ internal class ShowMeYourHandsMod : Mod
     /// <summary>
     ///     The private settings
     /// </summary>
-    private ShowMeYourHandsModSettings settings;
+    public readonly ShowMeYourHandsModSettings Settings;
 
     /// <summary>
     ///     Constructor
@@ -83,6 +83,7 @@ internal class ShowMeYourHandsMod : Mod
         : base(content)
     {
         instance = this;
+        Settings = GetSettings<ShowMeYourHandsModSettings>();
         ParseHelper.Parsers<SaveableVector3>.Register(SaveableVector3.FromString);
         if (instance.Settings.ManualMainHandPositions == null)
         {
@@ -91,8 +92,7 @@ internal class ShowMeYourHandsMod : Mod
         }
 
         currentVersion =
-            VersionFromManifest.GetVersionFromModMetaData(
-                ModLister.GetActiveModWithIdentifier("Mlie.ShowMeYourHands"));
+            VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
     }
 
     private static string SelectedDef
@@ -107,24 +107,6 @@ internal class ShowMeYourHandsMod : Mod
 
             selectedDef = value;
         }
-    }
-
-    /// <summary>
-    ///     The instance-settings for the mod
-    /// </summary>
-    internal ShowMeYourHandsModSettings Settings
-    {
-        get
-        {
-            if (settings == null)
-            {
-                settings = GetSettings<ShowMeYourHandsModSettings>();
-            }
-
-            return settings;
-        }
-
-        set => settings = value;
     }
 
     private static List<ThingDef> AllWeapons
@@ -787,7 +769,7 @@ internal class ShowMeYourHandsMod : Mod
         if (onlySelected)
         {
             var selectedMod = ModsConfig.ActiveModsInLoadOrder.FirstOrDefault(data => data?.Name == selectedSubDef);
-            stringBuilder.AppendLine(selectedMod is { PackageIdNonUnique: { } }
+            stringBuilder.AppendLine(selectedMod is { PackageIdNonUnique: not null }
                 ? $"  <WHands.ClutterHandsTDef MayRequire=\"{selectedMod.PackageIdNonUnique}\">"
                 : "  <WHands.ClutterHandsTDef>");
         }

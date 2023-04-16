@@ -320,12 +320,14 @@ public class HandDrawer : ThingComp
         bool aiming = false)
     {
         var flipped = false;
+        var skipMainHand = false;
+        var skipOffHand = false;
 
         if (!ShowMeYourHandsMain.weaponLocations.ContainsKey(mainHandWeapon))
         {
             if (ShowMeYourHandsMod.instance.Settings.VerboseLogging)
             {
-                Log.ErrorOnce(
+                Log.WarningOnce(
                     $"[ShowMeYourHands]: Could not find the position for {mainHandWeapon.def.label} from the mod {mainHandWeapon.def.modContentPack.Name}, equipped by {pawn.Name}. Please report this issue to the author of Show Me Your Hands if possible.",
                     mainHandWeapon.def.GetHashCode());
             }
@@ -347,7 +349,7 @@ public class HandDrawer : ThingComp
             {
                 if (ShowMeYourHandsMod.instance.Settings.VerboseLogging)
                 {
-                    Log.ErrorOnce(
+                    Log.WarningOnce(
                         $"[ShowMeYourHands]: Could not find the position for {offHandWeapon.def.label} from the mod {offHandWeapon.def.modContentPack.Name}, equipped by {pawn.Name}. Please report this issue to the author of Show Me Your Hands if possible.",
                         offHandWeapon.def.GetHashCode());
                 }
@@ -368,6 +370,7 @@ public class HandDrawer : ThingComp
 
         if (mainHandWeapon.def.IsMeleeWeapon)
         {
+            skipMainHand = ShowMeYourHandsMain.MeleeAnimationsLoaded;
             mainMelee = true;
             mainMeleeExtra = 0.0001f;
             if (idle && offHandWeapon != null) //Dual wield idle vertical
@@ -404,6 +407,7 @@ public class HandDrawer : ThingComp
 
         if (offHandWeapon?.def.IsMeleeWeapon == true)
         {
+            skipOffHand = ShowMeYourHandsMain.MeleeAnimationsLoaded;
             offMelee = true;
             offMeleeExtra = 0.0001f;
             if (idle && pawn.Rotation == Rot4.North) //Dual wield north
@@ -459,7 +463,7 @@ public class HandDrawer : ThingComp
         if (ShowMeYourHandsMod.instance.Settings.RepositionHands && mainHandWeapon.def.graphicData != null &&
             mainHandWeapon.def?.graphicData?.drawSize.x != 1f)
         {
-            if (mainHandWeapon.def is { graphicData: { } })
+            if (mainHandWeapon.def is { graphicData: not null })
             {
                 drawSize = mainHandWeapon.def.graphicData.drawSize.x;
             }
@@ -486,7 +490,7 @@ public class HandDrawer : ThingComp
 
         var mesh = ShowMeYourHandsMain.GetMeshFromPawn(pawn, flipped);
 
-        if (MainHand != Vector3.zero)
+        if (MainHand != Vector3.zero && !skipMainHand)
         {
             var x = MainHand.x * drawSize;
             var z = MainHand.z * drawSize;
@@ -509,7 +513,7 @@ public class HandDrawer : ThingComp
                 Quaternion.AngleAxis(mainHandAngle, Vector3.up), y >= 0 ? matSingle : offSingle, 0);
         }
 
-        if (OffHand == Vector3.zero || ShowMeYourHandsMain.pawnsMissingAHand.ContainsKey(pawn) &&
+        if (OffHand == Vector3.zero || skipOffHand || ShowMeYourHandsMain.pawnsMissingAHand.ContainsKey(pawn) &&
             ShowMeYourHandsMain.pawnsMissingAHand[pawn])
         {
             return;
@@ -647,7 +651,7 @@ public class HandDrawer : ThingComp
                                                                               ShowMeYourHandsMain.HandDef))).ToList();
         }
 
-        if (ShowMeYourHandsMod.instance.Settings.MatchHandAmounts && pawn.health is { hediffSet: { } })
+        if (ShowMeYourHandsMod.instance.Settings.MatchHandAmounts && pawn.health is { hediffSet: not null })
         {
             ShowMeYourHandsMain.pawnsMissingAHand[pawn] = pawn.health.hediffSet
                     .GetNotMissingParts().Count(record => record.def == ShowMeYourHandsMain.HandDef) +

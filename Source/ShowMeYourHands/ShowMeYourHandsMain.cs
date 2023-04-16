@@ -34,6 +34,8 @@ public static class ShowMeYourHandsMain
 
     public static readonly bool BabysAndChildrenLoaded;
 
+    public static readonly bool MeleeAnimationsLoaded;
+
     public static readonly MethodInfo GetBodySizeScaling;
 
     public static readonly bool OversizedWeaponLoaded;
@@ -97,13 +99,15 @@ public static class ShowMeYourHandsMain
         "RIMMSqol",
         // Projectile position
         "Mlie.BetterProjectileOrigin",
-        "Explorite.rimworld.mod.HarmonyPatches"
+        "Explorite.rimworld.mod.HarmonyPatches",
+        "rimworld.Ogliss.comps.activator"
     };
 
     static ShowMeYourHandsMain()
     {
         DualWieldLoaded = ModLister.GetActiveModWithIdentifier("Roolo.DualWield") != null;
         YayoAdoptedLoaded = ModLister.GetActiveModWithIdentifier("com.yayo.combat3") != null;
+        MeleeAnimationsLoaded = ModLister.GetActiveModWithIdentifier("co.uk.epicguru.meleeanimation") != null;
         BabysAndChildrenLoaded = ModLister.GetActiveModWithIdentifier("babies.and.children.continued") != null;
         if (BabysAndChildrenLoaded)
         {

@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.4.11 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2944488802]Melee Animation[/url] by not drawning hands when holding melee-weapons
+
+
 1.4.10 - A bunch of new hand positions as well as corrections to a lot more. Thanks to pointfeev!
 
 
