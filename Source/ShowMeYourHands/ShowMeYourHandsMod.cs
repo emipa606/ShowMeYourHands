@@ -82,18 +82,20 @@ internal class ShowMeYourHandsMod : Mod
     public ShowMeYourHandsMod(ModContentPack content)
         : base(content)
     {
+        ParseHelper.Parsers<SaveableVector3>.Register(SaveableVector3.FromString);
         instance = this;
         Settings = GetSettings<ShowMeYourHandsModSettings>();
-        ParseHelper.Parsers<SaveableVector3>.Register(SaveableVector3.FromString);
-        if (instance.Settings.ManualMainHandPositions == null)
+
+        if (Settings.ManualMainHandPositions == null)
         {
-            instance.Settings.ManualMainHandPositions = new Dictionary<string, SaveableVector3>();
-            instance.Settings.ManualOffHandPositions = new Dictionary<string, SaveableVector3>();
+            Settings.ManualMainHandPositions = new Dictionary<string, SaveableVector3>();
+            Settings.ManualOffHandPositions = new Dictionary<string, SaveableVector3>();
         }
 
         currentVersion =
             VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
     }
+
 
     private static string SelectedDef
     {
@@ -246,7 +248,7 @@ internal class ShowMeYourHandsMod : Mod
                 totalWeaponsByMod[weaponModName] = 1;
             }
 
-            if (!DefinedByDef.Contains(currentWeapon.defName) &&
+            if (DefinedByDef?.Contains(currentWeapon.defName) == false &&
                 !instance.Settings.ManualMainHandPositions.ContainsKey(currentWeapon.defName))
             {
                 continue;
@@ -756,7 +758,7 @@ internal class ShowMeYourHandsMod : Mod
         }
     }
 
-    private void CopyChangedWeapons(bool onlySelected = false)
+    private static void CopyChangedWeapons(bool onlySelected = false)
     {
         if (onlySelected && string.IsNullOrEmpty(selectedSubDef))
         {
@@ -869,14 +871,14 @@ internal class ShowMeYourHandsMod : Mod
         foreach (var thingDef in weaponsToShow)
         {
             var toolTip = "SMYH.weaponrow.red";
-            if (!DefinedByDef.Contains(thingDef.defName) &&
-                !instance.Settings.ManualMainHandPositions.ContainsKey(thingDef.defName))
+            if (DefinedByDef?.Contains(thingDef.defName) == false &&
+                Settings?.ManualMainHandPositions?.ContainsKey(thingDef.defName) == false)
             {
                 GUI.color = Color.red;
             }
             else
             {
-                if (instance.Settings.ManualMainHandPositions.ContainsKey(thingDef.defName))
+                if (Settings?.ManualMainHandPositions?.ContainsKey(thingDef.defName) == true)
                 {
                     toolTip = "SMYH.weaponrow.green";
                     GUI.color = Color.green;
@@ -919,7 +921,7 @@ internal class ShowMeYourHandsMod : Mod
         Widgets.EndScrollView();
     }
 
-    private void ResetOneWeapon(ThingDef currentDef, ref WhandCompProps compProperties)
+    private static void ResetOneWeapon(ThingDef currentDef, ref WhandCompProps compProperties)
     {
         instance.Settings.ManualMainHandPositions.Remove(currentDef.defName);
         instance.Settings.ManualOffHandPositions.Remove(currentDef.defName);
@@ -937,7 +939,7 @@ internal class ShowMeYourHandsMod : Mod
         }
     }
 
-    private Color GetColorFromPercent(decimal percent)
+    private static Color GetColorFromPercent(decimal percent)
     {
         switch (percent)
         {

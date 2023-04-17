@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.4.12 - FIxed some compatibility with performance optimizer, but having that and melee animations will not show any hands at all. I think melee animations need to rework their code for the performance optimizer mod to work as intended.
+
+
 1.4.11 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2944488802]Melee Animation[/url] by not drawning hands when holding melee-weapons
 
 

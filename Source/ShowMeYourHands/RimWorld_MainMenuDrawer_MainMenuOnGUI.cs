@@ -259,7 +259,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
     public static void LoadFromDefs(ThingDef specificDef = null)
     {
         var defs = DefDatabase<ClutterHandsTDef>.AllDefsListForReading;
-        if (specificDef == null)
+        if (ShowMeYourHandsMod.DefinedByDef == null)
         {
             ShowMeYourHandsMod.DefinedByDef = new HashSet<string>();
         }
