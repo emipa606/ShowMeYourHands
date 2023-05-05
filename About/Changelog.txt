@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.4.13 - Fixed def that ended with a number
+
+
 1.4.12 - FIxed some compatibility with performance optimizer, but having that and melee animations will not show any hands at all. I think melee animations need to rework their code for the performance optimizer mod to work as intended.
 
 

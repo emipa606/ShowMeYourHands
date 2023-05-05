@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <WHands.ClutterHandsTDef MayRequire="hlx.reinforcedmechanoids2">
-    <defName>ClutterHandsSettings_ReinforcedMechanoid2</defName>
+    <defName>ClutterHandsSettings_ReinforcedMechanoid</defName>
     <label>Weapon hand settings</label>
     <thingClass>Thing</thingClass>
     <WeaponCompLoader>
