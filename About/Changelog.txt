@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.4.14 - Added support for some eccentric tech mods
+
+
 1.4.13 - Fixed def that ended with a number
 
 
