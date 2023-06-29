@@ -42,9 +42,11 @@ public static class ShowMeYourHandsMain
 
     public static readonly bool EnableOversizedLoaded;
 
-    public static bool DualWieldLoaded;
+    public static readonly bool DualWieldLoaded;
 
-    public static bool YayoAdoptedLoaded;
+    public static readonly bool YayoAdoptedLoaded;
+
+    public static readonly bool YayoAnimationLoaded;
 
     public static readonly BodyPartDef HandDef;
 
@@ -58,6 +60,7 @@ public static class ShowMeYourHandsMain
         // Replaces weapon drawer
         "com.yayo.combat",
         "com.yayo.combat3",
+        "Mlie.YayosCombat3",
         "com.yayo.yayoAni",
         "com.yayo.yayoAni.continued",
         // Dual Wield
@@ -106,9 +109,13 @@ public static class ShowMeYourHandsMain
     static ShowMeYourHandsMain()
     {
         DualWieldLoaded = ModLister.GetActiveModWithIdentifier("Roolo.DualWield") != null;
-        YayoAdoptedLoaded = ModLister.GetActiveModWithIdentifier("com.yayo.combat3") != null;
+        YayoAdoptedLoaded = ModLister.GetActiveModWithIdentifier("com.yayo.combat3") != null ||
+                            ModLister.GetActiveModWithIdentifier("Mlie.YayosCombat3") != null;
+        YayoAnimationLoaded = ModLister.GetActiveModWithIdentifier("com.yayo.yayoAni") != null ||
+                              ModLister.GetActiveModWithIdentifier("com.yayo.yayoAni.continued") != null;
         MeleeAnimationsLoaded = ModLister.GetActiveModWithIdentifier("co.uk.epicguru.meleeanimation") != null;
         BabysAndChildrenLoaded = ModLister.GetActiveModWithIdentifier("babies.and.children.continued") != null;
+
         if (BabysAndChildrenLoaded)
         {
             var type = AccessTools.TypeByName("BabiesAndChildren.GraphicTools");
@@ -164,13 +171,73 @@ public static class ShowMeYourHandsMain
 
         harmony.PatchAll(Assembly.GetExecutingAssembly());
 
+        if (DualWieldLoaded)
+        {
+            var drawEquipmentAimingOverrideMethod =
+                AccessTools.Method("DualWield.Harmony.PawnRenderer_DrawEquipmentAiming:DrawEquipmentAimingOverride");
+            if (drawEquipmentAimingOverrideMethod == null)
+            {
+                LogMessage(
+                    "Dual Wield loaded, but failed to find method DrawEquipmentAimingOverride, will not be compatible",
+                    false, true);
+            }
+            else
+            {
+                harmony.Patch(drawEquipmentAimingOverrideMethod,
+                    new HarmonyMethod(typeof(PawnRenderer_DrawEquipmentAiming),
+                        nameof(PawnRenderer_DrawEquipmentAiming.SaveWeaponLocation)));
+                LogMessage(
+                    "Dual Wield loaded, patching for compatibility", true);
+            }
+        }
+
+        if (YayoAdoptedLoaded)
+        {
+            var drawEquipmentAimingOverrideMethod =
+                AccessTools.Method("yayoCombat.PawnRenderer_override:DrawEquipmentAiming");
+            if (drawEquipmentAimingOverrideMethod == null)
+            {
+                LogMessage(
+                    "Yayo's Combat 3 loaded, but failed to find method DrawEquipmentAiming, will not be compatible",
+                    false, true);
+            }
+            else
+            {
+                harmony.Patch(drawEquipmentAimingOverrideMethod,
+                    new HarmonyMethod(typeof(PawnRenderer_DrawEquipmentAiming),
+                        nameof(PawnRenderer_DrawEquipmentAiming.SaveWeaponLocation)));
+                LogMessage(
+                    "Yayo's Combat 3 loaded, patching for compatibility", true);
+            }
+        }
+
+        if (YayoAnimationLoaded)
+        {
+            var drawEquipmentAimingOverrideMethod =
+                AccessTools.Method("yayoAni.patch_DrawEquipmentAiming:Prefix");
+            if (drawEquipmentAimingOverrideMethod == null)
+            {
+                LogMessage(
+                    "Yayo's Animation loaded, but failed to find method patch_DrawEquipmentAiming, will not be compatible",
+                    false, true);
+            }
+            else
+            {
+                harmony.Patch(drawEquipmentAimingOverrideMethod,
+                    new HarmonyMethod(typeof(PawnRenderer_DrawEquipmentAiming),
+                        nameof(PawnRenderer_DrawEquipmentAiming.SaveWeaponLocation)));
+                LogMessage(
+                    "Yayo's Animation loaded, patching for compatibility", true);
+            }
+        }
+
         if (ModLister.GetActiveModWithIdentifier("MalteSchulze.RIMMSqol") == null)
         {
             return;
         }
 
         LogMessage(
-            "RIMMSqol loaded, will remove their destructive Prefixes for the rotation-methods");
+            "RIMMSqol loaded, will remove their destructive Prefixes for the rotation-methods", true);
         var original = typeof(Pawn_RotationTracker).GetMethod("FaceCell");
         harmony.Unpatch(original, HarmonyPatchType.Prefix, "RIMMSqol");
         original = typeof(Pawn_RotationTracker).GetMethod("Face");

@@ -21,9 +21,5 @@
   <v1.4>
     <li>/</li>
     <li>1.4</li>
-    <li IfModActive="Roolo.DualWield">DualWield/1.4</li>
-    <li IfModActive="Mlie.YayosCombat3">YayoAdapted/1.4</li>
-    <li IfModActive="com.yayo.yayoAni">YayoAnimation/1.4</li>
-    <li IfModActive="com.yayo.yayoAni.continued">YayoAnimation/1.4</li>
   </v1.4>
 </loadFolders>

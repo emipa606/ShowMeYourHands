@@ -193,7 +193,7 @@ public class HandDrawer : ThingComp
             ShowMeYourHandsMain.pawnBodySizes[pawn] = 0.8f * bodySize;
         }
 
-        var unused = HandColor;
+        _ = HandColor;
         if (handMesh == null)
         {
             handMesh = MeshMakerPlanes.NewPlaneMesh(ShowMeYourHandsMain.pawnBodySizes[pawn]);

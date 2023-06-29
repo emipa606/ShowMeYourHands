@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.4.15 - Patches moved into main assembly instead of using loadfolders
+
+
 1.4.14 - Added support for some eccentric tech mods
 
 
