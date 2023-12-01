@@ -638,24 +638,20 @@ public class HandDrawer : ThingComp
     {
         hasGloves = false;
         secondColor = default;
-        List<Hediff> addedHands = null;
+        IEnumerable<Hediff> addedHands = [];
 
         if (ShowMeYourHandsMod.instance.Settings.MatchHandAmounts ||
             ShowMeYourHandsMod.instance.Settings.MatchArtificialLimbColor)
         {
-            addedHands = pawn.health?.hediffSet?.hediffs.Where(hediff => hediff is Hediff_AddedPart addedPart &&
-                                                                         (addedPart.Part.def ==
-                                                                          ShowMeYourHandsMain.HandDef ||
-                                                                          addedPart.Part.parts.Any(record =>
-                                                                              record.def ==
-                                                                              ShowMeYourHandsMain.HandDef))).ToList();
+            addedHands = pawn.health?.hediffSet?.hediffs.Where(hediff =>
+                hediff is Hediff_AddedPart addedPart && ShowMeYourHandsMain.HediffContainsHand(addedPart.Part));
         }
 
         if (ShowMeYourHandsMod.instance.Settings.MatchHandAmounts && pawn.health is { hediffSet: not null })
         {
             ShowMeYourHandsMain.pawnsMissingAHand[pawn] = pawn.health.hediffSet
                     .GetNotMissingParts().Count(record => record.def == ShowMeYourHandsMain.HandDef) +
-                addedHands?.Count < 2;
+                addedHands?.Count() < 2;
         }
 
         if (!ShowMeYourHandsMod.instance.Settings.MatchArmorColor || !(from apparel in pawn.apparel.WornApparel

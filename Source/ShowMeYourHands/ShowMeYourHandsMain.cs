@@ -151,7 +151,6 @@ public static class ShowMeYourHandsMain
         }
 
         HandDef = DefDatabase<BodyPartDef>.GetNamedSilentFail("Hand");
-
         var partsHediffs =
             DefDatabase<HediffDef>.AllDefsListForReading.Where(def =>
                 def.hediffClass == typeof(Hediff_AddedPart) && def.spawnThingOnRemoved != null);
@@ -269,6 +268,30 @@ public static class ShowMeYourHandsMain
 
         return pawnMeshes[pawn];
     }
+
+    public static bool HediffContainsHand(BodyPartRecord addedPart)
+    {
+        if (addedPart.def == HandDef)
+        {
+            return true;
+        }
+
+        if (addedPart.parts == null || !addedPart.parts.Any())
+        {
+            return false;
+        }
+
+        foreach (var bodyPartRecord in addedPart.parts)
+        {
+            if (HediffContainsHand(bodyPartRecord))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
 
     public static Mesh GetMeshFromPawn(Pawn pawn, bool flipped)
     {
