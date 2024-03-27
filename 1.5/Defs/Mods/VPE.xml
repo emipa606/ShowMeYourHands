@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="VanillaExpanded.VPsycastsE">
+    <defName>ClutterHandsSettings_VanillaPsycastsExpanded</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.188, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>VPE_MeleeWeapon_EltexDagger</li>
+          <!-- eltex dagger -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.151, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>VPE_MeleeWeapon_EltexMace</li>
+          <!-- eltex mace -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.261, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>VPE_MeleeWeapon_EltexSword</li>
+          <!-- eltex sword -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

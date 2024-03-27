@@ -28,6 +28,9 @@ public static class ShowMeYourHandsMain
     public static Dictionary<Pawn, Mesh> handMeshes = new Dictionary<Pawn, Mesh>();
     public static Dictionary<Pawn, Mesh> flippedHandMeshes = new Dictionary<Pawn, Mesh>();
 
+    public static readonly MethodInfo CarryWaponMethod =
+        AccessTools.Method(typeof(PawnRenderUtility), nameof(PawnRenderUtility.CarryWeaponOpenly));
+
     public static readonly List<ThingDef> IsColorable;
 
     public static readonly Harmony harmony;
@@ -52,9 +55,8 @@ public static class ShowMeYourHandsMain
 
     public static readonly Dictionary<HediffDef, Color> HediffColors;
 
-    public static readonly List<string> knownPatches = new List<string>
-    {
-        // This mod
+    public static readonly List<string> knownPatches =
+    [
         "Mlie.ShowMeYourHands",
         // Yayos Combat 3
         // Replaces weapon drawer
@@ -104,7 +106,7 @@ public static class ShowMeYourHandsMain
         "Mlie.BetterProjectileOrigin",
         "Explorite.rimworld.mod.HarmonyPatches",
         "rimworld.Ogliss.comps.activator"
-    };
+    ];
 
     static ShowMeYourHandsMain()
     {

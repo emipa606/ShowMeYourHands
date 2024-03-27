@@ -49,11 +49,11 @@ internal class ShowMeYourHandsModSettings : ModSettings
 
     public void ResetManualValues()
     {
-        manualMainHandPositionsKeys = new List<string>();
-        manualMainHandPositionsValues = new List<SaveableVector3>();
+        manualMainHandPositionsKeys = [];
+        manualMainHandPositionsValues = [];
         ManualMainHandPositions = new Dictionary<string, SaveableVector3>();
-        manualOffHandPositionsKeys = new List<string>();
-        manualOffHandPositionsValues = new List<SaveableVector3>();
+        manualOffHandPositionsKeys = [];
+        manualOffHandPositionsValues = [];
         ManualOffHandPositions = new Dictionary<string, SaveableVector3>();
         RimWorld_MainMenuDrawer_MainMenuOnGUI.UpdateHandDefinitions();
     }

@@ -9,12 +9,12 @@ using WHands;
 
 namespace ShowMeYourHands;
 
-[HarmonyPatch(typeof(MainMenuDrawer), "MainMenuOnGUI")]
+[HarmonyPatch(typeof(MainMenuDrawer), nameof(MainMenuDrawer.MainMenuOnGUI))]
 public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
 {
     private static bool alreadyRun;
 
-    private static List<ThingDef> doneWeapons = new List<ThingDef>();
+    private static List<ThingDef> doneWeapons = [];
 
     [HarmonyPostfix]
     public static void MainMenuOnGUI()
@@ -28,9 +28,11 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
 
         UpdateHandDefinitions();
 
-        var original = typeof(PawnRenderer).GetMethod("DrawEquipmentAiming");
+        var original = typeof(PawnRenderUtility).GetMethod(nameof(PawnRenderUtility.DrawEquipmentAiming));
         var patches = Harmony.GetPatchInfo(original);
-        var prefix = typeof(PawnRenderer_DrawEquipmentAiming).GetMethod("SaveWeaponLocation");
+        var prefix =
+            typeof(PawnRenderer_DrawEquipmentAiming).GetMethod(nameof(PawnRenderer_DrawEquipmentAiming
+                .SaveWeaponLocation));
         if (patches is null)
         {
             ShowMeYourHandsMain.harmony.Patch(original, new HarmonyMethod(prefix, Priority.High));
@@ -49,7 +51,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
 
         foreach (var patch in patches.Prefixes.Where(patch => modifyingPatches.Contains(patch.owner)))
         {
-            ShowMeYourHandsMain.harmony.Patch(original, new HarmonyMethod(prefix, -1, null, new[] { patch.owner }));
+            ShowMeYourHandsMain.harmony.Patch(original, new HarmonyMethod(prefix, -1, null, [patch.owner]));
         }
 
         ShowMeYourHandsMain.harmony.Patch(original, new HarmonyMethod(prefix, Priority.Last));
@@ -61,16 +63,10 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
             ShowMeYourHandsMain.LogMessage($"{patches.Prefixes.Count} current active prefixes");
             foreach (var patch in patches.Prefixes.OrderByDescending(patch => patch.priority))
             {
-                if (ShowMeYourHandsMain.knownPatches.Contains(patch.owner))
-                {
-                    ShowMeYourHandsMain.LogMessage(
-                        $"Prefix - Owner: {patch.owner}, Method: {patch.PatchMethod.Name}, Prio: {patch.priority}");
-                }
-                else
-                {
-                    ShowMeYourHandsMain.LogMessage(
-                        $"There is an unexpected patch of the weapon-rendering function. This may affect hand-positions. Please report the following information to the author of the 'Show Me Your Hands'-mod\nPrefix - Owner: {patch.owner}, Method: {patch.PatchMethod.Name}, Prio: {patch.priority}");
-                }
+                ShowMeYourHandsMain.LogMessage(
+                    ShowMeYourHandsMain.knownPatches.Contains(patch.owner)
+                        ? $"Prefix - Owner: {patch.owner}, Method: {patch.PatchMethod.Name}, Prio: {patch.priority}"
+                        : $"There is an unexpected patch of the weapon-rendering function. This may affect hand-positions. Please report the following information to the author of the 'Show Me Your Hands'-mod\nPrefix - Owner: {patch.owner}, Method: {patch.PatchMethod.Name}, Prio: {patch.priority}");
             }
         }
 
@@ -98,7 +94,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
 
     public static void UpdateHandDefinitions()
     {
-        doneWeapons = new List<ThingDef>();
+        doneWeapons = [];
         var currentStage = "LoadFromSettings";
 
         try
@@ -261,7 +257,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
         var defs = DefDatabase<ClutterHandsTDef>.AllDefsListForReading;
         if (ShowMeYourHandsMod.DefinedByDef == null)
         {
-            ShowMeYourHandsMod.DefinedByDef = new HashSet<string>();
+            ShowMeYourHandsMod.DefinedByDef = [];
         }
 
         foreach (var handsTDef in defs)

@@ -4,8 +4,9 @@ using Verse;
 
 namespace ShowMeYourHands;
 
-[HarmonyPatch(typeof(PawnRenderer), "DrawCarriedThing", typeof(Pawn), typeof(Vector3), typeof(Thing))]
-public static class PawnRenderer_DrawCarriedThing
+[HarmonyPatch(typeof(PawnRenderUtility), nameof(PawnRenderUtility.DrawCarriedThing), typeof(Pawn), typeof(Vector3),
+    typeof(Thing))]
+public static class PawnRenderUtility_DrawCarriedThing
 {
     public static void Postfix(Vector3 drawLoc, Pawn pawn, Thing carriedThing)
     {
@@ -25,15 +26,15 @@ public static class PawnRenderer_DrawCarriedThing
             return;
         }
 
-        PawnRenderer.CalculateCarriedDrawPos(pawn, carriedThing, ref drawLoc, out var behind, out var flip);
-        if (behind)
-        {
-            drawLoc.y -= 0.03474903f;
-        }
-        else
-        {
-            drawLoc.y += 0.06474903f;
-        }
+        PawnRenderUtility.CalculateCarriedDrawPos(pawn, carriedThing, ref drawLoc, out var flip);
+        //if (behind)
+        //{
+        //    drawLoc.y -= 0.03474903f;
+        //}
+        //else
+        //{
+        //    drawLoc.y += 0.06474903f;
+        //}
 
         if (flip)
         {

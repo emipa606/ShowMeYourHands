@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="CETeam.CombatExtendedGuns">
+    <defName>ClutterHandsSettings_CombatExtendedGuns</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.247, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_ChargeAMR</li>
+          <!-- A-12 charge anti-materiel rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.174, 0.100, 0.023)</MainHand>
+        <SecHand>(0.170, -0.100, 0.069)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_AKM</li>
+          <!-- AKM -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.142, 0.100, -0.018)</MainHand>
+        <SecHand>(0.225, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_Crossbow</li>
+          <!-- crossbow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.087)</MainHand>
+        <SecHand>(0.308, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_FlintlockBlunderbuss</li>
+          <!-- flintlock blunderbuss -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.279, 0.100, 0.005)</MainHand>
+        <SecHand>(0.202, -0.100, 0.019)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_FlintlockMusket</li>
+          <!-- flintlock musket -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.146, 0.100, -0.027)</MainHand>
+        <ThingTargets>
+          <li>CE_Gun_FlintlockPistol</li>
+          <!-- flintlock pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.188, 0.100, -0.018)</MainHand>
+        <SecHand>(0.179, -0.100, 0.014)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_FNFAL</li>
+          <!-- FN FAL -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.073)</MainHand>
+        <SecHand>(0.106, -0.100, -0.041)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_HecateTwo</li>
+          <!-- Hecate II -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.091)</MainHand>
+        <SecHand>(0.124, -0.100, -0.078)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_ChargeLMG</li>
+          <!-- L-8 charge LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.188, 0.100, -0.050)</MainHand>
+        <SecHand>(0.133, -0.100, -0.018)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_MSixty</li>
+          <!-- M60E6 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.036)</MainHand>
+        <SecHand>(0.111, -0.100, -0.013)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_MTwoFourNine</li>
+          <!-- M249 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.201, 0.100, -0.114)</MainHand>
+        <SecHand>(0.239, -0.100, -0.128)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_MilkorMGL</li>
+          <!-- Milkor MGL -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.114, 0.100, -0.091)</MainHand>
+        <ThingTargets>
+          <li>CE_Gun_ChargePistol</li>
+          <!-- P-10 charge pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.197, 0.100, -0.041)</MainHand>
+        <SecHand>(0.138, -0.100, -0.027)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_PKM</li>
+          <!-- PKM -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.311, 0.100, 0.037)</MainHand>
+        <SecHand>(0.166, -0.100, 0.028)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_PTRS</li>
+          <!-- PTRS-41 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.247, 0.100, -0.082)</MainHand>
+        <SecHand>(0.138, -0.100, -0.087)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_ChargeSniperRifle</li>
+          <!-- R-8 charge sniper rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.325, 0.100, -0.096)</MainHand>
+        <SecHand>(0.088, -0.100, -0.059)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_Flamethrower</li>
+          <!-- RM2 Flamethrower -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.013)</MainHand>
+        <SecHand>(0.083, -0.100, 0.033)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_RPD</li>
+          <!-- RPD -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.211, 0.100, -0.050)</MainHand>
+        <SecHand>(0.078, -0.100, -0.082)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_RPGSeven</li>
+          <!-- RPG-7 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.123, 0.100, -0.018)</MainHand>
+        <ThingTargets>
+          <li>CE_Gun_SWGovernor</li>
+          <!-- S&W Governor -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.169, 0.100, -0.027)</MainHand>
+        <SecHand>(0.317, -0.100, -0.013)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_ChargeShotgun</li>
+          <!-- S-12 charge shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.073, 0.100, -0.096)</MainHand>
+        <SecHand>(0.133, -0.100, -0.114)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_ChargeSMG</li>
+          <!-- S-6 charge SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.078)</MainHand>
+        <SecHand>(0.120, -0.100, -0.036)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_SVD</li>
+          <!-- SVD -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.174, 0.100, -0.018)</MainHand>
+        <SecHand>(0.166, -0.100, 0.042)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_USASTwelve</li>
+          <!-- USAS-12 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.174, 0.100, -0.013)</MainHand>
+        <SecHand>(0.065, -0.100, -0.009)</SecHand>
+        <ThingTargets>
+          <li>CE_Gun_WinchesterNintyFour</li>
+          <!-- Winchester 94 -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

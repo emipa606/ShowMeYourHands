@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="projectjedi.lightsabers">
+    <defName>ClutterHandsSettings_StarWarsFullyFunctionalLightsabersContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(0.002, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>SWSaber_Inquis</li>
+          <!-- double lightsaber (Inquisitor) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.005, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>SWSaber_JGuard</li>
+          <!-- Honor Guard Saberstaff -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.183)</MainHand>
+        <ThingTargets>
+          <li>SWSaber_Ahsokasaber</li>
+          <!-- lightsaber (Ahsoka Tano) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.181, 0.100, -0.028)</MainHand>
+        <ThingTargets>
+          <li>SWSaber_KyloSaber</li>
+          <!-- lightsaber (cross hilt) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.131, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>SWSaber_DookuSaber</li>
+          <!-- lightsaber (curved hilt) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.163, 0.100, -0.220)</MainHand>
+        <ThingTargets>
+          <li>SWSaber_Darksaber</li>
+          <!-- lightsaber (Darksaber) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.089, 0.100, 0.064)</MainHand>
+        <ThingTargets>
+          <li>SWSaber_Doublesaber</li>
+          <!-- lightsaber (double) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.172, 0.100, -0.014)</MainHand>
+        <ThingTargets>
+          <li>SWSaber_ElectrumSaber</li>
+          <!-- lightsaber (electrum hilt) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.188)</MainHand>
+        <ThingTargets>
+          <li>SWSaber_MaceSaber</li>
+          <!-- lightsaber (Mace Windu) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.204, 0.100, -0.014)</MainHand>
+        <ThingTargets>
+          <li>SWSaber_ObiSaber</li>
+          <!-- lightsaber (old style hilt) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.177, 0.100, -0.028)</MainHand>
+        <ThingTargets>
+          <li>SWSaber_Lightsaber</li>
+          <!-- lightsaber (prototype) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.178, 0.100, -0.234)</MainHand>
+        <ThingTargets>
+          <li>SWSaber_Quigon</li>
+          <!-- lightsaber (Qui-Gon Jinn) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.076, 0.100, -0.179)</MainHand>
+        <ThingTargets>
+          <li>SWSaber_Yodasaber</li>
+          <!-- lightsaber (Yoda) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.291, 0.100, -0.275)</MainHand>
+        <ThingTargets>
+          <li>SWSaber_SaberPike</li>
+          <!-- lightsaber pike -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

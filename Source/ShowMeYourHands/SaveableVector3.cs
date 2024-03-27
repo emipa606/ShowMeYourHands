@@ -28,12 +28,11 @@ internal class SaveableVector3
 
     public override string ToString()
     {
-        return string.Format("({0:F3}, {1:F3}, {2:F3})", new object[]
-        {
+        return string.Format("({0:F3}, {1:F3}, {2:F3})", [
             x,
             y,
             z
-        });
+        ]);
     }
 
     public static SaveableVector3 FromString(string Str)

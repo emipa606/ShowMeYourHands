@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.StarshipTroopersWeapons">
+    <defName>ClutterHandsSettings_StarshipTroopersWeaponsContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.126, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_SSTCombatKnife</li>
+          <!-- (SST) Combat knife -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.112, 0.100, -0.156)</MainHand>
+        <SecHand>(0.200, -0.100, -0.096)</SecHand>
+        <ThingTargets>
+          <li>Gun_SSTM55RocketLauncher</li>
+          <!-- (SST) M55 Rocket Launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.204, 0.100, -0.050)</MainHand>
+        <SecHand>(0.255, -0.100, -0.087)</SecHand>
+        <ThingTargets>
+          <li>Gun_SSTMoritaM34Shotgun</li>
+          <!-- (SST) Morita M34 Shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.119)</MainHand>
+        <SecHand>(0.287, -0.100, -0.073)</SecHand>
+        <ThingTargets>
+          <li>SST_MoritaMK1Gun</li>
+          <!-- (SST) Morita Mk1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.126, 0.100, -0.114)</MainHand>
+        <SecHand>(0.200, -0.100, -0.073)</SecHand>
+        <ThingTargets>
+          <li>SST_MoritaMK1CarbineGun</li>
+          <!-- (SST) Morita MK1 (Carbine) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.181, 0.100, -0.133)</MainHand>
+        <SecHand>(0.306, -0.100, -0.082)</SecHand>
+        <ThingTargets>
+          <li>SST_MoritaMK1ScopedGun</li>
+          <!-- (SST) Morita MK1 (Scoped) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.181, 0.100, -0.100)</MainHand>
+        <SecHand>(0.260, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>SST_MoritaMK3Gun</li>
+          <!-- (SST) Morita Mk3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.154, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_SSTSpade</li>
+          <!-- (SST) Spade -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

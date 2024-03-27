@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="rimsenal.EVP">
+    <defName>ClutterHandsSettings_RimsenalEnhancedVanillaPack</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.222, 0.100, -0.050)</MainHand>
+        <SecHand>(0.117, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_FR</li>
+          <!-- frontier rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.328, 0.100, -0.114)</MainHand>
+        <SecHand>(0.193, -0.100, -0.110)</SecHand>
+        <ThingTargets>
+          <li>Gun_RSAMRifle</li>
+          <!-- anti-materiel rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.172, 0.100, -0.087)</MainHand>
+        <SecHand>(0.232, -0.100, -0.137)</SecHand>
+        <ThingTargets>
+          <li>Gun_AssaultCharger</li>
+          <!-- assault charger -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.287, 0.100, -0.119)</MainHand>
+        <SecHand>(0.136, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_AutomaticRifle</li>
+          <!-- automatic rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.197, 0.100, -0.110)</MainHand>
+        <SecHand>(0.106, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_RSBattleRifle</li>
+          <!-- battle rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.177, 0.100, 0.225)</MainHand>
+        <SecHand>(0.168, -0.100, 0.202)</SecHand>
+        <ThingTargets>
+          <li>Gun_Blowgun</li>
+          <!-- blowgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.216, 0.100, -0.114)</MainHand>
+        <SecHand>(0.202, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_BurstCharger</li>
+          <!-- burst charger -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.050)</MainHand>
+        <SecHand>(0.252, -0.100, 0.023)</SecHand>
+        <ThingTargets>
+          <li>Gun_RSCarbine</li>
+          <!-- carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.151)</MainHand>
+        <SecHand>(0.232, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_ChargeDriver</li>
+          <!-- charge driver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.082)</MainHand>
+        <ThingTargets>
+          <li>Gun_ChargeSidearm</li>
+          <!-- charge sidearm -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.033, 0.100, 0.000)</MainHand>
+        <SecHand>(0.156, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>Bow_Compound</li>
+          <!-- compound bow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.206, 0.100, -0.156)</MainHand>
+        <SecHand>(0.049, -0.100, -0.082)</SecHand>
+        <ThingTargets>
+          <li>Gun_EMPRifle</li>
+          <!-- EMP discharger -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.229, 0.100, -0.082)</MainHand>
+        <ThingTargets>
+          <li>Gun_PistolHeavyRevolver</li>
+          <!-- heavy revolver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.128)</MainHand>
+        <SecHand>(0.143, -0.100, -0.073)</SecHand>
+        <ThingTargets>
+          <li>Gun_MilitiaRifle</li>
+          <!-- militia rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.128)</MainHand>
+        <SecHand>(0.124, -0.100, -0.068)</SecHand>
+        <ThingTargets>
+          <li>Gun_Repeater</li>
+          <!-- repeating rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.211)</MainHand>
+        <SecHand>(0.175, -0.100, -0.146)</SecHand>
+        <ThingTargets>
+          <li>Gun_ScatterCharger</li>
+          <!-- scatter charger -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.266, 0.100, -0.160)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>SmartMG</li>
+          <!-- smart machine gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>Gun_SmartPistol</li>
+          <!-- smart pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.238, 0.100, -0.119)</MainHand>
+        <SecHand>(0.110, -0.100, -0.095)</SecHand>
+        <ThingTargets>
+          <li>Gun_SmartRifle</li>
+          <!-- smart rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.102, 0.100, -0.082)</MainHand>
+        <SecHand>(0.150, -0.100, -0.032)</SecHand>
+        <ThingTargets>
+          <li>Gun_SMG</li>
+          <!-- smart SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.319, 0.100, -0.114)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SmartSniperRifle</li>
+          <!-- smart sniper rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.024, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Weapon_GrenadeSmoke</li>
+          <!-- smoke grenades -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.004, 0.100, -0.156)</MainHand>
+        <ThingTargets>
+          <li>Gun_ThrowingAxes</li>
+          <!-- throwing axes -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.087, 0.100, -0.188)</MainHand>
+        <ThingTargets>
+          <li>Gun_ThrowingClubs</li>
+          <!-- throwing clubs -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

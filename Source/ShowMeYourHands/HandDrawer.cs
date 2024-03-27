@@ -146,7 +146,7 @@ public class HandDrawer : ThingComp
             return;
         }
 
-        if (!pawn.Drawer.renderer.CarryWeaponOpenly())
+        if ((bool)ShowMeYourHandsMain.CarryWaponMethod.Invoke(pawn.Drawer.renderer, [pawn]) == false)
         {
             return;
         }
@@ -186,7 +186,7 @@ public class HandDrawer : ThingComp
 
                 if (ShowMeYourHandsMain.BabysAndChildrenLoaded && ShowMeYourHandsMain.GetBodySizeScaling != null)
                 {
-                    bodySize = (float)ShowMeYourHandsMain.GetBodySizeScaling.Invoke(null, new object[] { pawn });
+                    bodySize = (float)ShowMeYourHandsMain.GetBodySizeScaling.Invoke(null, [pawn]);
                 }
             }
 
@@ -275,14 +275,14 @@ public class HandDrawer : ThingComp
 
                 if (ShowMeYourHandsMain.BabysAndChildrenLoaded && ShowMeYourHandsMain.GetBodySizeScaling != null)
                 {
-                    bodySize = (float)ShowMeYourHandsMain.GetBodySizeScaling.Invoke(null, new object[] { pawn });
+                    bodySize = (float)ShowMeYourHandsMain.GetBodySizeScaling.Invoke(null, [pawn]);
                 }
             }
 
             ShowMeYourHandsMain.pawnBodySizes[pawn] = 0.8f * bodySize;
         }
 
-        var unused = HandColor;
+        _ = HandColor;
         var mesh = ShowMeYourHandsMain.GetMeshFromPawn(pawn);
         var mainHandTex = ShowMeYourHandsMain.mainHandGraphics[pawn];
         var offHandTex = ShowMeYourHandsMain.offHandGraphics[pawn];
@@ -323,7 +323,7 @@ public class HandDrawer : ThingComp
         var skipMainHand = false;
         var skipOffHand = false;
 
-        if (!ShowMeYourHandsMain.weaponLocations.ContainsKey(mainHandWeapon))
+        if (!ShowMeYourHandsMain.weaponLocations.TryGetValue(mainHandWeapon, out var location))
         {
             if (ShowMeYourHandsMod.instance.Settings.VerboseLogging)
             {
@@ -335,7 +335,7 @@ public class HandDrawer : ThingComp
             return;
         }
 
-        var mainWeaponLocation = ShowMeYourHandsMain.weaponLocations[mainHandWeapon].Item1;
+        var mainWeaponLocation = location.Item1;
         var mainHandAngle = ShowMeYourHandsMain.weaponLocations[mainHandWeapon].Item2;
         var offhandWeaponLocation = Vector3.zero;
         var offHandAngle = mainHandAngle;
@@ -438,7 +438,7 @@ public class HandDrawer : ThingComp
         mainHandAngle %= 360f;
         offHandAngle %= 360f;
 
-        var unused = HandColor;
+        _ = HandColor;
 
         if (!ShowMeYourHandsMain.mainHandGraphics.ContainsKey(pawn) ||
             !ShowMeYourHandsMain.offHandGraphics.ContainsKey(pawn))
@@ -481,7 +481,7 @@ public class HandDrawer : ThingComp
 
                 if (ShowMeYourHandsMain.BabysAndChildrenLoaded && ShowMeYourHandsMain.GetBodySizeScaling != null)
                 {
-                    bodySize = (float)ShowMeYourHandsMain.GetBodySizeScaling.Invoke(null, new object[] { pawn });
+                    bodySize = (float)ShowMeYourHandsMain.GetBodySizeScaling.Invoke(null, [pawn]);
                 }
             }
 
@@ -672,14 +672,14 @@ public class HandDrawer : ThingComp
 
             foreach (var hediffAddedPart in addedHands)
             {
-                if (!ShowMeYourHandsMain.HediffColors.ContainsKey(hediffAddedPart.def))
+                if (!ShowMeYourHandsMain.HediffColors.TryGetValue(hediffAddedPart.def, out var hediffColor))
                 {
                     continue;
                 }
 
                 if (mainColor == default)
                 {
-                    mainColor = ShowMeYourHandsMain.HediffColors[hediffAddedPart.def];
+                    mainColor = hediffColor;
                     continue;
                 }
 

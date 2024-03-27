@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.HarrowedLight">
+    <defName>ClutterHandsSettings_HarrowedLight</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.284)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Banner</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.243)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_CandleHolder</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.264, 0.100, -0.110)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_ChampionFlail</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.349)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_ChampionSword</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.230, 0.100, -0.165)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Crosier</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.045, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Gun_HarrowFistShotgun</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.242, 0.100, -0.330)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Fulger</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.083, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Weapon_HolyFire</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.153, 0.100, -0.344)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_OcelotRifle</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.043, 0.100, -0.174)</MainHand>
+        <SecHand>(0.241, -0.100, -0.183)</SecHand>
+        <ThingTargets>
+          <li>Gun_HarrowPurifier</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.030, 0.100, -0.335)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Stake</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.053, 0.100, -0.215)</MainHand>
+        <SecHand>(0.200, -0.100, 0.023)</SecHand>
+        <ThingTargets>
+          <li>Gun_TheCure</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.085, 0.100, 0.156)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Thurible</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.300, 0.100, -0.206)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Whip</li>
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

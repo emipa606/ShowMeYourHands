@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Eastern.Armory.Geminingen">
+    <defName>ClutterHandsSettings_AncientEasternArmory</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.222, 0.100, -0.220)</MainHand>
+        <SecHand>(-0.385, -0.100, -0.344)</SecHand>
+        <ThingTargets>
+          <li>Ancient_GuanDo</li>
+          <!-- Guan Do -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.232, 0.100, -0.220)</MainHand>
+        <SecHand>(-0.358, -0.100, -0.348)</SecHand>
+        <ThingTargets>
+          <li>Ancient_SamuraiYari</li>
+          <!-- Samurai Yari -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.243, 0.100, -0.247)</MainHand>
+        <SecHand>(-0.394, -0.100, -0.357)</SecHand>
+        <ThingTargets>
+          <li>Ancient_TwoHandedFlair</li>
+          <!-- Two Handed Flair -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

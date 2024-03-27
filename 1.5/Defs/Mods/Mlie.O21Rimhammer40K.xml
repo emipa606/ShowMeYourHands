@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.O21Rimhammer40K">
+    <defName>ClutterHandsSettings_O21Rimhammer40KContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(0.007, 0.100, 0.408)</MainHand>
+        <ThingTargets>
+          <li>Amasec</li>
+          <!-- amasec -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.076, 0.100, -0.050)</MainHand>
+        <SecHand>(0.205, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>OrkBigShoota</li>
+          <!-- Big Shoota -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.083, 0.100, -0.083)</MainHand>
+        <ThingTargets>
+          <li>BoltPistol</li>
+          <!-- Bolt Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.126, 0.100, -0.110)</MainHand>
+        <ThingTargets>
+          <li>SMBoltGun</li>
+          <!-- Bolter -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.346, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>Chainsword</li>
+          <!-- Chainsword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.323, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CommissarSword</li>
+          <!-- commissar sword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.007, 0.100, 0.183)</MainHand>
+        <ThingTargets>
+          <li>Dammassine</li>
+          <!-- dammassine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.410, 0.100, -0.050)</MainHand>
+        <SecHand>(0.104, -0.100, -0.091)</SecHand>
+        <ThingTargets>
+          <li>O21_MiningLaser</li>
+          <!-- dvarlock pattern mining laser -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.149, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.032)</SecHand>
+        <ThingTargets>
+          <li>EldarRangerLongrifle</li>
+          <!-- Eldar Longrifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.452, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>EldarPowerSword</li>
+          <!-- Eldar Power Sword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.187, 0.100, -0.183)</MainHand>
+        <SecHand>(-0.002, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>O21_SingingSpear</li>
+          <!-- Eldar Singing Spear -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.115)</MainHand>
+        <ThingTargets>
+          <li>KriegShovel</li>
+          <!-- entrenching tool -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.007, 0.100, 0.170)</MainHand>
+        <ThingTargets>
+          <li>EstufagemiWine</li>
+          <!-- estufagemi wine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.096)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>SMFlamer</li>
+          <!-- Flamer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.010, 0.100, 0.193)</MainHand>
+        <ThingTargets>
+          <li>Gleece</li>
+          <!-- gleece -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.007, 0.100, 0.179)</MainHand>
+        <ThingTargets>
+          <li>GorskWhiteGyn</li>
+          <!-- gorsk white gyn -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Hellgun</li>
+          <!-- Hellgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.278, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>NecronHyperphaseSword</li>
+          <!-- Hyperphase Sword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.222, 0.100, -0.137)</MainHand>
+        <SecHand>(0.200, -0.100, -0.078)</SecHand>
+        <ThingTargets>
+          <li>O21_CivilianAutogun</li>
+          <!-- imperial autogun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.263, 0.100, -0.147)</MainHand>
+        <ThingTargets>
+          <li>O21_HandFlamer</li>
+          <!-- imperial hand flamer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.329, 0.100, -0.137)</MainHand>
+        <SecHand>(0.044, -0.100, -0.087)</SecHand>
+        <ThingTargets>
+          <li>O21_CivilianSniperRifle</li>
+          <!-- imperial sniper rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.050)</MainHand>
+        <SecHand>(0.122, -0.100, -0.022)</SecHand>
+        <ThingTargets>
+          <li>LasGun</li>
+          <!-- Kantrael Pattern Lasrifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.242, 0.100, -0.068)</MainHand>
+        <SecHand>(0.072, -0.100, -0.027)</SecHand>
+        <ThingTargets>
+          <li>KriegAntiMatRifle</li>
+          <!-- Krieg Anti-Material Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.253, 0.100, -0.078)</MainHand>
+        <SecHand>(0.120, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>KriegShotgun</li>
+          <!-- Krieg Shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.181, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>KrootBlade</li>
+          <!-- kroot blade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.176, 0.100, -0.201)</MainHand>
+        <SecHand>(0.200, -0.100, -0.156)</SecHand>
+        <ThingTargets>
+          <li>KrootRifle</li>
+          <!-- Kroot Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.098, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>LasPistol</li>
+          <!-- Laspistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.050)</MainHand>
+        <SecHand>(0.122, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>LongLas</li>
+          <!-- Long-Las -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.059)</MainHand>
+        <SecHand>(0.159, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>KriegLasCarbine</li>
+          <!-- Lucius no.98 Pattern Lasrifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.136, 0.100, -0.105)</MainHand>
+        <SecHand>(0.150, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>LasGunValhallan</li>
+          <!-- M35 Standard Lasrifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.258, 0.100, -0.114)</MainHand>
+        <SecHand>(0.122, -0.100, -0.082)</SecHand>
+        <ThingTargets>
+          <li>SMMeltaGun</li>
+          <!-- MeltaGun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.440, 0.100, -0.123)</MainHand>
+        <SecHand>(-0.020, -0.100, 0.179)</SecHand>
+        <ThingTargets>
+          <li>NecronGaussBlaster</li>
+          <!-- Necron Gauss Blaster -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.428, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>NecronGaussFlayer</li>
+          <!-- Necron Gauss Flayer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.144, 0.100, -0.123)</MainHand>
+        <SecHand>(0.044, -0.100, 0.033)</SecHand>
+        <ThingTargets>
+          <li>NecronStaffOfLight</li>
+          <!-- Necron Staff Of Light -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.082)</MainHand>
+        <SecHand>(0.140, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>NecronSynapticDisintegrator</li>
+          <!-- Necron Synaptic Disintegrator -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.002, 0.100, 0.188)</MainHand>
+        <ThingTargets>
+          <li>OldFoiz</li>
+          <!-- old-foiz -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, 0.055)</MainHand>
+        <SecHand>(-0.073, -0.100, 0.050)</SecHand>
+        <ThingTargets>
+          <li>OrkBigChoppa</li>
+          <!-- Ork Big Choppa -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.341, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>OrkCrudeChoppa</li>
+          <!-- Ork Crude Choppa -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.254, 0.100, -0.105)</MainHand>
+        <SecHand>(0.127, -0.100, -0.082)</SecHand>
+        <ThingTargets>
+          <li>O21_PlasmaGun</li>
+          <!-- Plasma Gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.232, -0.100, -0.147)</MainHand>
+        <ThingTargets>
+          <li>SMPowerFist</li>
+          <!-- Power Fist -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.007, 0.100, 0.193)</MainHand>
+        <ThingTargets>
+          <li>Raenka</li>
+          <!-- raenka -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.007, 0.100, 0.188)</MainHand>
+        <ThingTargets>
+          <li>Rahzvod</li>
+          <!-- rahzvod -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.146)</SecHand>
+        <ThingTargets>
+          <li>O21_IG_RipperGun</li>
+          <!-- ripper gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.012, 0.100, 0.193)</MainHand>
+        <ThingTargets>
+          <li>Rotgut</li>
+          <!-- rotgut -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.133, 0.100, -0.115)</MainHand>
+        <ThingTargets>
+          <li>OrkShoota</li>
+          <!-- Shoota -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.331, 0.100, -0.050)</MainHand>
+        <SecHand>(0.044, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Eldar_Gun_EShurikenCatapult</li>
+          <!-- Shuriken Catapult -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.069, 0.100, -0.096)</MainHand>
+        <ThingTargets>
+          <li>EldarShurikenPistol</li>
+          <!-- Shuriken Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.132, 0.100, -0.087)</MainHand>
+        <ThingTargets>
+          <li>OrkSlugga</li>
+          <!-- Slugga -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.011, 0.100, 0.170)</MainHand>
+        <ThingTargets>
+          <li>SpiritTonic</li>
+          <!-- spirit tonic -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.328, 0.100, -0.018)</MainHand>
+        <SecHand>(0.228, -0.100, -0.004)</SecHand>
+        <ThingTargets>
+          <li>TauBurstCannon</li>
+          <!-- Tau Burst Cannon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.158, 0.100, -0.050)</MainHand>
+        <SecHand>(0.374, -0.100, -0.147)</SecHand>
+        <ThingTargets>
+          <li>TauIonRifle</li>
+          <!-- Tau Ion Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.282, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.068)</SecHand>
+        <ThingTargets>
+          <li>TauNeutronBlaster</li>
+          <!-- Tau Neutron Blaster -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.066, 0.100, -0.050)</MainHand>
+        <SecHand>(0.296, -0.100, -0.133)</SecHand>
+        <ThingTargets>
+          <li>TauPulseCarbine</li>
+          <!-- Tau Pulse Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.309, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>TauPulseRifle</li>
+          <!-- Tau Pulse Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.286, 0.100, -0.078)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>TauRailRifle</li>
+          <!-- Tau Rail Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.178, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>EldarTwinShurikenPistol</li>
+          <!-- Twin Shuriken Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.158, 0.100, -0.078)</MainHand>
+        <ThingTargets>
+          <li>VossLasGun</li>
+          <!-- Voss Pattern Lasgun -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

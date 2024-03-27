@@ -239,13 +239,9 @@ internal class ShowMeYourHandsMod : Mod
                 weaponModName = "SMYH.unknown".Translate();
             }
 
-            if (totalWeaponsByMod.ContainsKey(weaponModName))
+            if (!totalWeaponsByMod.TryAdd(weaponModName, 1))
             {
                 totalWeaponsByMod[weaponModName]++;
-            }
-            else
-            {
-                totalWeaponsByMod[weaponModName] = 1;
             }
 
             if (DefinedByDef?.Contains(currentWeapon.defName) == false &&
@@ -254,13 +250,9 @@ internal class ShowMeYourHandsMod : Mod
                 continue;
             }
 
-            if (fixedWeaponsByMod.ContainsKey(weaponModName))
+            if (!fixedWeaponsByMod.TryAdd(weaponModName, 1))
             {
                 fixedWeaponsByMod[weaponModName]++;
-            }
-            else
-            {
-                fixedWeaponsByMod[weaponModName] = 1;
             }
         }
     }
@@ -483,7 +475,7 @@ internal class ShowMeYourHandsMod : Mod
                                             ResetOneWeapon(weaponDef, ref whandCompProps);
                                         }
 
-                                        selectedHasManualDefs = new List<string>();
+                                        selectedHasManualDefs = [];
                                         UpdateWeaponStatistics();
                                     }));
                             }, "SMYH.resetselected.button".Translate(),
@@ -666,11 +658,11 @@ internal class ShowMeYourHandsMod : Mod
                 if (!currentNoHands)
                 {
                     listing_Standard.Label("SMYH.mainhandhorizontal.label".Translate());
-                    currentMainHand.x = Widgets.HorizontalSlider_NewTemp(listing_Standard.GetRect(20),
+                    currentMainHand.x = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
                         currentMainHand.x, -0.5f, 0.5f, false,
                         currentMainHand.x.ToString(), null, null, 0.001f);
                     lastMainLabel = listing_Standard.Label("SMYH.mainhandvertical.label".Translate());
-                    currentMainHand.z = Widgets.HorizontalSlider_NewTemp(listing_Standard.GetRect(20),
+                    currentMainHand.z = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
                         currentMainHand.z, -0.5f, 0.5f, false,
                         currentMainHand.z.ToString(), null, null, 0.001f);
                     listing_Standard.Gap();
@@ -686,11 +678,11 @@ internal class ShowMeYourHandsMod : Mod
                     listing_Standard.NewColumn();
                     listing_Standard.Gap(262);
                     listing_Standard.Label("SMYH.offhandhorizontal.label".Translate());
-                    currentOffHand.x = Widgets.HorizontalSlider_NewTemp(listing_Standard.GetRect(20),
+                    currentOffHand.x = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
                         currentOffHand.x, -0.5f, 0.5f, false,
                         currentOffHand.x.ToString(), null, null, 0.001f);
                     listing_Standard.Label("SMYH.offhandvertical.label".Translate());
-                    currentOffHand.z = Widgets.HorizontalSlider_NewTemp(listing_Standard.GetRect(20),
+                    currentOffHand.z = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
                         currentOffHand.z, -0.5f, 0.5f, false,
                         currentOffHand.z.ToString(), null, null, 0.001f);
                     listing_Standard.Gap();
@@ -867,7 +859,7 @@ internal class ShowMeYourHandsMod : Mod
         }
 
         listing_Standard.ListItemSelectable(null, Color.yellow, out _);
-        selectedHasManualDefs = new List<string>();
+        selectedHasManualDefs = [];
         foreach (var thingDef in weaponsToShow)
         {
             var toolTip = "SMYH.weaponrow.red";

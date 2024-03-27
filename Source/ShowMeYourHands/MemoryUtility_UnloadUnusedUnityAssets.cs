@@ -6,7 +6,7 @@ using Verse.Profile;
 
 namespace ShowMeYourHands;
 
-[HarmonyPatch(typeof(MemoryUtility), "UnloadUnusedUnityAssets")]
+[HarmonyPatch(typeof(MemoryUtility), nameof(MemoryUtility.UnloadUnusedUnityAssets))]
 public static class MemoryUtility_UnloadUnusedUnityAssets
 {
     public static void Postfix()

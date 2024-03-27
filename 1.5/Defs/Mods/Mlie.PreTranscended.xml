@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.PreTranscended">
+    <defName>ClutterHandsSettings_PreTranscendedContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.170)</MainHand>
+        <ThingTargets>
+          <li>PT_Sword</li>
+          <!-- blazephaserblade -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

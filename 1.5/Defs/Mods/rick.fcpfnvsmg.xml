@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="rick.fcpfnvsmg">
+    <defName>ClutterHandsSettings_FCPFalloutNewVegasSubmachineGuns</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.101, 0.100, -0.082)</MainHand>
+        <SecHand>(0.037, -0.100, -0.137)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_45_Auto_SMG</li>
+          <!-- .45 Auto SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.176, 0.100, -0.096)</MainHand>
+        <SecHand>(0.120, -0.100, -0.059)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_10mmSMG</li>
+          <!-- 10mm SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.207, 0.100, -0.082)</MainHand>
+        <SecHand>(0.163, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_125mm_SMG</li>
+          <!-- 12.5mm SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.124, 0.100, -0.045)</MainHand>
+        <SecHand>(0.138, -0.100, -0.106)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_9mm_SMG</li>
+          <!-- 9mm SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.148, 0.100, -0.028)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_HH_Tools_Nailgun</li>
+          <!-- HH Tools Nailgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.301, 0.100, -0.082)</MainHand>
+        <SecHand>(0.090, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Silenced_22_SMG</li>
+          <!-- Silenced .22 SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.166, 0.100, -0.087)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Sleepy_Time</li>
+          <!-- Sleepy Time -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.147, 0.100, -0.050)</MainHand>
+        <SecHand>(0.128, -0.100, -0.083)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Vances_9mm_SMG</li>
+          <!-- Vance’s 9mm SMG -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

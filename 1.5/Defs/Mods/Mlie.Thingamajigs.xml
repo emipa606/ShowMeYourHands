@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.Thingamajigs">
+    <defName>ClutterHandsSettings_ThingamajigsContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(0.039, 0.100, -0.193)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeaponry_Bonesaw</li>
+          <!-- Bonesaw -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.078, 0.100, -0.151)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeaponry_Breadener</li>
+          <!-- Breadknife -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.011, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeaponry_DeckardCane</li>
+          <!-- Cane -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.007, 0.100, -0.092)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeaponry_Chipper</li>
+          <!-- Chiphook -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.007, 0.100, -0.156)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeaponry_Danny</li>
+          <!-- Machete -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.112, 0.100, -0.078)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeaponry_Cleaverer</li>
+          <!-- Meat cleaver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.071, 0.100, -0.179)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeaponry_MankiWrench</li>
+          <!-- Mechano-Wrench -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.110)</MainHand>
+        <ThingTargets>
+          <li>Nailletgun</li>
+          <!-- Nailgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.062, 0.100, 0.083)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeaponry_Pickle</li>
+          <!-- Pneumatic Pick -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.011, 0.100, -0.156)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeaponry_Croppy</li>
+          <!-- Riding crop -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.002, 0.100, -0.156)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeaponry_Spatula</li>
+          <!-- Spatula -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.251, 0.100, -0.225)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeaponry_Needler</li>
+          <!-- Tailorer 3000 -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

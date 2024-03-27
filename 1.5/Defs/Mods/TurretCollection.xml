@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="eatkenny.leafzxg.dws.turretcollection">
+    <defName>ClutterHandsSettings_TurretCollectionUnofficial</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.156, 0.100, -0.091)</MainHand>
+        <SecHand>(0.225, -0.100, -0.174)</SecHand>
+        <ThingTargets>
+          <li>Gun_AATWS_TC</li>
+          <!-- AATWS -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

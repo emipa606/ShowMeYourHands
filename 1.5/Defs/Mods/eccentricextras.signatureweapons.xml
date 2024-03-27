@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Aelanna.EccentricExtras.SignatureWeapons">
+    <defName>ClutterHandsSettings_EccentricExtrasSignatureWeapons</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.247, 0.100, -0.252)</MainHand>
+        <SecHand>(0.008, -0.100, -0.043)</SecHand>
+        <ThingTargets>
+          <li>Eccentric_Monoscythe_Hanna</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.122, 0.100, -0.178)</MainHand>
+        <ThingTargets>
+          <li>Eccentric_Gun_S8B_Toni</li>
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="rick.fcpcre">
+    <defName>ClutterHandsSettings_FCPChineseRemnantEquipmentTeaser</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.177, 0.100, -0.068)</MainHand>
+        <SecHand>(0.140, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Chinese_Assault_Carbine</li>
+          <!-- Chinese Assault Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.186, 0.100, -0.110)</MainHand>
+        <SecHand>(0.136, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Chinese_Assault_Rifle</li>
+          <!-- Chinese Assault Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.380, 0.100, 0.023)</MainHand>
+        <ThingTargets>
+          <li>FCP_Chinese_Officer_Sword</li>
+          <!-- Chinese Officer Sword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.191, 0.100, -0.124)</MainHand>
+        <ThingTargets>
+          <li>FCP_Gun_Chinese_Pistol</li>
+          <!-- Chinese Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.309, 0.100, -0.317)</MainHand>
+        <ThingTargets>
+          <li>FCP_Chinese_Shock_Sword</li>
+          <!-- Chinese Shock Sword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.157, 0.100, -0.307)</MainHand>
+        <SecHand>(0.154, -0.100, 0.056)</SecHand>
+        <ThingTargets>
+          <li>FCP_Gun_Gauss_Rifle</li>
+          <!-- Guass Rifle -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.ApexRimworldLegends">
+    <defName>ClutterHandsSettings_ApexRimworldLegendsContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.238, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>ARL_AssaultCarbine</li>
+          <!-- assault carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.176, 0.100, -0.110)</MainHand>
+        <SecHand>(0.241, -0.100, -0.087)</SecHand>
+        <ThingTargets>
+          <li>ARL_BattleRifle</li>
+          <!-- battle rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.121, 0.100, -0.105)</MainHand>
+        <SecHand>(0.172, -0.100, -0.100)</SecHand>
+        <ThingTargets>
+          <li>ARL_BullpupRifle</li>
+          <!-- bullpup rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.033, 0.100, 0.170)</MainHand>
+        <ThingTargets>
+          <li>ARL_ChargeGrenade</li>
+          <!-- charge grenades -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.234, 0.100, -0.146)</MainHand>
+        <SecHand>(0.200, -0.100, -0.128)</SecHand>
+        <ThingTargets>
+          <li>ARL_ChargeLMG</li>
+          <!-- charge LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.375, 0.100, -0.160)</MainHand>
+        <SecHand>(-0.121, -0.100, 0.106)</SecHand>
+        <ThingTargets>
+          <li>ARL_ChargeMinigun</li>
+          <!-- charge minigun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.122, 0.100, -0.064)</MainHand>
+        <ThingTargets>
+          <li>ARL_ChargePistol</li>
+          <!-- charge pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.229, 0.100, -0.142)</MainHand>
+        <SecHand>(0.179, -0.100, -0.082)</SecHand>
+        <ThingTargets>
+          <li>ARL_ChargeShotgun</li>
+          <!-- charge shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.018, 0.100, -0.105)</MainHand>
+        <SecHand>(0.209, -0.100, -0.165)</SecHand>
+        <ThingTargets>
+          <li>ARL_ChargeSMG</li>
+          <!-- charge SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.112, 0.100, -0.128)</MainHand>
+        <SecHand>(0.205, -0.100, -0.082)</SecHand>
+        <ThingTargets>
+          <li>ARL_ChargeSniperRifle</li>
+          <!-- charge sniper rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.058, 0.100, -0.078)</MainHand>
+        <ThingTargets>
+          <li>ARL_CombatHandgun</li>
+          <!-- combat handgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.129, 0.100, -0.105)</MainHand>
+        <SecHand>(0.223, -0.100, -0.091)</SecHand>
+        <ThingTargets>
+          <li>ARL_CompactSMG</li>
+          <!-- compact SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.211, 0.100, -0.050)</MainHand>
+        <SecHand>(0.257, -0.100, -0.206)</SecHand>
+        <ThingTargets>
+          <li>ARL_GrenadeLauncher</li>
+          <!-- grenade launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.078, 0.100, -0.115)</MainHand>
+        <ThingTargets>
+          <li>ARL_HandCannon</li>
+          <!-- hand cannon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.236, 0.100, -0.133)</MainHand>
+        <SecHand>(0.094, -0.100, -0.105)</SecHand>
+        <ThingTargets>
+          <li>ARL_HMG</li>
+          <!-- HMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.107, 0.100, -0.087)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>ARL_LeverActionShotgun</li>
+          <!-- lever-action shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.049, 0.100, -0.110)</MainHand>
+        <ThingTargets>
+          <li>ARL_LightSMG</li>
+          <!-- light SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.254, 0.100, -0.146)</MainHand>
+        <SecHand>(0.113, -0.100, -0.114)</SecHand>
+        <ThingTargets>
+          <li>ARL_MarksmanRifle</li>
+          <!-- marksman rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.346, 0.100, 0.010)</MainHand>
+        <SecHand>(0.172, -0.100, 0.239)</SecHand>
+        <ThingTargets>
+          <li>ARL_MechanoidRocketLauncher</li>
+          <!-- mechanoid inferno launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.002, 0.100, -0.133)</MainHand>
+        <SecHand>(0.262, -0.100, -0.142)</SecHand>
+        <ThingTargets>
+          <li>ARL_MechanoidLMG</li>
+          <!-- mechanoid LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.118, 0.100, -0.146)</MainHand>
+        <SecHand>(0.182, -0.100, -0.128)</SecHand>
+        <ThingTargets>
+          <li>ARL_MechanoidRifle</li>
+          <!-- mechanoid rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.289, 0.100, -0.160)</MainHand>
+        <SecHand>(0.200, -0.100, -0.105)</SecHand>
+        <ThingTargets>
+          <li>ARL_MechanoidSniperRifle</li>
+          <!-- mechanoid sniper rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.181, 0.100, -0.096)</MainHand>
+        <SecHand>(0.223, -0.100, -0.096)</SecHand>
+        <ThingTargets>
+          <li>ARL_SemiautomaticRifle</li>
+          <!-- semi-automatic rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.191, 0.100, -0.123)</MainHand>
+        <SecHand>(0.200, -0.100, -0.091)</SecHand>
+        <ThingTargets>
+          <li>ARL_SemiAutomaticShotgun</li>
+          <!-- semi-automatic shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.056, 0.100, -0.100)</MainHand>
+        <ThingTargets>
+          <li>ARL_ShotgunHandgun</li>
+          <!-- shotgun handgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.005, 0.100, 0.106)</MainHand>
+        <ThingTargets>
+          <li>ARL_SmokeGrenade</li>
+          <!-- smoke grenades -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.005, 0.100, 0.087)</MainHand>
+        <ThingTargets>
+          <li>ARL_ToxicGrenade</li>
+          <!-- toxic grenades -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="CETeam.CombatExtended">
+    <defName>ClutterHandsSettings_CombatExtended</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.064, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Gun_BinocularsRadio</li>
+          <!-- binoculars -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.051, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Weapon_GrenadeFirefoam</li>
+          <!-- firefoam grenade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.056, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Weapon_GrenadeFlashbang</li>
+          <!-- flashbang grenade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.000, 0.100, -0.096)</MainHand>
+        <SecHand>(0.256, -0.100, -0.091)</SecHand>
+        <ThingTargets>
+          <li>CE_GrenadeLauncher</li>
+          <!-- grenade launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.051, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>Weapon_GrenadeSmoke</li>
+          <!-- smoke grenade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.007, 0.100, -0.188)</MainHand>
+        <ThingTargets>
+          <li>Weapon_GrenadeStickBomb</li>
+          <!-- stick bomb -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.004, 0.100, -0.078)</MainHand>
+        <ThingTargets>
+          <li>Weapon_GrenadeConcussion</li>
+          <!-- concussion grenade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.273, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CE_DisposableRocketLauncher</li>
+          <!-- M72 LAW -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CE_FlareGun</li>
+          <!-- flare gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.362, 0.100, -0.059)</MainHand>
+        <ThingTargets>
+          <li>Pila</li>
+          <!-- javelins -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

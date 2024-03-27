@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="Mlie.ThoriumMod">
+    <defName>ClutterHandsSettings_ThoriummodContinued</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.096)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>MTB_Rifle</li>
+          <!-- S44 assault rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.093, 0.100, -0.087)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>MTB_SMG</li>
+          <!-- S44 SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.278, 0.100, -0.050)</MainHand>
+        <SecHand>(0.099, -0.100, -0.018)</SecHand>
+        <ThingTargets>
+          <li>MTB_SRifle</li>
+          <!-- S44 sniper rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.351, 0.100, -0.032)</MainHand>
+        <ThingTargets>
+          <li>MTB_PowerSword</li>
+          <!-- thorium PowerSword -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

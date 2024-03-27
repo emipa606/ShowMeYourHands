@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.5.0 - Mod updated for 1.5 and passed autotests
+
+
 1.4.16 - Bionic limbs that is not a direct hand replacement should now also be detected and not just show a missing hand.
 
 

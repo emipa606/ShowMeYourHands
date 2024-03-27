@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- (x,y,z) 
+	x(horizontal)
+	y(altitude layer,0 is weapon texture layer, lower numbers are under weapon texures, higher value than 0 is over weapon texture)
+	z(vertical)-->
+<Defs>
+  <WHands.ClutterHandsTDef>
+    <defName>Core_HandsSettings</defName>
+    <label>Core hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.087)</MainHand>
+        <SecHand>(0.180, -0.100, -0.043)</SecHand>
+        <ThingTargets>
+          <li>Gun_AssaultRifle</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.048)</MainHand>
+        <ThingTargets>
+          <li>Gun_Autopistol</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.087)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_BoltActionRifle</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.183, 0.100, -0.021)</MainHand>
+        <SecHand>(0.200, -0.100, -0.017)</SecHand>
+        <ThingTargets>
+          <li>Gun_ChainShotgun</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.083, 0.100, -0.083)</MainHand>
+        <SecHand>(0.250, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_ChargeLance</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.134, 0.100, -0.090)</MainHand>
+        <SecHand>(0.250, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_ChargeRifle</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.034, 0.100, -0.254)</MainHand>
+        <SecHand>(0.211, -0.100, -0.101)</SecHand>
+        <ThingTargets>
+          <li>Gun_DoomsdayRocket</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.201, 0.100, -0.120)</MainHand>
+        <SecHand>(0.266, -0.100, -0.087)</SecHand>
+        <ThingTargets>
+          <li>Gun_EmpLauncher</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.056)</MainHand>
+        <ThingTargets>
+          <li>Gun_HeavySMG</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.105)</MainHand>
+        <SecHand>(0.244, -0.100, -0.109)</SecHand>
+        <ThingTargets>
+          <li>Gun_IncendiaryLauncher</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.212, 0.100, -0.076)</MainHand>
+        <SecHand>(0.180, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_LMG</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.073)</MainHand>
+        <ThingTargets>
+          <li>Gun_MachinePistol</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.415, 0.100, 0.037)</MainHand>
+        <SecHand>(0.204, -0.100, -0.061)</SecHand>
+        <ThingTargets>
+          <li>Gun_Minigun</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.117, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_PumpShotgun</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>Gun_Revolver</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.208, 0.100, -0.112)</MainHand>
+        <SecHand>(0.281, -0.100, -0.101)</SecHand>
+        <ThingTargets>
+          <li>Gun_SmokeLauncher</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.186, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_SniperRifle</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.014, 0.100, -0.180)</MainHand>
+        <SecHand>(0.241, -0.100, -0.162)</SecHand>
+        <ThingTargets>
+          <li>Gun_TripleRocket</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.287, 0.100, 0.007)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Axe</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.008, 0.100, 0.180)</MainHand>
+        <ThingTargets>
+          <li>Beer</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Club</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.298, 0.100, -0.051)</MainHand>
+        <ThingTargets>
+          <li>ElephantTusk</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.287, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.088, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>MeleeWeapon_PsyfocusStaff</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.008, 0.100, 0.103)</MainHand>
+        <ThingTargets>
+          <li>Weapon_GrenadeEMP</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.014, 0.100, 0.103)</MainHand>
+        <ThingTargets>
+          <li>Weapon_GrenadeFrag</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.279, 0.100, 0.029)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Gladius</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.112, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.084, -0.100, 0.008)</SecHand>
+        <ThingTargets>
+          <li>Bow_Great</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, 0.026)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Ikwa</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.184, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Knife</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.375, 0.100, 0.030)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_LongSword</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.254, 0.100, 0.022)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Mace</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.042, 0.100, -0.125)</MainHand>
+        <ThingTargets>
+          <li>Weapon_GrenadeMolotov</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.338, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_MonoSword</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.342, 0.100, 0.011)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_MonoSwordBladelink</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_PlasmaSwordBladelink</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.239, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.096, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>MeleeWeapon_ZeusHammerBladelink</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.207, 0.100, 0.012)</MainHand>
+        <ThingTargets>
+          <li>Pila</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.342, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_PlasmaSword</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.069, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.103, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>Bow_Recurve</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.128, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.077, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>Bow_Short</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.055, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Spear</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.309, 0.100, -0.103)</MainHand>
+        <SecHand>(-0.103, -0.100, 0.073)</SecHand>
+        <ThingTargets>
+          <li>ThrumboHorn</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.309, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.117, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Warhammer</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.089, 0.100, -0.059)</MainHand>
+        <ThingTargets>
+          <li>WoodLog</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.077, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Zeushammer</li>
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.144, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_BreachAxe</li>
+          <!-- breach axe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.164, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.092, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>Flamebow</li>
+          <!-- flamebow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.041, 0.100, -0.100)</MainHand>
+        <ThingTargets>
+          <li>Weapon_GrenadeTox</li>
+          <!-- tox grenades -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.142, 0.100, -0.179)</MainHand>
+        <SecHand>(0.163, -0.100, -0.169)</SecHand>
+        <ThingTargets>
+          <li>Gun_ToxbombLauncher</li>
+          <!-- toxbomb launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.201, 0.100, -0.133)</MainHand>
+        <SecHand>(0.166, -0.100, -0.133)</SecHand>
+        <ThingTargets>
+          <li>Gun_HellcatRifle</li>
+          <!-- hellcat rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.183, 0.100, -0.133)</MainHand>
+        <SecHand>(0.193, -0.100, -0.096)</SecHand>
+        <ThingTargets>
+          <li>Gun_Incinerator</li>
+          <!-- incinerator -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.238, 0.100, -0.119)</MainHand>
+        <SecHand>(0.042, -0.100, -0.078)</SecHand>
+        <ThingTargets>
+          <li>NerveSpiker</li>
+          <!-- nerve spiker -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>
