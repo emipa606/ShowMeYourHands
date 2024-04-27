@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.5.1 - Fixed a memory-leak, thanks to Epicguru!
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 

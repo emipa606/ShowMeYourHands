@@ -771,10 +771,11 @@ public class HandDrawer : ThingComp
         RenderTexture.active = renderTexture;
         var tex = new Texture2D(texture.width, texture.height);
         tex.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
-        tex.Apply();
         RenderTexture.active = previous;
         RenderTexture.ReleaseTemporary(renderTexture);
-        return AverageColorFromColors(tex.GetPixels32());
+        var result = AverageColorFromColors(tex.GetPixels32());
+        Object.Destroy(tex);
+        return result;
     }
 
     private Color32 AverageColorFromColors(Color32[] colors)
