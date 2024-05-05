@@ -47,10 +47,6 @@ public static class ShowMeYourHandsMain
 
     public static readonly bool DualWieldLoaded;
 
-    public static readonly bool YayoAdoptedLoaded;
-
-    public static readonly bool YayoAnimationLoaded;
-
     public static readonly BodyPartDef HandDef;
 
     public static readonly Dictionary<HediffDef, Color> HediffColors;
@@ -111,10 +107,6 @@ public static class ShowMeYourHandsMain
     static ShowMeYourHandsMain()
     {
         DualWieldLoaded = ModLister.GetActiveModWithIdentifier("Roolo.DualWield") != null;
-        YayoAdoptedLoaded = ModLister.GetActiveModWithIdentifier("com.yayo.combat3") != null ||
-                            ModLister.GetActiveModWithIdentifier("Mlie.YayosCombat3") != null;
-        YayoAnimationLoaded = ModLister.GetActiveModWithIdentifier("com.yayo.yayoAni") != null ||
-                              ModLister.GetActiveModWithIdentifier("com.yayo.yayoAni.continued") != null;
         MeleeAnimationsLoaded = ModLister.GetActiveModWithIdentifier("co.uk.epicguru.meleeanimation") != null;
         BabysAndChildrenLoaded = ModLister.GetActiveModWithIdentifier("babies.and.children.continued") != null;
 
@@ -189,46 +181,6 @@ public static class ShowMeYourHandsMain
                         nameof(PawnRenderer_DrawEquipmentAiming.SaveWeaponLocation)));
                 LogMessage(
                     "Dual Wield loaded, patching for compatibility", true);
-            }
-        }
-
-        if (YayoAdoptedLoaded)
-        {
-            var drawEquipmentAimingOverrideMethod =
-                AccessTools.Method("yayoCombat.PawnRenderer_override:DrawEquipmentAiming");
-            if (drawEquipmentAimingOverrideMethod == null)
-            {
-                LogMessage(
-                    "Yayo's Combat 3 loaded, but failed to find method DrawEquipmentAiming, will not be compatible",
-                    false, true);
-            }
-            else
-            {
-                harmony.Patch(drawEquipmentAimingOverrideMethod,
-                    new HarmonyMethod(typeof(PawnRenderer_DrawEquipmentAiming),
-                        nameof(PawnRenderer_DrawEquipmentAiming.SaveWeaponLocation)));
-                LogMessage(
-                    "Yayo's Combat 3 loaded, patching for compatibility", true);
-            }
-        }
-
-        if (YayoAnimationLoaded)
-        {
-            var drawEquipmentAimingOverrideMethod =
-                AccessTools.Method("yayoAni.patch_DrawEquipmentAiming:Prefix");
-            if (drawEquipmentAimingOverrideMethod == null)
-            {
-                LogMessage(
-                    "Yayo's Animation loaded, but failed to find method patch_DrawEquipmentAiming, will not be compatible",
-                    false, true);
-            }
-            else
-            {
-                harmony.Patch(drawEquipmentAimingOverrideMethod,
-                    new HarmonyMethod(typeof(PawnRenderer_DrawEquipmentAiming),
-                        nameof(PawnRenderer_DrawEquipmentAiming.SaveWeaponLocation)));
-                LogMessage(
-                    "Yayo's Animation loaded, patching for compatibility", true);
             }
         }
 

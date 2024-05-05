@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.5.2 - Fixed warnings about yayos combat and animaions
+
+
 1.5.1 - Fixed a memory-leak, thanks to Epicguru!
 
 
