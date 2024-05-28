@@ -45,8 +45,6 @@ public static class ShowMeYourHandsMain
 
     public static readonly bool EnableOversizedLoaded;
 
-    public static readonly bool DualWieldLoaded;
-
     public static readonly BodyPartDef HandDef;
 
     public static readonly Dictionary<HediffDef, Color> HediffColors;
@@ -106,7 +104,6 @@ public static class ShowMeYourHandsMain
 
     static ShowMeYourHandsMain()
     {
-        DualWieldLoaded = ModLister.GetActiveModWithIdentifier("Roolo.DualWield") != null;
         MeleeAnimationsLoaded = ModLister.GetActiveModWithIdentifier("co.uk.epicguru.meleeanimation") != null;
         BabysAndChildrenLoaded = ModLister.GetActiveModWithIdentifier("babies.and.children.continued") != null;
 
@@ -163,26 +160,6 @@ public static class ShowMeYourHandsMain
         harmony = new Harmony("Mlie.ShowMeYourHands");
 
         harmony.PatchAll(Assembly.GetExecutingAssembly());
-
-        if (DualWieldLoaded)
-        {
-            var drawEquipmentAimingOverrideMethod =
-                AccessTools.Method("DualWield.Harmony.PawnRenderer_DrawEquipmentAiming:DrawEquipmentAimingOverride");
-            if (drawEquipmentAimingOverrideMethod == null)
-            {
-                LogMessage(
-                    "Dual Wield loaded, but failed to find method DrawEquipmentAimingOverride, will not be compatible",
-                    false, true);
-            }
-            else
-            {
-                harmony.Patch(drawEquipmentAimingOverrideMethod,
-                    new HarmonyMethod(typeof(PawnRenderer_DrawEquipmentAiming),
-                        nameof(PawnRenderer_DrawEquipmentAiming.SaveWeaponLocation)));
-                LogMessage(
-                    "Dual Wield loaded, patching for compatibility", true);
-            }
-        }
 
         if (ModLister.GetActiveModWithIdentifier("MalteSchulze.RIMMSqol") == null)
         {

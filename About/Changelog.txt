@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.5.3 - Removed the redundant Dual Wield patches in 1.4 and 1.5 since that mod transpiles the vanilla methods now
+
+
 1.5.2 - Fixed warnings about yayos combat and animaions
 
 
