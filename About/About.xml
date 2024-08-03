@@ -60,6 +60,8 @@ Preview-image includes armor and weapons from the excellent XCOM-mods by velcrob
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2317335843]XCOM Armor[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2062766405]XCOM Weapons[/url]
 
+For more realistic hand textures, see [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3302328100]Nice Hands Retexture[/url] by Andromeda
+
 [table]
 	[tr]
 		[td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
@@ -88,5 +90,5 @@ Since modding is just a hobby for me I expect no donations to keep modding. If y
 [/list]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2475965842][img]https://img.shields.io/github/v/release/emipa606/ShowMeYourHands?label=latest%20version&amp;style=plastic&amp;labelColor=0070cd&amp;color=white[/img][/url]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.3</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.4</modVersion>
 </ModMetaData>

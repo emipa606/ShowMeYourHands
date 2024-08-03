@@ -14,6 +14,10 @@ namespace ShowMeYourHands;
 [StaticConstructorOnStartup]
 internal class ShowMeYourHandsMod : Mod
 {
+    public const int LeftClick = 0;
+
+    public const int RightClick = 1;
+
     /// <summary>
     ///     The instance of the settings to be read by the mod
     /// </summary>
@@ -68,7 +72,6 @@ internal class ShowMeYourHandsMod : Mod
     private static string selectedDef = "Settings";
 
     private static string selectedSubDef;
-
 
     /// <summary>
     ///     The private settings
@@ -667,6 +670,15 @@ internal class ShowMeYourHandsMod : Mod
                         currentMainHand.z.ToString(), null, null, 0.001f);
                     listing_Standard.Gap();
                     listing_Standard.CheckboxLabeled("SMYH.renderbehind.label".Translate(), ref currentMainBehind);
+
+                    if (Event.current.type is EventType.MouseDrag or EventType.MouseDown &&
+                        Event.current.button == LeftClick &&
+                        Mouse.IsOver(weaponRect))
+                    {
+                        var newPosition = GetNewPosition(weaponRect);
+                        currentMainHand.x = newPosition.x;
+                        currentMainHand.z = newPosition.y;
+                    }
                 }
                 else
                 {
@@ -687,7 +699,18 @@ internal class ShowMeYourHandsMod : Mod
                         currentOffHand.z.ToString(), null, null, 0.001f);
                     listing_Standard.Gap();
                     listing_Standard.CheckboxLabeled("SMYH.renderbehind.label".Translate(), ref currentOffBehind);
+                    if (Event.current.type is EventType.MouseDrag or EventType.MouseDown &&
+                        Event.current.button == RightClick &&
+                        Mouse.IsOver(weaponRect))
+                    {
+                        var newPosition = GetNewPosition(weaponRect);
+                        currentOffHand.x = newPosition.x;
+                        currentOffHand.z = newPosition.y;
+                    }
                 }
+
+                Widgets.Label(new Rect(lastMainLabel.position + new Vector2(0, 100), new Vector2(500, 50)),
+                    "SMYH.draginfo".Translate());
 
                 if (instance.Settings.ManualMainHandPositions.ContainsKey(currentDef.defName))
                 {
@@ -929,6 +952,18 @@ internal class ShowMeYourHandsMod : Mod
         {
             RimWorld_MainMenuDrawer_MainMenuOnGUI.FigureOutSpecific(currentDef);
         }
+    }
+
+    private static Vector2 GetNewPosition(Rect weaponRect)
+    {
+        var mousePosition = Event.current.mousePosition;
+        var relativePosition = mousePosition - weaponRect.position;
+        var center = new Vector2(weaponRect.width / 2, weaponRect.height / 2);
+        var offset = relativePosition - center;
+        var horizontalPercent = offset.x / (weaponRect.width / 2);
+        var verticalPercent = -(offset.y / (weaponRect.height / 2));
+        return new Vector2(Mathf.Clamp(horizontalPercent / 2, -0.5f, 0.5f),
+            Mathf.Clamp(verticalPercent / 2, -0.5f, 0.5f));
     }
 
     private static Color GetColorFromPercent(decimal percent)

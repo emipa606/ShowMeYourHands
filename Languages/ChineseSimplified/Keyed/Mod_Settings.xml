@@ -52,4 +52,5 @@
   <SMYH.weaponrow.red>使用默认设置</SMYH.weaponrow.red>
   <SMYH.weaponrow.cyan>在MOD中包含有自定义设置</SMYH.weaponrow.cyan>
   <SMYH.weaponrow.green>拥有由玩家定义的个人设置</SMYH.weaponrow.green>
+  <SMYH.draginfo>注意：也可以左键单击拖动设置主手位置，右键单击拖动设置非主手位置。</SMYH.draginfo>
 </LanguageData>

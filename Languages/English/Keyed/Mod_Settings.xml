@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <SMYH.settings>Settings</SMYH.settings>
   <SMYH.summary>Summary</SMYH.summary>
@@ -51,4 +51,5 @@
   <SMYH.weaponrow.red>Uses the default settings</SMYH.weaponrow.red>
   <SMYH.weaponrow.cyan>Has custom settings included in the mod</SMYH.weaponrow.cyan>
   <SMYH.weaponrow.green>Has personal settings defined by the player</SMYH.weaponrow.green>
+  <SMYH.draginfo>NOTE: You can also left-click drag to set the main-hand position, right-click drag to set the off-hand position</SMYH.draginfo>
 </LanguageData>

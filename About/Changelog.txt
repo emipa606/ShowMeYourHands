@@ -1,5 +1,9 @@
 # Changelog for ShowMeYourHands
 
+1.5.4 - Hand-positions can now be changed by dragging the hands in the options window as well.
+Used DeepL to update translations for ChineseSimplified, French, German, Russian
+
+
 1.5.3 - Removed the redundant Dual Wield patches in 1.4 and 1.5 since that mod transpiles the vanilla methods now
 
 

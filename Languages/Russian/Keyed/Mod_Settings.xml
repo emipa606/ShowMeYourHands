@@ -52,4 +52,5 @@
   <SMYH.weaponrow.red>Использует настройки по умолчанию</SMYH.weaponrow.red>
   <SMYH.weaponrow.cyan>Имеет пользовательские настройки, включенные в мод</SMYH.weaponrow.cyan>
   <SMYH.weaponrow.green>Имеет персональные настройки, определяемые игроком</SMYH.weaponrow.green>
+  <SMYH.draginfo>ПРИМЕЧАНИЕ: Вы также можете перетащить левую кнопку мыши, чтобы задать положение основной руки, и правую кнопку мыши, чтобы задать положение дополнительной руки.</SMYH.draginfo>
 </LanguageData>
