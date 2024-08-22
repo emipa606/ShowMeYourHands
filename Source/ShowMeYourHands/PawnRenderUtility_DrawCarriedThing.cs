@@ -27,14 +27,6 @@ public static class PawnRenderUtility_DrawCarriedThing
         }
 
         PawnRenderUtility.CalculateCarriedDrawPos(pawn, carriedThing, ref drawLoc, out var flip);
-        //if (behind)
-        //{
-        //    drawLoc.y -= 0.03474903f;
-        //}
-        //else
-        //{
-        //    drawLoc.y += 0.06474903f;
-        //}
 
         if (flip)
         {

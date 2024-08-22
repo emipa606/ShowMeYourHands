@@ -38,7 +38,8 @@ All my "Continued"-mods should have native support.
 
 There is also support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2543371889]Enable Oversized Weapons[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2038409475]Yayo's Combat 3[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2513695736]Yayo's Combat 3 [Adopted][/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2575938407]Yayo's Animation[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1204108550]RunAndGun[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1628211313]Dual Wield[/url]. Hands will follow the weapons even during the extra animations. 
 Verified to work with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1631756268]Combat Extended[/url]
-Also shows hands when using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2355912467]Grab your Tool[/url]
+Shows hands when using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2355912467]Grab your Tool[/url]
+Compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2944488802]Melee Animation[/url]
 
 Settings
 [list]
@@ -90,5 +91,5 @@ Since modding is just a hobby for me I expect no donations to keep modding. If y
 [/list]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2475965842][img]https://img.shields.io/github/v/release/emipa606/ShowMeYourHands?label=latest%20version&amp;style=plastic&amp;labelColor=0070cd&amp;color=white[/img][/url]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.4</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.5</modVersion>
 </ModMetaData>

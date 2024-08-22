@@ -12,7 +12,8 @@ All my "Continued"-mods should have native support.
 
 There is also support for [Enable Oversized Weapons](https://steamcommunity.com/sharedfiles/filedetails/?id=2543371889), [Yayo's Combat 3](https://steamcommunity.com/sharedfiles/filedetails/?id=2038409475), [Yayo's Combat 3 [Adopted]](https://steamcommunity.com/sharedfiles/filedetails/?id=2513695736), [Yayo's Animation](https://steamcommunity.com/sharedfiles/filedetails/?id=2575938407), [RunAndGun](https://steamcommunity.com/sharedfiles/filedetails/?id=1204108550) and [Dual Wield](https://steamcommunity.com/sharedfiles/filedetails/?id=1628211313). Hands will follow the weapons even during the extra animations. 
 Verified to work with [Combat Extended](https://steamcommunity.com/sharedfiles/filedetails/?id=1631756268)
-Also shows hands when using [Grab your Tool](https://steamcommunity.com/sharedfiles/filedetails/?id=2355912467)
+Shows hands when using [Grab your Tool](https://steamcommunity.com/sharedfiles/filedetails/?id=2355912467)
+Compatible with [Melee Animation](https://steamcommunity.com/sharedfiles/filedetails/?id=2944488802)
 
 Settings
 
