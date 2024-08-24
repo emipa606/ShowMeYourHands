@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.5.6 - Added support for most of the [url=https://steamcommunity.com/workshop/filedetails/?id=2817581053]Guns Galore[/url] mods
+
+
 1.5.5 - Added support the recoil in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2890901044]Combat Extended[/url]
 
 

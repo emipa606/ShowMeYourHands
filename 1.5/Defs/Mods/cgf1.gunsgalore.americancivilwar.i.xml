@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="cgf1.gunsgalore.americancivilwar.i">
+    <defName>ClutterHandsSettings_GunsGaloreAmericanCivilWar</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.305, 0.100, 0.150)</MainHand>
+        <SecHand>(-0.025, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Agar_Union_RepeatingGun_</li>
+          <!-- Agar Union Repeating Gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AllenThurber_M1837_Pepperbox_</li>
+          <!-- Allen & Thurber M1837 Pepperbox -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AllenWheelock_M1859_Sidehammer_</li>
+          <!-- Allen & Wheelock M1859 Sidehammer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.020)</MainHand>
+        <SecHand>(0.120, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Burnside_M1860_Carbine_</li>
+          <!-- Burnside M1860 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.030)</MainHand>
+        <SecHand>(0.125, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_M1839_RingLever_</li>
+          <!-- Colt M1839 Ring Lever -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.005)</MainHand>
+        <SecHand>(0.095, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_M1841_RingLever_</li>
+          <!-- Colt M1841 Ring Lever -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_M1847_Walker_</li>
+          <!-- Colt M1847 Walker -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_M1848_Dragoon_</li>
+          <!-- Colt M1848 Dragoon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_M1848_Dragoon_Nickel_</li>
+          <!-- Colt M1848 Dragoon Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_M1851_Navy_</li>
+          <!-- Colt M1851 Navy -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_M1851_Navy_Nickel_</li>
+          <!-- Colt M1851 Navy Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_M1851_Navy_USMarshall_</li>
+          <!-- Colt M1851 Navy US Marshall -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.045)</MainHand>
+        <SecHand>(0.140, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_M1855_RevolvingRifle_</li>
+          <!-- Colt M1855 Revolving Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_M1860_Army_</li>
+          <!-- Colt M1860 Army -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_M1860_Army_Nickel_</li>
+          <!-- Colt M1860 Army Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_M1861_Navy_</li>
+          <!-- Colt M1861 Navy -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_M1861_Navy_Nickel_</li>
+          <!-- Colt M1861 Navy Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, -0.025)</MainHand>
+        <SecHand>(0.170, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Cooper_M1858_CoachGun_</li>
+          <!-- Cooper M1858 Coach Gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Cooper_M1858_SawedOff_</li>
+          <!-- Cooper M1858 Sawed-Off -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.030)</MainHand>
+        <SecHand>(0.065, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Cooper_M1858_Shotgun_</li>
+          <!-- Cooper M1858 Shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Elgin_M1838_CutlassPistol_</li>
+          <!-- Elgin M1838 Cutlass Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.015)</MainHand>
+        <SecHand>(0.085, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Fayetteville_M1862_</li>
+          <!-- Fayetteville M1862 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, 0.025)</MainHand>
+        <SecHand>(0.045, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Fayetteville_M1862_Bayonet_</li>
+          <!-- Fayetteville M1862 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.035)</MainHand>
+        <SecHand>(0.145, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gallager_M1860_Carbine_</li>
+          <!-- Gallager M1860 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.405, 0.100, 0.020)</MainHand>
+        <SecHand>(-0.095, -0.100, 0.150)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_GatlingGun_M1862_</li>
+          <!-- Gatling Gun M1862 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.500, 0.100, -0.030)</MainHand>
+        <SecHand>(-0.175, -0.100, 0.125)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_GatlingGun_M1865_</li>
+          <!-- Gatling Gun M1865 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.030, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HarpersFerry_M1855_</li>
+          <!-- Harper's Ferry M1855 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.040, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HarpersFerry_M1855_Bayonet_</li>
+          <!-- Harper's Ferry M1855 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.035)</MainHand>
+        <SecHand>(0.125, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Henry_M1860_</li>
+          <!-- Henry M1860 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.035)</MainHand>
+        <SecHand>(0.095, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Henry_M1860_Sniper_</li>
+          <!-- Henry M1860 Sniper -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Johnson_M1836_</li>
+          <!-- Johnson M1836 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Johnson_M1836_Percussion_</li>
+          <!-- Johnson M1836 Percussion -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Johnson_M1842_</li>
+          <!-- Johnson M1842 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.110, 0.100, 0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ketchum_Grenade_</li>
+          <!-- Ketchum Grenade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LamsonBall_M1864_Carbine_</li>
+          <!-- Lamson Ball M1864 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LeMat_M1861_</li>
+          <!-- LeMat M1861 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.020)</MainHand>
+        <SecHand>(0.080, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_M1819_Hall_Rifle_</li>
+          <!-- M1819 Hall Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, 0.035)</MainHand>
+        <SecHand>(0.060, -0.100, 0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_M1819_Hall_Rifle_Bayonet_</li>
+          <!-- M1819 Hall Rifle (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.010)</MainHand>
+        <SecHand>(0.045, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_M1841_Mississippi_Rifle_</li>
+          <!-- M1841 Mississippi Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, 0.010)</MainHand>
+        <SecHand>(-0.010, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_M1841_Mississippi_Rifle_Bayonet_</li>
+          <!-- M1841 Mississippi Rifle (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.350, 0.100, -0.030)</MainHand>
+        <SecHand>(0.040, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_M1857_Greene_Rifle_</li>
+          <!-- M1857 Greene Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.360, 0.100, -0.030)</MainHand>
+        <SecHand>(-0.030, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_M1857_Greene_Rifle_Bayonet_</li>
+          <!-- M1857 Greene Rifle (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.020)</MainHand>
+        <SecHand>(0.245, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Maynard_M1851_Carbine_</li>
+          <!-- Maynard M1851 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.040)</MainHand>
+        <SecHand>(0.150, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Palmer_M1865_Carbine_</li>
+          <!-- Palmer M1865 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.080)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Philadelphia_Derringer_</li>
+          <!-- Philadelphia Derringer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.020)</MainHand>
+        <SecHand>(0.115, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_Jenks_M1848_</li>
+          <!-- Remington Jenks M1848 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, 0.000)</MainHand>
+        <SecHand>(0.105, -0.100, 0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_Jenks_M1848_Bayonet_</li>
+          <!-- Remington Jenks M1848 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_M1858_NewArmy_</li>
+          <!-- Remington M1858 New Army -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, 0.000)</MainHand>
+        <SecHand>(0.050, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_M1863_Zouave_</li>
+          <!-- Remington M1863 Zouave -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, 0.025)</MainHand>
+        <SecHand>(0.015, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_M1863_Zouave_Bayonet_</li>
+          <!-- Remington M1863 Zouave (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.010)</MainHand>
+        <SecHand>(0.025, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Richmond_M1863_</li>
+          <!-- Richmond M1863 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, 0.005)</MainHand>
+        <SecHand>(-0.020, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Richmond_M1863_Bayonet_</li>
+          <!-- Richmond M1863 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.020)</MainHand>
+        <SecHand>(0.100, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Richmond_M1863_Carbine_</li>
+          <!-- Richmond M1863 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model1_</li>
+          <!-- S&W Model 1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model2_Army_</li>
+          <!-- S&W Model 2 Army -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model2_Army_Nickel_</li>
+          <!-- S&W Model 2 Army Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Savage_M1861_Navy_</li>
+          <!-- Savage M1861 Navy -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.025)</MainHand>
+        <SecHand>(0.140, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sharps_M1859_Carbine_</li>
+          <!-- Sharps M1859 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.040)</MainHand>
+        <SecHand>(0.140, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sharps_M1859_Rifle_</li>
+          <!-- Sharps M1859 Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.355, 0.100, 0.005)</MainHand>
+        <SecHand>(0.000, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sharps_M1859_Rifle_Bayonet_</li>
+          <!-- Sharps M1859 Rifle (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.050)</MainHand>
+        <SecHand>(0.080, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sharps_M1859_Sniper_</li>
+          <!-- Sharps M1859 Sniper -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.025)</MainHand>
+        <SecHand>(0.105, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sharps_M1863_Carbine_</li>
+          <!-- Sharps M1863 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.035)</MainHand>
+        <SecHand>(0.075, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sharps_M1863_Rifle_</li>
+          <!-- Sharps M1863 Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SimeonNorth_M1826_</li>
+          <!-- Simeon North M1826 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.030)</MainHand>
+        <SecHand>(0.120, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Smith_M1857_Carbine_</li>
+          <!-- Smith M1857 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.025)</MainHand>
+        <SecHand>(0.205, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Spencer_M1860_Carbine_</li>
+          <!-- Spencer M1860 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.025)</MainHand>
+        <SecHand>(0.145, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Spencer_M1860_Rifle_</li>
+          <!-- Spencer M1860 Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.045)</MainHand>
+        <SecHand>(0.110, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Spencer_M1860_Rifle_Bayonet_</li>
+          <!-- Spencer M1860 Rifle (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SpillerBurr_M1862_</li>
+          <!-- Spiller & Burr M1862 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.370, 0.100, -0.040)</MainHand>
+        <SecHand>(0.075, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1816_</li>
+          <!-- Springfield M1816 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.355, 0.100, 0.025)</MainHand>
+        <SecHand>(0.010, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1816_Bayonet_</li>
+          <!-- Springfield M1816 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1817_Pistol_</li>
+          <!-- Springfield M1817 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.340, 0.100, -0.025)</MainHand>
+        <SecHand>(0.030, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1822_</li>
+          <!-- Springfield M1822 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.365, 0.100, 0.015)</MainHand>
+        <SecHand>(-0.015, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1822_Bayonet_</li>
+          <!-- Springfield M1822 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.365, 0.100, -0.035)</MainHand>
+        <SecHand>(0.030, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1840_</li>
+          <!-- Springfield M1840 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.360, 0.100, -0.020)</MainHand>
+        <SecHand>(0.015, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1840_Bayonet_</li>
+          <!-- Springfield M1840 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.365, 0.100, -0.030)</MainHand>
+        <SecHand>(0.055, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1842_</li>
+          <!-- Springfield M1842 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.030)</MainHand>
+        <SecHand>(0.015, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1842_Bayonet_</li>
+          <!-- Springfield M1842 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.015)</MainHand>
+        <SecHand>(0.075, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1847_</li>
+          <!-- Springfield M1847 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.325, 0.100, -0.040)</MainHand>
+        <SecHand>(0.000, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1847_Bayonet_</li>
+          <!-- Springfield M1847 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1855_Pistol_</li>
+          <!-- Springfield M1855 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.005, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1855_Pistol_Carbine_</li>
+          <!-- Springfield M1855 Pistol Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.360, 0.100, -0.035)</MainHand>
+        <SecHand>(0.015, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1861_</li>
+          <!-- Springfield M1861 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, -0.015)</MainHand>
+        <SecHand>(0.010, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1861_Bayonet_</li>
+          <!-- Springfield M1861 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.325, 0.100, -0.030)</MainHand>
+        <SecHand>(0.025, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1863_</li>
+          <!-- Springfield M1863 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.020)</MainHand>
+        <SecHand>(0.050, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1863_Bayonet_</li>
+          <!-- Springfield M1863 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Starr_M1858_</li>
+          <!-- Starr M1858 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.010)</MainHand>
+        <SecHand>(0.095, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Tarpley_M1863_Carbine_</li>
+          <!-- Tarpley M1863 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Volcanic_Pistol_</li>
+          <!-- Volcanic Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Volcanic_Pocket_Pistol_</li>
+          <!-- Volcanic Pocket Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.005)</MainHand>
+        <SecHand>(0.205, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Volcanic_Repeater_</li>
+          <!-- Volcanic Repeater -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.045)</MainHand>
+        <SecHand>(0.070, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Whitney_Enfield_M1853_</li>
+          <!-- Whitney Enfield M1853 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.020)</MainHand>
+        <SecHand>(0.010, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Whitney_Enfield_M1853_Bayonet_</li>
+          <!-- Whitney Enfield M1853 (Bayonet) -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

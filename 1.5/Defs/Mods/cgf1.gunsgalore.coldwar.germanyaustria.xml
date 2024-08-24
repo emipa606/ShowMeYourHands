@@ -1,0 +1,3008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="cgf1.gunsgalore.coldwar.germanyaustria">
+    <defName>ClutterHandsSettings_GunsGaloreColdWarGermanyAustria</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.140)</MainHand>
+        <SecHand>(0.145, -0.100, -0.130)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armbrust_</li>
+          <!-- Armbrust -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.130, 0.100, 0.165)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DM41_Frag_</li>
+          <!-- DM41 Frag Grenade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.085)</MainHand>
+        <SecHand>(0.135, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FN_FAL_G1_</li>
+          <!-- FN FAL G1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.050)</MainHand>
+        <SecHand>(0.175, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FN_FAL_G1_Bayonet_</li>
+          <!-- FN FAL G1 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.159, 0.100, -0.050)</MainHand>
+        <SecHand>(0.180, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FN_FAL_G1_GP_</li>
+          <!-- FN FAL G1 (GP) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.050)</MainHand>
+        <SecHand>(0.125, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FN_FAL_G1_SD_</li>
+          <!-- FN FAL G1 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.085)</MainHand>
+        <SecHand>(0.140, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FN_FAL_StG58_</li>
+          <!-- FN FAL StG-58 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.045)</MainHand>
+        <SecHand>(0.140, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FN_FAL_StG58_Bayonet_</li>
+          <!-- FN FAL StG-58 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.035)</MainHand>
+        <SecHand>(0.175, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FN_FAL_StG58_GP_</li>
+          <!-- FN FAL StG-58 (GP) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FN_FAL_StG58_SD_</li>
+          <!-- FN FAL StG-58 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock17_G1_</li>
+          <!-- Glock 17 G1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock17_G1_Ext_SD_</li>
+          <!-- Glock 17 G1 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock17_G1_Ext_</li>
+          <!-- Glock 17 G1 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock17_G1_SD_</li>
+          <!-- Glock 17 G1 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock17L_G1_</li>
+          <!-- Glock 17L G1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock17L_G1_Ext_</li>
+          <!-- Glock 17L G1 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock18_G1_</li>
+          <!-- Glock 18 G1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock18_G1_Ext_SD_</li>
+          <!-- Glock 18 G1 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock18_G1_Ext_</li>
+          <!-- Glock 18 G1 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock18_G1_SD_</li>
+          <!-- Glock 18 G1 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.045)</MainHand>
+        <SecHand>(0.140, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Handflammpatrone_DM34_</li>
+          <!-- Handflammpatrone DM34 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.005, 0.100, -0.140)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G11K1_</li>
+          <!-- HK G11K1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.010, 0.100, -0.125)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G11K1_Burst_</li>
+          <!-- HK G11K1 (Burst) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.015, 0.100, -0.090)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G11K2_</li>
+          <!-- HK G11K2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.030, 0.100, -0.125)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G11K2_Burst_</li>
+          <!-- HK G11K2 (Burst) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.100)</MainHand>
+        <SecHand>(0.175, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3_</li>
+          <!-- HK G3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.050)</MainHand>
+        <SecHand>(0.110, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3_Bayonet_</li>
+          <!-- HK G3 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.050)</MainHand>
+        <SecHand>(0.160, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3_SD_</li>
+          <!-- HK G3 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.085)</MainHand>
+        <SecHand>(0.105, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_</li>
+          <!-- HK G3A3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.193, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_Bayonet_</li>
+          <!-- HK G3A3 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.070)</MainHand>
+        <SecHand>(0.100, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_Drum_Bayonet_</li>
+          <!-- HK G3A3 (Drum Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.193, 0.100, -0.050)</MainHand>
+        <SecHand>(0.110, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_Drum_SD_</li>
+          <!-- HK G3A3 (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.105)</MainHand>
+        <SecHand>(0.150, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_Drum_</li>
+          <!-- HK G3A3 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.193, 0.100, -0.050)</MainHand>
+        <SecHand>(0.125, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_Scope_Bayonet_</li>
+          <!-- HK G3A3 (Scope Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.193, 0.100, -0.050)</MainHand>
+        <SecHand>(0.105, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_Scope_SD_</li>
+          <!-- HK G3A3 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.110)</MainHand>
+        <SecHand>(0.145, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_Scope_</li>
+          <!-- HK G3A3 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.193, 0.100, -0.050)</MainHand>
+        <SecHand>(0.110, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_SD_</li>
+          <!-- HK G3A3 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_HK79_</li>
+          <!-- HK G3A3 HK79 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.193, 0.100, -0.050)</MainHand>
+        <SecHand>(0.135, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_HK79_Scope_SD_</li>
+          <!-- HK G3A3 HK79 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.110)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_HK79_Scope_</li>
+          <!-- HK G3A3 HK79 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.085)</MainHand>
+        <SecHand>(0.105, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_HK79_SD_</li>
+          <!-- HK G3A3 HK79 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_LMG_</li>
+          <!-- HK G3A3 LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.080)</MainHand>
+        <SecHand>(0.190, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3_LMG_SD_</li>
+          <!-- HK G3A3 LMG (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.105)</MainHand>
+        <SecHand>(0.145, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3ZF_</li>
+          <!-- HK G3A3ZF -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3ZF_Bayonet_</li>
+          <!-- HK G3A3ZF (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A3ZF_SD_</li>
+          <!-- HK G3A3ZF (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.105)</MainHand>
+        <SecHand>(0.170, -0.100, -0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A4_</li>
+          <!-- HK G3A4 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.187, 0.100, -0.050)</MainHand>
+        <SecHand>(0.120, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A4_Bayonet_</li>
+          <!-- HK G3A4 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.187, 0.100, -0.050)</MainHand>
+        <SecHand>(0.125, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A4_Drum_Bayonet_</li>
+          <!-- HK G3A4 (Drum Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.187, 0.100, -0.050)</MainHand>
+        <SecHand>(0.135, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A4_Drum_SD_</li>
+          <!-- HK G3A4 (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A4_Drum_</li>
+          <!-- HK G3A4 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.187, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A4_Scope_Bayonet_</li>
+          <!-- HK G3A4 (Scope Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.187, 0.100, -0.050)</MainHand>
+        <SecHand>(0.070, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A4_Scope_SD_</li>
+          <!-- HK G3A4 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A4_Scope_</li>
+          <!-- HK G3A4 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.187, 0.100, -0.050)</MainHand>
+        <SecHand>(0.135, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A4_SD_</li>
+          <!-- HK G3A4 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A4_HK79_</li>
+          <!-- HK G3A4 HK79 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.187, 0.100, -0.050)</MainHand>
+        <SecHand>(0.105, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A4_HK79_Scope_SD_</li>
+          <!-- HK G3A4 HK79 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A4_HK79_Scope_</li>
+          <!-- HK G3A4 HK79 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.187, 0.100, -0.050)</MainHand>
+        <SecHand>(0.145, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3A4_HK79_SD_</li>
+          <!-- HK G3A4 HK79 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.100)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3K_DMR_</li>
+          <!-- HK G3K DMR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.075)</MainHand>
+        <SecHand>(0.170, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3K_DMR_SD_</li>
+          <!-- HK G3K DMR (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.120)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3KA3_</li>
+          <!-- HK G3KA3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.085)</MainHand>
+        <SecHand>(0.145, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3KA3_SD_</li>
+          <!-- HK G3KA3 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.120)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3KA4_</li>
+          <!-- HK G3KA4 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.135)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3KA4_Drum_</li>
+          <!-- HK G3KA4 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.134, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3KA4_SD_</li>
+          <!-- HK G3KA4 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.134, 0.100, -0.050)</MainHand>
+        <SecHand>(0.145, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3KA4_Drum_SD_</li>
+          <!-- HK G3KA4 Drum (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.105)</MainHand>
+        <SecHand>(0.185, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3SG1_</li>
+          <!-- HK G3SG/1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.197, 0.100, -0.050)</MainHand>
+        <SecHand>(0.145, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_G3SG1_SD_</li>
+          <!-- HK G3SG/1 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.045, 0.100, -0.080)</MainHand>
+        <SecHand>(0.250, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A2_Slim_</li>
+          <!-- HK MP5A2 Slim -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.105)</MainHand>
+        <SecHand>(0.150, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A2_Slim_15Rnd_SD_</li>
+          <!-- HK MP5A2 Slim (15Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.035, 0.100, -0.090)</MainHand>
+        <SecHand>(0.295, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A2_Slim_15Rnd_</li>
+          <!-- HK MP5A2 Slim (15Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.120)</MainHand>
+        <SecHand>(0.210, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A2_Slim_Scope_SD_</li>
+          <!-- HK MP5A2 Slim (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.030, 0.100, -0.095)</MainHand>
+        <SecHand>(0.270, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A2_Slim_Scope_</li>
+          <!-- HK MP5A2 Slim (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.085)</MainHand>
+        <SecHand>(0.130, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A2_Slim_SD_</li>
+          <!-- HK MP5A2 Slim (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.030, 0.100, -0.090)</MainHand>
+        <SecHand>(0.230, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A2_Slim_Early_</li>
+          <!-- HK MP5A2 Slim Early -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.075)</MainHand>
+        <SecHand>(0.190, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A2_Slim_Early_20Rnd_SD_</li>
+          <!-- HK MP5A2 Slim Early (20Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.040, 0.100, -0.075)</MainHand>
+        <SecHand>(0.245, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A2_Slim_Early_20Rnd_</li>
+          <!-- HK MP5A2 Slim Early (20Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.105)</MainHand>
+        <SecHand>(0.140, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A2_Slim_Early_Scope_SD_</li>
+          <!-- HK MP5A2 Slim Early (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.040, 0.100, -0.070)</MainHand>
+        <SecHand>(0.225, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A2_Slim_Early_Scope_</li>
+          <!-- HK MP5A2 Slim Early (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.090)</MainHand>
+        <SecHand>(0.150, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A2_Slim_Early_SD_</li>
+          <!-- HK MP5A2 Slim Early (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.020, 0.100, -0.095)</MainHand>
+        <SecHand>(0.210, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_</li>
+          <!-- HK MP5A3 Slim -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.045)</MainHand>
+        <SecHand>(0.165, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_15Rnd_Folded_SD_</li>
+          <!-- HK MP5A3 Slim (15Rnd Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.035, 0.100, -0.060)</MainHand>
+        <SecHand>(0.245, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_15Rnd_Folded_</li>
+          <!-- HK MP5A3 Slim (15Rnd Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.115)</MainHand>
+        <SecHand>(0.145, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_15Rnd_SD_</li>
+          <!-- HK MP5A3 Slim (15Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.045, 0.100, -0.085)</MainHand>
+        <SecHand>(0.250, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_15Rnd_</li>
+          <!-- HK MP5A3 Slim (15Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.165, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Folded_SD_</li>
+          <!-- HK MP5A3 Slim (Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.045, 0.100, -0.075)</MainHand>
+        <SecHand>(0.275, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Folded_</li>
+          <!-- HK MP5A3 Slim (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.055)</MainHand>
+        <SecHand>(0.100, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Scope_Folded_SD_</li>
+          <!-- HK MP5A3 Slim (Scope Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.000, 0.100, -0.075)</MainHand>
+        <SecHand>(0.300, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Scope_Folded_</li>
+          <!-- HK MP5A3 Slim (Scope Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.105)</MainHand>
+        <SecHand>(0.145, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Scope_SD_</li>
+          <!-- HK MP5A3 Slim (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.030, 0.100, -0.050)</MainHand>
+        <SecHand>(0.270, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Scope_</li>
+          <!-- HK MP5A3 Slim (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.090)</MainHand>
+        <SecHand>(0.140, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_SD_</li>
+          <!-- HK MP5A3 Slim (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.035, 0.100, -0.060)</MainHand>
+        <SecHand>(0.270, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_</li>
+          <!-- HK MP5A3 Slim Early -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.025, 0.100, -0.080)</MainHand>
+        <SecHand>(0.255, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_20Rnd_Folded_</li>
+          <!-- HK MP5A3 Slim Early (20Rnd Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.070)</MainHand>
+        <SecHand>(0.160, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_20Rnd_SD_</li>
+          <!-- HK MP5A3 Slim Early (20Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.085)</MainHand>
+        <SecHand>(0.290, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_20Rnd_</li>
+          <!-- HK MP5A3 Slim Early (20Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.070)</MainHand>
+        <SecHand>(0.070, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_Folded_SD_</li>
+          <!-- HK MP5A3 Slim Early (Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.065)</MainHand>
+        <SecHand>(0.065, -0.100, 0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_20Rnd_Folded_SD_</li>
+          <!-- HK MP5A3 Slim Early (Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.090)</MainHand>
+        <SecHand>(0.255, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_Folded_</li>
+          <!-- HK MP5A3 Slim Early (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.060)</MainHand>
+        <SecHand>(0.140, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_Scope_Folded_SD_</li>
+          <!-- HK MP5A3 Slim Early (Scope Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.010, 0.100, -0.045)</MainHand>
+        <SecHand>(0.265, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_Scope_Folded_</li>
+          <!-- HK MP5A3 Slim Early (Scope Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.095)</MainHand>
+        <SecHand>(0.145, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_Scope_SD_</li>
+          <!-- HK MP5A3 Slim Early (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.040, 0.100, -0.090)</MainHand>
+        <SecHand>(0.240, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_Scope_</li>
+          <!-- HK MP5A3 Slim Early (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.080)</MainHand>
+        <SecHand>(0.155, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_SD_</li>
+          <!-- HK MP5A3 Slim Early (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.025, 0.100, -0.055)</MainHand>
+        <SecHand>(0.260, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_Stockless_</li>
+          <!-- HK MP5A3 Slim Early Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.055)</MainHand>
+        <SecHand>(0.165, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_Stockless_20Rnd_SD_</li>
+          <!-- HK MP5A3 Slim Early Stockless (20Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.020, 0.100, -0.060)</MainHand>
+        <SecHand>(0.260, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_Stockless_20Rnd_</li>
+          <!-- HK MP5A3 Slim Early Stockless (20Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.060)</MainHand>
+        <SecHand>(0.140, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Early_Stockless_SD_</li>
+          <!-- HK MP5A3 Slim Early Stockless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.040, 0.100, -0.080)</MainHand>
+        <SecHand>(0.260, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Stockless_</li>
+          <!-- HK MP5A3 Slim Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.045)</MainHand>
+        <SecHand>(0.085, -0.100, 0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Stockless_15Rnd_SD_</li>
+          <!-- HK MP5A3 Slim Stockless (15Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.005, 0.100, -0.045)</MainHand>
+        <SecHand>(0.270, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Stockless_15Rnd_</li>
+          <!-- HK MP5A3 Slim Stockless (15Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.050)</MainHand>
+        <SecHand>(0.030, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Slim_Stockless_SD_</li>
+          <!-- HK MP5A3 Slim Stockless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5K_Early_</li>
+          <!-- HK MP5K Early -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5K_Early_20Rnd_SD_</li>
+          <!-- HK MP5K Early (20Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5K_Early_20Rnd_</li>
+          <!-- HK MP5K Early (20Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5K_Early_Scope_SD_</li>
+          <!-- HK MP5K Early (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5K_Early_Scope_</li>
+          <!-- HK MP5K Early (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5K_Early_SD_</li>
+          <!-- HK MP5K Early (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5K_Early_NG_</li>
+          <!-- HK MP5K Early NG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5K_Early_NG_20Rnd_SD_</li>
+          <!-- HK MP5K Early NG (20Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5K_Early_NG_20Rnd_</li>
+          <!-- HK MP5K Early NG (20Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.090)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5K_Early_NG_SD_</li>
+          <!-- HK MP5K Early NG (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5KA1_</li>
+          <!-- HK MP5KA1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.085)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5KA1_10Rnd_SD_</li>
+          <!-- HK MP5KA1 (10Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5KA1_10Rnd_</li>
+          <!-- HK MP5KA1 (10Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.110)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5KA1_15Rnd_SD_</li>
+          <!-- HK MP5KA1 (15Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5KA1_15Rnd_</li>
+          <!-- HK MP5KA1 (15Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.085)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5KA1_SD_</li>
+          <!-- HK MP5KA1 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.095)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5SD1_Early_</li>
+          <!-- HK MP5SD1 Early -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.045, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5SD1_Early_20Rnd_</li>
+          <!-- HK MP5SD1 Early (20Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.035, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5SD1_Early_Scope_</li>
+          <!-- HK MP5SD1 Early (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.070)</MainHand>
+        <SecHand>(0.275, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5SD2_Early_20Rnd_</li>
+          <!-- HK MP5SD2 (20Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.025, 0.100, -0.080)</MainHand>
+        <SecHand>(0.300, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5SD2_Early_</li>
+          <!-- HK MP5SD2 Early -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, -0.090)</MainHand>
+        <SecHand>(0.270, -0.100, 0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5SD2_Early_Scope_</li>
+          <!-- HK MP5SD2 Early (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.040, 0.100, -0.060)</MainHand>
+        <SecHand>(0.315, -0.100, 0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5SD3_Early_</li>
+          <!-- HK MP5SD3 Early -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.090)</MainHand>
+        <SecHand>(0.260, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5SD3_Early_20Rnd_Folded_</li>
+          <!-- HK MP5SD3 Early (20Rnd Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.045, 0.100, -0.080)</MainHand>
+        <SecHand>(0.250, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5SD3_Early_20Rnd_</li>
+          <!-- HK MP5SD3 Early (20Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.015, 0.100, -0.075)</MainHand>
+        <SecHand>(0.300, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5SD3_Early_Folded_</li>
+          <!-- HK MP5SD3 Early (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.065)</MainHand>
+        <SecHand>(0.325, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5SD3_Early_Scope_Folded_</li>
+          <!-- HK MP5SD3 Early (Scope Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.030, 0.100, -0.080)</MainHand>
+        <SecHand>(0.250, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5SD3_Early_Scope_</li>
+          <!-- HK MP5SD3 Early (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P2A1_</li>
+          <!-- HK P2A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P7_</li>
+          <!-- HK P7 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P7_SD_</li>
+          <!-- HK P7 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.040, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P7M13_</li>
+          <!-- HK P7M13 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P7M13_SD_</li>
+          <!-- HK P7M13 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P7M13_Longslide_</li>
+          <!-- HK P7M13 Longslide -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.040, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P7M13_Nickel_</li>
+          <!-- HK P7M13 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P7M13_Nickel_SD_</li>
+          <!-- HK P7M13 Nickel (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P7M8_</li>
+          <!-- HK P7M8 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P7M8_SD_</li>
+          <!-- HK P7M8 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P9S_</li>
+          <!-- HK P9S -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P9S_SD_</li>
+          <!-- HK P9S (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P9S_765_</li>
+          <!-- HK P9S 7.65 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P9S_765_SD_</li>
+          <!-- HK P9S 7.65 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P9S_Early_</li>
+          <!-- HK P9S Early -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P9S_Early_SD_</li>
+          <!-- HK P9S Early (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P9S_Target_</li>
+          <!-- HK P9S Target -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_P9S_Target_SD_</li>
+          <!-- HK P9S Target (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.080)</MainHand>
+        <SecHand>(0.120, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_PSG1_</li>
+          <!-- HK PSG-1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.100)</MainHand>
+        <SecHand>(0.120, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_PSG1_Irons_</li>
+          <!-- HK PSG-1 (Irons) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.144, 0.100, -0.050)</MainHand>
+        <SecHand>(0.155, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_PSG1_SD_</li>
+          <!-- HK PSG-1 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_VP70M_</li>
+          <!-- HK VP70M -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_VP70M_SD_</li>
+          <!-- HK VP70M (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.345, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_VP70M_Stock_</li>
+          <!-- HK VP70M Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.170, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_VP70M_Stock_SD_</li>
+          <!-- HK VP70M Stock (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_VP70Z_</li>
+          <!-- HK VP70Z -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_VP70Z_SD_</li>
+          <!-- HK VP70Z (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.025, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_VP70Z_9x21_</li>
+          <!-- HK VP70Z 9x21 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_VP70Z_9x21_SD_</li>
+          <!-- HK VP70Z 9x21 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.090)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK11_</li>
+          <!-- HK11 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.085)</MainHand>
+        <SecHand>(0.130, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK11_Drum_SD_</li>
+          <!-- HK11 (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.110)</MainHand>
+        <SecHand>(0.255, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK11_Drum_</li>
+          <!-- HK11 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.060)</MainHand>
+        <SecHand>(0.145, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK11_Scope_SD_</li>
+          <!-- HK11 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.070)</MainHand>
+        <SecHand>(0.235, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK11_Scope_</li>
+          <!-- HK11 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.085)</MainHand>
+        <SecHand>(0.095, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK11_SD_</li>
+          <!-- HK11 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.115)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK13_</li>
+          <!-- HK13 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.060)</MainHand>
+        <SecHand>(0.130, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK13_Ext_SD_</li>
+          <!-- HK13 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.115)</MainHand>
+        <SecHand>(0.235, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK13_Ext_</li>
+          <!-- HK13 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.050)</MainHand>
+        <SecHand>(0.135, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK13_SD_</li>
+          <!-- HK13 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.095)</MainHand>
+        <SecHand>(0.215, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK21_</li>
+          <!-- HK21 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.050)</MainHand>
+        <SecHand>(0.125, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK21_Scope_SD_</li>
+          <!-- HK21 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.095)</MainHand>
+        <SecHand>(0.290, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK21_Scope_</li>
+          <!-- HK21 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.191, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK21_SD_</li>
+          <!-- HK21 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.090)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK23_</li>
+          <!-- HK23 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK23_SD_</li>
+          <!-- HK23 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.105)</MainHand>
+        <SecHand>(0.210, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A2_</li>
+          <!-- HK33A2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.143, 0.100, -0.050)</MainHand>
+        <SecHand>(0.145, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A2_Ext_SD_</li>
+          <!-- HK33A2 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.085)</MainHand>
+        <SecHand>(0.180, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A2_Ext_</li>
+          <!-- HK33A2 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.143, 0.100, -0.050)</MainHand>
+        <SecHand>(0.155, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A2_Scope_SD_</li>
+          <!-- HK33A2 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.080)</MainHand>
+        <SecHand>(0.235, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A2_Scope_</li>
+          <!-- HK33A2 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.144, 0.100, -0.050)</MainHand>
+        <SecHand>(0.140, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A2_SD_</li>
+          <!-- HK33A2 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.125)</MainHand>
+        <SecHand>(0.145, -0.100, -0.080)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A2_HK79_</li>
+          <!-- HK33A2 HK79 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.090)</MainHand>
+        <SecHand>(0.165, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A2_HK79_Scope_SD_</li>
+          <!-- HK33A2 HK79 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.085)</MainHand>
+        <SecHand>(0.205, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A2_HK79_Scope_</li>
+          <!-- HK33A2 HK79 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.143, 0.100, -0.050)</MainHand>
+        <SecHand>(0.185, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A2_HK79_SD_</li>
+          <!-- HK33A2 HK79 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A3_</li>
+          <!-- HK33A3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.050)</MainHand>
+        <SecHand>(0.180, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A3_Ext_SD_</li>
+          <!-- HK33A3 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.095)</MainHand>
+        <SecHand>(0.150, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A3_Ext_</li>
+          <!-- HK33A3 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.050)</MainHand>
+        <SecHand>(0.180, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A3_Scope_SD_</li>
+          <!-- HK33A3 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.090)</MainHand>
+        <SecHand>(0.135, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A3_Scope_</li>
+          <!-- HK33A3 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.050)</MainHand>
+        <SecHand>(0.165, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A3_SD_</li>
+          <!-- HK33A3 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.105)</MainHand>
+        <SecHand>(0.230, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A3_HK79_</li>
+          <!-- HK33A3 HK79 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.050)</MainHand>
+        <SecHand>(0.190, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A3_HK79_Scope_SD_</li>
+          <!-- HK33A3 HK79 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.090)</MainHand>
+        <SecHand>(0.235, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A3_HK79_Scope_</li>
+          <!-- HK33A3 HK79 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, -0.095)</MainHand>
+        <SecHand>(0.210, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33A3_HK79_SD_</li>
+          <!-- HK33A3 HK79 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.080)</MainHand>
+        <SecHand>(0.315, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33KA2_</li>
+          <!-- HK33KA2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.143, 0.100, -0.050)</MainHand>
+        <SecHand>(0.175, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33KA2_SD_</li>
+          <!-- HK33KA2 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.090)</MainHand>
+        <SecHand>(0.215, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33KA3_</li>
+          <!-- HK33KA3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.050)</MainHand>
+        <SecHand>(0.145, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33KA3_SD_</li>
+          <!-- HK33KA3 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.105)</MainHand>
+        <SecHand>(0.205, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33SG1_</li>
+          <!-- HK33SG/1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.144, 0.100, -0.050)</MainHand>
+        <SecHand>(0.155, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK33SG1_SD_</li>
+          <!-- HK33SG/1 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK4_</li>
+          <!-- HK4 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK4_SD_</li>
+          <!-- HK4 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.045, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK4_22_</li>
+          <!-- HK4 .22 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK4_22_SD_</li>
+          <!-- HK4 .22 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK4_380_</li>
+          <!-- HK4 .380 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK4_380_SD_</li>
+          <!-- HK4 .380 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK4_Polizei_</li>
+          <!-- HK4 Polizei -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK4_Polizei_SD_</li>
+          <!-- HK4 Polizei (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.030)</MainHand>
+        <SecHand>(0.205, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK512_</li>
+          <!-- HK512 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK512_SawedOff_</li>
+          <!-- HK512 Sawed-Off -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.020)</MainHand>
+        <SecHand>(0.200, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK512_Shorty_</li>
+          <!-- HK512 Shorty -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.010)</MainHand>
+        <SecHand>(0.210, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK512_Stockless_</li>
+          <!-- HK512 Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.100)</MainHand>
+        <SecHand>(0.250, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK53A2_</li>
+          <!-- HK53A2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.025, 0.100, -0.070)</MainHand>
+        <SecHand>(0.245, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK53A2_Scope_SD_</li>
+          <!-- HK53A2 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.105)</MainHand>
+        <SecHand>(0.225, -0.100, -0.075)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK53A2_Scope_</li>
+          <!-- HK53A2 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.010, 0.100, -0.070)</MainHand>
+        <SecHand>(0.295, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK53A2_SD_</li>
+          <!-- HK53A2 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.115)</MainHand>
+        <SecHand>(0.295, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK53A3_</li>
+          <!-- HK53A3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.020, 0.100, -0.080)</MainHand>
+        <SecHand>(0.305, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK53A3_Scope_SD_</li>
+          <!-- HK53A3 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, -0.115)</MainHand>
+        <SecHand>(0.240, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK53A3_Scope_</li>
+          <!-- HK53A3 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.035, 0.100, -0.065)</MainHand>
+        <SecHand>(0.315, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK53A3_SD_</li>
+          <!-- HK53A3 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.100)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK69A1_</li>
+          <!-- HK69A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.100)</MainHand>
+        <SecHand>(0.175, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A2_Early_</li>
+          <!-- HK94A2 Early -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.090)</MainHand>
+        <SecHand>(0.200, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_Early_</li>
+          <!-- HK94A3 Early -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.075)</MainHand>
+        <SecHand>(0.125, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_Early_Folded_</li>
+          <!-- HK94A3 Early (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.189, 0.100, -0.050)</MainHand>
+        <SecHand>(0.135, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Karabiner_S_Bayonet_</li>
+          <!-- Karabiner S (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.138, 0.100, -0.050)</MainHand>
+        <SecHand>(0.175, -0.100, 0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Karabiner_S_SD_</li>
+          <!-- Karabiner S (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.253, 0.100, -0.050)</MainHand>
+        <SecHand>(0.100, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Karabiner_S_</li>
+          <!-- Karabiner S -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.060)</MainHand>
+        <SecHand>(0.140, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_KK_MPi69_</li>
+          <!-- KK-MPi-69 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.075)</MainHand>
+        <SecHand>(0.145, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LMG_K_500_</li>
+          <!-- LMG-K-500 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.075)</MainHand>
+        <SecHand>(0.100, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LMG_K_500_Drum_</li>
+          <!-- LMG-K-500 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.110)</MainHand>
+        <SecHand>(0.160, -0.100, -0.065)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LMG_K_500_Ext_</li>
+          <!-- LMG-K-500 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.065)</MainHand>
+        <SecHand>(0.120, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LMG_K_500S_</li>
+          <!-- LMG-K-500S -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.070)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LMG_K_500S_Drum_</li>
+          <!-- LMG-K-500S (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LMG_K_500S_Ext_</li>
+          <!-- LMG-K-500S (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LMG_K74_500_</li>
+          <!-- LMG-K74-500 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.055)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LMG_K74_500_Ext_</li>
+          <!-- LMG-K74-500 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.070)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LMG_K74_500F_</li>
+          <!-- LMG-K74-500F -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.040)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LMG_K74_500F_Ext_</li>
+          <!-- LMG-K74-500F (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.075)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LMG_K74_500S_</li>
+          <!-- LMG-K74-500S -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.055)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LMG_K74_500S_Ext_</li>
+          <!-- LMG-K74-500S (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LP1_</li>
+          <!-- LP1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MG3_</li>
+          <!-- MG3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.100)</MainHand>
+        <SecHand>(0.075, -0.100, -0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MG3A1_</li>
+          <!-- MG3A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.115)</MainHand>
+        <SecHand>(0.185, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MG74_</li>
+          <!-- MG74 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.070, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MP2A1_</li>
+          <!-- MP2A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.020)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MP2A1_SD_</li>
+          <!-- MP2A1 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.075)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_AK_74N_</li>
+          <!-- MPi-AK-74N -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.050)</MainHand>
+        <SecHand>(0.120, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_AK_74N_Bayonet_</li>
+          <!-- MPi-AK-74N (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.184, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_AK_74N_SD_</li>
+          <!-- MPi-AK-74N (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.060)</MainHand>
+        <SecHand>(0.105, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_AKS_74N_</li>
+          <!-- MPi-AKS-74N -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.182, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_AKS_74N_Bayonet_</li>
+          <!-- MPi-AKS-74N (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.075, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_AKS_74N_SD_</li>
+          <!-- MPi-AKS-74N (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.050)</MainHand>
+        <SecHand>(0.180, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_AKS_74NK_</li>
+          <!-- MPi-AKS-74NK -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.116, 0.100, -0.050)</MainHand>
+        <SecHand>(0.170, -0.100, 0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_AKS_74NK_SD_</li>
+          <!-- MPi-AKS-74NK (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.050)</MainHand>
+        <SecHand>(0.145, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_K_</li>
+          <!-- MPi-K -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.050)</MainHand>
+        <SecHand>(0.150, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_K_Bayonet_</li>
+          <!-- MPi-K (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.020)</MainHand>
+        <SecHand>(0.215, -0.100, 0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_K_Scope_Bayonet_</li>
+          <!-- MPi-K (Scope Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.157, 0.100, -0.050)</MainHand>
+        <SecHand>(0.095, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_K_Scope_SD_</li>
+          <!-- MPi-K (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.080)</MainHand>
+        <SecHand>(0.160, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_K_Scope_</li>
+          <!-- MPi-K (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.168, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_K_SD_</li>
+          <!-- MPi-K (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.060)</MainHand>
+        <SecHand>(0.160, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KM_72_</li>
+          <!-- MPi-KM-72 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.075)</MainHand>
+        <SecHand>(0.125, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KM_72_Bayonet_</li>
+          <!-- MPi-KM-72 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.095, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KM_72_Drum_Bayonet_</li>
+          <!-- MPi-KM-72 (Drum Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.075)</MainHand>
+        <SecHand>(0.105, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KM_72_Drum_SD_</li>
+          <!-- MPi-KM-72 (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.090)</MainHand>
+        <SecHand>(0.195, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KM_72_Drum_</li>
+          <!-- MPi-KM-72 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.156, 0.100, -0.050)</MainHand>
+        <SecHand>(0.120, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KM_72_SD_</li>
+          <!-- MPi-KM-72 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.095)</MainHand>
+        <SecHand>(0.225, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KM_72_GP25_</li>
+          <!-- MPi-KM-72 GP-25 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.050)</MainHand>
+        <SecHand>(0.120, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KM_72_GP25_SD_</li>
+          <!-- MPi-KM-72 GP-25 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.055)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KM_K_72_</li>
+          <!-- MPi-KM-K-72 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.119, 0.100, -0.050)</MainHand>
+        <SecHand>(0.145, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KM_K_72_Drum_SD_</li>
+          <!-- MPi-KM-K-72 (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.070)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KM_K_72_Drum_</li>
+          <!-- MPi-KM-K-72 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.126, 0.100, -0.050)</MainHand>
+        <SecHand>(0.175, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KM_K_72_SD_</li>
+          <!-- MPi-KM-K-72 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.050)</MainHand>
+        <SecHand>(0.145, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KMS_72_</li>
+          <!-- MPi-KMS-72 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.166, 0.100, -0.050)</MainHand>
+        <SecHand>(0.085, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KMS_72_Bayonet_</li>
+          <!-- MPi-KMS-72 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.166, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KMS_72_Drum_Bayonet_</li>
+          <!-- MPi-KMS-72 (Drum Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.162, 0.100, -0.050)</MainHand>
+        <SecHand>(0.075, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KMS_72_Drum_SD_</li>
+          <!-- MPi-KMS-72 (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.075)</MainHand>
+        <SecHand>(0.160, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KMS_72_Drum_</li>
+          <!-- MPi-KMS-72 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.163, 0.100, -0.050)</MainHand>
+        <SecHand>(0.105, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KMS_72_SD_</li>
+          <!-- MPi-KMS-72 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.070)</MainHand>
+        <SecHand>(0.180, -0.100, -0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KMS_72_GP25_</li>
+          <!-- MPi-KMS-72 GP-25 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.157, 0.100, -0.050)</MainHand>
+        <SecHand>(0.150, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KMS_72_GP25_SD_</li>
+          <!-- MPi-KMS-72 GP-25 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.055)</MainHand>
+        <SecHand>(0.210, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KS_</li>
+          <!-- MPi-KS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.096, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KS_Bayonet_</li>
+          <!-- MPi-KS (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.096, 0.100, -0.050)</MainHand>
+        <SecHand>(0.175, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KS_Scope_Bayonet_</li>
+          <!-- MPi-KS (Scope Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.137, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KS_Scope_SD_</li>
+          <!-- MPi-KS (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.070)</MainHand>
+        <SecHand>(0.160, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KS_Scope_</li>
+          <!-- MPi-KS (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.050)</MainHand>
+        <SecHand>(0.095, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_KS_SD_</li>
+          <!-- MPi-KS (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.010, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MPi_WG66_</li>
+          <!-- MPi-WG66 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.040, 0.100, -0.145)</MainHand>
+        <SecHand>(0.260, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Panzerfaust_44_</li>
+          <!-- Panzerfaust 44 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pistole_1001_</li>
+          <!-- Pistole 1001 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pistole_1001_SD_</li>
+          <!-- Pistole 1001 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pistole_M_</li>
+          <!-- Pistole M -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pistole_M_SD_</li>
+          <!-- Pistole M (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SIG_P6_</li>
+          <!-- SIG P6 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SIG_P6_SD_</li>
+          <!-- SIG P6 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.070)</MainHand>
+        <SecHand>(0.105, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SSG_82_</li>
+          <!-- SSG-82 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.204, 0.100, -0.050)</MainHand>
+        <SecHand>(0.100, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SSG_82_Irons_SD_</li>
+          <!-- SSG-82 (Irons SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.267, 0.100, -0.050)</MainHand>
+        <SecHand>(0.000, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SSG_82_Irons_</li>
+          <!-- SSG-82 (Irons) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, 0.005)</MainHand>
+        <SecHand>(0.015, -0.100, 0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SSG_82_SD_</li>
+          <!-- SSG-82 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SSG_82_SawedOff_</li>
+          <!-- SSG-82 Sawed-Off -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SSG_82_SawedOff_Irons_</li>
+          <!-- SSG-82 Sawed-Off (Irons) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.055)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SSG_82_Shorty_</li>
+          <!-- SSG-82 Shorty -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.015)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SSG_82_Shorty_Irons_</li>
+          <!-- SSG-82 Shorty (Irons) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.035)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SSG_82_Stockless_</li>
+          <!-- SSG-82 Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.045)</MainHand>
+        <SecHand>(0.155, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SSG_82_Stockless_Irons_</li>
+          <!-- SSG-82 Stockless (Irons) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.085)</MainHand>
+        <SecHand>(0.215, -0.100, -0.075)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_AUG_A1_</li>
+          <!-- Steyr AUG A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.010, 0.100, -0.080)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_AUG_A1_Bayonet_</li>
+          <!-- Steyr AUG A1 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.030, 0.100, -0.045)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_AUG_A1_SD_</li>
+          <!-- Steyr AUG A1 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.025, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_AUG_A1_Black_</li>
+          <!-- Steyr AUG A1 Black -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.015, 0.100, -0.060)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_AUG_A1_Black_Bayonet_</li>
+          <!-- Steyr AUG A1 Black (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.030, 0.100, -0.045)</MainHand>
+        <SecHand>(0.235, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_AUG_A1_Black_SD_</li>
+          <!-- Steyr AUG A1 Black (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.005, 0.100, -0.075)</MainHand>
+        <SecHand>(0.250, -0.100, -0.085)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_AUG_A1_Carbine_</li>
+          <!-- Steyr AUG A1 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.005, 0.100, -0.100)</MainHand>
+        <SecHand>(0.205, -0.100, -0.115)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_AUG_A1_Carbine_Black_</li>
+          <!-- Steyr AUG A1 Carbine Black -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.035)</MainHand>
+        <SecHand>(0.060, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_AUG_A1_HBAR_</li>
+          <!-- Steyr AUG A1 HBAR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.040)</MainHand>
+        <SecHand>(0.080, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_AUG_A1_HBAR_Black_</li>
+          <!-- Steyr AUG A1 HBAR Black -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.025)</MainHand>
+        <SecHand>(0.260, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_AUG_A1_M203_</li>
+          <!-- Steyr AUG A1 M203 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.060)</MainHand>
+        <SecHand>(0.020, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_IWS2000_</li>
+          <!-- Steyr IWS-2000 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.060)</MainHand>
+        <SecHand>(-0.075, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_IWS2000_SD_</li>
+          <!-- Steyr IWS-2000 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.095, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_MPi69_</li>
+          <!-- Steyr MPi-69 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.090, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_MPi81_</li>
+          <!-- Steyr MPi-81 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.015, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_MPi81_IFV_</li>
+          <!-- Steyr MPi-81 IFV -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.035)</MainHand>
+        <SecHand>(0.140, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_SSG69_</li>
+          <!-- Steyr SSG-69 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.184, 0.100, -0.050)</MainHand>
+        <SecHand>(0.075, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_SSG69_Irons_SD_</li>
+          <!-- Steyr SSG-69 (Irons SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.253, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_SSG69_Irons_</li>
+          <!-- Steyr SSG-69 (Irons) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.015)</MainHand>
+        <SecHand>(0.095, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_SSG69_SD_</li>
+          <!-- Steyr SSG-69 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.085)</MainHand>
+        <SecHand>(0.175, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_44_</li>
+          <!-- StG-44 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_44_Bayonet_</li>
+          <!-- StG-44 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.050)</MainHand>
+        <SecHand>(0.100, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_44_SD_</li>
+          <!-- StG-44 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.176, 0.100, -0.050)</MainHand>
+        <SecHand>(0.125, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_44_ZF4_Bayonet_</li>
+          <!-- StG-44 (ZF4 Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.050)</MainHand>
+        <SecHand>(0.040, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_44_ZF4_SD_</li>
+          <!-- StG-44 (ZF4 SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.085)</MainHand>
+        <SecHand>(0.120, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_44_ZF4_</li>
+          <!-- StG-44 (ZF4) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.060)</MainHand>
+        <SecHand>(0.185, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_941_</li>
+          <!-- StG-941 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.231, 0.100, -0.050)</MainHand>
+        <SecHand>(0.080, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_941_SD_</li>
+          <!-- StG-941 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.045)</MainHand>
+        <SecHand>(0.130, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_942_</li>
+          <!-- StG-942 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.050)</MainHand>
+        <SecHand>(0.105, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_942_SD_</li>
+          <!-- StG-942 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.075)</MainHand>
+        <SecHand>(0.115, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_943_</li>
+          <!-- StG-943 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.159, 0.100, -0.050)</MainHand>
+        <SecHand>(0.145, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_943_SD_</li>
+          <!-- StG-943 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.070)</MainHand>
+        <SecHand>(0.190, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_944_</li>
+          <!-- StG-944 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.050)</MainHand>
+        <SecHand>(0.075, -0.100, 0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_944_SD_</li>
+          <!-- StG-944 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.055)</MainHand>
+        <SecHand>(0.130, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_945_</li>
+          <!-- StG-945 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.231, 0.100, -0.050)</MainHand>
+        <SecHand>(0.080, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StG_945_SD_</li>
+          <!-- StG-945 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.085)</MainHand>
+        <SecHand>(0.140, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_STG_K_90_</li>
+          <!-- StG-K-90 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.050)</MainHand>
+        <SecHand>(0.075, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_STG_K_90_Bayonet_</li>
+          <!-- StG-K-90 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, -0.045)</MainHand>
+        <SecHand>(0.160, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_STG_K_90_SD_</li>
+          <!-- StG-K-90 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.050, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_MPK_</li>
+          <!-- Walther MPK -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_MPK_SD_</li>
+          <!-- Walther MPK (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.010, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_MPL_</li>
+          <!-- Walther MPL -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_MPL_SD_</li>
+          <!-- Walther MPL (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P1_</li>
+          <!-- Walther P1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P1_SD_</li>
+          <!-- Walther P1 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P4_</li>
+          <!-- Walther P4 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P4_SD_</li>
+          <!-- Walther P4 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5_</li>
+          <!-- Walther P5 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5_SD_</li>
+          <!-- Walther P5 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5_765_</li>
+          <!-- Walther P5 7.65 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5_765_SD_</li>
+          <!-- Walther P5 7.65 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5_9x21_</li>
+          <!-- Walther P5 9x21 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5_9x21_SD_</li>
+          <!-- Walther P5 9x21 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5_Compact_</li>
+          <!-- Walther P5 Compact -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5_Compact_SD_</li>
+          <!-- Walther P5 Compact (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5_Compact_765_</li>
+          <!-- Walther P5 Compact 7.65 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5_Compact_765_SD_</li>
+          <!-- Walther P5 Compact 7.65 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5_Compact_9x21_</li>
+          <!-- Walther P5 Compact 9x21 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5_Compact_9x21_SD_</li>
+          <!-- Walther P5 Compact 9x21 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5L_</li>
+          <!-- Walther P5L -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5L_SD_</li>
+          <!-- Walther P5L (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5L_765_</li>
+          <!-- Walther P5L 7.65 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5L_765_SD_</li>
+          <!-- Walther P5L 7.65 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5L_9x21_</li>
+          <!-- Walther P5L 9x21 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P5L_9x21_SD_</li>
+          <!-- Walther P5L 9x21 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P88_</li>
+          <!-- Walther P88 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P88_SD_</li>
+          <!-- Walther P88 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P88_Compact_</li>
+          <!-- Walther P88 Compact -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P88_Compact_SD_</li>
+          <!-- Walther P88 Compact (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P88_Nickel_</li>
+          <!-- Walther P88 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_P88_Nickel_SD_</li>
+          <!-- Walther P88 Nickel (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_PPKL_</li>
+          <!-- Walther PPK-L -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_PPKL_SD_</li>
+          <!-- Walther PPK-L (SD) -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>
