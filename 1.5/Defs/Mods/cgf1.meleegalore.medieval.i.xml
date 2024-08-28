@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="cgf1.meleegalore.medieval.i">
+    <defName>ClutterHandsSettings_ArmsGaloreTastyMedieval</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.330, 0.100, -0.350)</MainHand>
+        <SecHand>(-0.020, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ahlspiess</li>
+          <!-- ahlspiess -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.070)</MainHand>
+        <SecHand>(0.125, -0.100, -0.095)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Arbalest_</li>
+          <!-- arbalest -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.375, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_ArmingSword</li>
+          <!-- arming sword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.360, 0.100, -0.340)</MainHand>
+        <SecHand>(0.000, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_BannerSpear</li>
+          <!-- banner spear -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.370, 0.100, -0.305)</MainHand>
+        <SecHand>(-0.075, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bardiche</li>
+          <!-- bardiche -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_BeardedAxe</li>
+          <!-- bearded axe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.325, 0.100, -0.340)</MainHand>
+        <SecHand>(0.000, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Billhook</li>
+          <!-- billhook -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_BollockDagger</li>
+          <!-- bollock dagger -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.340, 0.100, -0.335)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claidheamh_Mor</li>
+          <!-- claidheamh mor -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.085, 0.100, -0.015)</MainHand>
+        <SecHand>(-0.130, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Composite_Bow_</li>
+          <!-- composite bow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.045)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Composite_Crossbow_</li>
+          <!-- composite crossbow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.085, 0.100, -0.025)</MainHand>
+        <SecHand>(-0.100, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Continental_WarBow_</li>
+          <!-- continental war bow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.320)</MainHand>
+        <SecHand>(-0.190, -0.100, -0.175)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DaneAxe</li>
+          <!-- dane axe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.100, 0.100, -0.030)</MainHand>
+        <SecHand>(-0.115, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_English_Longbow_</li>
+          <!-- english longbow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.305, 0.100, -0.295)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Estoc</li>
+          <!-- estoc -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.305, 0.100, -0.295)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Executioner_Sword</li>
+          <!-- executioner sword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.385, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Falchion</li>
+          <!-- falchion -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FightingAxe</li>
+          <!-- fighting axe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FlangedMace</li>
+          <!-- flanged mace -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.040, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Fletched_Javelin_</li>
+          <!-- fletched javelin -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.155)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Francisca_</li>
+          <!-- francisca -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.265)</MainHand>
+        <SecHand>(-0.225, -0.100, -0.170)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_GallowglassAxe</li>
+          <!-- gallowglass axe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.305, 0.100, -0.350)</MainHand>
+        <SecHand>(-0.140, -0.100, -0.175)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glaive</li>
+          <!-- glaive -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.170)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Godendag</li>
+          <!-- godendag -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Haakbus_</li>
+          <!-- Haakbus -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.315)</MainHand>
+        <SecHand>(-0.215, -0.100, -0.190)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Halberd</li>
+          <!-- halberd -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.025)</MainHand>
+        <SecHand>(-0.145, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Hand_Bombard_</li>
+          <!-- Hand Bombard -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.400, 0.100, -0.010)</MainHand>
+        <SecHand>(-0.035, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Hand_Cannon_</li>
+          <!-- Hand Cannon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.010)</MainHand>
+        <SecHand>(0.090, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Handgonne_</li>
+          <!-- Handgonne -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.050, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.115, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Heavy_RecurveBow_</li>
+          <!-- heavy recurve bow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.180)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Heavy_ThrowingAxe_</li>
+          <!-- heavy throwing axe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.350)</MainHand>
+        <SecHand>(0.000, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HewingSpear</li>
+          <!-- hewing spear -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HorsemansAxe</li>
+          <!-- horseman's axe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.300)</MainHand>
+        <SecHand>(-0.190, -0.100, -0.145)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HungarianAxe</li>
+          <!-- hungarian axe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.385, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Katzbalger</li>
+          <!-- katzbalger -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.245)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kriegsmesser</li>
+          <!-- kriegsmesser -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.020)</MainHand>
+        <SecHand>(0.135, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Landsknecht_Harkebus_</li>
+          <!-- Landsknecht Harkebus -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.280)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Longsword</li>
+          <!-- longsword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.340, 0.100, -0.325)</MainHand>
+        <SecHand>(-0.200, -0.100, -0.185)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LucerneHammer</li>
+          <!-- lucerne hammer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mace</li>
+          <!-- mace -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MaciejowskiFalchion</li>
+          <!-- maciejowski falchion -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.350, 0.100, -0.005)</MainHand>
+        <SecHand>(0.075, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Matchlock_Ciezki_Arquebus_</li>
+          <!-- Matchlock Ciezki Arquebus -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.365, 0.100, 0.000)</MainHand>
+        <SecHand>(0.025, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Matchlock_Fishtail_Arquebus_</li>
+          <!-- Matchlock Fishtail Arquebus -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.350, 0.100, -0.030)</MainHand>
+        <SecHand>(0.080, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Matchlock_Graz_Arquebus_</li>
+          <!-- Matchlock Graz Arquebus -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.395, 0.100, -0.025)</MainHand>
+        <SecHand>(0.050, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Matchlock_Heavy_Arquebus_</li>
+          <!-- Matchlock Heavy Arquebus -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.050)</MainHand>
+        <SecHand>(0.055, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Matchlock_Infantry_Musket_</li>
+          <!-- Matchlock Infantry Musket -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Matchlock_Pistol_</li>
+          <!-- Matchlock Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.045)</MainHand>
+        <SecHand>(0.115, -0.100, 0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Matchlock_Warsaw_Arquebus_</li>
+          <!-- Matchlock Warsaw Arquebus -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Messer</li>
+          <!-- messer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MilitaryWarpick</li>
+          <!-- military warpick -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MorningStar</li>
+          <!-- morning star -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.355, 0.100, -0.360)</MainHand>
+        <SecHand>(-0.195, -0.100, -0.190)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pike</li>
+          <!-- pike -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.020, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Plumbata_</li>
+          <!-- plumbata -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.305)</MainHand>
+        <SecHand>(-0.175, -0.100, -0.170)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pollaxe</li>
+          <!-- pollaxe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.355, 0.100, -0.355)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Rapier</li>
+          <!-- rapier -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RondelDagger</li>
+          <!-- rondel dagger -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.305, 0.100, -0.290)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SapperAxe</li>
+          <!-- sapper axe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Seax</li>
+          <!-- seax -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.365, 0.100, -0.085)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_StaffSling_</li>
+          <!-- staff sling -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.060)</MainHand>
+        <SecHand>(0.115, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steel_Crossbow_</li>
+          <!-- steel crossbow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.380, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_VikingSword</li>
+          <!-- viking sword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.350, 0.100, -0.350)</MainHand>
+        <SecHand>(-0.200, -0.100, -0.165)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_WarScythe</li>
+          <!-- war scythe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.355, 0.100, -0.365)</MainHand>
+        <SecHand>(-0.200, -0.100, -0.200)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_WarSpear</li>
+          <!-- war spear -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Warhammer</li>
+          <!-- warhammer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.325, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Warhammer_Fancy</li>
+          <!-- warhammer (fancy) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wheellock_Cavalry_Pistol_</li>
+          <!-- Wheellock Cavalry Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wheellock_Dragoon_Pistol_</li>
+          <!-- Wheellock Dragoon Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.390, 0.100, -0.025)</MainHand>
+        <SecHand>(0.040, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wheellock_Infantry_Musket_</li>
+          <!-- Wheellock Infantry Musket -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wheellock_Infantry_Pistol_</li>
+          <!-- Wheellock Infantry Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wheellock_Officers_Pistol_</li>
+          <!-- Wheellock Officer's Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.045)</MainHand>
+        <SecHand>(0.115, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wood_Crossbow_</li>
+          <!-- wood crossbow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wurfkreuz_</li>
+          <!-- wurfkreuz -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.370, 0.100, -0.365)</MainHand>
+        <SecHand>(-0.250, -0.100, -0.255)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Zweihander</li>
+          <!-- zweihander -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

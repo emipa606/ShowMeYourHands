@@ -9,7 +9,12 @@
   <SMYH.copy.label>Copy manual values</SMYH.copy.label>
   <SMYH.copy.tooltip>Copies the changed values to a XML-format that can be used to create better default definitions</SMYH.copy.tooltip>
   <SMYH.copy.button>Copy all</SMYH.copy.button>
+  <SMYH.copied>Modified data copied to clipboard.</SMYH.copied>
   <SMYH.copyselected.button>Copy selected</SMYH.copyselected.button>
+  <SMYH.paste.button>Paste settings</SMYH.paste.button>
+  <SMYH.copyone.button>Copy settings</SMYH.copyone.button>
+  <SMYH.paste.info>Settings pasted</SMYH.paste.info>
+  <SMYH.copy.info>Settings copied</SMYH.copy.info>
   <SMYH.resetall.label>Manual config reset</SMYH.resetall.label>
   <SMYH.resetall.tooltip>Reset all defined hand-settings</SMYH.resetall.tooltip>
   <SMYH.resetall.button>Reset all</SMYH.resetall.button>

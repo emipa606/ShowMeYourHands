@@ -1,0 +1,2033 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="cgf1.gunsgalore.greatwar.centralpowers">
+    <defName>ClutterHandsSettings_GunsGaloreGreatWarCentralPowers</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_2mm_Kolibri_</li>
+          <!-- 2mm Kolibri -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.050)</MainHand>
+        <SecHand>(0.100, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Arisaka_Type30_Austrian_</li>
+          <!-- Arisaka Type 30 Austrian -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.050)</MainHand>
+        <SecHand>(0.100, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Arisaka_Type38_Austrian_</li>
+          <!-- Arisaka Type 38 Austrian -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.100)</MainHand>
+        <SecHand>(0.070, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Becker_TypeM2_Aircraft_</li>
+          <!-- Becker Type M2 Aircraft -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.100)</MainHand>
+        <SecHand>(0.070, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Becker_TypeM2_Infantry_</li>
+          <!-- Becker Type M2 Infantry -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.247, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Berdan_Model1870_AZF_</li>
+          <!-- Berdan Model 1870 AZF -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bergmann_MG02_</li>
+          <!-- Bergmann MG-02 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.070)</MainHand>
+        <SecHand>(0.130, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bergmann_MG15_</li>
+          <!-- Bergmann MG-15 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.070)</MainHand>
+        <SecHand>(0.130, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bergmann_MG15nA_</li>
+          <!-- Bergmann MG-15nA -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.060)</MainHand>
+        <SecHand>(0.130, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bergmann_MP18I_</li>
+          <!-- Bergmann MP-18/I -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.060)</MainHand>
+        <SecHand>(0.130, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bergmann_MP18I_Prototype_</li>
+          <!-- Bergmann MP-18/I Prototype -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.060)</MainHand>
+        <SecHand>(0.130, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bergmann_MP18III_</li>
+          <!-- Bergmann MP-18/III -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bergmann_Simplex_</li>
+          <!-- Bergmann Simplex -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bergmann_Simplex_Nickel_</li>
+          <!-- Bergmann Simplex Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_BergmannMars_M1901_</li>
+          <!-- Bergmann-Mars M1901 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_BergmannMars_M1901_Nickel_</li>
+          <!-- Bergmann-Mars M1901 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Borchardt_C93_MachinePistol_</li>
+          <!-- Borchardt C93 Machine Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.050)</MainHand>
+        <SecHand>(0.095, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Borchardt_SLR_</li>
+          <!-- Borchardt SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.050)</MainHand>
+        <SecHand>(0.075, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Carcano_M91_Austrian_</li>
+          <!-- Carcano M91 Austrian -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.070)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Chauchat_M1915_SPatrone_</li>
+          <!-- Chauchat M1915 S-Patrone -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Dreyse_M1907_</li>
+          <!-- Dreyse M1907 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.030)</MainHand>
+        <SecHand>(0.100, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Dreyse_M1907_Carbine_</li>
+          <!-- Dreyse M1907 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Dreyse_M1907_Nickel_</li>
+          <!-- Dreyse M1907 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Dreyse_MG15_</li>
+          <!-- Dreyse MG-15 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Dreyse_MG15_18_</li>
+          <!-- Dreyse MG-15/18 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.395, 0.100, -0.040)</MainHand>
+        <SecHand>(-0.090, -0.100, 0.180)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Fokker_Leimburger_</li>
+          <!-- Fokker-Leimburger -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Frommer_M1901_</li>
+          <!-- Frommer M1901 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Frommer_M1901_Nickel_</li>
+          <!-- Frommer M1901 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.100, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Frommer_M1905_SLR_</li>
+          <!-- Frommer M1905 SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Frommer_M1906_</li>
+          <!-- Frommer M1906 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Frommer_M1906_Nickel_</li>
+          <!-- Frommer M1906 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.070)</MainHand>
+        <SecHand>(0.160, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Frommer_M1908_AutomaticRifle_</li>
+          <!-- Frommer M1908 Automatic Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Frommer_M1910_</li>
+          <!-- Frommer M1910 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Frommer_M1910_Nickel_</li>
+          <!-- Frommer M1910 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Frommer_Stop_</li>
+          <!-- Frommer Stop -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Frommer_Stop_Ext_</li>
+          <!-- Frommer Stop (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Frommer_Stop_MachinePistol_</li>
+          <!-- Frommer Stop Machine Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Frommer_Stop_Nickel_</li>
+          <!-- Frommer Stop Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Frommer_Stop_Nickel_Ext_</li>
+          <!-- Frommer Stop Nickel (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.045)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gast_Gun_</li>
+          <!-- Gast Gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.050)</MainHand>
+        <SecHand>(0.035, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Genovesi_Gewehr98_SLR_</li>
+          <!-- Genovesi Gewehr 98 SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.298, 0.100, -0.050)</MainHand>
+        <SecHand>(0.100, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_1888_05_</li>
+          <!-- Gewehr 1888/05 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.239, 0.100, -0.050)</MainHand>
+        <SecHand>(0.030, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_1888_05_Bayonet_</li>
+          <!-- Gewehr 1888/05 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.239, 0.100, -0.050)</MainHand>
+        <SecHand>(0.030, -0.100, 0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_1888_05_Scope_Bayonet_</li>
+          <!-- Gewehr 1888/05 (Scope Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.298, 0.100, -0.050)</MainHand>
+        <SecHand>(0.040, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_1888_05_Scope_</li>
+          <!-- Gewehr 1888/05 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.298, 0.100, -0.050)</MainHand>
+        <SecHand>(0.040, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_1888_14_</li>
+          <!-- Gewehr 1888/14 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.298, 0.100, -0.050)</MainHand>
+        <SecHand>(0.040, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_1888_14_Bayonet_</li>
+          <!-- Gewehr 1888/14 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.298, 0.100, -0.050)</MainHand>
+        <SecHand>(0.040, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_1888_14_Scope_Bayonet_</li>
+          <!-- Gewehr 1888/14 (Scope Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.298, 0.100, -0.050)</MainHand>
+        <SecHand>(0.040, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_1888_14_Scope_</li>
+          <!-- Gewehr 1888/14 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.050)</MainHand>
+        <SecHand>(0.125, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_91S_</li>
+          <!-- Gewehr 91S -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.050)</MainHand>
+        <SecHand>(0.125, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_91S_Bayonet_</li>
+          <!-- Gewehr 91S (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.050)</MainHand>
+        <SecHand>(0.035, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_</li>
+          <!-- Gewehr 98 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.050)</MainHand>
+        <SecHand>(0.035, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Bayonet_</li>
+          <!-- Gewehr 98 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.020)</MainHand>
+        <SecHand>(0.110, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_M1917_</li>
+          <!-- Gewehr 98 (M1917) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.365, 0.100, -0.030)</MainHand>
+        <SecHand>(-0.025, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Visar_Bayonet_</li>
+          <!-- Gewehr 98 (Visar Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Visar_</li>
+          <!-- Gewehr 98 (Visar) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Zeiss_Bayonet_</li>
+          <!-- Gewehr 98 (Zeiss Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Zeiss_</li>
+          <!-- Gewehr 98 (Zeiss) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Early_</li>
+          <!-- Gewehr 98 Early -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Early_Bayonet_</li>
+          <!-- Gewehr 98 Early (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.164, 0.100, -0.050)</MainHand>
+        <SecHand>(0.095, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Early_M1913_</li>
+          <!-- Gewehr 98 Early (M1917) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.050)</MainHand>
+        <SecHand>(0.075, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Trench_</li>
+          <!-- Gewehr 98 Trench -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.030)</MainHand>
+        <SecHand>(0.025, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Trench_Bayonet_</li>
+          <!-- Gewehr 98 Trench (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.020)</MainHand>
+        <SecHand>(0.150, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Trench_M1917_</li>
+          <!-- Gewehr 98 Trench (M1917) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.025)</MainHand>
+        <SecHand>(0.025, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Trench_Visar_Bayonet_</li>
+          <!-- Gewehr 98 Trench (Visar Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.050)</MainHand>
+        <SecHand>(0.060, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Trench_Visar_</li>
+          <!-- Gewehr 98 Trench (Visar) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, -0.030)</MainHand>
+        <SecHand>(-0.055, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Trench_Zeiss_Bayonet_</li>
+          <!-- Gewehr 98 Trench (Zeiss Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.050)</MainHand>
+        <SecHand>(0.060, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gewehr_98_Trench_Zeiss_</li>
+          <!-- Gewehr 98 Trench (Zeiss) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.115, 0.100, 0.180)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Handnebelbombe_TypeN_</li>
+          <!-- Handnebelbombe Type N -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Hebel_M1894_</li>
+          <!-- Hebel M1894 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.045)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Hellriegel_SMG_</li>
+          <!-- Hellriegel SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.045)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Hellriegel_SMG_Drum_</li>
+          <!-- Hellriegel SMG (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jager_Pistol_</li>
+          <!-- Jäger Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.040)</MainHand>
+        <SecHand>(0.180, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Karabiner_1888_</li>
+          <!-- Karabiner 1888 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.040)</MainHand>
+        <SecHand>(0.180, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Karabiner_1888_Scope_</li>
+          <!-- Karabiner 1888 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.040)</MainHand>
+        <SecHand>(0.180, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Karabiner_98_</li>
+          <!-- Karabiner 98 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.040)</MainHand>
+        <SecHand>(0.180, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Karabiner_98_Artillery_</li>
+          <!-- Karabiner 98 Artillery -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.040)</MainHand>
+        <SecHand>(0.180, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Karabiner_98_Cavalry_</li>
+          <!-- Karabiner 98 Cavalry -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.040)</MainHand>
+        <SecHand>(0.180, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Karabiner_98AZ_</li>
+          <!-- Karabiner 98AZ -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.040)</MainHand>
+        <SecHand>(0.180, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Karabiner_98AZ_Bayonet_</li>
+          <!-- Karabiner 98AZ (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.040)</MainHand>
+        <SecHand>(0.180, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kretz_Gewehr_98_SLR_</li>
+          <!-- Kretz Gewehr 98 SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.040)</MainHand>
+        <SecHand>(0.180, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kretz_Mannlicher_M1895_SLR_</li>
+          <!-- Kretz Mannlicher M1895 SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Langenhan_Pistol_</li>
+          <!-- Langenhan Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_LP08_</li>
+          <!-- Luger LP08 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_LP08_Drum_</li>
+          <!-- Luger LP08 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.150, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_LP08_Stock_</li>
+          <!-- Luger LP08 Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.150, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_LP08_Stock_Drum_</li>
+          <!-- Luger LP08 Stock (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_M1902_</li>
+          <!-- Luger M1902 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_M1902_SD_</li>
+          <!-- Luger M1902 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_M1902_Nickel_SD_</li>
+          <!-- Luger M1902 Nickel (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.065, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_M1902_Carbine_</li>
+          <!-- Luger M1902 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_M1902_Carbine_Stockless_</li>
+          <!-- Luger M1902 Carbine Stoockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_M1902_Nickel_</li>
+          <!-- Luger M1902 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.065, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_M1902_Nickel_Carbine_</li>
+          <!-- Luger M1902 Nickel Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.180, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_M1902_Nickel_Stock_</li>
+          <!-- Luger M1902 Nickel Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.195, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_M1902_Nickel_Stock_Ideal_</li>
+          <!-- Luger M1902 Nickel Stock Ideal -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.200, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_M1902_Stock_</li>
+          <!-- Luger M1902 Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.215, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_M1902_Stock_Ideal_</li>
+          <!-- Luger M1902 Stock Ideal -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.050)</MainHand>
+        <SecHand>(0.080, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_M1906_SLR_</li>
+          <!-- Luger M1906 SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.305, 0.100, -0.040)</MainHand>
+        <SecHand>(0.080, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_M1906_SLR_Bayonet_</li>
+          <!-- Luger M1906 SLR (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.040, 0.100, 0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_MP08_</li>
+          <!-- Luger MP08 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_P04_Navy_</li>
+          <!-- Luger P04 Navy -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_P04_Navy_SD_</li>
+          <!-- Luger P04 Navy (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.135, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_P04_Navy_Stock_</li>
+          <!-- Luger P04 Navy Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_P08_</li>
+          <!-- Luger P08 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_P08_Drum_SD_</li>
+          <!-- Luger P08 (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_P08_SD_</li>
+          <!-- Luger P08 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_P08_Drum_</li>
+          <!-- Luger P08 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.030, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_P08_Carbine_</li>
+          <!-- Luger P08 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.030, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Luger_P08_Carbine_Drum_</li>
+          <!-- Luger P08 Carbine (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.165, 0.100, 0.225)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_M15_Diskushandgranate_</li>
+          <!-- M15 Diskushandgranate -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.120, 0.100, 0.210)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_M15_Kugelhandgranate_</li>
+          <!-- M15 Kugelhandgranate -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.150)</MainHand>
+        <SecHand>(0.165, -0.100, -0.270)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_M15_Stielhandgranate_</li>
+          <!-- M15 Stielhandgranate -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.150)</MainHand>
+        <SecHand>(0.165, -0.100, -0.270)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_M16_Stielhandgranate_</li>
+          <!-- M16 Stielhandgranate -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.110, 0.100, 0.240)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_M17_Eierhandgranate_</li>
+          <!-- M17 Eierhandgranate -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.150)</MainHand>
+        <SecHand>(0.165, -0.100, -0.270)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_M17_Stielhandgranate_</li>
+          <!-- M17 Stielhandgranate -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.065)</MainHand>
+        <SecHand>(0.105, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Madsen_M1915_Muskete_</li>
+          <!-- Madsen M1915 Muskete -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.050)</MainHand>
+        <SecHand>(0.105, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_14M_</li>
+          <!-- Mannlicher 14.M -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.050)</MainHand>
+        <SecHand>(0.055, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1888_</li>
+          <!-- Mannlicher M1888 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.231, 0.100, -0.050)</MainHand>
+        <SecHand>(0.075, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1888_Bayonet_</li>
+          <!-- Mannlicher M1888 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.050)</MainHand>
+        <SecHand>(0.055, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1888_90_</li>
+          <!-- Mannlicher M1888/90 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.233, 0.100, -0.050)</MainHand>
+        <SecHand>(0.050, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1888_90_Bayonet_</li>
+          <!-- Mannlicher M1888/90 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.045)</MainHand>
+        <SecHand>(0.155, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1890_</li>
+          <!-- Mannlicher M1890 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.102, 0.100, -0.050)</MainHand>
+        <SecHand>(0.165, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1890_Bayonet_</li>
+          <!-- Mannlicher M1890 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.050)</MainHand>
+        <SecHand>(0.155, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1890_Cavalry_</li>
+          <!-- Mannlicher M1890 Cavalry -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1895_</li>
+          <!-- Mannlicher M1895 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.214, 0.100, -0.050)</MainHand>
+        <SecHand>(0.070, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1895_Bayonet_</li>
+          <!-- Mannlicher M1895 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.214, 0.100, -0.050)</MainHand>
+        <SecHand>(0.070, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1895_Drum_Bayonet_</li>
+          <!-- Mannlicher M1895 (Drum Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1895_Drum_</li>
+          <!-- Mannlicher M1895 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.214, 0.100, -0.050)</MainHand>
+        <SecHand>(0.070, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1895_Ext_Bayonet_</li>
+          <!-- Mannlicher M1895 (Ext Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.214, 0.100, -0.050)</MainHand>
+        <SecHand>(0.070, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1895_Scope_Bayonet_</li>
+          <!-- Mannlicher M1895 (Scope Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.214, 0.100, -0.050)</MainHand>
+        <SecHand>(0.070, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1895_Scope_Ext_Bayonet_</li>
+          <!-- Mannlicher M1895 (Scope Ext Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1895_Ext_</li>
+          <!-- Mannlicher M1895 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1895_Scope_Ext_</li>
+          <!-- Mannlicher M1895 (Scope Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1895_Scope_</li>
+          <!-- Mannlicher M1895 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.035)</MainHand>
+        <SecHand>(0.115, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1895_Cavalry_</li>
+          <!-- Mannlicher M1895 Cavalry -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.035)</MainHand>
+        <SecHand>(0.115, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1895_Stutzen_</li>
+          <!-- Mannlicher M1895 Stutzen -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.035)</MainHand>
+        <SecHand>(0.115, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1895_Stutzen_Scope_</li>
+          <!-- Mannlicher M1895 Stutzen (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1897_</li>
+          <!-- Mannlicher M1897 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1897_Nickel_</li>
+          <!-- Mannlicher M1897 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.185, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1897_Nickel_Stock_</li>
+          <!-- Mannlicher M1897 Nickel Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.185, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1897_Stock_</li>
+          <!-- Mannlicher M1897 Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1897_Target_</li>
+          <!-- Mannlicher M1897 Target -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.185, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1897_Target_Stock_</li>
+          <!-- Mannlicher M1897 Target Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1901_</li>
+          <!-- Mannlicher M1901 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.005, 0.100, 0.005)</MainHand>
+        <SecHand>(0.385, -0.100, 0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1901_Carbine_</li>
+          <!-- Mannlicher M1901 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1901_Pocket_</li>
+          <!-- Mannlicher M1901 Pocket -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.025)</MainHand>
+        <SecHand>(0.080, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1904_Exportmodell_</li>
+          <!-- Mannlicher M1904 Exportmodell -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.198, 0.100, -0.050)</MainHand>
+        <SecHand>(0.095, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1904_Exportmodell_Bayonet_</li>
+          <!-- Mannlicher M1904 Exportmodell (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1905_</li>
+          <!-- Mannlicher M1905 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C06_08_</li>
+          <!-- Mauser C06/08 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C06_08_20Rnd_</li>
+          <!-- Mauser C06/08 (20Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C06_08_Export_</li>
+          <!-- Mauser C06/08 Export -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.035)</MainHand>
+        <SecHand>(0.155, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C87_</li>
+          <!-- Mauser C87 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.035)</MainHand>
+        <SecHand>(0.155, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C87_Military_</li>
+          <!-- Mauser C87 Military -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C87_Pistol_</li>
+          <!-- Mauser C87 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_8mmGasser_</li>
+          <!-- Mauser C96 8mm Gasser -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_Export_</li>
+          <!-- Mauser C96 Export -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_Ottoman_</li>
+          <!-- Mauser C96 Ottoman -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_Red9_</li>
+          <!-- Mauser C96 Red 9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_Red9_Scope_</li>
+          <!-- Mauser C96 Red 9 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.020)</MainHand>
+        <SecHand>(0.235, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_Red9_Carbine_</li>
+          <!-- Mauser C96 Red 9 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.020)</MainHand>
+        <SecHand>(0.235, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_Red9_Carbine_Scope_</li>
+          <!-- Mauser C96 Red 9 Carbine (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.435, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_Red9_Long_</li>
+          <!-- Mauser C96 Red 9 Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_Red9_Nickel_</li>
+          <!-- Mauser C96 Red 9 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.435, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_Red9_Nickel_Long_</li>
+          <!-- Mauser C96 Red 9 Nickel Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.085)</MainHand>
+        <SecHand>(0.005, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_FortressRifle_</li>
+          <!-- Mauser Fortress Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.288, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1887_Turkish_</li>
+          <!-- Mauser M1887 Turkish -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.050)</MainHand>
+        <SecHand>(0.060, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1887_Turkish_Bayonet_</li>
+          <!-- Mauser M1887 Turkish (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.040)</MainHand>
+        <SecHand>(0.130, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1887_Turkish_Carbine_</li>
+          <!-- Mauser M1887 Turkish Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.282, 0.100, -0.050)</MainHand>
+        <SecHand>(0.070, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1887_11_Turkish_</li>
+          <!-- Mauser M1887/11 Turkish -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.211, 0.100, -0.050)</MainHand>
+        <SecHand>(0.080, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1887_11_Turkish_Bayonet_</li>
+          <!-- Mauser M1887/11 Turkish (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.211, 0.100, -0.050)</MainHand>
+        <SecHand>(0.080, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1890_Turkish_Bayonet_</li>
+          <!-- Mauser M1890 Turkish (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.025)</MainHand>
+        <SecHand>(0.080, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1893_Turkish_Bayonet_</li>
+          <!-- Mauser M1893 Turkish (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1890_Turkish_</li>
+          <!-- Mauser M1890 Turkish -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1893_Turkish_</li>
+          <!-- Mauser M1893 Turkish -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1898_SLR_</li>
+          <!-- Mauser M1898 SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1898_SLR_Carbine_</li>
+          <!-- Mauser M1898 SLR Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1898_II_SLR_</li>
+          <!-- Mauser M1898-II SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1901_SLR_</li>
+          <!-- Mauser M1901 SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1902_SLR_</li>
+          <!-- Mauser M1902 SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1902_SLR_Sporter_</li>
+          <!-- Mauser M1902 SLR Sporter -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1902_II_SLR_</li>
+          <!-- Mauser M1902-II SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1903_Turkish_</li>
+          <!-- Mauser M1903 Turkish -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1903_Turkish_Bayonet_</li>
+          <!-- Mauser M1903 Turkish (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1905_Turkish_</li>
+          <!-- Mauser M1905 Turkish -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1906_08_SLR_</li>
+          <!-- Mauser M1906/08 SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1910_Pistol_</li>
+          <!-- Mauser M1910 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1913_SLR_</li>
+          <!-- Mauser M1913 SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1910_Pistol_SD_</li>
+          <!-- Mauser M1910 Pistol (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1914_Pistol_</li>
+          <!-- Mauser M1914 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1914_Pistol_SD_</li>
+          <!-- Mauser M1914 Pistol (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1914_Pistol_Long_</li>
+          <!-- Mauser M1914 Pistol Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1914_Pistol_Long_SD_</li>
+          <!-- Mauser M1914 Pistol Long (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.284, 0.100, -0.050)</MainHand>
+        <SecHand>(0.060, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1916_SLR_</li>
+          <!-- Mauser M1916 SLR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.212, 0.100, -0.050)</MainHand>
+        <SecHand>(0.035, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1916_SLR_Bayonet_</li>
+          <!-- Mauser M1916 SLR (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.263, 0.100, -0.050)</MainHand>
+        <SecHand>(0.110, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1916_SLR_Carbine_</li>
+          <!-- Mauser M1916 SLR Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.263, 0.100, -0.050)</MainHand>
+        <SecHand>(0.110, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1916_SLR_Carbine_Scope_</li>
+          <!-- Mauser M1916 SLR Carbine (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.090, 0.100, -0.030)</MainHand>
+        <SecHand>(0.315, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1917_TrenchCarbine_</li>
+          <!-- Mauser M1917 Trench Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.080)</MainHand>
+        <SecHand>(0.045, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1918_TGewehr_</li>
+          <!-- Mauser M1918 T-Gewehr -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.080)</MainHand>
+        <SecHand>(0.045, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_M1918_TGewehr_Ext_</li>
+          <!-- Mauser M1918 T-Gewehr (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_Militargewehr_M1917_18_</li>
+          <!-- Mauser Militärgewehr M1917-18 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_MauserSchonauer_M1915_Hybrid_</li>
+          <!-- Mauser-Schönauer M1915 Hybrid -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MaxMuller_M1918_LMG_</li>
+          <!-- Max Müller M1918 LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Maxim_LMG08_15_</li>
+          <!-- Maxim LMG-08/15 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.130)</MainHand>
+        <SecHand>(0.090, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Maxim_LMG08_15_Zeppelin_</li>
+          <!-- Maxim LMG-08/15 Zeppelin -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Maxim_MG01_</li>
+          <!-- Maxim MG-01 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Maxim_MG08_</li>
+          <!-- Maxim MG-08 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.150)</MainHand>
+        <SecHand>(0.100, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Maxim_MG08_15_</li>
+          <!-- Maxim MG-08/15 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.150)</MainHand>
+        <SecHand>(0.100, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Maxim_MG08_18_</li>
+          <!-- Maxim MG-08/18 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.050)</MainHand>
+        <SecHand>(0.035, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Maxim_MG16_</li>
+          <!-- Maxim MG-16 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.085)</MainHand>
+        <SecHand>(0.030, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Maxim_MG18_TuF_</li>
+          <!-- Maxim MG-18 TuF -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.045)</MainHand>
+        <SecHand>(0.055, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mondragon_FLSK15_</li>
+          <!-- Mondragón Fl.-S.-K. 15 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.184, 0.100, -0.050)</MainHand>
+        <SecHand>(0.050, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mondragon_FLSK15_Bayonet_</li>
+          <!-- Mondragón Fl.-S.-K. 15 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.184, 0.100, -0.050)</MainHand>
+        <SecHand>(0.050, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mondragon_FLSK15_Scope_Bayonet_</li>
+          <!-- Mondragón Fl.-S.-K. 15 (Scope Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.065)</MainHand>
+        <SecHand>(0.050, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mondragon_FLSK15_Scope_</li>
+          <!-- Mondragón Fl.-S.-K. 15 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.065)</MainHand>
+        <SecHand>(0.050, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mondragon_M1908_</li>
+          <!-- Mondragón M1908 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.065)</MainHand>
+        <SecHand>(0.050, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mondragon_M1908_Bayonet_</li>
+          <!-- Mondragón M1908 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.065)</MainHand>
+        <SecHand>(0.050, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mondragon_M1908_Scope_Bayonet_</li>
+          <!-- Mondragón M1908 (Scope Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.065)</MainHand>
+        <SecHand>(0.050, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mondragon_M1908_Scope_</li>
+          <!-- Mondragón M1908 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.065)</MainHand>
+        <SecHand>(0.050, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MosinNagant_1891_8mm_</li>
+          <!-- Mosin-Nagant 1891 8mm -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.065)</MainHand>
+        <SecHand>(0.050, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MosinNagant_1891_AZF_</li>
+          <!-- Mosin-Nagant 1891 AZF -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.065)</MainHand>
+        <SecHand>(0.050, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MosinNagant_1891_Dragoon_AZF_</li>
+          <!-- Mosin-Nagant 1891 Dragoon AZF -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.065)</MainHand>
+        <SecHand>(0.050, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MosinNagant_1907_Carbine_AZF_</li>
+          <!-- Mosin-Nagant 1907 Carbine AZF -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.360, 0.100, -0.085)</MainHand>
+        <SecHand>(0.015, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Parabellum_MG14_</li>
+          <!-- Parabellum MG-14 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.360, 0.100, -0.085)</MainHand>
+        <SecHand>(0.015, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Parabellum_MG14_17_</li>
+          <!-- Parabellum MG-14/17 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.040)</MainHand>
+        <SecHand>(0.135, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PeabodyMartini_M1874_12_</li>
+          <!-- Peabody-Martini M1874/12 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.340, 0.100, -0.025)</MainHand>
+        <SecHand>(0.025, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PeabodyMartini_M1874_12_Bayonet_</li>
+          <!-- Peabody-Martini M1874/12 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RastGasser_M1898_</li>
+          <!-- Rast & Gasser M1898 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RastGasser_M1898_GripSafety_</li>
+          <!-- Rast & Gasser M1898 Grip Safety -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RastGasser_M1898_Nickel_</li>
+          <!-- Rast & Gasser M1898 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Reichsrevolver_M1879_</li>
+          <!-- Reichsrevolver M1879 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Reichsrevolver_M1883_</li>
+          <!-- Reichsrevolver M1883 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.205)</MainHand>
+        <SecHand>(0.145, -0.100, -0.230)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Rohrhandgranate_Alt_</li>
+          <!-- Rohrhandgranate Alt -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.205)</MainHand>
+        <SecHand>(0.145, -0.100, -0.230)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Rohrhandgranate_Neu_</li>
+          <!-- Rohrhandgranate Neu -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.066, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RothSauer_M1900_</li>
+          <!-- Roth-Sauer M1900 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.089, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RothSteyr_M1907_</li>
+          <!-- Roth-Steyr M1907 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.089, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RothSteyr_M1907_Nickel_</li>
+          <!-- Roth-Steyr M1907 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.089, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RothSteyr_M1911_MachinePistol_</li>
+          <!-- Roth-Steyr M1911 Machine Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SalvatorDormus_M1891_</li>
+          <!-- Salvator-Dormus M1891 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SalvatorDormus_M1891_Nickel_</li>
+          <!-- Salvator-Dormus M1891 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.020, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Schlegelmilch_M1896_</li>
+          <!-- Schlegelmilch M1896 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.075)</MainHand>
+        <SecHand>(0.045, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Schwarzlose_MG_M07_</li>
+          <!-- Schwarzlose MG M.07 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.075)</MainHand>
+        <SecHand>(0.045, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Schwarzlose_MG_M07_12_</li>
+          <!-- Schwarzlose MG M.07/12 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.075)</MainHand>
+        <SecHand>(0.045, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Schwarzlose_MG_M07_12_16_</li>
+          <!-- Schwarzlose MG M.07/12/16 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.075)</MainHand>
+        <SecHand>(0.045, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Schwarzlose_MG16_</li>
+          <!-- Schwarzlose MG-16 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.020, 0.100, -0.080)</MainHand>
+        <SecHand>(0.285, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Schwarzlose_SMG_</li>
+          <!-- Schwarzlose SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.075)</MainHand>
+        <SecHand>(0.045, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Skoda_M1909_</li>
+          <!-- Škoda M1909 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.279, 0.100, -0.050)</MainHand>
+        <SecHand>(0.030, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_Kropatschek_M1893_</li>
+          <!-- Steyr Kropatschek M1893 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.030, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_Kropatschek_M1893_Bayonet_</li>
+          <!-- Steyr Kropatschek M1893 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_M12_</li>
+          <!-- Steyr M.12 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.190, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_M12_Doppelpistole_</li>
+          <!-- Steyr M.12 Doppelpistole -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.260, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_M12_Stock_</li>
+          <!-- Steyr M.12 Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_M12_Target_</li>
+          <!-- Steyr M.12 Target -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_M12_P16_</li>
+          <!-- Steyr M.12/P16 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_M12_P16_Drum_</li>
+          <!-- Steyr M.12/P16 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.260, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_M12_P16_Stock_</li>
+          <!-- Steyr M.12/P16 Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_M1893_</li>
+          <!-- Steyr M1893 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.296, 0.100, -0.050)</MainHand>
+        <SecHand>(0.015, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_Mauser_M1914_</li>
+          <!-- Steyr Mauser M1914 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.234, 0.100, -0.050)</MainHand>
+        <SecHand>(0.055, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_Mauser_M1914_Bayonet_</li>
+          <!-- Steyr Mauser M1914 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.234, 0.100, -0.050)</MainHand>
+        <SecHand>(0.055, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_Mauser_M1914_Scope_Bayonet_</li>
+          <!-- Steyr Mauser M1914 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.234, 0.100, -0.050)</MainHand>
+        <SecHand>(0.055, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Steyr_Mauser_M1914_Scope_</li>
+          <!-- Steyr Mauser M1914 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.060)</MainHand>
+        <SecHand>(0.070, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sturmpistole_M18_</li>
+          <!-- Sturmpistole M.18 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.025, 0.100, -0.025)</MainHand>
+        <SecHand>(0.345, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_M1918_I_</li>
+          <!-- Walther M1918-I -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.020, 0.100, -0.040)</MainHand>
+        <SecHand>(0.375, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Walther_M1918_II_</li>
+          <!-- Walther M1918-II -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

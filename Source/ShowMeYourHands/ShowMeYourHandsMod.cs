@@ -24,6 +24,7 @@ internal class ShowMeYourHandsMod : Mod
     public static ShowMeYourHandsMod instance;
 
     private static readonly Vector2 buttonSize = new Vector2(120f, 25f);
+    private static readonly Vector2 iconButtonSize = new Vector2(25f, 25f);
 
     private static readonly Vector2 weaponSize = new Vector2(200f, 200f);
 
@@ -712,21 +713,46 @@ internal class ShowMeYourHandsMod : Mod
                 Widgets.Label(new Rect(lastMainLabel.position + new Vector2(0, 100), new Vector2(500, 50)),
                     "SMYH.draginfo".Translate());
 
+                var savePostition = lastMainLabel.position + new Vector2(0, 170);
+                var undoPostition = savePostition + new Vector2(buttonSize.x + iconButtonSize.x, 0);
+                var resetPostition = undoPostition + new Vector2(buttonSize.x + iconButtonSize.x, 0);
+                var copyPostition = resetPostition + new Vector2(buttonSize.x + iconButtonSize.x, 0);
+                var pastePostition = copyPostition + new Vector2(iconButtonSize.x, 0);
+
+                var copyRect = new Rect(copyPostition, iconButtonSize);
+                var pasteRect = new Rect(pastePostition, iconButtonSize);
+                if (Widgets.ButtonImageFitted(copyRect, TexButton.Copy))
+                {
+                    GUIUtility.systemCopyBuffer =
+                        $"|HandData|{new SaveableVector3(currentMainHand)}|{new SaveableVector3(currentOffHand)}|{currentHasOffHand}|{currentMainBehind}|{currentOffBehind}";
+                    SoundDefOf.Tick_High.PlayOneShotOnCamera();
+                    Messages.Message("SMYH.copy.info".Translate(), MessageTypeDefOf.SituationResolved, false);
+                }
+
+                TooltipHandler.TipRegionByKey(copyRect, "SMYH.copyone.button");
+
+                if (GUIUtility.systemCopyBuffer?.StartsWith("|HandData|") == true)
+                {
+                    TooltipHandler.TipRegionByKey(pasteRect, "SMYH.paste.button");
+                    if (Widgets.ButtonImageFitted(pasteRect, TexButton.Paste))
+                    {
+                        var data = GUIUtility.systemCopyBuffer.Split('|');
+                        if (data.Length == 7)
+                        {
+                            currentMainHand = SaveableVector3.FromString(data[2]).ToVector3();
+                            currentOffHand = SaveableVector3.FromString(data[3]).ToVector3();
+                            currentHasOffHand = bool.Parse(data[4]);
+                            currentMainBehind = bool.Parse(data[5]);
+                            currentOffBehind = bool.Parse(data[6]);
+                            Messages.Message("SMYH.paste.info".Translate(), MessageTypeDefOf.SituationResolved, false);
+                        }
+                    }
+                }
+
+
                 if (instance.Settings.ManualMainHandPositions.ContainsKey(currentDef.defName))
                 {
-                    DrawButton(() =>
-                    {
-                        Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation(
-                            "SMYH.resetsingle.confirm".Translate(), delegate
-                            {
-                                ResetOneWeapon(currentDef, ref compProperties);
-                                currentMainHand = compProperties.MainHand;
-                                currentOffHand = compProperties.SecHand;
-                                currentHasOffHand = currentOffHand != Vector3.zero;
-                                currentMainBehind = compProperties.MainHand.y < 0;
-                                currentOffBehind = compProperties.SecHand.y < 0;
-                            }));
-                    }, "SMYH.reset.button".Translate(), lastMainLabel.position + new Vector2(350, 170));
+                    DrawButton(ResetAction, "SMYH.reset.button".Translate(), resetPostition);
                 }
 
                 if (currentMainHand != compProperties.MainHand ||
@@ -735,40 +761,58 @@ internal class ShowMeYourHandsMod : Mod
                     currentMainBehind != compProperties.MainHand.y < 0 ||
                     currentOffBehind != compProperties.SecHand.y < 0)
                 {
-                    DrawButton(() =>
-                    {
-                        currentNoHands = currentMainHand == Vector3.zero;
-                        currentMainHand = compProperties.MainHand;
-                        currentOffHand = compProperties.SecHand;
-                        currentHasOffHand = currentOffHand != Vector3.zero;
-                        currentMainBehind = compProperties.MainHand.y < 0;
-                        currentOffBehind = compProperties.SecHand.y < 0;
-                    }, "SMYH.undo.button".Translate(), lastMainLabel.position + new Vector2(190, 170));
-                    DrawButton(() =>
-                    {
-                        currentMainHand.y = currentMainBehind ? -0.1f : 0.1f;
-                        currentOffHand.y = currentOffBehind ? -0.1f : 0.1f;
-                        if (!currentHasOffHand)
-                        {
-                            currentOffHand = Vector3.zero;
-                        }
-
-                        if (currentNoHands)
-                        {
-                            currentMainHand = Vector3.zero;
-                        }
-
-                        compProperties.MainHand = currentMainHand;
-                        compProperties.SecHand = currentOffHand;
-                        instance.Settings.ManualMainHandPositions[currentDef.defName] =
-                            new SaveableVector3(compProperties.MainHand);
-                        instance.Settings.ManualOffHandPositions[currentDef.defName] =
-                            new SaveableVector3(compProperties.SecHand);
-                    }, "SMYH.save.button".Translate(), lastMainLabel.position + new Vector2(25, 170));
+                    DrawButton(UndoAction, "SMYH.undo.button".Translate(), undoPostition);
+                    DrawButton(SaveAction, "SMYH.save.button".Translate(), savePostition);
                 }
 
                 listing_Standard.End();
                 break;
+
+                void SaveAction()
+                {
+                    currentMainHand.y = currentMainBehind ? -0.1f : 0.1f;
+                    currentOffHand.y = currentOffBehind ? -0.1f : 0.1f;
+                    if (!currentHasOffHand)
+                    {
+                        currentOffHand = Vector3.zero;
+                    }
+
+                    if (currentNoHands)
+                    {
+                        currentMainHand = Vector3.zero;
+                    }
+
+                    compProperties.MainHand = currentMainHand;
+                    compProperties.SecHand = currentOffHand;
+                    instance.Settings.ManualMainHandPositions[currentDef.defName] =
+                        new SaveableVector3(compProperties.MainHand);
+                    instance.Settings.ManualOffHandPositions[currentDef.defName] =
+                        new SaveableVector3(compProperties.SecHand);
+                }
+
+                void UndoAction()
+                {
+                    currentNoHands = currentMainHand == Vector3.zero;
+                    currentMainHand = compProperties.MainHand;
+                    currentOffHand = compProperties.SecHand;
+                    currentHasOffHand = currentOffHand != Vector3.zero;
+                    currentMainBehind = compProperties.MainHand.y < 0;
+                    currentOffBehind = compProperties.SecHand.y < 0;
+                }
+
+                void ResetAction()
+                {
+                    Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("SMYH.resetsingle.confirm".Translate(),
+                        delegate
+                        {
+                            ResetOneWeapon(currentDef, ref compProperties);
+                            currentMainHand = compProperties.MainHand;
+                            currentOffHand = compProperties.SecHand;
+                            currentHasOffHand = currentOffHand != Vector3.zero;
+                            currentMainBehind = compProperties.MainHand.y < 0;
+                            currentOffBehind = compProperties.SecHand.y < 0;
+                        }));
+                }
             }
         }
     }
@@ -842,7 +886,7 @@ internal class ShowMeYourHandsMod : Mod
         stringBuilder.AppendLine("</Defs>");
 
         GUIUtility.systemCopyBuffer = stringBuilder.ToString();
-        Messages.Message("Modified data copied to clipboard.", MessageTypeDefOf.SituationResolved, false);
+        Messages.Message("SMYH.copied".Translate(), MessageTypeDefOf.SituationResolved, false);
     }
 
     private void DrawTabsList(Rect rect)

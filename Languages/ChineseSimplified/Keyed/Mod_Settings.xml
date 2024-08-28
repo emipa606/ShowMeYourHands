@@ -53,4 +53,9 @@
   <SMYH.weaponrow.cyan>在MOD中包含有自定义设置</SMYH.weaponrow.cyan>
   <SMYH.weaponrow.green>拥有由玩家定义的个人设置</SMYH.weaponrow.green>
   <SMYH.draginfo>注意：也可以左键单击拖动设置主手位置，右键单击拖动设置非主手位置。</SMYH.draginfo>
+  <SMYH.copied>修改后的数据复制到剪贴板。</SMYH.copied>
+  <SMYH.paste.button>粘贴设置</SMYH.paste.button>
+  <SMYH.copyone.button>复制设置</SMYH.copyone.button>
+  <SMYH.paste.info>粘贴的设置</SMYH.paste.info>
+  <SMYH.copy.info>复制的设置</SMYH.copy.info>
 </LanguageData>
