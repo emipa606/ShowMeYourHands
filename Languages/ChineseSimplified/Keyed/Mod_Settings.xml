@@ -58,4 +58,10 @@
   <SMYH.copyone.button>复制设置</SMYH.copyone.button>
   <SMYH.paste.info>粘贴的设置</SMYH.paste.info>
   <SMYH.copy.info>复制的设置</SMYH.copy.info>
+  <SMYH.rotation.label>启用旋转支持</SMYH.rotation.label>
+  <SMYH.rotation.tooltip>允许自定义旋转指针，只有在使用非标准指针纹理时才会生效</SMYH.rotation.tooltip>
+  <SMYH.mainhandrotation.label>主手旋转</SMYH.mainhandrotation.label>
+  <SMYH.offhandrotation.label>离手旋转</SMYH.offhandrotation.label>
+  <SMYH.degree>{0}°</SMYH.degree>
+  <SMYH.rotate>使用滚轮旋转指针，按住 SHIFT 键可加快旋转速度</SMYH.rotate>
 </LanguageData>

@@ -58,4 +58,10 @@
   <SMYH.copyone.button>Einstellungen kopieren</SMYH.copyone.button>
   <SMYH.paste.info>Einstellungen eingefügt</SMYH.paste.info>
   <SMYH.copy.info>Einstellungen kopiert</SMYH.copy.info>
+  <SMYH.rotation.label>Unterstützung der Rotation aktivieren</SMYH.rotation.label>
+  <SMYH.rotation.tooltip>Ermöglicht die Definition einer benutzerdefinierten Drehung der Hände, dies hat nur Auswirkungen, wenn eine Nicht-Standard-Hand-Textur verwendet wird</SMYH.rotation.tooltip>
+  <SMYH.mainhandrotation.label>Rotation der Haupthand</SMYH.mainhandrotation.label>
+  <SMYH.offhandrotation.label>Drehung aus der Hand</SMYH.offhandrotation.label>
+  <SMYH.degree>{0}°</SMYH.degree>
+  <SMYH.rotate>Verwenden Sie das Scrollrad, um die Zeiger zu drehen, halten Sie SHIFT für eine schnellere Drehung</SMYH.rotate>
 </LanguageData>

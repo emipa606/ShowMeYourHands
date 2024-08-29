@@ -58,4 +58,10 @@
   <SMYH.copyone.button>Настройки копирования</SMYH.copyone.button>
   <SMYH.paste.info>Настройки вставлены</SMYH.paste.info>
   <SMYH.copy.info>Копирование настроек</SMYH.copy.info>
+  <SMYH.rotation.label>Включите поддержку вращения</SMYH.rotation.label>
+  <SMYH.rotation.tooltip>Позволяет задать пользовательское вращение рук, это будет иметь эффект только при использовании нестандартной текстуры рук</SMYH.rotation.tooltip>
+  <SMYH.mainhandrotation.label>Вращение основной руки</SMYH.mainhandrotation.label>
+  <SMYH.offhandrotation.label>Вращение без помощи рук</SMYH.offhandrotation.label>
+  <SMYH.degree>{0}°</SMYH.degree>
+  <SMYH.rotate>Используйте колесо прокрутки для поворота стрелок, удерживайте SHIFT для ускорения вращения.</SMYH.rotate>
 </LanguageData>

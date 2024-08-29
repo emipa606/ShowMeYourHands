@@ -16,7 +16,9 @@ public class HandDrawer : ThingComp
     public Vector3 ItemHeldLocation;
     private int LastDrawn;
     private Vector3 MainHand;
+    private float MainHandRotation;
     private Vector3 OffHand;
+    private float OffHandRotation;
 
     private Color HandColor
     {
@@ -110,11 +112,15 @@ public class HandDrawer : ThingComp
         {
             MainHand = compProperties.MainHand;
             OffHand = compProperties.SecHand;
+            MainHandRotation = compProperties.MainRotation;
+            OffHandRotation = compProperties.SecRotation;
         }
         else
         {
             OffHand = Vector3.zero;
             MainHand = Vector3.zero;
+            MainHandRotation = 0f;
+            OffHandRotation = 0f;
         }
 
         ThingWithComps offhandWeapon = null;
@@ -316,8 +322,7 @@ public class HandDrawer : ThingComp
     }
 
     private void DrawHandsOnWeapon(Thing mainHandWeapon, float aimAngle, Pawn pawn, Thing offHandWeapon = null,
-        bool idle = false,
-        bool aiming = false)
+        bool idle = false, bool aiming = false)
     {
         var flipped = false;
         var skipMainHand = false;
@@ -510,7 +515,7 @@ public class HandDrawer : ThingComp
 
             Graphics.DrawMesh(mesh,
                 mainWeaponLocation + new Vector3(x, y + mainMeleeExtra, z).RotatedBy(mainHandAngle),
-                Quaternion.AngleAxis(mainHandAngle, Vector3.up), y >= 0 ? matSingle : offSingle, 0);
+                Quaternion.AngleAxis(mainHandAngle + MainHandRotation, Vector3.up), y >= 0 ? matSingle : offSingle, 0);
         }
 
         if (OffHand == Vector3.zero || skipOffHand || ShowMeYourHandsMain.pawnsMissingAHand.ContainsKey(pawn) &&
@@ -559,7 +564,7 @@ public class HandDrawer : ThingComp
 
             Graphics.DrawMesh(mesh,
                 offhandWeaponLocation + new Vector3(x2, y2 + offMeleeExtra, z2).RotatedBy(offHandAngle),
-                Quaternion.AngleAxis(offHandAngle, Vector3.up),
+                Quaternion.AngleAxis(offHandAngle + OffHandRotation, Vector3.up),
                 y2 >= 0 ? matSingle : offSingle, 0);
             return;
         }
@@ -571,7 +576,7 @@ public class HandDrawer : ThingComp
 
         Graphics.DrawMesh(mesh,
             mainWeaponLocation + new Vector3(x2, y2 + offMeleeExtra, z2).RotatedBy(mainHandAngle),
-            Quaternion.AngleAxis(mainHandAngle, Vector3.up), y2 >= 0 ? matSingle : offSingle, 0);
+            Quaternion.AngleAxis(mainHandAngle + OffHandRotation, Vector3.up), y2 >= 0 ? matSingle : offSingle, 0);
     }
 
     private Vector3 AdjustRenderOffsetFromDir(Pawn pawn, ThingWithComps weapon)

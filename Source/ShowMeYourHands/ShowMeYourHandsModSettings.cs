@@ -13,17 +13,25 @@ internal class ShowMeYourHandsModSettings : ModSettings
     private List<string> manualMainHandPositionsKeys;
 
     private List<SaveableVector3> manualMainHandPositionsValues;
+    public Dictionary<string, float> ManualMainHandRotations = new Dictionary<string, float>();
+    private List<string> manualMainHandRotationsKeys;
+    private List<float> manualMainHandRotationsValues;
 
     public Dictionary<string, SaveableVector3> ManualOffHandPositions = new Dictionary<string, SaveableVector3>();
 
     private List<string> manualOffHandPositionsKeys;
 
     private List<SaveableVector3> manualOffHandPositionsValues;
+    public Dictionary<string, float> ManualOffHandRotations = new Dictionary<string, float>();
+    private List<string> manualOffHandRotationsKeys;
+    private List<float> manualOffHandRotationsValues;
+
     public bool MatchArmorColor;
     public bool MatchArtificialLimbColor;
     public bool MatchHandAmounts;
     public bool RepositionHands = true;
     public bool ResizeHands = true;
+    public bool Rotation = ModsConfig.IsActive("andromeda.nicehands");
     public bool ShowOtherTmes;
     public bool ShowWhenCarry;
     public bool VerboseLogging;
@@ -32,6 +40,7 @@ internal class ShowMeYourHandsModSettings : ModSettings
     {
         base.ExposeData();
         Scribe_Values.Look(ref VerboseLogging, "VerboseLogging");
+        Scribe_Values.Look(ref Rotation, "Rotation", ModsConfig.IsActive("andromeda.nicehands"));
         Scribe_Values.Look(ref MatchArmorColor, "MatchArmorColor");
         Scribe_Values.Look(ref MatchArtificialLimbColor, "MatchArtificialLimbColor");
         Scribe_Values.Look(ref MatchHandAmounts, "MatchHandAmounts");
@@ -45,6 +54,12 @@ internal class ShowMeYourHandsModSettings : ModSettings
         Scribe_Collections.Look(ref ManualOffHandPositions, "ManualOffHandPositions", LookMode.Value,
             LookMode.Value,
             ref manualOffHandPositionsKeys, ref manualOffHandPositionsValues);
+        Scribe_Collections.Look(ref ManualMainHandRotations, "ManualMainHandRotations", LookMode.Value,
+            LookMode.Value,
+            ref manualMainHandRotationsKeys, ref manualMainHandRotationsValues);
+        Scribe_Collections.Look(ref ManualOffHandRotations, "ManualOffHandRotations", LookMode.Value,
+            LookMode.Value,
+            ref manualOffHandRotationsKeys, ref manualOffHandRotationsValues);
     }
 
     public void ResetManualValues()
@@ -55,6 +70,12 @@ internal class ShowMeYourHandsModSettings : ModSettings
         manualOffHandPositionsKeys = [];
         manualOffHandPositionsValues = [];
         ManualOffHandPositions = new Dictionary<string, SaveableVector3>();
+        manualMainHandRotationsKeys = [];
+        manualMainHandRotationsValues = [];
+        ManualMainHandRotations = new Dictionary<string, float>();
+        manualOffHandRotationsKeys = [];
+        manualOffHandRotationsValues = [];
+        ManualOffHandRotations = new Dictionary<string, float>();
         RimWorld_MainMenuDrawer_MainMenuOnGUI.UpdateHandDefinitions();
     }
 }

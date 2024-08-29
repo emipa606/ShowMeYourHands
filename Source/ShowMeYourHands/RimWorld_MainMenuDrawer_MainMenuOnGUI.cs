@@ -236,6 +236,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                                 .ToVector3()
                             : Vector3.zero
                 };
+
                 weapon.comps.Add(compProps);
             }
             else
@@ -246,6 +247,18 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                     true
                         ? ShowMeYourHandsMod.instance.Settings.ManualOffHandPositions[keyValuePair.Key].ToVector3()
                         : Vector3.zero;
+            }
+
+            if (ShowMeYourHandsMod.instance?.Settings?.ManualMainHandRotations.TryGetValue(keyValuePair.Key,
+                    out var mainHandRotation) == true)
+            {
+                compProps.MainRotation = mainHandRotation;
+            }
+
+            if (ShowMeYourHandsMod.instance?.Settings?.ManualOffHandRotations.TryGetValue(keyValuePair.Key,
+                    out var offHandRotation) == true)
+            {
+                compProps.SecRotation = offHandRotation;
             }
 
             doneWeapons.Add(weapon);
@@ -300,7 +313,9 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                         {
                             compClass = typeof(WhandComp),
                             MainHand = weaponSets.MainHand,
-                            SecHand = weaponSets.SecHand
+                            SecHand = weaponSets.SecHand,
+                            MainRotation = weaponSets.MainRotation,
+                            SecRotation = weaponSets.SecRotation
                         };
                         weapon.comps.Add(compProps);
                     }
@@ -308,6 +323,8 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                     {
                         compProps.MainHand = weaponSets.MainHand;
                         compProps.SecHand = weaponSets.SecHand;
+                        compProps.MainRotation = weaponSets.MainRotation;
+                        compProps.SecRotation = weaponSets.SecRotation;
                     }
 
                     ShowMeYourHandsMod.DefinedByDef.Add(weapon.defName);

@@ -79,6 +79,11 @@ internal class ShowMeYourHandsMod : Mod
     /// </summary>
     public readonly ShowMeYourHandsModSettings Settings;
 
+    private float currentMainRotation;
+
+    private float currentOffRotation;
+    private Rect weaponRect;
+
     /// <summary>
     ///     Constructor
     /// </summary>
@@ -261,7 +266,8 @@ internal class ShowMeYourHandsMod : Mod
         }
     }
 
-    private bool DrawIcon(ThingDef thing, Rect rect, Vector3 mainHandPosition, Vector3 offHandPosition)
+    private bool DrawIcon(ThingDef thing, Rect rect, Vector3 mainHandPosition, Vector3 offHandPosition,
+        float mainHandRotation, float offHandRotation)
     {
         if (thing == null)
         {
@@ -310,12 +316,12 @@ internal class ShowMeYourHandsMod : Mod
         {
             if (currentMainBehind)
             {
-                GUI.DrawTexture(mainHandRect, HandTex.MatEast.mainTexture);
+                DrawTextureRotatedLocal(mainHandRect, HandTex.MatEast.mainTexture, mainHandRotation);
             }
 
             if (currentHasOffHand && currentOffBehind)
             {
-                GUI.DrawTexture(offHandRect, HandTex.MatEast.mainTexture);
+                DrawTextureRotatedLocal(offHandRect, HandTex.MatEast.mainTexture, offHandRotation);
             }
         }
 
@@ -336,12 +342,12 @@ internal class ShowMeYourHandsMod : Mod
 
         if (!currentMainBehind)
         {
-            GUI.DrawTexture(mainHandRect, HandTex.MatSouth.mainTexture);
+            DrawTextureRotatedLocal(mainHandRect, HandTex.MatSouth.mainTexture, mainHandRotation);
         }
 
         if (currentHasOffHand && !currentOffBehind)
         {
-            GUI.DrawTexture(offHandRect, HandTex.MatSouth.mainTexture);
+            DrawTextureRotatedLocal(offHandRect, HandTex.MatSouth.mainTexture, offHandRotation);
         }
 
         return true;
@@ -422,9 +428,7 @@ internal class ShowMeYourHandsMod : Mod
             case "Settings":
             {
                 listing_Standard.Begin(frameRect);
-                Text.Font = GameFont.Medium;
                 listing_Standard.Label("SMYH.settings".Translate());
-                Text.Font = GameFont.Small;
                 listing_Standard.Gap();
                 if (Prefs.UIScale != 1f)
                 {
@@ -494,6 +498,8 @@ internal class ShowMeYourHandsMod : Mod
 
                 listing_Standard.CheckboxLabeled("SMYH.logging.label".Translate(), ref Settings.VerboseLogging,
                     "SMYH.logging.tooltip".Translate());
+                listing_Standard.CheckboxLabeled("SMYH.rotation.label".Translate(), ref Settings.Rotation,
+                    "SMYH.rotation.tooltip".Translate());
                 listing_Standard.CheckboxLabeled("SMYH.matcharmor.label".Translate(), ref Settings.MatchArmorColor,
                     "SMYH.matcharmor.tooltip".Translate());
                 listing_Standard.CheckboxLabeled("SMYH.matchartificiallimb.label".Translate(),
@@ -529,8 +535,8 @@ internal class ShowMeYourHandsMod : Mod
                 listing_Standard.End();
 
                 var tabFrameRect = frameRect;
-                tabFrameRect.y += 375;
-                tabFrameRect.height -= 375;
+                tabFrameRect.y += 400;
+                tabFrameRect.height -= 400;
                 var tabContentRect = tabFrameRect;
                 tabContentRect.x = 0;
                 tabContentRect.y = 0;
@@ -591,10 +597,8 @@ internal class ShowMeYourHandsMod : Mod
                     break;
                 }
 
-                Text.Font = GameFont.Medium;
                 var labelPoint = listing_Standard.Label(currentDef.label.CapitalizeFirst(), -1F,
                     currentDef.defName);
-                Text.Font = GameFont.Small;
                 var modName = currentDef.modContentPack?.Name;
                 var modId = currentDef.modContentPack?.PackageId;
                 if (currentDef.modContentPack != null)
@@ -619,13 +623,15 @@ internal class ShowMeYourHandsMod : Mod
 
                 listing_Standard.Gap(150);
 
-                var weaponRect = new Rect(labelPoint.x + 270, labelPoint.y + 5, weaponSize.x,
+                weaponRect = new Rect(labelPoint.x + 270, labelPoint.y + 5, weaponSize.x,
                     weaponSize.y);
 
                 if (currentMainHand == Vector3.zero && !currentNoHands)
                 {
                     currentMainHand = compProperties.MainHand;
                     currentOffHand = compProperties.SecHand;
+                    currentMainRotation = compProperties.MainRotation;
+                    currentOffRotation = compProperties.SecRotation;
                     currentHasOffHand = currentOffHand != Vector3.zero;
                     currentMainBehind = compProperties.MainHand.y < 0;
                     currentOffBehind = compProperties.SecHand.y < 0 || currentOffHand == Vector3.zero;
@@ -633,20 +639,16 @@ internal class ShowMeYourHandsMod : Mod
 
                 currentNoHands = currentMainHand == Vector3.zero;
 
-                if (!DrawIcon(currentDef, weaponRect, currentMainHand, currentOffHand))
+                if (!DrawIcon(currentDef, weaponRect, currentMainHand, currentOffHand, currentMainRotation,
+                        currentOffRotation))
                 {
                     listing_Standard.Label("SMYH.error.texture".Translate(SelectedDef));
                     listing_Standard.End();
                     break;
                 }
 
-
-                listing_Standard.Gap(20);
-                listing_Standard.CheckboxLabeled("SMYH.twohands.label".Translate(), ref currentHasOffHand);
-                if (currentHasOffHand)
-                {
-                    currentNoHands = false;
-                }
+                listing_Standard.GapLine(24);
+                listing_Standard.ColumnWidth = 230;
 
                 listing_Standard.CheckboxLabeled("SMYH.nohands.label".Translate(), ref currentNoHands);
                 if (currentNoHands)
@@ -656,8 +658,6 @@ internal class ShowMeYourHandsMod : Mod
                     currentOffHand = Vector3.zero;
                 }
 
-                listing_Standard.GapLine();
-                listing_Standard.ColumnWidth = 230;
                 Rect lastMainLabel;
                 if (!currentNoHands)
                 {
@@ -669,6 +669,14 @@ internal class ShowMeYourHandsMod : Mod
                     currentMainHand.z = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
                         currentMainHand.z, -0.5f, 0.5f, false,
                         currentMainHand.z.ToString(), null, null, 0.001f);
+                    if (Settings.Rotation)
+                    {
+                        lastMainLabel = listing_Standard.Label("SMYH.mainhandrotation.label".Translate());
+                        currentMainRotation = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
+                            currentMainRotation, -179f, 179, false,
+                            "SMYH.degree".Translate(currentMainRotation), null, null, 1f);
+                    }
+
                     listing_Standard.Gap();
                     listing_Standard.CheckboxLabeled("SMYH.renderbehind.label".Translate(), ref currentMainBehind);
 
@@ -683,13 +691,20 @@ internal class ShowMeYourHandsMod : Mod
                 }
                 else
                 {
+                    listing_Standard.Gap(45);
                     lastMainLabel = listing_Standard.Label("");
+                }
+
+                listing_Standard.NewColumn();
+                listing_Standard.Gap(217);
+                listing_Standard.CheckboxLabeled("SMYH.twohands.label".Translate(), ref currentHasOffHand);
+                if (currentHasOffHand)
+                {
+                    currentNoHands = false;
                 }
 
                 if (currentHasOffHand)
                 {
-                    listing_Standard.NewColumn();
-                    listing_Standard.Gap(262);
                     listing_Standard.Label("SMYH.offhandhorizontal.label".Translate());
                     currentOffHand.x = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
                         currentOffHand.x, -0.5f, 0.5f, false,
@@ -698,6 +713,14 @@ internal class ShowMeYourHandsMod : Mod
                     currentOffHand.z = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
                         currentOffHand.z, -0.5f, 0.5f, false,
                         currentOffHand.z.ToString(), null, null, 0.001f);
+                    if (Settings.Rotation)
+                    {
+                        listing_Standard.Label("SMYH.offhandrotation.label".Translate());
+                        currentOffRotation = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
+                            currentOffRotation, -179f, 179, false,
+                            "SMYH.degree".Translate(currentOffRotation), null, null, 1f);
+                    }
+
                     listing_Standard.Gap();
                     listing_Standard.CheckboxLabeled("SMYH.renderbehind.label".Translate(), ref currentOffBehind);
                     if (Event.current.type is EventType.MouseDrag or EventType.MouseDown &&
@@ -710,10 +733,34 @@ internal class ShowMeYourHandsMod : Mod
                     }
                 }
 
-                Widgets.Label(new Rect(lastMainLabel.position + new Vector2(0, 100), new Vector2(500, 50)),
-                    "SMYH.draginfo".Translate());
+                if (Mouse.IsOver(weaponRect) && Event.current.type == EventType.ScrollWheel)
+                {
+                    var change = Mathf.Clamp(Event.current.delta.y, -2, 2);
+                    if (Event.current.shift)
+                    {
+                        change *= 5;
+                    }
 
-                var savePostition = lastMainLabel.position + new Vector2(0, 170);
+                    switch (getMouseOverHand())
+                    {
+                        case > 0:
+                            currentMainRotation = Mathf.Clamp(currentMainRotation + change, -179, 179);
+                            break;
+                        case < 0:
+                            currentOffRotation = Mathf.Clamp(currentOffRotation + change, -179, 179);
+                            break;
+                    }
+                }
+
+                var dragInfo = "SMYH.draginfo".Translate();
+                if (Settings.Rotation)
+                {
+                    dragInfo += $" {"SMYH.rotate".Translate()}";
+                }
+
+                Widgets.Label(new Rect(lastMainLabel.position + new Vector2(0, 100), new Vector2(500, 54)), dragInfo);
+
+                var savePostition = lastMainLabel.position + new Vector2(0, 165);
                 var undoPostition = savePostition + new Vector2(buttonSize.x + iconButtonSize.x, 0);
                 var resetPostition = undoPostition + new Vector2(buttonSize.x + iconButtonSize.x, 0);
                 var copyPostition = resetPostition + new Vector2(buttonSize.x + iconButtonSize.x, 0);
@@ -724,7 +771,7 @@ internal class ShowMeYourHandsMod : Mod
                 if (Widgets.ButtonImageFitted(copyRect, TexButton.Copy))
                 {
                     GUIUtility.systemCopyBuffer =
-                        $"|HandData|{new SaveableVector3(currentMainHand)}|{new SaveableVector3(currentOffHand)}|{currentHasOffHand}|{currentMainBehind}|{currentOffBehind}";
+                        $"|HandData|{new SaveableVector3(currentMainHand)}|{new SaveableVector3(currentOffHand)}|{currentHasOffHand}|{currentMainBehind}|{currentOffBehind}|{currentMainRotation}|{currentOffRotation}";
                     SoundDefOf.Tick_High.PlayOneShotOnCamera();
                     Messages.Message("SMYH.copy.info".Translate(), MessageTypeDefOf.SituationResolved, false);
                 }
@@ -737,13 +784,15 @@ internal class ShowMeYourHandsMod : Mod
                     if (Widgets.ButtonImageFitted(pasteRect, TexButton.Paste))
                     {
                         var data = GUIUtility.systemCopyBuffer.Split('|');
-                        if (data.Length == 7)
+                        if (data.Length == 9)
                         {
                             currentMainHand = SaveableVector3.FromString(data[2]).ToVector3();
                             currentOffHand = SaveableVector3.FromString(data[3]).ToVector3();
                             currentHasOffHand = bool.Parse(data[4]);
                             currentMainBehind = bool.Parse(data[5]);
                             currentOffBehind = bool.Parse(data[6]);
+                            currentMainRotation = float.Parse(data[7]);
+                            currentOffRotation = float.Parse(data[8]);
                             Messages.Message("SMYH.paste.info".Translate(), MessageTypeDefOf.SituationResolved, false);
                         }
                     }
@@ -757,6 +806,8 @@ internal class ShowMeYourHandsMod : Mod
 
                 if (currentMainHand != compProperties.MainHand ||
                     currentOffHand != compProperties.SecHand ||
+                    currentMainRotation != compProperties.MainRotation ||
+                    currentOffRotation != compProperties.SecRotation ||
                     currentHasOffHand != (currentOffHand != Vector3.zero) ||
                     currentMainBehind != compProperties.MainHand.y < 0 ||
                     currentOffBehind != compProperties.SecHand.y < 0)
@@ -784,10 +835,14 @@ internal class ShowMeYourHandsMod : Mod
 
                     compProperties.MainHand = currentMainHand;
                     compProperties.SecHand = currentOffHand;
+                    compProperties.MainRotation = currentMainRotation;
+                    compProperties.SecRotation = currentOffRotation;
                     instance.Settings.ManualMainHandPositions[currentDef.defName] =
                         new SaveableVector3(compProperties.MainHand);
                     instance.Settings.ManualOffHandPositions[currentDef.defName] =
                         new SaveableVector3(compProperties.SecHand);
+                    instance.Settings.ManualMainHandRotations[currentDef.defName] = compProperties.MainRotation;
+                    instance.Settings.ManualOffHandRotations[currentDef.defName] = compProperties.SecRotation;
                 }
 
                 void UndoAction()
@@ -795,6 +850,8 @@ internal class ShowMeYourHandsMod : Mod
                     currentNoHands = currentMainHand == Vector3.zero;
                     currentMainHand = compProperties.MainHand;
                     currentOffHand = compProperties.SecHand;
+                    currentMainRotation = compProperties.MainRotation;
+                    currentOffRotation = compProperties.SecRotation;
                     currentHasOffHand = currentOffHand != Vector3.zero;
                     currentMainBehind = compProperties.MainHand.y < 0;
                     currentOffBehind = compProperties.SecHand.y < 0;
@@ -808,6 +865,8 @@ internal class ShowMeYourHandsMod : Mod
                             ResetOneWeapon(currentDef, ref compProperties);
                             currentMainHand = compProperties.MainHand;
                             currentOffHand = compProperties.SecHand;
+                            currentMainRotation = compProperties.MainRotation;
+                            currentOffRotation = compProperties.SecRotation;
                             currentHasOffHand = currentOffHand != Vector3.zero;
                             currentMainBehind = compProperties.MainHand.y < 0;
                             currentOffBehind = compProperties.SecHand.y < 0;
@@ -815,6 +874,41 @@ internal class ShowMeYourHandsMod : Mod
                 }
             }
         }
+    }
+
+    private int getMouseOverHand()
+    {
+        if (currentMainHand != Vector3.zero)
+        {
+            var mainHandCoords = new Vector2(
+                (weaponSize.x / 2) + (currentMainHand.x * 200) - (handSize.x / 2),
+                (weaponSize.x / 2) - (currentMainHand.z * 200) - (handSize.y / 2));
+            var mainHandRect = new Rect(weaponRect.x + mainHandCoords.x, weaponRect.y + mainHandCoords.y,
+                handSize.x,
+                handSize.y);
+            if (mainHandRect.Contains(Event.current.mousePosition))
+            {
+                return 1;
+            }
+        }
+
+        if (!currentHasOffHand || currentOffHand == Vector3.zero)
+        {
+            return 0;
+        }
+
+        var offHandCoords = new Vector2(
+            (weaponSize.x / 2) + (currentOffHand.x * 200) - (handSize.x / 2),
+            (weaponSize.x / 2) - (currentOffHand.z * 200) - (handSize.y / 2));
+        var offHandRect = new Rect(weaponRect.x + offHandCoords.x, weaponRect.y + offHandCoords.y,
+            handSize.x,
+            handSize.y);
+        if (offHandRect.Contains(Event.current.mousePosition))
+        {
+            return -1;
+        }
+
+        return 0;
     }
 
     private static void CopyChangedWeapons(bool onlySelected = false)
@@ -871,6 +965,24 @@ internal class ShowMeYourHandsMod : Mod
                 if (position.ToVector3() != Vector3.zero)
                 {
                     stringBuilder.AppendLine($"              <SecHand>{position}</SecHand>");
+                }
+            }
+
+            if (instance.Settings.ManualMainHandRotations.TryGetValue(settingsManualMainHandPosition.Key,
+                    out var mainRotation))
+            {
+                if (mainRotation != 0f)
+                {
+                    stringBuilder.AppendLine($"              <MainRotation>{mainRotation}</MainRotation>");
+                }
+            }
+
+            if (instance.Settings.ManualOffHandRotations.TryGetValue(settingsManualMainHandPosition.Key,
+                    out var offRotation))
+            {
+                if (offRotation != 0f)
+                {
+                    stringBuilder.AppendLine($"              <SecRotation>{offRotation}</SecRotation>");
                 }
             }
 
@@ -984,6 +1096,8 @@ internal class ShowMeYourHandsMod : Mod
     {
         instance.Settings.ManualMainHandPositions.Remove(currentDef.defName);
         instance.Settings.ManualOffHandPositions.Remove(currentDef.defName);
+        instance.Settings.ManualMainHandPositions.Remove(currentDef.defName);
+        instance.Settings.ManualOffHandRotations.Remove(currentDef.defName);
         if (compProperties == null)
         {
             compProperties = currentDef.GetCompProperties<WhandCompProps>();
@@ -991,6 +1105,8 @@ internal class ShowMeYourHandsMod : Mod
 
         compProperties.MainHand = Vector3.zero;
         compProperties.SecHand = Vector3.zero;
+        compProperties.MainRotation = 0f;
+        compProperties.SecRotation = 0f;
         RimWorld_MainMenuDrawer_MainMenuOnGUI.LoadFromDefs(currentDef);
         if (compProperties.MainHand == Vector3.zero)
         {

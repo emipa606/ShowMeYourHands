@@ -58,4 +58,10 @@
   <SMYH.copyone.button>Paramètres de copie</SMYH.copyone.button>
   <SMYH.paste.info>Paramètres collés</SMYH.paste.info>
   <SMYH.copy.info>Paramètres copiés</SMYH.copy.info>
+  <SMYH.rotation.label>Activer la prise en charge de la rotation</SMYH.rotation.label>
+  <SMYH.rotation.tooltip>Permet de définir une rotation personnalisée des mains, qui n'aura d'effet que lors de l'utilisation d'une texture de main non standard.</SMYH.rotation.tooltip>
+  <SMYH.mainhandrotation.label>Rotation de la main principale</SMYH.mainhandrotation.label>
+  <SMYH.offhandrotation.label>Rotation hors main</SMYH.offhandrotation.label>
+  <SMYH.degree>{0}°</SMYH.degree>
+  <SMYH.rotate>Utilisez la molette de défilement pour faire tourner les aiguilles, maintenez la touche SHIFT enfoncée pour une rotation plus rapide.</SMYH.rotate>
 </LanguageData>

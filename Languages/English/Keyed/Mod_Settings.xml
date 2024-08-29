@@ -21,6 +21,8 @@
   <SMYH.resetselected.button>Reset selected</SMYH.resetselected.button>
   <SMYH.logging.label>Enable verbose logging</SMYH.logging.label>
   <SMYH.logging.tooltip>Shows verbose logging, for finding errors</SMYH.logging.tooltip>
+  <SMYH.rotation.label>Enable rotation support</SMYH.rotation.label>
+  <SMYH.rotation.tooltip>Allows defining custom rotation of hands, this will only have effect when using a non-standard hand-texture</SMYH.rotation.tooltip>
   <SMYH.matchartificiallimb.label>Try to match replaced hands</SMYH.matchartificiallimb.label>
   <SMYH.matchartificiallimb.tooltip>If the pawns hands are replaced with an artificial hand, it will try to show the color of the artificial limb instead</SMYH.matchartificiallimb.tooltip>
   <SMYH.matchhandamounts.label>Dont show missing hands</SMYH.matchhandamounts.label>
@@ -43,9 +45,12 @@
   <SMYH.nohands.label>Uses no hands</SMYH.nohands.label>
   <SMYH.mainhandhorizontal.label>Main hand horizontal</SMYH.mainhandhorizontal.label>
   <SMYH.mainhandvertical.label>Main hand vertical</SMYH.mainhandvertical.label>
+  <SMYH.mainhandrotation.label>Main hand rotation</SMYH.mainhandrotation.label>
   <SMYH.renderbehind.label>Render behind weapon</SMYH.renderbehind.label>
   <SMYH.offhandhorizontal.label>Off hand horizontal</SMYH.offhandhorizontal.label>
   <SMYH.offhandvertical.label>Off hand vertical</SMYH.offhandvertical.label>
+  <SMYH.offhandrotation.label>Off hand rotation</SMYH.offhandrotation.label>
+  <SMYH.degree>{0}°</SMYH.degree>
   <SMYH.reset.button>Reset</SMYH.reset.button>
   <SMYH.undo.button>Undo</SMYH.undo.button>
   <SMYH.save.button>Save</SMYH.save.button>
@@ -56,5 +61,6 @@
   <SMYH.weaponrow.red>Uses the default settings</SMYH.weaponrow.red>
   <SMYH.weaponrow.cyan>Has custom settings included in the mod</SMYH.weaponrow.cyan>
   <SMYH.weaponrow.green>Has personal settings defined by the player</SMYH.weaponrow.green>
-  <SMYH.draginfo>NOTE: You can also left-click drag to set the main-hand position, right-click drag to set the off-hand position</SMYH.draginfo>
+  <SMYH.draginfo>Left-click drag to set the main-hand position, right-click drag to set the off-hand position.</SMYH.draginfo>
+  <SMYH.rotate>Use the scroll wheel to rotate the hands, hold SHIFT for faster rotation</SMYH.rotate>
 </LanguageData>

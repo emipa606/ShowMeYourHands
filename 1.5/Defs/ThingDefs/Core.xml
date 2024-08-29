@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- (x,y,z) 
 	x(horizontal)
-	y(altitude layer,0 is weapon texture layer, lower numbers are under weapon texures, higher value than 0 is over weapon texture)
+	y(altitude layer,0 is weapon texture layer, lower numbers are under weapon textures, higher value than 0 is over weapon texture)
 	z(vertical)-->
 <Defs>
   <WHands.ClutterHandsTDef>
