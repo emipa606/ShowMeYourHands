@@ -98,7 +98,21 @@ internal class ShowMeYourHandsMod : Mod
         if (Settings.ManualMainHandPositions == null)
         {
             Settings.ManualMainHandPositions = new Dictionary<string, SaveableVector3>();
+        }
+
+        if (Settings.ManualOffHandPositions == null)
+        {
             Settings.ManualOffHandPositions = new Dictionary<string, SaveableVector3>();
+        }
+
+        if (Settings.ManualMainHandRotations == null)
+        {
+            Settings.ManualMainHandRotations = new Dictionary<string, float>();
+        }
+
+        if (Settings.ManualOffHandRotations == null)
+        {
+            Settings.ManualOffHandRotations = new Dictionary<string, float>();
         }
 
         currentVersion =

@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.5.9 - Fix for existing custom hand-positions with no rotation-info
+
+
 1.5.8 - Added rotation support, default enabled when using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3302328100]Nice Hands Retexture[/url]
 Used DeepL to update translations for ChineseSimplified, French, German, Russian
 

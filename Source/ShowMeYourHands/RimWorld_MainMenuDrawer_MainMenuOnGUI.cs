@@ -151,6 +151,9 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                 compProps.MainHand = mainHand;
             }
         }
+
+        compProps.MainRotation = 0;
+        compProps.SecRotation = 0;
     }
 
     private static void FigureOutTheRest()
@@ -202,6 +205,8 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                 }
             }
 
+            compProps.MainRotation = 0;
+            compProps.SecRotation = 0;
             doneWeapons.Add(weapon);
         }
     }
@@ -249,16 +254,24 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                         : Vector3.zero;
             }
 
-            if (ShowMeYourHandsMod.instance?.Settings?.ManualMainHandRotations.TryGetValue(keyValuePair.Key,
+            if (ShowMeYourHandsMod.instance?.Settings?.ManualMainHandRotations?.TryGetValue(keyValuePair.Key,
                     out var mainHandRotation) == true)
             {
                 compProps.MainRotation = mainHandRotation;
             }
+            else
+            {
+                compProps.MainRotation = 0;
+            }
 
-            if (ShowMeYourHandsMod.instance?.Settings?.ManualOffHandRotations.TryGetValue(keyValuePair.Key,
+            if (ShowMeYourHandsMod.instance?.Settings?.ManualOffHandRotations?.TryGetValue(keyValuePair.Key,
                     out var offHandRotation) == true)
             {
                 compProps.SecRotation = offHandRotation;
+            }
+            else
+            {
+                compProps.SecRotation = 0;
             }
 
             doneWeapons.Add(weapon);
