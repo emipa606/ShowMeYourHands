@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.5.10 - Added some handpositions via NyamiFan3. Added rotation-values for all vanilla weapons. Fixed hand-rotation when pawn is facing west.
+
+
 1.5.9 - Fix for existing custom hand-positions with no rotation-info
 
 

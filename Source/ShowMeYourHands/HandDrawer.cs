@@ -371,6 +371,8 @@ public class HandDrawer : ThingComp
         if (pawn.Rotation == Rot4.West || aimAngle is > 200f and < 340f)
         {
             flipped = true;
+            MainHandRotation *= -1;
+            OffHandRotation *= -1;
         }
 
         if (mainHandWeapon.def.IsMeleeWeapon)

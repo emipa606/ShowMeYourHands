@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="ludeon.rimworld">
+    <defName>ClutterHandsSettings_Core</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.120)</MainHand>
+        <SecHand>(0.180, -0.100, -0.045)</SecHand>
+        <MainRotation>-46</MainRotation>
+        <ThingTargets>
+          <li>Gun_AssaultRifle</li>
+          <!-- assault rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.070)</MainHand>
+        <MainRotation>-44</MainRotation>
+        <ThingTargets>
+          <li>Gun_Autopistol</li>
+          <!-- autopistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.000, 0.100, 0.175)</MainHand>
+        <MainRotation>118</MainRotation>
+        <ThingTargets>
+          <li>Beer</li>
+          <!-- beer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.105)</MainHand>
+        <SecHand>(0.205, -0.100, -0.040)</SecHand>
+        <MainRotation>-42</MainRotation>
+        <ThingTargets>
+          <li>Gun_BoltActionRifle</li>
+          <!-- bolt-action rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, 0.005)</MainHand>
+        <MainRotation>20</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_BreachAxe</li>
+          <!-- breach axe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.060)</MainHand>
+        <SecHand>(0.220, -0.100, -0.010)</SecHand>
+        <MainRotation>-38</MainRotation>
+        <ThingTargets>
+          <li>Gun_ChainShotgun</li>
+          <!-- chain shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.080)</MainHand>
+        <SecHand>(0.215, -0.100, -0.060)</SecHand>
+        <MainRotation>-20</MainRotation>
+        <ThingTargets>
+          <li>Gun_ChargeLance</li>
+          <!-- charge lance -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.090)</MainHand>
+        <SecHand>(0.210, -0.100, -0.030)</SecHand>
+        <MainRotation>-46</MainRotation>
+        <ThingTargets>
+          <li>Gun_ChargeRifle</li>
+          <!-- charge rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, 0.005)</MainHand>
+        <MainRotation>28</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_Club</li>
+          <!-- club -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.034, 0.100, -0.254)</MainHand>
+        <SecHand>(0.211, -0.100, -0.101)</SecHand>
+        <MainRotation>-50</MainRotation>
+        <ThingTargets>
+          <li>Gun_DoomsdayRocket</li>
+          <!-- doomsday rocket launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.298, 0.100, -0.051)</MainHand>
+        <MainRotation>26</MainRotation>
+        <ThingTargets>
+          <li>ElephantTusk</li>
+          <!-- elephant tusk -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.008, 0.100, 0.103)</MainHand>
+        <MainRotation>36</MainRotation>
+        <ThingTargets>
+          <li>Weapon_GrenadeEMP</li>
+          <!-- EMP grenades -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.395, 0.100, -0.110)</MainHand>
+        <SecHand>(0.235, -0.100, -0.090)</SecHand>
+        <MainRotation>-44</MainRotation>
+        <ThingTargets>
+          <li>Gun_EmpLauncher</li>
+          <!-- EMP launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.014, 0.100, 0.103)</MainHand>
+        <MainRotation>54</MainRotation>
+        <ThingTargets>
+          <li>Weapon_GrenadeFrag</li>
+          <!-- frag grenades -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, 0.035)</MainHand>
+        <MainRotation>22</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_Gladius</li>
+          <!-- gladius -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.100, 0.100, -0.010)</MainHand>
+        <SecHand>(-0.060, -0.100, -0.015)</SecHand>
+        <MainRotation>-58</MainRotation>
+        <SecRotation>-82</SecRotation>
+        <ThingTargets>
+          <li>Bow_Great</li>
+          <!-- greatbow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.065)</MainHand>
+        <SecHand>(0.260, -0.100, 0.025)</SecHand>
+        <MainRotation>-44</MainRotation>
+        <ThingTargets>
+          <li>Gun_HeavySMG</li>
+          <!-- heavy SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, 0.015)</MainHand>
+        <MainRotation>16</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_Ikwa</li>
+          <!-- ikwa -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.135)</MainHand>
+        <SecHand>(0.250, -0.100, -0.140)</SecHand>
+        <MainRotation>-50</MainRotation>
+        <ThingTargets>
+          <li>Gun_IncendiaryLauncher</li>
+          <!-- incendiary launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.025)</MainHand>
+        <MainRotation>20</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_Knife</li>
+          <!-- knife -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.065)</MainHand>
+        <SecHand>(0.150, -0.100, -0.040)</SecHand>
+        <MainRotation>-38</MainRotation>
+        <ThingTargets>
+          <li>Gun_LMG</li>
+          <!-- LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.350, 0.100, 0.050)</MainHand>
+        <MainRotation>24</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_LongSword</li>
+          <!-- longsword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, 0.030)</MainHand>
+        <MainRotation>24</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_Mace</li>
+          <!-- mace -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.080)</MainHand>
+        <MainRotation>-48</MainRotation>
+        <ThingTargets>
+          <li>Gun_MachinePistol</li>
+          <!-- machine pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.435, 0.100, -0.085)</MainHand>
+        <SecHand>(-0.115, -0.100, -0.020)</SecHand>
+        <MainRotation>-48</MainRotation>
+        <SecRotation>-92</SecRotation>
+        <ThingTargets>
+          <li>Gun_Minigun</li>
+          <!-- minigun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, 0.155)</MainHand>
+        <SecHand>(0.195, -0.100, 0.055)</SecHand>
+        <MainRotation>-92</MainRotation>
+        <SecRotation>-66</SecRotation>
+        <ThingTargets>
+          <li>Weapon_GrenadeMolotov</li>
+          <!-- molotov cocktails -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, 0.015)</MainHand>
+        <MainRotation>16</MainRotation>
+        <ThingTargets>
+          <li>Pila</li>
+          <!-- pila -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.070)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <MainRotation>-38</MainRotation>
+        <ThingTargets>
+          <li>Gun_PumpShotgun</li>
+          <!-- pump shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.025, 0.100, -0.020)</MainHand>
+        <SecHand>(-0.080, -0.100, 0.000)</SecHand>
+        <MainRotation>-58</MainRotation>
+        <SecRotation>-80</SecRotation>
+        <ThingTargets>
+          <li>Bow_Recurve</li>
+          <!-- recurve bow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.070)</MainHand>
+        <MainRotation>-38</MainRotation>
+        <ThingTargets>
+          <li>Gun_Revolver</li>
+          <!-- revolver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.140, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.055, -0.100, -0.010)</SecHand>
+        <MainRotation>-70</MainRotation>
+        <SecRotation>-86</SecRotation>
+        <ThingTargets>
+          <li>Bow_Short</li>
+          <!-- short bow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.095)</MainHand>
+        <SecHand>(0.265, -0.100, -0.130)</SecHand>
+        <MainRotation>-42</MainRotation>
+        <ThingTargets>
+          <li>Gun_SmokeLauncher</li>
+          <!-- smoke launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.095)</MainHand>
+        <SecHand>(0.170, -0.100, -0.060)</SecHand>
+        <MainRotation>-54</MainRotation>
+        <ThingTargets>
+          <li>Gun_SniperRifle</li>
+          <!-- sniper rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, 0.010)</MainHand>
+        <SecHand>(-0.020, -0.100, -0.015)</SecHand>
+        <MainRotation>18</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_Spear</li>
+          <!-- spear -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.370, 0.100, -0.005)</MainHand>
+        <SecHand>(-0.060, -0.100, 0.090)</SecHand>
+        <MainRotation>36</MainRotation>
+        <SecRotation>-82</SecRotation>
+        <ThingTargets>
+          <li>ThrumboHorn</li>
+          <!-- thrumbo horn -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.005, 0.100, -0.195)</MainHand>
+        <SecHand>(0.210, -0.100, -0.190)</SecHand>
+        <MainRotation>-48</MainRotation>
+        <SecRotation>-72</SecRotation>
+        <ThingTargets>
+          <li>Gun_TripleRocket</li>
+          <!-- triple rocket launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.075)</MainHand>
+        <MainRotation>-40</MainRotation>
+        <ThingTargets>
+          <li>WoodLog</li>
+          <!-- wood -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>
