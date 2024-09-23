@@ -64,4 +64,6 @@
   <SMYH.offhandrotation.label>离手旋转</SMYH.offhandrotation.label>
   <SMYH.degree>{0}°</SMYH.degree>
   <SMYH.rotate>使用滚轮旋转指针，按住 SHIFT 键可加快旋转速度</SMYH.rotate>
+  <SMYH.showcrawling.label>爬行时举手</SMYH.showcrawling.label>
+  <SMYH.showcrawling.tooltip>当小卒被击倒并爬起时，会举手示意</SMYH.showcrawling.tooltip>
 </LanguageData>

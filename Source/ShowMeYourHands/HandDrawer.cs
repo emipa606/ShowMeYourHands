@@ -5,6 +5,7 @@ using ColorMine.ColorSpaces.Comparisons;
 using UnityEngine;
 using Verse;
 using static System.Byte;
+using Object = UnityEngine.Object;
 
 namespace ShowMeYourHands;
 
@@ -220,6 +221,39 @@ public class HandDrawer : ThingComp
         var layerOffset = new Vector3(0, 0.0001f, 0);
 
         var basePosition = pawn.DrawPos - heightOffset;
+        if (pawn.Crawling)
+        {
+            var offsetPercent =
+                Mathf.Clamp(Vector3.Distance(pawn.Drawer.tweener.LastTickTweenedVelocity, Vector3.zero) * 100, 0f,
+                    1f);
+
+            var offset = offsetPercent * 0.2f * ShowMeYourHandsMain.pawnBodySizes[pawn];
+            sideOffset += new Vector3(0.1f, 0, 0);
+
+            if (pawn.Rotation == Rot4.West)
+            {
+                basePosition += new Vector3(offset, 0, 0);
+            }
+
+            if (pawn.Rotation == Rot4.East)
+            {
+                basePosition -= new Vector3(offset, 0, 0);
+            }
+
+            if (pawn.Rotation == Rot4.North)
+            {
+                basePosition += heightOffset * 2;
+                basePosition -= new Vector3(0, 0.1f, 0);
+                basePosition -= new Vector3(0, 0, offset);
+            }
+
+            if (pawn.Rotation == Rot4.South)
+            {
+                basePosition -= heightOffset;
+                basePosition += new Vector3(0, 0, offset);
+            }
+        }
+
         if (pawn.Rotation == Rot4.North)
         {
             Graphics.DrawMesh(handMesh,
@@ -234,9 +268,23 @@ public class HandDrawer : ThingComp
 
         if (pawn.Rotation == Rot4.East)
         {
+            if (pawn.Crawling)
+            {
+                Graphics.DrawMesh(handMesh,
+                    basePosition + sideOffset, new Quaternion(), mainSingle, 0);
+            }
+            else
+            {
+                Graphics.DrawMesh(handMesh,
+                    basePosition + layerOffset, new Quaternion(), mainSingle, 0);
+                return;
+            }
+        }
+
+        if (pawn.Rotation == Rot4.West && pawn.Crawling)
+        {
             Graphics.DrawMesh(handMesh,
-                basePosition + layerOffset, new Quaternion(), mainSingle, 0);
-            return;
+                basePosition - sideOffset, new Quaternion(), mainSingle, 0);
         }
 
         if (ShowMeYourHandsMain.pawnsMissingAHand.ContainsKey(pawn) && ShowMeYourHandsMain.pawnsMissingAHand[pawn])
@@ -255,6 +303,22 @@ public class HandDrawer : ThingComp
         {
             Graphics.DrawMesh(handMesh,
                 basePosition + sideOffset + layerOffset, new Quaternion(), offSingle, 0);
+            return;
+        }
+
+        if (pawn.Crawling)
+        {
+            if (pawn.Rotation == Rot4.West)
+            {
+                Graphics.DrawMesh(handMesh,
+                    basePosition - (sideOffset * 2), new Quaternion(), mainSingle, 0);
+            }
+            else
+            {
+                Graphics.DrawMesh(handMesh,
+                    basePosition + (sideOffset * 2), new Quaternion(), mainSingle, 0);
+            }
+
             return;
         }
 
@@ -632,8 +696,14 @@ public class HandDrawer : ThingComp
             return;
         }
 
-        if (!ShowMeYourHandsMod.instance.Settings.ShowOtherTmes || LastDrawn >= GenTicks.TicksAbs - 1 ||
+        if (!ShowMeYourHandsMod.instance.Settings.ShowOtherTmes && !ShowMeYourHandsMod.instance.Settings.ShowCrawling ||
+            LastDrawn >= GenTicks.TicksAbs - 1 ||
             GenTicks.TicksAbs == 0)
+        {
+            return;
+        }
+
+        if (ShowMeYourHandsMod.instance.Settings.ShowCrawling && !pawn.Crawling)
         {
             return;
         }

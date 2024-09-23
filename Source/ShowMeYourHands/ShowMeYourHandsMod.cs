@@ -533,6 +533,17 @@ internal class ShowMeYourHandsMod : Mod
                 listing_Standard.CheckboxLabeled("SMYH.showothertimes.label".Translate(),
                     ref Settings.ShowOtherTmes,
                     "SMYH.showothertimes.tooltip".Translate());
+                if (Settings.ShowOtherTmes)
+                {
+                    Settings.ShowCrawling = false;
+                }
+                else
+                {
+                    listing_Standard.CheckboxLabeled("SMYH.showcrawling.label".Translate(),
+                        ref Settings.ShowCrawling,
+                        "SMYH.showcrawling.tooltip".Translate());
+                }
+
                 if (currentVersion != null)
                 {
                     listing_Standard.Gap();
@@ -549,8 +560,8 @@ internal class ShowMeYourHandsMod : Mod
                 listing_Standard.End();
 
                 var tabFrameRect = frameRect;
-                tabFrameRect.y += 400;
-                tabFrameRect.height -= 400;
+                tabFrameRect.y += 425;
+                tabFrameRect.height -= 425;
                 var tabContentRect = tabFrameRect;
                 tabContentRect.x = 0;
                 tabContentRect.y = 0;

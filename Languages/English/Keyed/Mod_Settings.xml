@@ -29,6 +29,8 @@
   <SMYH.matchhandamounts.tooltip>If the pawn is missing a hand, it will only show the main-hand on two-handed weapons</SMYH.matchhandamounts.tooltip>
   <SMYH.showwhencarry.label>Show hands when carrying things</SMYH.showwhencarry.label>
   <SMYH.showwhencarry.tooltip>Will draw hands when pawns are carrying things</SMYH.showwhencarry.tooltip>
+  <SMYH.showcrawling.label>Show hands when crawling</SMYH.showcrawling.label>
+  <SMYH.showcrawling.tooltip>Will show hands when the pawn is knocked down and crawling</SMYH.showcrawling.tooltip>
   <SMYH.showothertimes.label>Always show hands</SMYH.showothertimes.label>
   <SMYH.showothertimes.tooltip>Will draw static hands at the sides of the pawn when not doing something else with them, some issues have been reported and Im working on a better way of doing this</SMYH.showothertimes.tooltip>
   <SMYH.matcharmor.label>Try to match armor color</SMYH.matcharmor.label>

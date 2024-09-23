@@ -32,6 +32,7 @@ internal class ShowMeYourHandsModSettings : ModSettings
     public bool RepositionHands = true;
     public bool ResizeHands = true;
     public bool Rotation = ModsConfig.IsActive("andromeda.nicehands");
+    public bool ShowCrawling;
     public bool ShowOtherTmes;
     public bool ShowWhenCarry;
     public bool VerboseLogging;
@@ -48,6 +49,7 @@ internal class ShowMeYourHandsModSettings : ModSettings
         Scribe_Values.Look(ref RepositionHands, "RepositionHands", true);
         Scribe_Values.Look(ref ShowWhenCarry, "ShowWhenCarry");
         Scribe_Values.Look(ref ShowOtherTmes, "ShowOtherTmes");
+        Scribe_Values.Look(ref ShowCrawling, "ShowCrawling");
         Scribe_Collections.Look(ref ManualMainHandPositions, "ManualMainHandPositions", LookMode.Value,
             LookMode.Value,
             ref manualMainHandPositionsKeys, ref manualMainHandPositionsValues);
