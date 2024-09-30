@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.5.12 - Fixed compatiblity with CEs aiming animation
+
+
 1.5.11 - Added separate setting to show hands when crawling. Hand positions when crawling are now more fitting and have a crawling motion.
 Used DeepL to update translations for ChineseSimplified, French, German, Russian
 
