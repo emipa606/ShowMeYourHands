@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.5.13 - Removed redundant logging
+
+
 1.5.12 - Fixed compatiblity with CEs aiming animation
 
 

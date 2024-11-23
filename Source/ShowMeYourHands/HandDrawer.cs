@@ -394,13 +394,6 @@ public class HandDrawer : ThingComp
 
         if (!ShowMeYourHandsMain.weaponLocations.TryGetValue(mainHandWeapon, out var location))
         {
-            if (ShowMeYourHandsMod.instance.Settings.VerboseLogging)
-            {
-                Log.WarningOnce(
-                    $"[ShowMeYourHands]: Could not find the position for {mainHandWeapon.def.label} from the mod {mainHandWeapon.def.modContentPack.Name}, equipped by {pawn.Name}. Please report this issue to the author of Show Me Your Hands if possible.",
-                    mainHandWeapon.def.GetHashCode());
-            }
-
             return;
         }
 
@@ -412,22 +405,10 @@ public class HandDrawer : ThingComp
         var offMeleeExtra = 0f;
         var mainMelee = false;
         var offMelee = false;
-        if (offHandWeapon != null)
+        if (offHandWeapon != null && ShowMeYourHandsMain.weaponLocations.ContainsKey(offHandWeapon))
         {
-            if (!ShowMeYourHandsMain.weaponLocations.ContainsKey(offHandWeapon))
-            {
-                if (ShowMeYourHandsMod.instance.Settings.VerboseLogging)
-                {
-                    Log.WarningOnce(
-                        $"[ShowMeYourHands]: Could not find the position for {offHandWeapon.def.label} from the mod {offHandWeapon.def.modContentPack.Name}, equipped by {pawn.Name}. Please report this issue to the author of Show Me Your Hands if possible.",
-                        offHandWeapon.def.GetHashCode());
-                }
-            }
-            else
-            {
-                offhandWeaponLocation = ShowMeYourHandsMain.weaponLocations[offHandWeapon].Item1;
-                offHandAngle = ShowMeYourHandsMain.weaponLocations[offHandWeapon].Item2;
-            }
+            offhandWeaponLocation = ShowMeYourHandsMain.weaponLocations[offHandWeapon].Item1;
+            offHandAngle = ShowMeYourHandsMain.weaponLocations[offHandWeapon].Item2;
         }
 
         mainHandAngle -= 90f;

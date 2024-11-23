@@ -4,5 +4,10 @@
   "CanRemove": "0",
   "PreviewVersion": "1.5",
   "SocialImageSet": true,
-  "FundingSet": true
+  "FundingSet": true,
+  "SearchTags": [
+    "graphics",
+    "realism",
+    "customization"
+  ]
 }
