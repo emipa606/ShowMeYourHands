@@ -8,21 +8,21 @@ namespace ShowMeYourHands;
 /// </summary>
 internal class ShowMeYourHandsModSettings : ModSettings
 {
-    public Dictionary<string, SaveableVector3> ManualMainHandPositions = new Dictionary<string, SaveableVector3>();
+    public Dictionary<string, SaveableVector3> ManualMainHandPositions = new();
 
     private List<string> manualMainHandPositionsKeys;
 
     private List<SaveableVector3> manualMainHandPositionsValues;
-    public Dictionary<string, float> ManualMainHandRotations = new Dictionary<string, float>();
+    public Dictionary<string, float> ManualMainHandRotations = new();
     private List<string> manualMainHandRotationsKeys;
     private List<float> manualMainHandRotationsValues;
 
-    public Dictionary<string, SaveableVector3> ManualOffHandPositions = new Dictionary<string, SaveableVector3>();
+    public Dictionary<string, SaveableVector3> ManualOffHandPositions = new();
 
     private List<string> manualOffHandPositionsKeys;
 
     private List<SaveableVector3> manualOffHandPositionsValues;
-    public Dictionary<string, float> ManualOffHandRotations = new Dictionary<string, float>();
+    public Dictionary<string, float> ManualOffHandRotations = new();
     private List<string> manualOffHandRotationsKeys;
     private List<float> manualOffHandRotationsValues;
 

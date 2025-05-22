@@ -14,23 +14,23 @@ namespace ShowMeYourHands;
 [StaticConstructorOnStartup]
 internal class ShowMeYourHandsMod : Mod
 {
-    public const int LeftClick = 0;
+    private const int LeftClick = 0;
 
-    public const int RightClick = 1;
+    private const int RightClick = 1;
 
     /// <summary>
     ///     The instance of the settings to be read by the mod
     /// </summary>
     public static ShowMeYourHandsMod instance;
 
-    private static readonly Vector2 buttonSize = new Vector2(120f, 25f);
-    private static readonly Vector2 iconButtonSize = new Vector2(25f, 25f);
+    private static readonly Vector2 buttonSize = new(120f, 25f);
+    private static readonly Vector2 iconButtonSize = new(25f, 25f);
 
-    private static readonly Vector2 weaponSize = new Vector2(200f, 200f);
+    private static readonly Vector2 weaponSize = new(200f, 200f);
 
-    private static readonly Vector2 iconSize = new Vector2(24f, 24f);
+    private static readonly Vector2 iconSize = new(24f, 24f);
 
-    private static readonly Vector2 handSize = new Vector2(43f, 43f);
+    private static readonly Vector2 handSize = new(43f, 43f);
 
     private static readonly int buttonSpacer = 200;
 
@@ -64,9 +64,9 @@ internal class ShowMeYourHandsMod : Mod
 
     private static Graphic handTex;
 
-    private static Dictionary<string, int> totalWeaponsByMod = new Dictionary<string, int>();
+    private static Dictionary<string, int> totalWeaponsByMod = new();
 
-    private static Dictionary<string, int> fixedWeaponsByMod = new Dictionary<string, int>();
+    private static Dictionary<string, int> fixedWeaponsByMod = new();
 
     public static HashSet<string> DefinedByDef;
 
@@ -95,25 +95,13 @@ internal class ShowMeYourHandsMod : Mod
         instance = this;
         Settings = GetSettings<ShowMeYourHandsModSettings>();
 
-        if (Settings.ManualMainHandPositions == null)
-        {
-            Settings.ManualMainHandPositions = new Dictionary<string, SaveableVector3>();
-        }
+        Settings.ManualMainHandPositions ??= new Dictionary<string, SaveableVector3>();
 
-        if (Settings.ManualOffHandPositions == null)
-        {
-            Settings.ManualOffHandPositions = new Dictionary<string, SaveableVector3>();
-        }
+        Settings.ManualOffHandPositions ??= new Dictionary<string, SaveableVector3>();
 
-        if (Settings.ManualMainHandRotations == null)
-        {
-            Settings.ManualMainHandRotations = new Dictionary<string, float>();
-        }
+        Settings.ManualMainHandRotations ??= new Dictionary<string, float>();
 
-        if (Settings.ManualOffHandRotations == null)
-        {
-            Settings.ManualOffHandRotations = new Dictionary<string, float>();
-        }
+        Settings.ManualOffHandRotations ??= new Dictionary<string, float>();
 
         currentVersion =
             VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
@@ -155,12 +143,9 @@ internal class ShowMeYourHandsMod : Mod
     {
         get
         {
-            if (handTex == null)
-            {
-                handTex = GraphicDatabase.Get<Graphic_Multi>("HandIcon", ShaderDatabase.CutoutSkin,
-                    new Vector2(1f, 1f),
-                    PawnSkinColors.GetSkinColor(0.5f), PawnSkinColors.GetSkinColor(0.5f));
-            }
+            handTex ??= GraphicDatabase.Get<Graphic_Multi>("HandIcon", ShaderDatabase.CutoutSkin,
+                new Vector2(1f, 1f),
+                PawnSkinColors.GetSkinColor(0.5f), PawnSkinColors.GetSkinColor(0.5f));
 
             return handTex;
         }
@@ -1123,10 +1108,7 @@ internal class ShowMeYourHandsMod : Mod
         instance.Settings.ManualOffHandPositions.Remove(currentDef.defName);
         instance.Settings.ManualMainHandPositions.Remove(currentDef.defName);
         instance.Settings.ManualOffHandRotations.Remove(currentDef.defName);
-        if (compProperties == null)
-        {
-            compProperties = currentDef.GetCompProperties<WhandCompProps>();
-        }
+        compProperties ??= currentDef.GetCompProperties<WhandCompProps>();
 
         compProperties.MainHand = Vector3.zero;
         compProperties.SecHand = Vector3.zero;

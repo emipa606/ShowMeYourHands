@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.5.14 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2925432336]Big and Small - Framework[/url]. Thanks for the help RedMattis!
+
+
 1.5.13 - Removed redundant logging
 
 

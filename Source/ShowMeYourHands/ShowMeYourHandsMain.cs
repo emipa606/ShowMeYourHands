@@ -12,21 +12,20 @@ namespace ShowMeYourHands;
 [StaticConstructorOnStartup]
 public static class ShowMeYourHandsMain
 {
-    public static readonly Dictionary<Thing, Tuple<Vector3, float>> weaponLocations =
-        new Dictionary<Thing, Tuple<Vector3, float>>();
+    public static readonly Dictionary<Thing, Tuple<Vector3, float>> weaponLocations = new();
 
-    public static readonly Dictionary<ThingDef, Vector3> southOffsets = new Dictionary<ThingDef, Vector3>();
-    public static readonly Dictionary<ThingDef, Vector3> northOffsets = new Dictionary<ThingDef, Vector3>();
-    public static readonly Dictionary<ThingDef, Vector3> eastOffsets = new Dictionary<ThingDef, Vector3>();
-    public static readonly Dictionary<ThingDef, Vector3> westOffsets = new Dictionary<ThingDef, Vector3>();
-    public static Dictionary<Pawn, Graphic> mainHandGraphics = new Dictionary<Pawn, Graphic>();
-    public static Dictionary<Pawn, Graphic> offHandGraphics = new Dictionary<Pawn, Graphic>();
-    public static Dictionary<Pawn, float> pawnBodySizes = new Dictionary<Pawn, float>();
-    public static Dictionary<Pawn, bool> pawnsMissingAHand = new Dictionary<Pawn, bool>();
-    public static Dictionary<Thing, Color> colorDictionary = new Dictionary<Thing, Color>();
-    public static Dictionary<Pawn, Mesh> pawnMeshes = new Dictionary<Pawn, Mesh>();
-    public static Dictionary<Pawn, Mesh> handMeshes = new Dictionary<Pawn, Mesh>();
-    public static Dictionary<Pawn, Mesh> flippedHandMeshes = new Dictionary<Pawn, Mesh>();
+    public static readonly Dictionary<ThingDef, Vector3> southOffsets = new();
+    public static readonly Dictionary<ThingDef, Vector3> northOffsets = new();
+    public static readonly Dictionary<ThingDef, Vector3> eastOffsets = new();
+    public static readonly Dictionary<ThingDef, Vector3> westOffsets = new();
+    public static Dictionary<Pawn, Graphic> mainHandGraphics = new();
+    public static Dictionary<Pawn, Graphic> offHandGraphics = new();
+    public static Dictionary<Pawn, float> pawnBodySizes = new();
+    public static Dictionary<Pawn, bool> pawnsMissingAHand = new();
+    public static Dictionary<Thing, Color> colorDictionary = new();
+    public static Dictionary<Pawn, Mesh> pawnMeshes = new();
+    public static Dictionary<Pawn, Mesh> handMeshes = new();
+    public static Dictionary<Pawn, Mesh> flippedHandMeshes = new();
 
     public static readonly MethodInfo CarryWaponMethod =
         AccessTools.Method(typeof(PawnRenderUtility), nameof(PawnRenderUtility.CarryWeaponOpenly));
@@ -36,6 +35,8 @@ public static class ShowMeYourHandsMain
     public static readonly Harmony harmony;
 
     public static readonly bool BabysAndChildrenLoaded;
+
+    public static readonly bool BigAndSmallLoaded;
 
     public static readonly bool MeleeAnimationsLoaded;
 
@@ -104,8 +105,9 @@ public static class ShowMeYourHandsMain
 
     static ShowMeYourHandsMain()
     {
-        MeleeAnimationsLoaded = ModLister.GetActiveModWithIdentifier("co.uk.epicguru.meleeanimation") != null;
-        BabysAndChildrenLoaded = ModLister.GetActiveModWithIdentifier("babies.and.children.continued") != null;
+        MeleeAnimationsLoaded = ModLister.GetActiveModWithIdentifier("co.uk.epicguru.meleeanimation", true) != null;
+        BabysAndChildrenLoaded = ModLister.GetActiveModWithIdentifier("babies.and.children.continued", true) != null;
+        BigAndSmallLoaded = ModLister.GetActiveModWithIdentifier("RedMattis.BetterPrerequisites", true) != null;
 
         if (BabysAndChildrenLoaded)
         {
@@ -119,7 +121,8 @@ public static class ShowMeYourHandsMain
         }
 
         OversizedWeaponLoaded = AccessTools.TypeByName("CompOversizedWeapon") != null;
-        EnableOversizedLoaded = ModLister.GetActiveModWithIdentifier("CarnySenpai.EnableOversizedWeapons") != null;
+        EnableOversizedLoaded =
+            ModLister.GetActiveModWithIdentifier("CarnySenpai.EnableOversizedWeapons", true) != null;
 
         if (OversizedWeaponLoaded || EnableOversizedLoaded)
         {
@@ -161,7 +164,7 @@ public static class ShowMeYourHandsMain
 
         harmony.PatchAll(Assembly.GetExecutingAssembly());
 
-        if (ModLister.GetActiveModWithIdentifier("MalteSchulze.RIMMSqol") == null)
+        if (ModLister.GetActiveModWithIdentifier("MalteSchulze.RIMMSqol", true) == null)
         {
             return;
         }

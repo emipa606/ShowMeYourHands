@@ -11,7 +11,7 @@ public static class CombatExtended_PawnRenderer_DrawEquipmentAiming
 {
     public static bool Prepare()
     {
-        return ModLister.GetActiveModWithIdentifier("CETeam.CombatExtended") != null;
+        return ModLister.GetActiveModWithIdentifier("CETeam.CombatExtended", true) != null;
     }
 
     public static MethodBase TargetMethod()

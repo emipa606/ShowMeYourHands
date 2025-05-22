@@ -1,12 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputPath>..\..\1.5\Assemblies</OutputPath>
-    <TargetFramework>net48</TargetFramework>
+    <TargetFramework>net481</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <DebugType>None</DebugType>
     <LangVersion>latest</LangVersion>
-    <FileVersion>1.5.13</FileVersion>
+    <FileVersion>1.5.14</FileVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">
@@ -21,6 +22,11 @@
     <PackageReference Include="Mlie_Rimworld_VersionFromManifest" Version="*" />
     <Reference Include="ColorMine">
       <HintPath>..\ColorMine.dll</HintPath>
+    </Reference>
+    <Reference Include="BigAndSmallFramework">
+	    <HintPath>..\..\..\..\..\..\workshop\content\294100\2925432336\1.5\Main\Assemblies\BetterPrerequisites.dll</HintPath>
+	    <CopyLocal>False</CopyLocal>
+	    <Private>false</Private>
     </Reference>
   </ItemGroup>
 </Project>

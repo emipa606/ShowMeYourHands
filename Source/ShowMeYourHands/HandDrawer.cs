@@ -153,7 +153,7 @@ public class HandDrawer : ThingComp
             return;
         }
 
-        if ((bool)ShowMeYourHandsMain.CarryWaponMethod.Invoke(pawn.Drawer.renderer, [pawn]) == false)
+        if (!(bool)ShowMeYourHandsMain.CarryWaponMethod.Invoke(pawn.Drawer.renderer, [pawn]))
         {
             return;
         }
@@ -179,7 +179,7 @@ public class HandDrawer : ThingComp
     }
 
 
-    public void DrawHandsAllTheTime(Pawn pawn)
+    private void DrawHandsAllTheTime(Pawn pawn)
     {
         if (!ShowMeYourHandsMain.pawnBodySizes.ContainsKey(pawn) || GenTicks.TicksAbs % GenTicks.TickLongInterval == 0)
         {
@@ -326,7 +326,7 @@ public class HandDrawer : ThingComp
             basePosition + layerOffset, new Quaternion(), offSingle, 0);
     }
 
-    public void DrawHandsOnItem(Pawn pawn)
+    private void DrawHandsOnItem(Pawn pawn)
     {
         if (pawn.CurJob?.def.defName is "Ingest" or "SocialRelax" && !pawn.pather.Moving)
         {
@@ -521,7 +521,7 @@ public class HandDrawer : ThingComp
             }
         }
 
-        if (!ShowMeYourHandsMain.pawnBodySizes.ContainsKey(pawn) || GenTicks.TicksAbs % GenTicks.TickLongInterval == 0)
+        if (!ShowMeYourHandsMain.pawnBodySizes.ContainsKey(pawn) || pawn.IsHashIntervalTick(GenTicks.TickLongInterval))
         {
             var bodySize = 1f;
             if (ShowMeYourHandsMod.instance.Settings.ResizeHands)
@@ -534,6 +534,11 @@ public class HandDrawer : ThingComp
                 if (ShowMeYourHandsMain.BabysAndChildrenLoaded && ShowMeYourHandsMain.GetBodySizeScaling != null)
                 {
                     bodySize = (float)ShowMeYourHandsMain.GetBodySizeScaling.Invoke(null, [pawn]);
+                }
+
+                if (ShowMeYourHandsMain.BigAndSmallLoaded)
+                {
+                    bodySize = BigAndSmallFramework.GetModifiedSize(pawn, bodySize);
                 }
             }
 
@@ -784,10 +789,7 @@ public class HandDrawer : ThingComp
         }
 
         hasGloves = true;
-        if (ShowMeYourHandsMain.colorDictionary == null)
-        {
-            ShowMeYourHandsMain.colorDictionary = new Dictionary<Thing, Color>();
-        }
+        ShowMeYourHandsMain.colorDictionary ??= new Dictionary<Thing, Color>();
 
         if (ShowMeYourHandsMain.IsColorable.Contains(outerApparel.def))
         {
