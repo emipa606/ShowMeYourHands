@@ -1,0 +1,1774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="cgf1.gunsgalore.magnum.i">
+    <defName>ClutterHandsSettings_GunsGaloreMagnum</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMC_AutoMag_30_</li>
+          <!-- AMC AutoMag .30 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMC_AutoMag_357_</li>
+          <!-- AMC AutoMag .357 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMC_AutoMag_44_</li>
+          <!-- AMC AutoMag .44 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMC_AutoMag_440_</li>
+          <!-- AMC AutoMag .440 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMC_AutoMag_Custom100_</li>
+          <!-- AMC AutoMag Custom 100 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AmericanDerringer_M4_Alaskan_</li>
+          <!-- American Derringer M4 Alaskan -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagII_</li>
+          <!-- AMT AutoMag II -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.085)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagII_SD_</li>
+          <!-- AMT AutoMag II (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagII_Compact_</li>
+          <!-- AMT AutoMag II Compact -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagII_Compact_SD_</li>
+          <!-- AMT AutoMag II Compact (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagIII_</li>
+          <!-- AMT AutoMag III -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagIII_SD_</li>
+          <!-- AMT AutoMag III (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagIII_9mm_</li>
+          <!-- AMT AutoMag III 9mm -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagIII_9mm_SD_</li>
+          <!-- AMT AutoMag III 9mm (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagIV_</li>
+          <!-- AMT AutoMag IV -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagIV_SD_</li>
+          <!-- AMT AutoMag IV (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagIV_10mm_</li>
+          <!-- AMT AutoMag IV 10mm -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagIV_10mm_SD_</li>
+          <!-- AMT AutoMag IV 10mm (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagV_</li>
+          <!-- AMT AutoMag V -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagV_SD_</li>
+          <!-- AMT AutoMag V (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagV_440_</li>
+          <!-- AMT AutoMag V .440 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_AutoMagV_440_SD_</li>
+          <!-- AMT AutoMag V .440 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_BondArms_Roughneck_</li>
+          <!-- Bond Arms Roughneck -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.090)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Chiappa_Rhino_60D_Hunter_</li>
+          <!-- Chiappa Rhino 60D Hunter -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Anaconda_</li>
+          <!-- Colt Anaconda -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Anaconda_Long_</li>
+          <!-- Colt Anaconda Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Anaconda_Long_Scope_</li>
+          <!-- Colt Anaconda Long (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Anaconda_Short_</li>
+          <!-- Colt Anaconda Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_DeltaElite_</li>
+          <!-- Colt Delta Elite -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_DeltaElite_SD_</li>
+          <!-- Colt Delta Elite (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Python_Black_</li>
+          <!-- Colt Python Black -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Python_Long_Black_</li>
+          <!-- Colt Python Long Black -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Python_Short_Black_</li>
+          <!-- Colt Python Short Black -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Python_Silhouette_</li>
+          <!-- Colt Python Silhouette -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Python_Snub_Black_</li>
+          <!-- Colt Python Snub Black -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_SuperMatch_38_</li>
+          <!-- Colt Super Match 38 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_SuperMatch_38_SD_</li>
+          <!-- Colt Super Match 38 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_CompetitorCorp_SSP_</li>
+          <!-- Competitor Corp SSP -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_CompetitorCorp_SSP_Scope_</li>
+          <!-- Competitor Corp SSP (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Coonan_357_</li>
+          <!-- Coonan 357 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Coonan_357_SD_</li>
+          <!-- Coonan 357 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DanWesson_Model414_</li>
+          <!-- Dan Wesson Model 414 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DanWesson_Model740_</li>
+          <!-- Dan Wesson Model 740 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DanWesson_Model7445_</li>
+          <!-- Dan Wesson Model 7445 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DanWesson_PPC_</li>
+          <!-- Dan Wesson PPC -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DanWesson_PPC_SL_</li>
+          <!-- Dan Wesson PPC SL -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_41_</li>
+          <!-- Desert Eagle .41 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.365, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_41_SD_</li>
+          <!-- Desert Eagle .41 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_429_</li>
+          <!-- Desert Eagle .429 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_429_MRD_SD_</li>
+          <!-- Desert Eagle .429 (MRD SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_429_MRD_</li>
+          <!-- Desert Eagle .429 (MRD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_429_SD_</li>
+          <!-- Desert Eagle .429 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_440_</li>
+          <!-- Desert Eagle .440 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.365, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_440_SD_</li>
+          <!-- Desert Eagle .440 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_</li>
+          <!-- Desert Eagle Mark XIX -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_Ext_SD_</li>
+          <!-- Desert Eagle Mark XIX (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_Ext_</li>
+          <!-- Desert Eagle Mark XIX (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.355, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_Scope_SD_</li>
+          <!-- Desert Eagle Mark XIX (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_Scope_</li>
+          <!-- Desert Eagle Mark XIX (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.370, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_SD_</li>
+          <!-- Desert Eagle Mark XIX (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_10_</li>
+          <!-- Desert Eagle Mark XIX 10" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_10_Nickel_</li>
+          <!-- Desert Eagle Mark XIX 10" Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_14_</li>
+          <!-- Desert Eagle Mark XIX 14" -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.460, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_14_Scope_SD_</li>
+          <!-- Desert Eagle Mark XIX 14" (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.365, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_14_Scope_</li>
+          <!-- Desert Eagle Mark XIX 14" (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.440, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_14_SD_</li>
+          <!-- Desert Eagle Mark XIX 14" (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.340, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_14_Nickel_</li>
+          <!-- Desert Eagle Mark XIX 14" Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.430, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_14_Nickel_Scope_SD_</li>
+          <!-- Desert Eagle Mark XIX 14" Nickel (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_14_Nickel_Scope_</li>
+          <!-- Desert Eagle Mark XIX 14" Nickel (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.450, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_14_Nickel_SD_</li>
+          <!-- Desert Eagle Mark XIX 14" Nickel (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_Bronze_</li>
+          <!-- Desert Eagle Mark XIX Bronze -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.365, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_Bronze_SD_</li>
+          <!-- Desert Eagle Mark XIX Bronze (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_Bronze_TwoTone_</li>
+          <!-- Desert Eagle Mark XIX Bronze Two-Tone -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.375, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_Bronze_TwoTone_SD_</li>
+          <!-- Desert Eagle Mark XIX Bronze Two-Tone (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_Nickel_</li>
+          <!-- Desert Eagle Mark XIX Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_Nickel_Ext_SD_</li>
+          <!-- Desert Eagle Mark XIX Nickel (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_Nickel_Ext_</li>
+          <!-- Desert Eagle Mark XIX Nickel (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.350, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_Nickel_Scope_SD_</li>
+          <!-- Desert Eagle Mark XIX Nickel (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_Nickel_Scope_</li>
+          <!-- Desert Eagle Mark XIX Nickel (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.380, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_Nickel_SD_</li>
+          <!-- Desert Eagle Mark XIX Nickel (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_TwoTone_</li>
+          <!-- Desert Eagle Mark XIX Two-Tone -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.370, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkXIX_TwoTone_SD_</li>
+          <!-- Desert Eagle Mark XIX Two-Tone (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_EAA_Thor_270_</li>
+          <!-- EAA Thor .270 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_EAA_Thor_270_Scope_</li>
+          <!-- EAA Thor .270 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.325, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_EAA_Thor_300WM_</li>
+          <!-- EAA Thor .300 WM -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_EAA_Thor_300WM_Scope_</li>
+          <!-- EAA Thor .300 WM (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_EAA_Thor_3006_</li>
+          <!-- EAA Thor .30-06 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_EAA_Thor_3006_Scope_</li>
+          <!-- EAA Thor .30-06 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FreedomArms_Model83_</li>
+          <!-- Freedom Arms Model 83 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FreedomArms_Model83_Scope_</li>
+          <!-- Freedom Arms Model 83 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock_20SF_</li>
+          <!-- Glock 20SF -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock_20SF_FL_SD_</li>
+          <!-- Glock 20SF (FL SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock_20SF_FL_</li>
+          <!-- Glock 20SF (FL) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock_20SF_SD_</li>
+          <!-- Glock 20SF (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock_21SF_</li>
+          <!-- Glock 21SF -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.090)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock_21SF_FL_SD_</li>
+          <!-- Glock 21SF (FL SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock_21SF_FL_</li>
+          <!-- Glock 21SF (FL) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock_21SF_SD_</li>
+          <!-- Glock 21SF (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock_29SF_</li>
+          <!-- Glock 29SF -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock_29SF_SD_</li>
+          <!-- Glock 29SF (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock_30SF_</li>
+          <!-- Glock 30SF -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock_30SF_SD_</li>
+          <!-- Glock 30SF (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock_40_</li>
+          <!-- Glock 40 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock_41_</li>
+          <!-- Glock 41 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_</li>
+          <!-- HK Mark 23 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_Ext_SD_</li>
+          <!-- HK Mark 23 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_Ext_</li>
+          <!-- HK Mark 23 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_RDS_Ext_SD_</li>
+          <!-- HK Mark 23 (RDS Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_RDS_SD_</li>
+          <!-- HK Mark 23 (RDS SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_SD_</li>
+          <!-- HK Mark 23 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_Brake_</li>
+          <!-- HK Mark 23 Brake -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_Brake_Ext_</li>
+          <!-- HK Mark 23 Brake (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_Brake_RDS_</li>
+          <!-- HK Mark 23 Brake RDS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_Brake_RDS_Ext_</li>
+          <!-- HK Mark 23 Brake RDS Ext -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_Comp_</li>
+          <!-- HK Mark 23 Comp -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_Comp_Ext_</li>
+          <!-- HK Mark 23 Comp (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_FDE_</li>
+          <!-- HK Mark 23 FDE -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_FDE_Ext_SD_</li>
+          <!-- HK Mark 23 FDE (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_FDE_Ext_</li>
+          <!-- HK Mark 23 FDE (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.080)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_FDE_SD_</li>
+          <!-- HK Mark 23 FDE (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_FDE_TT_</li>
+          <!-- HK Mark 23 FDE TT -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_FDE_TT_Ext_SD_</li>
+          <!-- HK Mark 23 FDE TT (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_FDE_TT_Ext_</li>
+          <!-- HK Mark 23 FDE TT (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.080)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_FDE_TT_SD_</li>
+          <!-- HK Mark 23 FDE TT (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_RDS_</li>
+          <!-- HK Mark 23 RDS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_RDS_Ext_</li>
+          <!-- HK Mark 23 RDS Ext -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_SL_</li>
+          <!-- HK Mark 23 SL -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_SL_Ext_SD_</li>
+          <!-- HK Mark 23 SL (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_SL_Ext_</li>
+          <!-- HK Mark 23 SL (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.375, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_SL_SD_</li>
+          <!-- HK Mark 23 SL (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_SL_Brake_</li>
+          <!-- HK Mark 23 SL Brake -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_SL_Brake_Ext_</li>
+          <!-- HK Mark 23 SL Brake (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_SL_Brake_RDS_</li>
+          <!-- HK Mark 23 SL Brake RDS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_SL_Brake_RDS_Ext_</li>
+          <!-- HK Mark 23 SL Brake RDS Ext -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_SL_Comp_</li>
+          <!-- HK Mark 23 SL Comp -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_Mark23_SL_Comp_Ext_</li>
+          <!-- HK Mark 23 SL Comp (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_KelTec_PMR30_</li>
+          <!-- Kel-Tec PMR-30 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_KelTec_PMR30_MRD_SD_</li>
+          <!-- Kel-Tec PMR-30 (MRD SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_KelTec_PMR30_MRD_</li>
+          <!-- Kel-Tec PMR-30 (MRD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_KelTec_PMR30_SD_</li>
+          <!-- Kel-Tec PMR-30 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_KelTec_PMR30_Pink_</li>
+          <!-- Kel-Tec PMR-30 Pink -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_KelTec_PMR30_Pink_SD_</li>
+          <!-- Kel-Tec PMR-30 Pink (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_KelTec_PMR30_Tan_</li>
+          <!-- Kel-Tec PMR-30 Tan -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_KelTec_PMR30_Tan_MRD_SD_</li>
+          <!-- Kel-Tec PMR-30 Tan (MRD SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_KelTec_PMR30_Tan_MRD_</li>
+          <!-- Kel-Tec PMR-30 Tan (MRD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.305, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_KelTec_PMR30_Tan_SD_</li>
+          <!-- Kel-Tec PMR-30 Tan (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LAR_GrizzlyMarkI_</li>
+          <!-- LAR Grizzly Mark I -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LAR_GrizzlyMarkI_SD_</li>
+          <!-- LAR Grizzly Mark I (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LAR_GrizzlyMarkI_357_</li>
+          <!-- LAR Grizzly Mark I .357 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LAR_GrizzlyMarkI_357_SD_</li>
+          <!-- LAR Grizzly Mark I .357 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LAR_GrizzlyMarkI_9mm_</li>
+          <!-- LAR Grizzly Mark I 9mm -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LAR_GrizzlyMarkI_9mm_SD_</li>
+          <!-- LAR Grizzly Mark I 9mm (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LAR_GrizzlyMarkIV_</li>
+          <!-- LAR Grizzly Mark IV -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LAR_GrizzlyMarkIV_SD_</li>
+          <!-- LAR Grizzly Mark IV (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LAR_GrizzlyMarkV_</li>
+          <!-- LAR Grizzly Mark V -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LAR_GrizzlyMarkV_SD_</li>
+          <!-- LAR Grizzly Mark V (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LAR_GrizzlyMarkV_TwoTone_</li>
+          <!-- LAR Grizzly Mark V Two-Tone -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_LAR_GrizzlyMarkV_TwoTone_SD_</li>
+          <!-- LAR Grizzly Mark V Two-Tone (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_22Hornet_</li>
+          <!-- Magnum Research BFR .22 Hornet -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_30Carbine_</li>
+          <!-- Magnum Research BFR .30 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_300BLK_</li>
+          <!-- Magnum Research BFR .300 BLK -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_3030_</li>
+          <!-- Magnum Research BFR .30-30 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_350Legend_</li>
+          <!-- Magnum Research BFR .350 Legend -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_357Magnum_</li>
+          <!-- Magnum Research BFR .357 Magnum -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_357Maximum_</li>
+          <!-- Magnum Research BFR .357 Maximum -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_3855_</li>
+          <!-- Magnum Research BFR .38-55 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_41Magnum_</li>
+          <!-- Magnum Research BFR .41 Magnum -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_44Magnum_</li>
+          <!-- Magnum Research BFR .44 Magnum -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_444Marlin_</li>
+          <!-- Magnum Research BFR .444 Marlin -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_445SuperMag_</li>
+          <!-- Magnum Research BFR .445 SuperMag -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_45ACP_</li>
+          <!-- Magnum Research BFR .45 ACP -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_45_410_</li>
+          <!-- Magnum Research BFR .45/410 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_450Bushmaster_</li>
+          <!-- Magnum Research BFR .450 Bushmaster -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_454Casull_</li>
+          <!-- Magnum Research BFR .454 Casull -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_4570_</li>
+          <!-- Magnum Research BFR .45-70 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_4570_Scope_</li>
+          <!-- Magnum Research BFR .45-70 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_458SOCOM_</li>
+          <!-- Magnum Research BFR .458 SOCOM -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_460SW_</li>
+          <!-- Magnum Research BFR .460 S&W -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_475Wildey_</li>
+          <!-- Magnum Research BFR .475 Wildey -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_480Ruger_</li>
+          <!-- Magnum Research BFR .480 Ruger -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_50AE_</li>
+          <!-- Magnum Research BFR .50 AE -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_50Beowulf_</li>
+          <!-- Magnum Research BFR .50 Beowulf -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_50GI_</li>
+          <!-- Magnum Research BFR .50 GI -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.395, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_500Bushwhacker_</li>
+          <!-- Magnum Research BFR .500 Bushwhacker -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.390, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_500Bushwhacker_Scope_</li>
+          <!-- Magnum Research BFR .500 Bushwhacker (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_500LB_</li>
+          <!-- Magnum Research BFR .500 LB -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MagnumResearchBFR_500SW_</li>
+          <!-- Magnum Research BFR .500 S&W -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_NAA_BlackWidow_</li>
+          <!-- NAA Black Widow -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_NAA_BlackWidow_Magnum_</li>
+          <!-- NAA Black Widow Magnum -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pachmayr_Dominator_243_</li>
+          <!-- Pachmayr Dominator .243 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pachmayr_Dominator_3030_</li>
+          <!-- Pachmayr Dominator .30-30 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pachmayr_Dominator_357Max_</li>
+          <!-- Pachmayr Dominator .357 Max -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.325, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pachmayr_Dominator_65CM_</li>
+          <!-- Pachmayr Dominator 6.5 CM -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pachmayr_Dominator_762x51_</li>
+          <!-- Pachmayr Dominator 7.62x51 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.080)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pachmayr_Dominator_7mm08_</li>
+          <!-- Pachmayr Dominator 7mm-08 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.365, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PfeiferZeliska_</li>
+          <!-- Pfeifer Zeliska -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RIA_M1911_XT22_</li>
+          <!-- RIA M1911 XT22 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RIA_M1911_XT22_SD_</li>
+          <!-- RIA M1911 XT22 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.080)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_SuperBlackhawk_</li>
+          <!-- Ruger Super Blackhawk -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_SuperBlackhawk_Casull_</li>
+          <!-- Ruger Super Blackhawk Casull -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_SuperBlackhawk_Hunter_</li>
+          <!-- Ruger Super Blackhawk Hunter -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.080)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Governor_</li>
+          <!-- S&W Governor -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.080)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Governor_SL_</li>
+          <!-- S&W Governor SL -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model29_</li>
+          <!-- S&W Model 29 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model29_Scope_</li>
+          <!-- S&W Model 29 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model29_Long_</li>
+          <!-- S&W Model 29 Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model29_Long_Scope_</li>
+          <!-- S&W Model 29 Long (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model29_Short_</li>
+          <!-- S&W Model 29 Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model29_SL_</li>
+          <!-- S&W Model 29 SL -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model29_SL_Scope_</li>
+          <!-- S&W Model 29 SL (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model29_SL_Long_</li>
+          <!-- S&W Model 29 SL Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model29_SL_Long_Scope_</li>
+          <!-- S&W Model 29 SL Long (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model29_SL_Short_</li>
+          <!-- S&W Model 29 SL Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model460_</li>
+          <!-- S&W Model 460 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model460_Scope_</li>
+          <!-- S&W Model 460 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model460_Snub_</li>
+          <!-- S&W Model 460 Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model460V_</li>
+          <!-- S&W Model 460V -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model460XVR_</li>
+          <!-- S&W Model 460XVR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.340, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model460XVR_Scope_</li>
+          <!-- S&W Model 460XVR (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.420, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model460XVR_Hunter_</li>
+          <!-- S&W Model 460XVR Hunter -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.420, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model460XVR_Hunter_Bipod_Scope_</li>
+          <!-- S&W Model 460XVR Hunter (Bipod Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.400, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model460XVR_Hunter_Bipod_</li>
+          <!-- S&W Model 460XVR Hunter (Bipod) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model500_</li>
+          <!-- S&W Model 500 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model500_Scope_</li>
+          <!-- S&W Model 500 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model500_BoneCollector_</li>
+          <!-- S&W Model 500 Bone Collector -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model500_JR_</li>
+          <!-- S&W Model 500 JR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.355, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model500_Long_</li>
+          <!-- S&W Model 500 Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.355, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model500_Long_Scope_</li>
+          <!-- S&W Model 500 Long (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model500_Short_</li>
+          <!-- S&W Model 500 Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model500_Snub_</li>
+          <!-- S&W Model 500 Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.325, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model629_Hunter_</li>
+          <!-- S&W Model 629 Hunter -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model629_Hunter_RDS_</li>
+          <!-- S&W Model 629 Hunter (RDS) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1911A2_SASS_</li>
+          <!-- Springfield M1911-A2 SASS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.095)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1911A2_SASS_Scope_SD_</li>
+          <!-- Springfield M1911-A2 SASS (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1911A2_SASS_Scope_</li>
+          <!-- Springfield M1911-A2 SASS (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.095)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Springfield_M1911A2_SASS_SD_</li>
+          <!-- Springfield M1911-A2 SASS (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Taurus_Judge_Magnum_</li>
+          <!-- Taurus Judge Magnum -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.080)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Taurus_Judge_Magnum_Long_</li>
+          <!-- Taurus Judge Magnum Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Taurus_Judge_PublicDefender_</li>
+          <!-- Taurus Judge Public Defender -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.085)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Taurus_RagingBull_416_</li>
+          <!-- Taurus Raging Bull 416 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Taurus_RagingBull_480_</li>
+          <!-- Taurus Raging Bull 480 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.085)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Taurus_RagingBull_500_</li>
+          <!-- Taurus Raging Bull 500 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Taurus_RagingBull_500_Scope_</li>
+          <!-- Taurus Raging Bull 500 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_TripleActionThunder_</li>
+          <!-- Triple Action Thunder -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wildey_Automatic_</li>
+          <!-- Wildey Automatic -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.085)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wildey_Automatic_SD_</li>
+          <!-- Wildey Automatic (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wildey_Hunter_44_</li>
+          <!-- Wildey Hunter .44 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.080)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wildey_Hunter_44_SD_</li>
+          <!-- Wildey Hunter .44 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wildey_Hunter_45_</li>
+          <!-- Wildey Hunter .45 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wildey_Hunter_45_SD_</li>
+          <!-- Wildey Hunter .45 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wildey_Hunter_475_</li>
+          <!-- Wildey Hunter .475 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wildey_Hunter_475_SD_</li>
+          <!-- Wildey Hunter .475 (SD) -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

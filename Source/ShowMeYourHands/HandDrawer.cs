@@ -25,14 +25,14 @@ public class HandDrawer : ThingComp
     {
         get
         {
-            if (GenTicks.TicksAbs % 100 != 0 && handColor != default)
-            {
-                return handColor;
-            }
-
             if (parent is not Pawn pawn)
             {
                 return Color.white;
+            }
+
+            if (!pawn.IsHashIntervalTick(100) && handColor != default)
+            {
+                return handColor;
             }
 
             handColor = getHandColor(pawn, out var hasGloves, out var secondColor);
@@ -88,7 +88,6 @@ public class HandDrawer : ThingComp
 
             return handColor;
         }
-        set => handColor = value;
     }
 
     public void ReadXML()
@@ -107,8 +106,8 @@ public class HandDrawer : ThingComp
 
     private void DrawHandsOnWeapon(Pawn pawn)
     {
-        var mainhandWeapon = pawn.equipment.Primary;
-        var compProperties = mainhandWeapon.def.GetCompProperties<WhandCompProps>();
+        var mainHandWeapon = pawn.equipment.Primary;
+        var compProperties = mainHandWeapon.def.GetCompProperties<WhandCompProps>();
         if (compProperties != null)
         {
             MainHand = compProperties.MainHand;
@@ -128,7 +127,7 @@ public class HandDrawer : ThingComp
         if (pawn.equipment.AllEquipmentListForReading.Count == 2)
         {
             offhandWeapon = (from weapon in pawn.equipment.AllEquipmentListForReading
-                where weapon != mainhandWeapon
+                where weapon != mainHandWeapon
                 select weapon).First();
             var offhandComp = offhandWeapon?.def.GetCompProperties<WhandCompProps>();
             if (offhandComp != null)
@@ -149,24 +148,24 @@ public class HandDrawer : ThingComp
                 num = (a - pawn.DrawPos).AngleFlat();
             }
 
-            DrawHandsOnWeapon(mainhandWeapon, num, pawn, offhandWeapon, false, true);
+            DrawHandsOnWeapon(mainHandWeapon, num, pawn, offhandWeapon, false, true);
             return;
         }
 
-        if (!(bool)ShowMeYourHandsMain.CarryWaponMethod.Invoke(pawn.Drawer.renderer, [pawn]))
+        if (!(bool)ShowMeYourHandsMain.CarryWeaponMethod.Invoke(pawn.Drawer.renderer, [pawn]))
         {
             return;
         }
 
         if (pawn.Rotation == Rot4.South || pawn.Rotation == Rot4.North)
         {
-            DrawHandsOnWeapon(mainhandWeapon, 143f, pawn, offhandWeapon, true);
+            DrawHandsOnWeapon(mainHandWeapon, 143f, pawn, offhandWeapon, true);
             return;
         }
 
         if (pawn.Rotation == Rot4.East)
         {
-            DrawHandsOnWeapon(mainhandWeapon, 143f, pawn, offhandWeapon);
+            DrawHandsOnWeapon(mainHandWeapon, 143f, pawn, offhandWeapon);
             return;
         }
 
@@ -175,11 +174,11 @@ public class HandDrawer : ThingComp
             return;
         }
 
-        DrawHandsOnWeapon(mainhandWeapon, 217f, pawn, offhandWeapon);
+        DrawHandsOnWeapon(mainHandWeapon, 217f, pawn, offhandWeapon);
     }
 
 
-    private void DrawHandsAllTheTime(Pawn pawn)
+    private void drawHandsAllTheTime(Pawn pawn)
     {
         if (!ShowMeYourHandsMain.pawnBodySizes.ContainsKey(pawn) || GenTicks.TicksAbs % GenTicks.TickLongInterval == 0)
         {
@@ -191,7 +190,7 @@ public class HandDrawer : ThingComp
                     bodySize = pawn.RaceProps.baseBodySize;
                 }
 
-                if (ShowMeYourHandsMain.BabysAndChildrenLoaded && ShowMeYourHandsMain.GetBodySizeScaling != null)
+                if (ShowMeYourHandsMain.BabiesAndChildrenLoaded && ShowMeYourHandsMain.GetBodySizeScaling != null)
                 {
                     bodySize = (float)ShowMeYourHandsMain.GetBodySizeScaling.Invoke(null, [pawn]);
                 }
@@ -343,7 +342,7 @@ public class HandDrawer : ThingComp
                     bodySize = pawn.RaceProps.baseBodySize;
                 }
 
-                if (ShowMeYourHandsMain.BabysAndChildrenLoaded && ShowMeYourHandsMain.GetBodySizeScaling != null)
+                if (ShowMeYourHandsMain.BabiesAndChildrenLoaded && ShowMeYourHandsMain.GetBodySizeScaling != null)
                 {
                     bodySize = (float)ShowMeYourHandsMain.GetBodySizeScaling.Invoke(null, [pawn]);
                 }
@@ -531,7 +530,7 @@ public class HandDrawer : ThingComp
                     bodySize = pawn.RaceProps.baseBodySize;
                 }
 
-                if (ShowMeYourHandsMain.BabysAndChildrenLoaded && ShowMeYourHandsMain.GetBodySizeScaling != null)
+                if (ShowMeYourHandsMain.BabiesAndChildrenLoaded && ShowMeYourHandsMain.GetBodySizeScaling != null)
                 {
                     bodySize = (float)ShowMeYourHandsMain.GetBodySizeScaling.Invoke(null, [pawn]);
                 }
@@ -563,7 +562,7 @@ public class HandDrawer : ThingComp
                 z += 0.1f;
             }
 
-            mainWeaponLocation += AdjustRenderOffsetFromDir(pawn, mainHandWeapon as ThingWithComps);
+            mainWeaponLocation += adjustRenderOffsetFromDir(pawn, mainHandWeapon as ThingWithComps);
 
             Graphics.DrawMesh(mesh,
                 mainWeaponLocation + new Vector3(x, y + mainMeleeExtra, z).RotatedBy(mainHandAngle),
@@ -612,7 +611,7 @@ public class HandDrawer : ThingComp
             }
 
 
-            offhandWeaponLocation += AdjustRenderOffsetFromDir(pawn, offHandWeapon as ThingWithComps);
+            offhandWeaponLocation += adjustRenderOffsetFromDir(pawn, offHandWeapon as ThingWithComps);
 
             Graphics.DrawMesh(mesh,
                 offhandWeaponLocation + new Vector3(x2, y2 + offMeleeExtra, z2).RotatedBy(offHandAngle),
@@ -631,7 +630,7 @@ public class HandDrawer : ThingComp
             Quaternion.AngleAxis(mainHandAngle + OffHandRotation, Vector3.up), y2 >= 0 ? matSingle : offSingle, 0);
     }
 
-    private Vector3 AdjustRenderOffsetFromDir(Pawn pawn, ThingWithComps weapon)
+    private static Vector3 adjustRenderOffsetFromDir(Pawn pawn, ThingWithComps weapon)
     {
         if (!ShowMeYourHandsMain.OversizedWeaponLoaded && !ShowMeYourHandsMain.EnableOversizedLoaded)
         {
@@ -694,7 +693,7 @@ public class HandDrawer : ThingComp
             return;
         }
 
-        DrawHandsAllTheTime(pawn);
+        drawHandsAllTheTime(pawn);
     }
 
     private Color getHandColor(Pawn pawn, out bool hasGloves, out Color secondColor)
@@ -721,12 +720,8 @@ public class HandDrawer : ThingComp
                 where apparel.def.apparel.bodyPartGroups.Any(def => def.defName == "Hands")
                 select apparel).Any())
         {
-            if (!ShowMeYourHandsMod.instance.Settings.MatchArtificialLimbColor)
-            {
-                return pawn.story.SkinColor;
-            }
-
-            if (addedHands == null || !addedHands.Any())
+            if (!ShowMeYourHandsMod.instance.Settings.MatchArtificialLimbColor || addedHands == null ||
+                !addedHands.Any())
             {
                 return pawn.story.SkinColor;
             }
@@ -812,13 +807,13 @@ public class HandDrawer : ThingComp
         else
         {
             ShowMeYourHandsMain.colorDictionary[outerApparel] =
-                AverageColorFromTexture((Texture2D)outerApparel.Graphic.MatSingle.mainTexture);
+                averageColorFromTexture((Texture2D)outerApparel.Graphic.MatSingle.mainTexture);
         }
 
         return ShowMeYourHandsMain.colorDictionary[outerApparel];
     }
 
-    private Color32 AverageColorFromTexture(Texture2D texture)
+    private Color32 averageColorFromTexture(Texture2D texture)
     {
         var renderTexture = RenderTexture.GetTemporary(
             texture.width,
@@ -833,13 +828,14 @@ public class HandDrawer : ThingComp
         tex.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
         RenderTexture.active = previous;
         RenderTexture.ReleaseTemporary(renderTexture);
-        var result = AverageColorFromColors(tex.GetPixels32());
+        var result = averageColorFromColors(tex.GetPixels32());
         Object.Destroy(tex);
         return result;
     }
 
-    private Color32 AverageColorFromColors(Color32[] colors)
+    private static Color32 averageColorFromColors(Color32[] colors)
     {
+        // ReSharper disable once UsageOfDefaultStructEquality
         var shadeDictionary = new Dictionary<Color32, int>();
         foreach (var texColor in colors)
         {

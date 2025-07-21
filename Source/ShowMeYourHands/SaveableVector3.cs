@@ -8,38 +8,38 @@ internal class SaveableVector3
 {
     private SaveableVector3(float x, float y, float z)
     {
-        this.x = x;
-        this.y = y;
-        this.z = z;
+        X = x;
+        Y = y;
+        Z = z;
     }
 
     public SaveableVector3(Vector3 vector3)
     {
-        x = vector3.x;
-        y = vector3.y;
-        z = vector3.z;
+        X = vector3.x;
+        Y = vector3.y;
+        Z = vector3.z;
     }
 
-    private float x { get; }
+    private float X { get; }
 
-    private float y { get; }
+    private float Y { get; }
 
-    private float z { get; }
+    private float Z { get; }
 
     public override string ToString()
     {
         return string.Format("({0:F3}, {1:F3}, {2:F3})", [
-            x,
-            y,
-            z
+            X,
+            Y,
+            Z
         ]);
     }
 
-    public static SaveableVector3 FromString(string Str)
+    public static SaveableVector3 FromString(string str)
     {
-        Str = Str.TrimStart('(');
-        Str = Str.TrimEnd(')');
-        var array = Str.Split(',');
+        str = str.TrimStart('(');
+        str = str.TrimEnd(')');
+        var array = str.Split(',');
         var invariantCulture = CultureInfo.InvariantCulture;
         var x = Convert.ToSingle(array[0], invariantCulture);
         var y = Convert.ToSingle(array[1], invariantCulture);
@@ -49,6 +49,6 @@ internal class SaveableVector3
 
     public Vector3 ToVector3()
     {
-        return new Vector3(x, y, z);
+        return new Vector3(X, Y, Z);
     }
 }

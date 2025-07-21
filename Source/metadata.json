@@ -2,7 +2,7 @@
   "Continued": false,
   "CanAdd": "0",
   "CanRemove": "0",
-  "PreviewVersion": "1.5",
+  "PreviewVersion": "1.6",
   "SocialImageSet": true,
   "FundingSet": true,
   "SearchTags": [
@@ -10,5 +10,11 @@
     "realism",
     "customization"
   ],
-  "LastXmlCleaning": "2025-05-22T10:28:17.7633258+02:00"
+  "LastXmlCleaning": "2025-07-21T13:04:57.7508913+02:00",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 114910,
+  "LinesOfXML": 1306039,
+  "CodeBaseSize": 97
 }

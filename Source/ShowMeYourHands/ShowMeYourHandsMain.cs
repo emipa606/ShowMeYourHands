@@ -27,14 +27,14 @@ public static class ShowMeYourHandsMain
     public static Dictionary<Pawn, Mesh> handMeshes = new();
     public static Dictionary<Pawn, Mesh> flippedHandMeshes = new();
 
-    public static readonly MethodInfo CarryWaponMethod =
+    public static readonly MethodInfo CarryWeaponMethod =
         AccessTools.Method(typeof(PawnRenderUtility), nameof(PawnRenderUtility.CarryWeaponOpenly));
 
     public static readonly List<ThingDef> IsColorable;
 
     public static readonly Harmony harmony;
 
-    public static readonly bool BabysAndChildrenLoaded;
+    public static readonly bool BabiesAndChildrenLoaded;
 
     public static readonly bool BigAndSmallLoaded;
 
@@ -106,10 +106,10 @@ public static class ShowMeYourHandsMain
     static ShowMeYourHandsMain()
     {
         MeleeAnimationsLoaded = ModLister.GetActiveModWithIdentifier("co.uk.epicguru.meleeanimation", true) != null;
-        BabysAndChildrenLoaded = ModLister.GetActiveModWithIdentifier("babies.and.children.continued", true) != null;
+        BabiesAndChildrenLoaded = ModLister.GetActiveModWithIdentifier("babies.and.children.continued", true) != null;
         BigAndSmallLoaded = ModLister.GetActiveModWithIdentifier("RedMattis.BetterPrerequisites", true) != null;
 
-        if (BabysAndChildrenLoaded)
+        if (BabiesAndChildrenLoaded)
         {
             var type = AccessTools.TypeByName("BabiesAndChildren.GraphicTools");
             if (type != null)
@@ -152,7 +152,7 @@ public static class ShowMeYourHandsMain
         foreach (var partsHediff in partsHediffs)
         {
             var techLevel = partsHediff.spawnThingOnRemoved.techLevel;
-            HediffColors[partsHediff] = GetColorFromTechLevel(techLevel);
+            HediffColors[partsHediff] = getColorFromTechLevel(techLevel);
         }
 
         LogMessage($"Cached {HediffColors.Count} hediffs colors");
@@ -248,7 +248,7 @@ public static class ShowMeYourHandsMain
     }
 
 
-    private static Color GetColorFromTechLevel(TechLevel techLevel)
+    private static Color getColorFromTechLevel(TechLevel techLevel)
     {
         switch (techLevel)
         {

@@ -99,11 +99,11 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
 
         try
         {
-            LoadFromSettings();
+            loadFromSettings();
             currentStage = "LoadFromDefs";
             LoadFromDefs();
             currentStage = "FigureOutTheRest";
-            FigureOutTheRest();
+            figureOutTheRest();
         }
         catch (Exception exception)
         {
@@ -129,7 +129,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
             }
             else
             {
-                compProps.SecHand = IsWeaponLong(weapon, out var mainHand, out var secHand)
+                compProps.SecHand = isWeaponLong(weapon, out var mainHand, out var secHand)
                     ? secHand
                     : Vector3.zero;
                 compProps.MainHand = mainHand;
@@ -145,7 +145,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
             }
             else
             {
-                compProps.SecHand = IsWeaponLong(weapon, out var mainHand, out var secHand)
+                compProps.SecHand = isWeaponLong(weapon, out var mainHand, out var secHand)
                     ? secHand
                     : Vector3.zero;
                 compProps.MainHand = mainHand;
@@ -156,7 +156,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
         compProps.SecRotation = 0;
     }
 
-    private static void FigureOutTheRest()
+    private static void figureOutTheRest()
     {
         foreach (var weapon in from weapon in DefDatabase<ThingDef>.AllDefsListForReading
                  where weapon.IsWeapon && !weapon.destroyOnDrop &&
@@ -182,7 +182,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                 }
                 else
                 {
-                    compProps.SecHand = IsWeaponLong(weapon, out var mainHand, out var secHand)
+                    compProps.SecHand = isWeaponLong(weapon, out var mainHand, out var secHand)
                         ? secHand
                         : Vector3.zero;
                     compProps.MainHand = mainHand;
@@ -198,7 +198,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                 }
                 else
                 {
-                    compProps.SecHand = IsWeaponLong(weapon, out var mainHand, out var secHand)
+                    compProps.SecHand = isWeaponLong(weapon, out var mainHand, out var secHand)
                         ? secHand
                         : Vector3.zero;
                     compProps.MainHand = mainHand;
@@ -211,7 +211,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
         }
     }
 
-    private static void LoadFromSettings()
+    private static void loadFromSettings()
     {
         if (ShowMeYourHandsMod.instance.Settings.ManualMainHandPositions == null)
         {
@@ -281,7 +281,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
     public static void LoadFromDefs(ThingDef specificDef = null)
     {
         var defs = DefDatabase<ClutterHandsTDef>.AllDefsListForReading;
-        ShowMeYourHandsMod.DefinedByDef ??= [];
+        ShowMeYourHandsMod.definedByDef ??= [];
 
         foreach (var handsTDef in defs)
         {
@@ -337,7 +337,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                         compProps.SecRotation = weaponSets.SecRotation;
                     }
 
-                    ShowMeYourHandsMod.DefinedByDef.Add(weapon.defName);
+                    ShowMeYourHandsMod.definedByDef.Add(weapon.defName);
                     if (specificDef != null)
                     {
                         return;
@@ -349,7 +349,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
         }
     }
 
-    private static bool IsWeaponLong(ThingDef weapon, out Vector3 mainHand, out Vector3 secHand)
+    private static bool isWeaponLong(ThingDef weapon, out Vector3 mainHand, out Vector3 secHand)
     {
         var texture = weapon.graphicData.Graphic.MatSingle.mainTexture;
 

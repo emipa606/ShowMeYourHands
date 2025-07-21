@@ -1,0 +1,5588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="cgf1.gunsgalore.copsandrobbers.coldwar">
+    <defName>ClutterHandsSettings_GunsGaloreCopsRobbersColdWar</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.045)</MainHand>
+        <SecHand>(0.210, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180_</li>
+          <!-- American 180 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180_SD_</li>
+          <!-- American 180 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.045)</MainHand>
+        <SecHand>(0.210, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180_ISR_</li>
+          <!-- American 180 ISR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.045)</MainHand>
+        <SecHand>(0.210, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180_ISR_Stockless_</li>
+          <!-- American 180 ISR Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.045)</MainHand>
+        <SecHand>(0.210, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180_PG_</li>
+          <!-- American 180 PG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.045)</MainHand>
+        <SecHand>(0.210, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180_Shorty_Stockless_</li>
+          <!-- American 180 PG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.060)</MainHand>
+        <SecHand>(0.060, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180_PG_SD_</li>
+          <!-- American 180 PG (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.010, 0.100, -0.055)</MainHand>
+        <SecHand>(0.210, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180_Shorty_Stockless_SD_</li>
+          <!-- American 180 PG (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.045)</MainHand>
+        <SecHand>(0.210, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180_PG_Stockless_</li>
+          <!-- American 180 PG Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.045)</MainHand>
+        <SecHand>(0.045, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180_PG_Stockless_SD_</li>
+          <!-- American 180 PG Stockless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.030, 0.100, -0.055)</MainHand>
+        <SecHand>(0.280, -0.100, -0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180_Shorty_</li>
+          <!-- American 180 Shorty -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.045, 0.100, -0.060)</MainHand>
+        <SecHand>(0.220, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180_Shorty_SD_</li>
+          <!-- American 180 Shorty (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.045)</MainHand>
+        <SecHand>(0.210, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180_Stockless_</li>
+          <!-- American 180 Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.035)</MainHand>
+        <SecHand>(0.155, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180_Stockless_SD_</li>
+          <!-- American 180 Stockless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.045)</MainHand>
+        <SecHand>(0.210, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180S_</li>
+          <!-- American 180S -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.045)</MainHand>
+        <SecHand>(0.115, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_American_180S_SD_</li>
+          <!-- American 180S (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_Commando_</li>
+          <!-- AMT Commando -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_Commando_SD_</li>
+          <!-- AMT Commando (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_Hardballer_</li>
+          <!-- AMT Hardballer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_Hardballer_Ext_SD_</li>
+          <!-- AMT Hardballer (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.071, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_Hardballer_Ext_</li>
+          <!-- AMT Hardballer (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_Hardballer_SD_</li>
+          <!-- AMT Hardballer (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_Hardballer_Longslide_</li>
+          <!-- AMT Hardballer Longslide -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_Hardballer_Longslide_Ext_</li>
+          <!-- AMT Hardballer Longslide (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_Hardballer_Longslide_Laserlock_</li>
+          <!-- AMT Hardballer Longslide Laserlock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AMT_Hardballer_Longslide_Laserlock_Ext_</li>
+          <!-- AMT Hardballer Longslide Laserlock (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.085)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_</li>
+          <!-- Armalite AR-18 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_20Rnd_Bayonet_</li>
+          <!-- Armalite AR-18 (20Rnd Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_20Rnd_SD_</li>
+          <!-- Armalite AR-18 (20Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_20Rnd_</li>
+          <!-- Armalite AR-18 (20Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_40Rnd_Bayonet_</li>
+          <!-- Armalite AR-18 (40Rnd Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_40Rnd_SD_</li>
+          <!-- Armalite AR-18 (40Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_40Rnd_</li>
+          <!-- Armalite AR-18 (40Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Bayonet_</li>
+          <!-- Armalite AR-18 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Scope_20Rnd_Bayonet_</li>
+          <!-- Armalite AR-18 (Scope 20Rnd Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Scope_20Rnd_SD_</li>
+          <!-- Armalite AR-18 (Scope 20Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Scope_20Rnd_</li>
+          <!-- Armalite AR-18 (Scope 20Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Scope_40Rnd_Bayonet_</li>
+          <!-- Armalite AR-18 (Scope 40Rnd Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Scope_40Rnd_SD_</li>
+          <!-- Armalite AR-18 (Scope 40Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Scope_40Rnd_</li>
+          <!-- Armalite AR-18 (Scope 40Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Scope_Bayonet_</li>
+          <!-- Armalite AR-18 (Scope Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Scope_SD_</li>
+          <!-- Armalite AR-18 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Scope_</li>
+          <!-- Armalite AR-18 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_SD_</li>
+          <!-- Armalite AR-18 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Stockless_</li>
+          <!-- Armalite AR-18 Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Stockless_20Rnd_Bayonet_</li>
+          <!-- Armalite AR-18 Stockless (20Rnd Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Stockless_20Rnd_SD_</li>
+          <!-- Armalite AR-18 Stockless (20Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Stockless_20Rnd_</li>
+          <!-- Armalite AR-18 Stockless (20Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Stockless_40Rnd_Bayonet_</li>
+          <!-- Armalite AR-18 Stockless (40Rnd Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Stockless_40Rnd_SD_</li>
+          <!-- Armalite AR-18 Stockless (40Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Stockless_40Rnd_</li>
+          <!-- Armalite AR-18 Stockless (40Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Stockless_Bayonet_</li>
+          <!-- Armalite AR-18 Stockless (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR18_Stockless_SD_</li>
+          <!-- Armalite AR-18 Stockless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR180_</li>
+          <!-- Armalite AR-180 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR180_20Rnd_Bayonet_</li>
+          <!-- Armalite AR-180 (20Rnd Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR180_20Rnd_SD_</li>
+          <!-- Armalite AR-180 (20Rnd SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR180_20Rnd_</li>
+          <!-- Armalite AR-180 (20Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR180_Bayonet_</li>
+          <!-- Armalite AR-180 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.219, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Armalite_AR180_SD_</li>
+          <!-- Armalite AR-180 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.045, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_ASP_</li>
+          <!-- ASP -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_ASP_SD_</li>
+          <!-- ASP (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AutoOrdnance_1911A1_</li>
+          <!-- Auto Ordnance 1911 A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.325, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AutoOrdnance_1911A1_SD_</li>
+          <!-- Auto Ordnance 1911 A1 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AutoOrdnance_1911A1_Vega_</li>
+          <!-- Auto Ordnance 1911 A1 Vega -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.325, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AutoOrdnance_1911A1_Vega_SD_</li>
+          <!-- Auto Ordnance 1911 A1 Vega (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.060)</MainHand>
+        <SecHand>(0.080, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Barrett_M82_CobraAssaultCannon_</li>
+          <!-- Barrett M82 Cobra Assault Cannon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.045, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bauer_25Automatic_</li>
+          <!-- Bauer .25 Automatic -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bauer_25Automatic_SD_</li>
+          <!-- Bauer .25 Automatic (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_92SB_</li>
+          <!-- Beretta 92SB -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_92SB_SD_</li>
+          <!-- Beretta 92SB (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_92SB_Stainless_</li>
+          <!-- Beretta 92SB Stainless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_92SB_Stainless_SD_</li>
+          <!-- Beretta 92SB Stainless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_92SB_Wood_</li>
+          <!-- Beretta 92SB Wood -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_92SB_Wood_SD_</li>
+          <!-- Beretta 92SB Wood (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_92SB_C_</li>
+          <!-- Beretta 92SB-C -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_92SB_C_SD_</li>
+          <!-- Beretta 92SB-C (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_92SB_C_Stainless_</li>
+          <!-- Beretta 92SB-C Stainless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_92SB_C_Stainless_SD_</li>
+          <!-- Beretta 92SB-C Stainless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_92SB_C_Wood_</li>
+          <!-- Beretta 92SB-C Wood -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_92SB_C_Wood_SD_</li>
+          <!-- Beretta 92SB-C Wood (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.083, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_</li>
+          <!-- Beretta 93R -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_FGF_SD_</li>
+          <!-- Beretta 93R (FGF SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_FGF_</li>
+          <!-- Beretta 93R (FGF) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_SD_</li>
+          <!-- Beretta 93R (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_Auto9_</li>
+          <!-- Beretta 93R Auto-9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_Polymer_</li>
+          <!-- Beretta 93R Polymer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_Polymer_FGF_SD_</li>
+          <!-- Beretta 93R Polymer (FGF SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.083, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_Polymer_FGF_</li>
+          <!-- Beretta 93R Polymer (FGF) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_Polymer_SD_</li>
+          <!-- Beretta 93R Polymer (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.083, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_Stainless_</li>
+          <!-- Beretta 93R Stainless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_Stainless_FGF_SD_</li>
+          <!-- Beretta 93R Stainless (FGF SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.083, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_Stainless_FGF_</li>
+          <!-- Beretta 93R Stainless (FGF) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_Stainless_SD_</li>
+          <!-- Beretta 93R Stainless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.170, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_Stainless_Stock_</li>
+          <!-- Beretta 93R Stainless Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.125, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_Stainless_Stock_SD_</li>
+          <!-- Beretta 93R Stainless Stock (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.190, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_Stock_</li>
+          <!-- Beretta 93R Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.120, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_Stock_SD_</li>
+          <!-- Beretta 93R Stock (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_TT_</li>
+          <!-- Beretta 93R TT -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_TT_FGF_SD_</li>
+          <!-- Beretta 93R TT (FGF SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_TT_FGF_</li>
+          <!-- Beretta 93R TT (FGF) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_TT_SD_</li>
+          <!-- Beretta 93R TT (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.170, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_TT_Stock_</li>
+          <!-- Beretta 93R TT Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.125, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Beretta_93R_TT_Stock_SD_</li>
+          <!-- Beretta 93R TT Stock (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_JenningsNine_</li>
+          <!-- Bryco Jennings Nine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_JenningsNine_SD_</li>
+          <!-- Bryco Jennings Nine (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.009, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model25_</li>
+          <!-- Bryco Model 25 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model25_SD_</li>
+          <!-- Bryco Model 25 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.003, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model32_</li>
+          <!-- Bryco Model 32 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model32_SD_</li>
+          <!-- Bryco Model 32 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.003, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model38_</li>
+          <!-- Bryco Model 38 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model38_SD_</li>
+          <!-- Bryco Model 38 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.032, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model48_</li>
+          <!-- Bryco Model 48 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model48_SD_</li>
+          <!-- Bryco Model 48 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model48_Stainless_</li>
+          <!-- Bryco Model 48 Stainless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model48_Stainless_SD_</li>
+          <!-- Bryco Model 48 Stainless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model48_TwoTone_</li>
+          <!-- Bryco Model 48 Two-Tone -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model48_TwoTone_SD_</li>
+          <!-- Bryco Model 48 Two-Tone (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model59_</li>
+          <!-- Bryco Model 59 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model59_SD_</li>
+          <!-- Bryco Model 59 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model59_Stainless_</li>
+          <!-- Bryco Model 59 Stainless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model59_Stainless_SD_</li>
+          <!-- Bryco Model 59 Stainless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model59_TwoTone_</li>
+          <!-- Bryco Model 59 Two-Tone -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Bryco_Model59_TwoTone_SD_</li>
+          <!-- Bryco Model 59 Two-Tone (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.095)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_Liberty100_</li>
+          <!-- Calico Liberty-100 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.035)</MainHand>
+        <SecHand>(0.115, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_Liberty100_SD_</li>
+          <!-- Calico Liberty-100 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.095)</MainHand>
+        <SecHand>(0.210, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M100_</li>
+          <!-- Calico M100 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.045)</MainHand>
+        <SecHand>(0.165, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M100_SD_</li>
+          <!-- Calico M100 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.060, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M100P_</li>
+          <!-- Calico M100P -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.110, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M100P_SD_</li>
+          <!-- Calico M100P (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.025, 0.100, -0.075)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M105_</li>
+          <!-- Calico M105 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.045)</MainHand>
+        <SecHand>(0.190, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M105_SD_</li>
+          <!-- Calico M105 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.025, 0.100, -0.075)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M105S_</li>
+          <!-- Calico M105S -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.055)</MainHand>
+        <SecHand>(0.195, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M105S_SD_</li>
+          <!-- Calico M105S (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.075)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M900_</li>
+          <!-- Calico M900 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.055)</MainHand>
+        <SecHand>(0.145, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M900_Ext_SD_</li>
+          <!-- Calico M900 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.070)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M900_Ext_</li>
+          <!-- Calico M900 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.112, 0.100, -0.050)</MainHand>
+        <SecHand>(0.175, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M900_SD_</li>
+          <!-- Calico M900 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.020)</MainHand>
+        <SecHand>(0.125, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M900_Stockless_SD_</li>
+          <!-- Calico M900 (Stockless SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.055)</MainHand>
+        <SecHand>(0.100, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M900_Stockless_</li>
+          <!-- Calico M900 (Stockless) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.149, 0.100, -0.050)</MainHand>
+        <SecHand>(0.110, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M900_Stockless_Ext_SD_</li>
+          <!-- Calico M900 Stockless (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.241, 0.100, -0.050)</MainHand>
+        <SecHand>(0.125, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M900_Stockless_Ext_</li>
+          <!-- Calico M900 Stockless (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M950_</li>
+          <!-- Calico M950 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M950_Ext_SD_</li>
+          <!-- Calico M950 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.070)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M950_Ext_</li>
+          <!-- Calico M950 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.020, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M950_SD_</li>
+          <!-- Calico M950 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M950A_</li>
+          <!-- Calico M950A -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.088, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M950A_Ext_SD_</li>
+          <!-- Calico M950A (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.088, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M950A_Ext_</li>
+          <!-- Calico M950A (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.088, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M950A_SD_</li>
+          <!-- Calico M950A (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.080)</MainHand>
+        <SecHand>(0.110, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M951_</li>
+          <!-- Calico M951 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.050)</MainHand>
+        <SecHand>(0.125, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M951_Ext_SD_</li>
+          <!-- Calico M951 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.080)</MainHand>
+        <SecHand>(0.110, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M951_Ext_</li>
+          <!-- Calico M951 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.030)</MainHand>
+        <SecHand>(0.075, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M951_SD_</li>
+          <!-- Calico M951 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.080)</MainHand>
+        <SecHand>(0.110, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M955A_</li>
+          <!-- Calico M955A -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.030)</MainHand>
+        <SecHand>(0.190, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M955A_Ext_SD_</li>
+          <!-- Calico M955A (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.030)</MainHand>
+        <SecHand>(0.190, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M955A_Ext_</li>
+          <!-- Calico M955A (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.081, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M955A_SD_</li>
+          <!-- Calico M955A (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.030)</MainHand>
+        <SecHand>(0.190, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M960A_</li>
+          <!-- Calico M960A -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.030)</MainHand>
+        <SecHand>(0.190, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M960A_Ext_SD_</li>
+          <!-- Calico M960A (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.015, 0.100, -0.065)</MainHand>
+        <SecHand>(0.320, -0.100, -0.085)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M960A_Ext_</li>
+          <!-- Calico M960A (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.015, 0.100, -0.065)</MainHand>
+        <SecHand>(0.190, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Calico_M960A_SD_</li>
+          <!-- Calico M960A (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.030)</MainHand>
+        <SecHand>(0.190, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Casull_Model290_</li>
+          <!-- Casull Model 290 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.045)</MainHand>
+        <SecHand>(0.190, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Casull_Model290_SD_</li>
+          <!-- Casull Model 290 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.035)</MainHand>
+        <SecHand>(0.220, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_C45_</li>
+          <!-- Claridge C45 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.035)</MainHand>
+        <SecHand>(0.220, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_C9_</li>
+          <!-- Claridge C9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.035)</MainHand>
+        <SecHand>(0.220, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_C9_Ext_</li>
+          <!-- Claridge C9 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_L45_</li>
+          <!-- Claridge L45 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_L9_</li>
+          <!-- Claridge L9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_L9_Ext_</li>
+          <!-- Claridge L9 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.040)</MainHand>
+        <SecHand>(0.235, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_LEC45_</li>
+          <!-- Claridge LEC45 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.040)</MainHand>
+        <SecHand>(0.235, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_LEC9_</li>
+          <!-- Claridge LEC9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.040)</MainHand>
+        <SecHand>(0.235, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_LEC9_Ext_</li>
+          <!-- Claridge LEC9 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.015, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_S45_</li>
+          <!-- Claridge S45 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.015, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_S9_</li>
+          <!-- Claridge S9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.015, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_S9_Ext_</li>
+          <!-- Claridge S9 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.015, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_S9_Shroud_</li>
+          <!-- Claridge S9 Shroud -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_S9_Shroud_Ext_</li>
+          <!-- Claridge S9 Shroud (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_T45_</li>
+          <!-- Claridge T45 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_T9_</li>
+          <!-- Claridge T9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Claridge_T9_Ext_</li>
+          <!-- Claridge T9 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.015, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Cobray_M11_9_</li>
+          <!-- Cobray M11/9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.015, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Cobray_M11_9_Ext_SD_</li>
+          <!-- Cobray M11/9 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.005, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Cobray_M11_9_Ext_</li>
+          <!-- Cobray M11/9 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.000, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Cobray_M11_9_SD_</li>
+          <!-- Cobray M11/9 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Cobray_ModelD_</li>
+          <!-- Cobray Model D -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Cobray_ModelDD_</li>
+          <!-- Cobray Model DD -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_357_</li>
+          <!-- Colt 3-5-7 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Agent_</li>
+          <!-- Colt Agent -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_DetectiveSpecial_32_</li>
+          <!-- Colt Detective Special .32 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_DetectiveSpecial_G3_</li>
+          <!-- Colt Detective Special G3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_DetectiveSpecial_G3_Hogue_</li>
+          <!-- Colt Detective Special G3 Hogue -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_DetectiveSpecial_G3_Nickel_</li>
+          <!-- Colt Detective Special G3 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_DetectiveSpecial_G3_Nickel_Hogue_</li>
+          <!-- Colt Detective Special G3 Nickel Hogue -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_DetectiveSpecial_Hogue_</li>
+          <!-- Colt Detective Special Hogue -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_DetectiveSpecial_Shroud_</li>
+          <!-- Colt Detective Special Shroud -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Lawman_MkIII_</li>
+          <!-- Colt Lawman Mk.III -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Lawman_MkIII_Nickel_</li>
+          <!-- Colt Lawman Mk.III Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Lawman_MkIII_Snub_</li>
+          <!-- Colt Lawman Mk.III Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Lawman_MkIII_Snub_Nickel_</li>
+          <!-- Colt Lawman Mk.III Snub Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Marshal_</li>
+          <!-- Colt Marshal -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Marshal_Nickel_</li>
+          <!-- Colt Marshal Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_</li>
+          <!-- Colt MK IV Series 80 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_Ext_SD_</li>
+          <!-- Colt MK IV Series 80 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_Ext_</li>
+          <!-- Colt MK IV Series 80 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_SD_</li>
+          <!-- Colt MK IV Series 80 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_CombatElite_</li>
+          <!-- Colt MK IV Series 80 Combat Elite -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_CombatElite_Ext_SD_</li>
+          <!-- Colt MK IV Series 80 Combat Elite (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_CombatElite_Ext_</li>
+          <!-- Colt MK IV Series 80 Combat Elite (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_CombatElite_SD_</li>
+          <!-- Colt MK IV Series 80 Combat Elite (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_CombatElite_Comp_</li>
+          <!-- Colt MK IV Series 80 Combat Elite Comp -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_CombatElite_Comp_Ext_</li>
+          <!-- Colt MK IV Series 80 Combat Elite Comp (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_Comp_</li>
+          <!-- Colt MK IV Series 80 Comp -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_Comp_Ext_</li>
+          <!-- Colt MK IV Series 80 Comp (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_Stainless_</li>
+          <!-- Colt MK IV Series 80 Stainless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_Stainless_Ext_SD_</li>
+          <!-- Colt MK IV Series 80 Stainless (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_Stainless_Ext_</li>
+          <!-- Colt MK IV Series 80 Stainless (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_Stainless_SD_</li>
+          <!-- Colt MK IV Series 80 Stainless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_Stainless_Comp_</li>
+          <!-- Colt MK IV Series 80 Stainless Comp -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_MKIV_Series80_Stainless_Comp_Ext_</li>
+          <!-- Colt MK IV Series 80 Stainless Comp (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.109, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_OfficialPolice_BorderPatrol_</li>
+          <!-- Colt Official Police Border Patrol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.109, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_OfficialPoliceMkIII_</li>
+          <!-- Colt Official Police Mk.III -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.109, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_OfficialPoliceMkIII_Nickel_</li>
+          <!-- Colt Official Police Mk.III Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.109, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_OfficialPoliceMkIII_Snub_</li>
+          <!-- Colt Official Police Mk.III Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.109, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_OfficialPoliceMkIII_Snub_Nickel_</li>
+          <!-- Colt Official Police Mk.III Snub Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Python_</li>
+          <!-- Colt Python -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Python_Long_</li>
+          <!-- Colt Python Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Python_Long_Nickel_</li>
+          <!-- Colt Python Long Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Python_Nickel_</li>
+          <!-- Colt Python Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Python_Short_</li>
+          <!-- Colt Python Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Python_Short_Nickel_</li>
+          <!-- Colt Python Short Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Python_Snub_</li>
+          <!-- Colt Python Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Python_Snub_Nickel_</li>
+          <!-- Colt Python Snub Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Trooper_</li>
+          <!-- Colt Trooper -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Trooper_22_</li>
+          <!-- Colt Trooper .22 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Trooper_MkIII_</li>
+          <!-- Colt Trooper Mk.III -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.241, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Trooper_MkIII_Long_</li>
+          <!-- Colt Trooper Mk.III Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.241, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Trooper_MkIII_Long_Nickel_</li>
+          <!-- Colt Trooper Mk.III Long Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Trooper_MkIII_Midnight_</li>
+          <!-- Colt Trooper Mk.III Midnight -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Trooper_MkIII_Nickel_</li>
+          <!-- Colt Trooper Mk.III Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Trooper_MkIII_Snub_</li>
+          <!-- Colt Trooper Mk.III Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Trooper_MkIII_Snub_Nickel_</li>
+          <!-- Colt Trooper Mk.III Snub Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.099, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Trooper_MkV_</li>
+          <!-- Colt Trooper Mk.V -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.099, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Trooper_MkV_Snub_</li>
+          <!-- Colt Trooper Mk.V Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Trooper_Target_</li>
+          <!-- Colt Trooper Target -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Colt_Viper_</li>
+          <!-- Colt Viper -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DanWesson_Model357_</li>
+          <!-- Dan Wesson Model 357 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DanWesson_Model357_Long_</li>
+          <!-- Dan Wesson Model 357 Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DanWesson_Model357_SL_</li>
+          <!-- Dan Wesson Model 357 SL -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DanWesson_Model44_</li>
+          <!-- Dan Wesson Model 44 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.305, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DanWesson_Model44_Long_</li>
+          <!-- Dan Wesson Model 44 Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.122, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DanWesson_Model44_Snub_</li>
+          <!-- Dan Wesson Model 44 Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Davis_P32_</li>
+          <!-- Davis P-32 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Davis_P32_SD_</li>
+          <!-- Davis P-32 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Davis_P380_</li>
+          <!-- Davis P-380 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Davis_P380_SD_</li>
+          <!-- Davis P-380 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkI_</li>
+          <!-- Desert Eagle Mark I -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.370, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkI_SD_</li>
+          <!-- Desert Eagle Mark I (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkI_Black_</li>
+          <!-- Desert Eagle Mark I Black -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.370, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkI_Black_SD_</li>
+          <!-- Desert Eagle Mark I Black (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkI_Gold_</li>
+          <!-- Desert Eagle Mark I Gold -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.370, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkI_Gold_SD_</li>
+          <!-- Desert Eagle Mark I Gold (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkI_TwoTone_</li>
+          <!-- Desert Eagle Mark I Two-Tone -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.370, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DesertEagle_MarkI_TwoTone_SD_</li>
+          <!-- Desert Eagle Mark I Two-Tone (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Detonics_ScoreMaster_</li>
+          <!-- Detonics ScoreMaster -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Detonics_ScoreMaster_SD_</li>
+          <!-- Detonics ScoreMaster (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.090)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DMax_100C_10_</li>
+          <!-- D-Max 100C-10 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.090)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DMax_100C_38_</li>
+          <!-- D-Max 100C-38 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.045, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DMax_100C_40_</li>
+          <!-- D-Max 100C-40 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.120, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DMax_100C_41_</li>
+          <!-- D-Max 100C-41 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.120, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DMax_100C_45_</li>
+          <!-- D-Max 100C-45 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.120, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DMax_100C_9_</li>
+          <!-- D-Max 100C-9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.120, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DMax_100P_10_</li>
+          <!-- D-Max 100P-10 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.120, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DMax_100P_38_</li>
+          <!-- D-Max 100P-38 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.120, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DMax_100P_40_</li>
+          <!-- D-Max 100P-40 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.120, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DMax_100P_41_</li>
+          <!-- D-Max 100P-41 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.120, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DMax_100P_45_</li>
+          <!-- D-Max 100P-45 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.120, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_DMax_100P_9_</li>
+          <!-- D-Max 100P-9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.145, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FN_Minimi_NG_</li>
+          <!-- FN Minimi NG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.145, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FN_Minimi_NG_SD_</li>
+          <!-- FN Minimi NG (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.145, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FN_Minimi_NG_Shorty_</li>
+          <!-- FN Minimi NG Shorty -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.145, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_FN_Minimi_NG_Shorty_SD_</li>
+          <!-- FN Minimi NG Shorty (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.045)</MainHand>
+        <SecHand>(0.175, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Fixed_</li>
+          <!-- Franchi SPAS-12 Fixed -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.070)</MainHand>
+        <SecHand>(0.025, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Fixed_Scope_SD_</li>
+          <!-- Franchi SPAS-12 Fixed (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.045)</MainHand>
+        <SecHand>(0.175, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Fixed_Scope_</li>
+          <!-- Franchi SPAS-12 Fixed (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.070)</MainHand>
+        <SecHand>(0.030, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Fixed_SD_</li>
+          <!-- Franchi SPAS-12 Fixed (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.045)</MainHand>
+        <SecHand>(0.175, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Fixed_Ext_</li>
+          <!-- Franchi SPAS-12 Fixed Ext -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.045)</MainHand>
+        <SecHand>(0.015, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Fixed_Ext_Scope_SD_</li>
+          <!-- Franchi SPAS-12 Fixed Ext (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.045)</MainHand>
+        <SecHand>(0.175, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Fixed_Ext_Scope_</li>
+          <!-- Franchi SPAS-12 Fixed Ext (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.055)</MainHand>
+        <SecHand>(0.035, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Fixed_Ext_SD_</li>
+          <!-- Franchi SPAS-12 Fixed Ext (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.045)</MainHand>
+        <SecHand>(0.175, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Fixed_Short_</li>
+          <!-- Franchi SPAS-12 Fixed Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.045)</MainHand>
+        <SecHand>(0.175, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_FS_</li>
+          <!-- Franchi SPAS-12 FS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.305, 0.100, -0.060)</MainHand>
+        <SecHand>(0.025, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_FS_Folded_SD_</li>
+          <!-- Franchi SPAS-12 FS (Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.040)</MainHand>
+        <SecHand>(0.155, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_FS_Folded_</li>
+          <!-- Franchi SPAS-12 FS (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.070)</MainHand>
+        <SecHand>(0.045, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_FS_Scope_SD_</li>
+          <!-- Franchi SPAS-12 FS (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.040)</MainHand>
+        <SecHand>(0.155, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_FS_Scope_</li>
+          <!-- Franchi SPAS-12 FS (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.055)</MainHand>
+        <SecHand>(0.025, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_FS_SD_</li>
+          <!-- Franchi SPAS-12 FS (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.040)</MainHand>
+        <SecHand>(0.155, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_FS_Ext_</li>
+          <!-- Franchi SPAS-12 FS Ext -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.065)</MainHand>
+        <SecHand>(-0.005, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_FS_Ext_Folded_SD_</li>
+          <!-- Franchi SPAS-12 FS Ext (Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.040)</MainHand>
+        <SecHand>(0.155, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_FS_Ext_Folded_</li>
+          <!-- Franchi SPAS-12 FS Ext (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.305, 0.100, -0.070)</MainHand>
+        <SecHand>(0.060, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_FS_Ext_Scope_SD_</li>
+          <!-- Franchi SPAS-12 FS Ext (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.040)</MainHand>
+        <SecHand>(0.155, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_FS_Ext_Scope_</li>
+          <!-- Franchi SPAS-12 FS Ext (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.305, 0.100, -0.055)</MainHand>
+        <SecHand>(0.045, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_FS_Ext_SD_</li>
+          <!-- Franchi SPAS-12 FS Ext (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.040)</MainHand>
+        <SecHand>(0.155, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_FS_Short_</li>
+          <!-- Franchi SPAS-12 FS Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.040)</MainHand>
+        <SecHand>(0.155, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_FS_Short_Folded_</li>
+          <!-- Franchi SPAS-12 FS Short (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.075)</MainHand>
+        <SecHand>(0.155, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Stockless_</li>
+          <!-- Franchi SPAS-12 Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, -0.050)</MainHand>
+        <SecHand>(0.060, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Stockless_SD_</li>
+          <!-- Franchi SPAS-12 Stockless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.075)</MainHand>
+        <SecHand>(0.055, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Stockless_Ext_</li>
+          <!-- Franchi SPAS-12 Stockless Ext -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.075)</MainHand>
+        <SecHand>(0.055, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Stockless_Ext_Scope_SD_</li>
+          <!-- Franchi SPAS-12 Stockless Ext (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.075)</MainHand>
+        <SecHand>(0.055, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Stockless_Ext_Scope_</li>
+          <!-- Franchi SPAS-12 Stockless Ext (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.075)</MainHand>
+        <SecHand>(0.055, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Stockless_Ext_SD_</li>
+          <!-- Franchi SPAS-12 Stockless Ext (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.075)</MainHand>
+        <SecHand>(0.055, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS12_Stockless_Short_</li>
+          <!-- Franchi SPAS-12 Stockless Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.085)</MainHand>
+        <SecHand>(0.135, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS15_Fixed_</li>
+          <!-- Franchi SPAS-15 Fixed -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.085)</MainHand>
+        <SecHand>(0.135, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS15_Fixed_SD_</li>
+          <!-- Franchi SPAS-15 Fixed (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.085)</MainHand>
+        <SecHand>(0.135, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS15_Fixed_Short_</li>
+          <!-- Franchi SPAS-15 Fixed Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.085)</MainHand>
+        <SecHand>(0.135, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS15_Fixed_Short_SD_</li>
+          <!-- Franchi SPAS-15 Fixed Short (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.085)</MainHand>
+        <SecHand>(0.135, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS15_FS_</li>
+          <!-- Franchi SPAS-15 FS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.030)</MainHand>
+        <SecHand>(0.065, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS15_FS_SD_</li>
+          <!-- Franchi SPAS-15 FS (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.030)</MainHand>
+        <SecHand>(0.065, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS15_SS_SD_</li>
+          <!-- Franchi SPAS-15 FS (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.100)</MainHand>
+        <SecHand>(0.215, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS15_FS_Short_</li>
+          <!-- Franchi SPAS-15 FS Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.030)</MainHand>
+        <SecHand>(0.135, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS15_FS_Short_SD_</li>
+          <!-- Franchi SPAS-15 FS Short (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.105)</MainHand>
+        <SecHand>(0.135, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS15_SS_</li>
+          <!-- Franchi SPAS-15 SS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.095)</MainHand>
+        <SecHand>(0.235, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS15_SS_Short_</li>
+          <!-- Franchi SPAS-15 SS Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.171, 0.100, -0.050)</MainHand>
+        <SecHand>(0.135, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Franchi_SPAS15_SS_Short_SD_</li>
+          <!-- Franchi SPAS-15 SS Short (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock17_G2_</li>
+          <!-- Glock 17 G2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock17_G2_Ext_SD_</li>
+          <!-- Glock 17 G2 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.093, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock17_G2_Ext_</li>
+          <!-- Glock 17 G2 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock17_G2_SD_</li>
+          <!-- Glock 17 G2 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.054, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock19_G2_</li>
+          <!-- Glock 19 G2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock19_G2_Ext_SD_</li>
+          <!-- Glock 19 G2 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.093, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock19_G2_Ext_</li>
+          <!-- Glock 19 G2 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock19_G2_SD_</li>
+          <!-- Glock 19 G2 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock22_G2_</li>
+          <!-- Glock 22 G2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock22_G2_SD_</li>
+          <!-- Glock 22 G2 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.054, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock23_G2_</li>
+          <!-- Glock 23 G2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock23_G2_SD_</li>
+          <!-- Glock 23 G2 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock31_G2_</li>
+          <!-- Glock 31 G2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock31_G2_SD_</li>
+          <!-- Glock 31 G2 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.054, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock32_G2_</li>
+          <!-- Glock 32 G2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Glock32_G2_SD_</li>
+          <!-- Glock 32 G2 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Grendel_P10_</li>
+          <!-- Grendel P-10 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.011, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Grendel_P10_Stainless_</li>
+          <!-- Grendel P-10 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Grendel_P10_SD_</li>
+          <!-- Grendel P-10 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Grendel_P10_Stainless_SD_</li>
+          <!-- Grendel P-10 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Grendel_P12_</li>
+          <!-- Grendel P-12 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Grendel_P12_SD_</li>
+          <!-- Grendel P-12 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.011, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Grendel_P12_Stainless_</li>
+          <!-- Grendel P-12 Stainless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Grendel_P12_Stainless_SD_</li>
+          <!-- Grendel P-12 Stainless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.056, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Grendel_P30_</li>
+          <!-- Grendel P-30 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Grendel_P30_SD_</li>
+          <!-- Grendel P-30 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.056, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Grendel_P30M_</li>
+          <!-- Grendel P-30M -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.075)</MainHand>
+        <SecHand>(0.085, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Grendel_R31_</li>
+          <!-- Grendel R-31 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.168, 0.100, -0.050)</MainHand>
+        <SecHand>(0.060, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Grendel_R31_SD_</li>
+          <!-- Grendel R-31 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.040, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Haskell_JS45_</li>
+          <!-- Haskell JS-45 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Haskell_JS45_SD_</li>
+          <!-- Haskell JS-45 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.065)</MainHand>
+        <SecHand>(0.165, -0.100, -0.090)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Hawk_MM1_</li>
+          <!-- Hawk MM-1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HighStandard_DoubleNine_</li>
+          <!-- High Standard Double Nine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HighStandard_DoubleNine_Faux_</li>
+          <!-- High Standard Double Nine Faux -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HighStandard_DoubleNine_Longhorn_</li>
+          <!-- High Standard Double Nine Longhorn -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HighStandard_DoubleNine_SL_</li>
+          <!-- High Standard Double Nine SL -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HighStandard_DoubleNine_Target_</li>
+          <!-- High Standard Double Nine Target -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.015)</MainHand>
+        <SecHand>(0.180, -0.100, -0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HighStandard_K1200_Riot_</li>
+          <!-- High Standard K1200 Riot -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.015)</MainHand>
+        <SecHand>(0.180, -0.100, -0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HighStandard_K1200_Riot_Ext_</li>
+          <!-- High Standard K1200 Riot Ext -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.020, 0.100, -0.125)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HighStandard_Model10A_</li>
+          <!-- High Standard Model 10A -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.020, 0.100, -0.125)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HighStandard_Model10B_</li>
+          <!-- High Standard Model 10B -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.020, 0.100, -0.125)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HighStandard_Model10B_Ext_</li>
+          <!-- High Standard Model 10B Ext -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.095)</MainHand>
+        <SecHand>(0.270, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A2_Surefire_</li>
+          <!-- HK MP5A2 Surefire -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.095)</MainHand>
+        <SecHand>(0.270, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Surefire_</li>
+          <!-- HK MP5A3 Surefire -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.095)</MainHand>
+        <SecHand>(0.270, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5A3_Surefire_Folded_</li>
+          <!-- HK MP5A3 Surefire (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.095)</MainHand>
+        <SecHand>(0.270, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5K_Stock_</li>
+          <!-- HK MP5K Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.095)</MainHand>
+        <SecHand>(0.270, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5K_Stock_Folded_SD_</li>
+          <!-- HK MP5K Stock (Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.095)</MainHand>
+        <SecHand>(0.270, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5K_Stock_Folded_</li>
+          <!-- HK MP5K Stock (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.100)</MainHand>
+        <SecHand>(0.155, -0.100, -0.075)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_MP5K_Stock_SD_</li>
+          <!-- HK MP5K Stock (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_SP89_</li>
+          <!-- HK SP89 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_SP89_10Rnd_</li>
+          <!-- HK SP89 (10Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_SP89_15Rnd_</li>
+          <!-- HK SP89 (15Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK_SP89_Drum_</li>
+          <!-- HK SP89 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.100)</MainHand>
+        <SecHand>(0.175, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK41A2_</li>
+          <!-- HK41A2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.100)</MainHand>
+        <SecHand>(0.175, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK41A2_Bayonet_</li>
+          <!-- HK41A2 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.100)</MainHand>
+        <SecHand>(0.175, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK41A2_SD_</li>
+          <!-- HK41A2 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.100)</MainHand>
+        <SecHand>(0.175, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK41A3_</li>
+          <!-- HK41A3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.100)</MainHand>
+        <SecHand>(0.175, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK41A3_Bayonet_</li>
+          <!-- HK41A3 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.100)</MainHand>
+        <SecHand>(0.175, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK41A3_SD_</li>
+          <!-- HK41A3 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.100)</MainHand>
+        <SecHand>(0.175, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK43A2_</li>
+          <!-- HK43A2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.075)</MainHand>
+        <SecHand>(0.175, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK43A2_SD_</li>
+          <!-- HK43A2 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.100)</MainHand>
+        <SecHand>(0.175, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK43A3_</li>
+          <!-- HK43A3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.070)</MainHand>
+        <SecHand>(0.175, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK43A3_SD_</li>
+          <!-- HK43A3 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.100)</MainHand>
+        <SecHand>(0.175, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A2_</li>
+          <!-- HK94A2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.100)</MainHand>
+        <SecHand>(0.175, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A2_10Rnd_</li>
+          <!-- HK94A2 (10Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.040, 0.100, -0.095)</MainHand>
+        <SecHand>(0.250, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A2_Chopped_</li>
+          <!-- HK94A2 Chopped -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.080)</MainHand>
+        <SecHand>(0.135, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A2_Shroud_</li>
+          <!-- HK94A2 Shroud -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.080)</MainHand>
+        <SecHand>(0.135, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A2_Shroud_10Rnd_</li>
+          <!-- HK94A2 Shroud (10Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.080)</MainHand>
+        <SecHand>(0.135, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A2_Shroud_Scope_10Rnd_</li>
+          <!-- HK94A2 Shroud (Scope 10Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.080)</MainHand>
+        <SecHand>(0.135, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A2_Shroud_Scope_</li>
+          <!-- HK94A2 Shroud (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.080)</MainHand>
+        <SecHand>(0.135, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_</li>
+          <!-- HK94A3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.080)</MainHand>
+        <SecHand>(0.135, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_10Rnd_Folded_</li>
+          <!-- HK94A3 (10Rnd Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.080)</MainHand>
+        <SecHand>(0.135, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_10Rnd_</li>
+          <!-- HK94A3 (10Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.080)</MainHand>
+        <SecHand>(0.135, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_Folded_</li>
+          <!-- HK94A3 (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.080)</MainHand>
+        <SecHand>(0.230, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_Chopped_</li>
+          <!-- HK94A3 Chopped -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.080)</MainHand>
+        <SecHand>(0.230, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_Chopped_Folded_</li>
+          <!-- HK94A3 Chopped (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.080)</MainHand>
+        <SecHand>(0.190, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_Shroud_</li>
+          <!-- HK94A3 Shroud -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.080)</MainHand>
+        <SecHand>(0.190, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_Shroud_10Rnd_Folded_</li>
+          <!-- HK94A3 Shroud (10Rnd Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.080)</MainHand>
+        <SecHand>(0.190, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_Shroud_10Rnd_</li>
+          <!-- HK94A3 Shroud (10Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.080)</MainHand>
+        <SecHand>(0.190, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_Shroud_Folded_</li>
+          <!-- HK94A3 Shroud (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.080)</MainHand>
+        <SecHand>(0.190, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_Shroud_Scope_10Rnd_Folded_</li>
+          <!-- HK94A3 Shroud (Scope 10Rnd Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.080)</MainHand>
+        <SecHand>(0.190, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_Shroud_Scope_10Rnd_</li>
+          <!-- HK94A3 Shroud (Scope 10Rnd) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.085)</MainHand>
+        <SecHand>(0.190, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_Shroud_Scope_Folded_</li>
+          <!-- HK94A3 Shroud (Scope Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.080)</MainHand>
+        <SecHand>(0.190, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_HK94A3_Shroud_Scope_</li>
+          <!-- HK94A3 Shroud (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.180, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ingram_MAC11_</li>
+          <!-- Ingram MAC-11 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ingram_MAC11_Folded_SD_</li>
+          <!-- Ingram MAC-11 (Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.065, 0.100, 0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ingram_MAC11_Folded_</li>
+          <!-- Ingram MAC-11 (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.175, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ingram_MAC11_SD_</li>
+          <!-- Ingram MAC-11 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.060)</MainHand>
+        <SecHand>(0.255, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ingram_Model6_</li>
+          <!-- Ingram Model 6 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.060)</MainHand>
+        <SecHand>(0.255, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ingram_Model6_Police_</li>
+          <!-- Ingram Model 6 Police -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.060)</MainHand>
+        <SecHand>(0.255, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ingram_Model7_</li>
+          <!-- Ingram Model 7 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG9_</li>
+          <!-- Interdynamic KG-9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.090)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG9_Auto_SD_</li>
+          <!-- Interdynamic KG-9 (Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG9_Auto_</li>
+          <!-- Interdynamic KG-9 (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG9_Ext_Auto_SD_</li>
+          <!-- Interdynamic KG-9 (Ext Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG9_Ext_Auto_</li>
+          <!-- Interdynamic KG-9 (Ext Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG9_Ext_SD_</li>
+          <!-- Interdynamic KG-9 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG9_Ext_</li>
+          <!-- Interdynamic KG-9 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG9_SD_</li>
+          <!-- Interdynamic KG-9 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG99_</li>
+          <!-- Interdynamic KG-99 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.095)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG99_Auto_SD_</li>
+          <!-- Interdynamic KG-99 (Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG99_Auto_</li>
+          <!-- Interdynamic KG-99 (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.090)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG99_Ext_Auto_SD_</li>
+          <!-- Interdynamic KG-99 (Ext Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG99_Ext_Auto_</li>
+          <!-- Interdynamic KG-99 (Ext Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.090)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG99_Ext_SD_</li>
+          <!-- Interdynamic KG-99 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG99_Ext_</li>
+          <!-- Interdynamic KG-99 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.085)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Interdynamic_KG99_SD_</li>
+          <!-- Interdynamic KG-99 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, 0.030)</MainHand>
+        <SecHand>(0.235, -0.100, 0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_InternationalOrdnance_MP2_</li>
+          <!-- International Ordnance MP2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.035)</MainHand>
+        <SecHand>(0.070, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_InternationalOrdnance_MP2_SD_</li>
+          <!-- International Ordnance MP2 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, 0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_InternationalOrdnance_MP2_NG_</li>
+          <!-- International Ordnance MP2 NG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_InternationalOrdnance_MP2_NG_SD_</li>
+          <!-- International Ordnance MP2 NG (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC22_</li>
+          <!-- Intratec TEC-22 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.085)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC22_Auto_SD_</li>
+          <!-- Intratec TEC-22 (Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC22_Auto_</li>
+          <!-- Intratec TEC-22 (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.090)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC22_SD_</li>
+          <!-- Intratec TEC-22 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.090)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC22TK_Auto_SD_</li>
+          <!-- Intratec TEC-22TK (Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.090)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC22TK_SD_</li>
+          <!-- Intratec TEC-22TK (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.090)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Auto_SD_</li>
+          <!-- Intratec TEC-9 (Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.090)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Drum_Auto_SD_</li>
+          <!-- Intratec TEC-9 (Drum Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.090)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Drum_SD_</li>
+          <!-- Intratec TEC-9 (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.100)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_SD_</li>
+          <!-- Intratec TEC-9 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_Auto_SD_</li>
+          <!-- Intratec TEC-9 Mini (Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_Drum_Auto_SD_</li>
+          <!-- Intratec TEC-9 Mini (Drum Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_Drum_SD_</li>
+          <!-- Intratec TEC-9 Mini (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_Ext_Auto_SD_</li>
+          <!-- Intratec TEC-9 Mini (Ext Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_Ext_SD_</li>
+          <!-- Intratec TEC-9 Mini (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_SD_</li>
+          <!-- Intratec TEC-9 Mini (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC22_BE_</li>
+          <!-- Intratec TEC-22 BE -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC22_BE_Auto_</li>
+          <!-- Intratec TEC-22 BE (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC22TK_</li>
+          <!-- Intratec TEC-22TK -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC22TK_Auto_</li>
+          <!-- Intratec TEC-22TK (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_</li>
+          <!-- Intratec TEC-9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Auto_</li>
+          <!-- Intratec TEC-9 (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Drum_Auto_</li>
+          <!-- Intratec TEC-9 (Drum Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Drum_</li>
+          <!-- Intratec TEC-9 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_BE_</li>
+          <!-- Intratec TEC-9 BE -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_BE_Auto_</li>
+          <!-- Intratec TEC-9 BE (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_BE_Drum_Auto_</li>
+          <!-- Intratec TEC-9 BE (Drum Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_BE_Drum_</li>
+          <!-- Intratec TEC-9 BE (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_</li>
+          <!-- Intratec TEC-9 Mini -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_Auto_</li>
+          <!-- Intratec TEC-9 Mini (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_Drum_Auto_</li>
+          <!-- Intratec TEC-9 Mini (Drum Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_Drum_</li>
+          <!-- Intratec TEC-9 Mini (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_Ext_Auto_</li>
+          <!-- Intratec TEC-9 Mini (Ext Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_Ext_</li>
+          <!-- Intratec TEC-9 Mini (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_BE_</li>
+          <!-- Intratec TEC-9 Mini BE -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_BE_Auto_</li>
+          <!-- Intratec TEC-9 Mini BE (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_BE_Drum_Auto_</li>
+          <!-- Intratec TEC-9 Mini BE (Drum Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Intratec_TEC9_Mini_BE_Drum_</li>
+          <!-- Intratec TEC-9 Mini BE (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.075)</MainHand>
+        <SecHand>(0.150, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ithaca_37_Stakeout_</li>
+          <!-- Ithaca 37 Stakeout -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.075)</MainHand>
+        <SecHand>(0.150, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ithaca_37_Stakeout_Black_</li>
+          <!-- Ithaca 37 Stakeout Black -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.075)</MainHand>
+        <SecHand>(0.150, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ithaca_37_Stakeout_Shorty_</li>
+          <!-- Ithaca 37 Stakeout Shorty -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.075)</MainHand>
+        <SecHand>(0.150, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ithaca_MAG10_</li>
+          <!-- Ithaca MAG-10 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.040)</MainHand>
+        <SecHand>(0.150, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ithaca_MAG10_Roadblocker_</li>
+          <!-- Ithaca MAG-10 Roadblocker -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.203, 0.100, -0.050)</MainHand>
+        <SecHand>(0.095, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ithaca_MAG10_Roadblocker_SD_</li>
+          <!-- Ithaca MAG-10 Roadblocker (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.025)</MainHand>
+        <SecHand>(0.245, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ithaca_MAG10_Roadblocker_SawedOff_</li>
+          <!-- Ithaca MAG-10 Roadblocker Sawed-Off -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.025)</MainHand>
+        <SecHand>(0.245, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ithaca_MAG10_Roadblocker_Shorty_</li>
+          <!-- Ithaca MAG-10 Roadblocker Shorty -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.025)</MainHand>
+        <SecHand>(0.245, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ithaca_MAG10_Roadblocker_Stockless_</li>
+          <!-- Ithaca MAG-10 Roadblocker Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.060)</MainHand>
+        <SecHand>(0.050, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_IverJohnson_AMAC1500_</li>
+          <!-- Iver Johnson AMAC-1500 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.060)</MainHand>
+        <SecHand>(0.050, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_IverJohnson_AMAC1500_Scope_SD_</li>
+          <!-- Iver Johnson AMAC-1500 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.060)</MainHand>
+        <SecHand>(0.050, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_IverJohnson_AMAC1500_Scope_</li>
+          <!-- Iver Johnson AMAC-1500 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.060)</MainHand>
+        <SecHand>(0.050, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_IverJohnson_AMAC1500_SD_</li>
+          <!-- Iver Johnson AMAC-1500 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.070)</MainHand>
+        <SecHand>(0.160, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_IverJohnson_Enforcer_</li>
+          <!-- Iver Johnson Enforcer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.070)</MainHand>
+        <SecHand>(0.160, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_IverJohnson_M1Carbine_</li>
+          <!-- Iver Johnson M1 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.055)</MainHand>
+        <SecHand>(0.160, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_JR_Model68_Carbine_</li>
+          <!-- J&R Model 68 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jennings_J22_</li>
+          <!-- Jennings J-22 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jennings_J22_SD_</li>
+          <!-- Jennings J-22 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jennings_J22_Faux_SD_</li>
+          <!-- Jennings J-22 Faux (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jennings_J22_Stainless_SD_</li>
+          <!-- Jennings J-22 Stainless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jennings_J22_TwoTone_SD_</li>
+          <!-- Jennings J-22 Two-Tone (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jennings_J22_Faux_</li>
+          <!-- Jennings J-22 Faux -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jennings_J22_Stainless_</li>
+          <!-- Jennings J-22 Stainless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jennings_J22_TwoTone_</li>
+          <!-- Jennings J-22 Two-Tone -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jennings_J25_</li>
+          <!-- Jennings J-25 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jennings_J25_SD_</li>
+          <!-- Jennings J-25 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.030)</MainHand>
+        <SecHand>(0.095, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimber_Model82C_</li>
+          <!-- Kimber Model 82C -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.209, 0.100, -0.050)</MainHand>
+        <SecHand>(0.080, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimber_Model82C_Scope_SD_</li>
+          <!-- Kimber Model 82C (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.045)</MainHand>
+        <SecHand>(0.105, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimber_Model82C_Scope_</li>
+          <!-- Kimber Model 82C (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.209, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimber_Model82C_SD_</li>
+          <!-- Kimber Model 82C (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_</li>
+          <!-- Kimel AP-9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Auto_SD_</li>
+          <!-- Kimel AP-9 (Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Ext_SD_</li>
+          <!-- Kimel AP-9 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Ext_Auto_SD_</li>
+          <!-- Kimel AP-9 (Ext Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_SD_</li>
+          <!-- Kimel AP-9 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Mini_Auto_SD_</li>
+          <!-- Kimel AP-9 Mini (Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Mini_Ext_Auto_SD_</li>
+          <!-- Kimel AP-9 Mini (Ext Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Mini_Ext_SD_</li>
+          <!-- Kimel AP-9 Mini (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Mini_SD_</li>
+          <!-- Kimel AP-9 Mini (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Auto_</li>
+          <!-- Kimel AP-9 (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Ext_Auto_</li>
+          <!-- Kimel AP-9 (Ext Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Ext_</li>
+          <!-- Kimel AP-9 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Comp_</li>
+          <!-- Kimel AP-9 Comp -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Comp_Auto_</li>
+          <!-- Kimel AP-9 Comp (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Mini_</li>
+          <!-- Kimel AP-9 Mini -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Mini_Auto_</li>
+          <!-- Kimel AP-9 Mini (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Mini_Ext_Auto_</li>
+          <!-- Kimel AP-9 Mini (Ext Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Mini_Ext_</li>
+          <!-- Kimel AP-9 Mini (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, 0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Target_</li>
+          <!-- Kimel AP-9 Target -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, 0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9_Target_Auto_</li>
+          <!-- Kimel AP-9 Target (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_</li>
+          <!-- Kimel AP-9Ni -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_Auto_SD_</li>
+          <!-- Kimel AP-9Ni (Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_Ext_Auto_SD_</li>
+          <!-- Kimel AP-9Ni (Ext Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_Ext_SD_</li>
+          <!-- Kimel AP-9Ni (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_SD_</li>
+          <!-- Kimel AP-9Ni (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_Mini_Auto_SD_</li>
+          <!-- Kimel AP-9Ni Mini (Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_Mini_Ext_Auto_SD_</li>
+          <!-- Kimel AP-9Ni Mini (Ext Auto SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_Mini_Ext_SD_</li>
+          <!-- Kimel AP-9Ni Mini (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_Mini_SD_</li>
+          <!-- Kimel AP-9Ni Mini (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_Auto_</li>
+          <!-- Kimel AP-9Ni (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_Ext_Auto_</li>
+          <!-- Kimel AP-9Ni (Ext Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_Ext_</li>
+          <!-- Kimel AP-9Ni (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_Mini_</li>
+          <!-- Kimel AP-9Ni Mini -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_Mini_Auto_</li>
+          <!-- Kimel AP-9Ni Mini (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_Mini_Ext_Auto_</li>
+          <!-- Kimel AP-9Ni Mini (Ext Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AP9Ni_Mini_Ext_</li>
+          <!-- Kimel AP-9Ni Mini (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.045)</MainHand>
+        <SecHand>(0.245, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AR9_</li>
+          <!-- Kimel AR-9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.045)</MainHand>
+        <SecHand>(0.245, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kimel_AR9_Auto_</li>
+          <!-- Kimel AR-9 (Auto) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lorcin_L25_</li>
+          <!-- Lorcin L-25 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lorcin_L25_Stainless_</li>
+          <!-- Lorcin L-25 Stainless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lorcin_L32_</li>
+          <!-- Lorcin L-32 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lorcin_L380_</li>
+          <!-- Lorcin L-380 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lorcin_L380_Stainless_</li>
+          <!-- Lorcin L-380 Stainless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lorcin_L9_</li>
+          <!-- Lorcin L-9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lorcin_L9_Stainless_</li>
+          <!-- Lorcin L-9 Stainless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lorcin_L25_SD_</li>
+          <!-- Lorcin L-25 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lorcin_L25_Stainless_SD_</li>
+          <!-- Lorcin L-25 Stainless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lorcin_L32_SD_</li>
+          <!-- Lorcin L-32 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lorcin_L380_SD_</li>
+          <!-- Lorcin L-380 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lorcin_L380_Stainless_SD_</li>
+          <!-- Lorcin L-380 Stainless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lorcin_L9_SD_</li>
+          <!-- Lorcin L-9 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lorcin_L9_Stainless_SD_</li>
+          <!-- Lorcin L-9 Stainless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.020)</MainHand>
+        <SecHand>(0.190, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mossberg_500_</li>
+          <!-- Mossberg 500 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.105)</MainHand>
+        <SecHand>(0.285, -0.100, -0.095)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mossberg_500_Bullpup_</li>
+          <!-- Mossberg 500 Bullpup -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.105)</MainHand>
+        <SecHand>(0.285, -0.100, -0.095)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mossberg_500_Bullpup_Ext_</li>
+          <!-- Mossberg 500 Bullpup Ext -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.040)</MainHand>
+        <SecHand>(0.130, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mossberg_500_Cruiser_</li>
+          <!-- Mossberg 500 Cruiser -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.040)</MainHand>
+        <SecHand>(0.130, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mossberg_500_Cruiser_Ext_</li>
+          <!-- Mossberg 500 Cruiser Ext -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.040)</MainHand>
+        <SecHand>(0.130, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mossberg_500_Cruiser_Ext_HS_</li>
+          <!-- Mossberg 500 Cruiser Ext HS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.040)</MainHand>
+        <SecHand>(0.130, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mossberg_500_Cruiser_HS_</li>
+          <!-- Mossberg 500 Cruiser HS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.040)</MainHand>
+        <SecHand>(0.130, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mossberg_500_Cruiser_Shorty_</li>
+          <!-- Mossberg 500 Cruiser Shorty -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.035)</MainHand>
+        <SecHand>(0.165, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mossberg_500_Ext_</li>
+          <!-- Mossberg 500 Ext -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.035)</MainHand>
+        <SecHand>(0.165, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mossberg_500_Ext_HS_</li>
+          <!-- Mossberg 500 Ext HS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.020)</MainHand>
+        <SecHand>(0.165, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mossberg_500_HS_</li>
+          <!-- Mossberg 500 HS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, -0.020)</MainHand>
+        <SecHand>(0.165, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mossberg_500_Shorty_</li>
+          <!-- Mossberg 500 Shorty -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.020)</MainHand>
+        <SecHand>(0.165, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mossberg_500AT_</li>
+          <!-- Mossberg 500AT -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+        <SecHand>(0.105, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mossberg_500AT_Cruiser_</li>
+          <!-- Mossberg 500AT Cruiser -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.015, 0.100, -0.130)</MainHand>
+        <SecHand>(0.225, -0.100, -0.080)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pancor_Jackhammer_MK3_</li>
+          <!-- Pancor Jackhammer MK3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.065)</MainHand>
+        <SecHand>(0.045, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pauza_P50_</li>
+          <!-- Pauza P50 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.201, 0.100, -0.050)</MainHand>
+        <SecHand>(0.060, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pauza_P50_Scope_SD_</li>
+          <!-- Pauza P50 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.065)</MainHand>
+        <SecHand>(0.045, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pauza_P50_Scope_</li>
+          <!-- Pauza P50 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.045)</MainHand>
+        <SecHand>(0.045, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Pauza_P50_SD_</li>
+          <!-- Pauza P50 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RavenArms_MP25_</li>
+          <!-- Raven Arms MP-25 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RavenArms_MP25_Ext_</li>
+          <!-- Raven Arms MP-25 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RavenArms_MP25_Stainless_</li>
+          <!-- Raven Arms MP-25 Stainless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RavenArms_MP25_Stainless_Ext_</li>
+          <!-- Raven Arms MP-25 Stainless (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RavenArms_P25_</li>
+          <!-- Raven Arms P-25 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RavenArms_P25_Ext_</li>
+          <!-- Raven Arms P-25 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RavenArms_MP25_Ext_SD_</li>
+          <!-- Raven Arms MP-25 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RavenArms_MP25_SD_</li>
+          <!-- Raven Arms MP-25 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RavenArms_MP25_Stainless_SD_</li>
+          <!-- Raven Arms MP-25 Stainless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RavenArms_MP25_Stainless_Ext_SD_</li>
+          <!-- Raven Arms MP-25 Stainless (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RavenArms_P25_Ext_SD_</li>
+          <!-- Raven Arms P-25 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RavenArms_P25_SD_</li>
+          <!-- Raven Arms P-25 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.065)</MainHand>
+        <SecHand>(0.195, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Reising_Model60_</li>
+          <!-- Reising Model 60 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.207, 0.100, -0.050)</MainHand>
+        <SecHand>(0.075, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Reising_Model60_SD_</li>
+          <!-- Reising Model 60 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.294, 0.100, -0.050)</MainHand>
+        <SecHand>(0.075, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_1100_</li>
+          <!-- Remington 1100 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.294, 0.100, -0.050)</MainHand>
+        <SecHand>(0.075, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_1100_Scope_</li>
+          <!-- Remington 1100 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.025)</MainHand>
+        <SecHand>(0.210, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_1100_Defense_</li>
+          <!-- Remington 1100 Defense -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.025)</MainHand>
+        <SecHand>(0.210, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_</li>
+          <!-- Remington 870 Police -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.025)</MainHand>
+        <SecHand>(0.210, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_Ext_</li>
+          <!-- Remington 870 Police Ext -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.040)</MainHand>
+        <SecHand>(0.210, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_FS_</li>
+          <!-- Remington 870 Police FS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.045)</MainHand>
+        <SecHand>(0.135, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_FS_Folded_</li>
+          <!-- Remington 870 Police FS (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.040)</MainHand>
+        <SecHand>(0.210, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_FS_Ext_</li>
+          <!-- Remington 870 Police FS Ext -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.075)</MainHand>
+        <SecHand>(0.120, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_FS_Ext_Folded_</li>
+          <!-- Remington 870 Police FS Ext (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.060)</MainHand>
+        <SecHand>(0.120, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_FS_Shorty_</li>
+          <!-- Remington 870 Police FS Shorty -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.075)</MainHand>
+        <SecHand>(0.120, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_FS_Shorty_Folded_</li>
+          <!-- Remington 870 Police FS Shorty (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.075)</MainHand>
+        <SecHand>(0.120, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_PG_</li>
+          <!-- Remington 870 Police PG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.075)</MainHand>
+        <SecHand>(0.120, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_PG_Ext_</li>
+          <!-- Remington 870 Police PG Ext -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.075)</MainHand>
+        <SecHand>(0.120, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_PG_Shorty_</li>
+          <!-- Remington 870 Police PG Shorty -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.030)</MainHand>
+        <SecHand>(0.120, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_SawedOff_</li>
+          <!-- Remington 870 Police Sawed-Off -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.015)</MainHand>
+        <SecHand>(0.120, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_Shorty_</li>
+          <!-- Remington 870 Police Shorty -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.015)</MainHand>
+        <SecHand>(0.120, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_Slug_</li>
+          <!-- Remington 870 Police Slug -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.015)</MainHand>
+        <SecHand>(0.155, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_Police_Stockless_</li>
+          <!-- Remington 870 Police Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.025)</MainHand>
+        <SecHand>(0.105, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_870_WitnessProtection_</li>
+          <!-- Remington 870 Witness Protection -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Rohm_RG10_</li>
+          <!-- Röhm RG-10 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.073, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Rohm_RG10_Stainless_</li>
+          <!-- Röhm RG-10 Stainless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Rohm_RG10S_</li>
+          <!-- Röhm RG-10S -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Rohm_RG14_</li>
+          <!-- Röhm RG-14 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Rohm_RG14_Snub_</li>
+          <!-- Röhm RG-14 Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.235, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RPB_M10_</li>
+          <!-- RPB M10 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, 0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RPB_M10_Folded_SD_</li>
+          <!-- RPB M10 (Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.005, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RPB_M10_Folded_</li>
+          <!-- RPB M10 (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.130, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RPB_M10_SD_</li>
+          <!-- RPB M10 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RPB_M10_Carbine_</li>
+          <!-- RPB M10 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.040)</MainHand>
+        <SecHand>(0.200, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_1022_</li>
+          <!-- Ruger 10/22 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.050)</MainHand>
+        <SecHand>(0.160, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_1022_Ext_SD_</li>
+          <!-- Ruger 10/22 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.040)</MainHand>
+        <SecHand>(0.200, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_1022_Ext_</li>
+          <!-- Ruger 10/22 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.050)</MainHand>
+        <SecHand>(0.160, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_1022_Scope_Ext_SD_</li>
+          <!-- Ruger 10/22 (Scope Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.040)</MainHand>
+        <SecHand>(0.200, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_1022_Scope_Ext_</li>
+          <!-- Ruger 10/22 (Scope Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.050)</MainHand>
+        <SecHand>(0.135, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_1022_Scope_SD_</li>
+          <!-- Ruger 10/22 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.040)</MainHand>
+        <SecHand>(0.200, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_1022_Scope_</li>
+          <!-- Ruger 10/22 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.050)</MainHand>
+        <SecHand>(0.125, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_1022_SD_</li>
+          <!-- Ruger 10/22 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.030)</MainHand>
+        <SecHand>(0.140, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_AC556_</li>
+          <!-- Ruger AC-556 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.065)</MainHand>
+        <SecHand>(0.050, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_AC556_SD_</li>
+          <!-- Ruger AC-556 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.030)</MainHand>
+        <SecHand>(0.140, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_AC556F_</li>
+          <!-- Ruger AC-556F -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.040)</MainHand>
+        <SecHand>(0.235, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_AC556K_</li>
+          <!-- Ruger AC-556K -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.040)</MainHand>
+        <SecHand>(0.235, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_AC556KF_</li>
+          <!-- Ruger AC-556KF -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.218, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_AC556F_SD_</li>
+          <!-- Ruger AC-556F (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.113, 0.100, -0.050)</MainHand>
+        <SecHand>(0.195, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_AC556K_SD_</li>
+          <!-- Ruger AC-556K (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.122, 0.100, -0.050)</MainHand>
+        <SecHand>(0.160, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_AC556KF_SD_</li>
+          <!-- Ruger AC-556KF (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.150, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GB_Ext_</li>
+          <!-- Ruger Mini-14 GB (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.150, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GB_Scope_Ext_</li>
+          <!-- Ruger Mini-14 GB (Scope Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.150, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GB_Scope_</li>
+          <!-- Ruger Mini-14 GB (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.150, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GBF_</li>
+          <!-- Ruger Mini-14 GB-F -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.150, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GBF_Ext_</li>
+          <!-- Ruger Mini-14 GB-F (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.150, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GBF_Scope_Ext_</li>
+          <!-- Ruger Mini-14 GB-F (Scope Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.150, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GBF_Scope_</li>
+          <!-- Ruger Mini-14 GB-F (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.150, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GB_</li>
+          <!-- Ruger Mini-14 GB -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.045)</MainHand>
+        <SecHand>(0.085, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GB_Ext_SD_</li>
+          <!-- Ruger Mini-14 GB (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.045)</MainHand>
+        <SecHand>(0.085, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GB_Scope_Ext_SD_</li>
+          <!-- Ruger Mini-14 GB (Scope Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.045)</MainHand>
+        <SecHand>(0.085, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GB_Scope_SD_</li>
+          <!-- Ruger Mini-14 GB (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.045)</MainHand>
+        <SecHand>(0.085, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GB_SD_</li>
+          <!-- Ruger Mini-14 GB (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.045)</MainHand>
+        <SecHand>(0.085, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GBF_Ext_SD_</li>
+          <!-- Ruger Mini-14 GB-F (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.045)</MainHand>
+        <SecHand>(0.085, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GBF_Scope_Ext_SD_</li>
+          <!-- Ruger Mini-14 GB-F (Scope Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.045)</MainHand>
+        <SecHand>(0.085, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GBF_Scope_SD_</li>
+          <!-- Ruger Mini-14 GB-F (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.045)</MainHand>
+        <SecHand>(0.085, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_Mini14_GBF_SD_</li>
+          <!-- Ruger Mini-14 GB-F (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_SecuritySix_</li>
+          <!-- Ruger Security Six -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_SecuritySix_Long_</li>
+          <!-- Ruger Security Six Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_SecuritySix_Nickel_</li>
+          <!-- Ruger Security Six Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_SecuritySix_Nickel_Long_</li>
+          <!-- Ruger Security Six Nickel Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_SecuritySix_Nickel_Snub_</li>
+          <!-- Ruger Security Six Nickel Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Ruger_SecuritySix_Snub_</li>
+          <!-- Ruger Security Six Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model10_HB_</li>
+          <!-- S&W Model 10 HB -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model10_HB_Long_</li>
+          <!-- S&W Model 10 HB Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model10_HB_Snub_</li>
+          <!-- S&W Model 10 HB Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model13_</li>
+          <!-- S&W Model 13 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model13_Long_</li>
+          <!-- S&W Model 13 Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model13_PC_</li>
+          <!-- S&W Model 13 PC -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model14_</li>
+          <!-- S&W Model 14 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model14_TM_</li>
+          <!-- S&W Model 14 TM -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model19_</li>
+          <!-- S&W Model 19 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model19_Long_</li>
+          <!-- S&W Model 19 Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model19_Snub_</li>
+          <!-- S&W Model 19 Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model21_</li>
+          <!-- S&W Model 21 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model28_</li>
+          <!-- S&W Model 28 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model36_</li>
+          <!-- S&W Model 36 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model36_Long_</li>
+          <!-- S&W Model 36 Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model36_Nickel_</li>
+          <!-- S&W Model 36 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model39_</li>
+          <!-- S&W Model 39 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model39_SD_</li>
+          <!-- S&W Model 39 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model439_SD_</li>
+          <!-- S&W Model 439 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model539_SD_</li>
+          <!-- S&W Model 539 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model42_</li>
+          <!-- S&W Model 42 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model439_</li>
+          <!-- S&W Model 439 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model49Bodyguard_</li>
+          <!-- S&W Model 49 Bodyguard -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model539_</li>
+          <!-- S&W Model 539 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model60_</li>
+          <!-- S&W Model 60 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model60_Classic_</li>
+          <!-- S&W Model 60 Classic -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model60_Classic_Wide_</li>
+          <!-- S&W Model 60 Classic Wide -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model60_Snub_</li>
+          <!-- S&W Model 60 Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model60_1_</li>
+          <!-- S&W Model 60-1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model60_1_Snub_</li>
+          <!-- S&W Model 60-1 Snub -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model60_1_Snub_Wide_</li>
+          <!-- S&W Model 60-1 Snub Wide -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model60_1_Wide_</li>
+          <!-- S&W Model 60-1 Wide -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model64_</li>
+          <!-- S&W Model 64 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model64_Short_</li>
+          <!-- S&W Model 64 Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model65_</li>
+          <!-- S&W Model 65 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model65_Short_</li>
+          <!-- S&W Model 65 Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model66_</li>
+          <!-- S&W Model 66 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model66_Long_</li>
+          <!-- S&W Model 66 Long -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model66_Short_</li>
+          <!-- S&W Model 66 Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model67_</li>
+          <!-- S&W Model 67 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model76_SawedOff_</li>
+          <!-- S&W Model 76 Sawed-Off -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sedco_SP22_</li>
+          <!-- Sedco SP-22 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sedco_SP22_SD_</li>
+          <!-- Sedco SP-22 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sedco_SP22_Stainless_SD_</li>
+          <!-- Sedco SP-22 Stainless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sedco_SP22_Stainless_</li>
+          <!-- Sedco SP-22 Stainless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.045)</MainHand>
+        <SecHand>(0.180, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Spitfire_Carbine_</li>
+          <!-- Spitfire Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.030, 0.100, -0.035)</MainHand>
+        <SecHand>(0.260, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Spitfire_SMG_</li>
+          <!-- Spitfire SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.030, 0.100, -0.035)</MainHand>
+        <SecHand>(0.260, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Spitfire_SMG_HB_</li>
+          <!-- Spitfire SMG HB -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Stallard_JS40_</li>
+          <!-- Stallard JS-40 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Stallard_JS9_</li>
+          <!-- Stallard JS-9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Star_ModelB_</li>
+          <!-- Star Model B -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Star_ModelB_Winnfield_</li>
+          <!-- Star Model B Winnfield -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Stallard_JS40_SD_</li>
+          <!-- Stallard JS-40 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Stallard_JS9_SD_</li>
+          <!-- Stallard JS-9 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Star_ModelB_SD_</li>
+          <!-- Star Model B (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Star_ModelB_Winnfield_SD_</li>
+          <!-- Star Model B Winnfield (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.030)</MainHand>
+        <SecHand>(0.040, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Stevens_Model77_</li>
+          <!-- Stevens Model 77 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.030)</MainHand>
+        <SecHand>(0.040, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Stevens_Model77_SawedOff_</li>
+          <!-- Stevens Model 77 Sawed-Off -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.045)</MainHand>
+        <SecHand>(0.200, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Stevens_Model77_Shorty_</li>
+          <!-- Stevens Model 77 Shorty -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.030)</MainHand>
+        <SecHand>(0.110, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Stevens_Model77_Stockless_</li>
+          <!-- Stevens Model 77 Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sundance_A25_</li>
+          <!-- Sundance A-25 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sundance_Boa25_</li>
+          <!-- Sundance Boa-25 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sundance_Laser25_</li>
+          <!-- Sundance Laser-25 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sundance_A25_SD_</li>
+          <!-- Sundance A-25 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sundance_Boa25_SD_</li>
+          <!-- Sundance Boa-25 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Sundance_Laser25_SD_</li>
+          <!-- Sundance Laser-25 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.060, 0.100, 0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_M11_9_</li>
+          <!-- SWD M11/9 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.025, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_M11_9_Folded_SD_</li>
+          <!-- SWD M11/9 (Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.005, 0.100, 0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_M11_9_Folded_</li>
+          <!-- SWD M11/9 (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.000, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_M11_9_SD_</li>
+          <!-- SWD M11/9 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.000, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_M11_9_BE_</li>
+          <!-- SWD M11/9 BE -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.000, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_M11_9_BE_Folded_</li>
+          <!-- SWD M11/9 BE (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_M11_9_Carbine_</li>
+          <!-- SWD M11/9 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.010, 0.100, 0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_M11_9_Stockless_</li>
+          <!-- SWD M11/9 Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.010, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_M11_9_Stockless_SD_</li>
+          <!-- SWD M11/9 Stockless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.010, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_M11_9_Stockless_BE_</li>
+          <!-- SWD M11/9 Stockless BE -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.055)</MainHand>
+        <SecHand>(0.245, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_StreetSweeper_</li>
+          <!-- SWD Street Sweeper -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.055)</MainHand>
+        <SecHand>(0.115, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_StreetSweeper_Folded_SD_</li>
+          <!-- SWD Street Sweeper (Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.090)</MainHand>
+        <SecHand>(0.155, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_StreetSweeper_Folded_</li>
+          <!-- SWD Street Sweeper (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.055)</MainHand>
+        <SecHand>(0.120, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_StreetSweeper_SD_</li>
+          <!-- SWD Street Sweeper (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.080)</MainHand>
+        <SecHand>(0.290, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_StreetSweeper_Short_</li>
+          <!-- SWD Street Sweeper Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.055)</MainHand>
+        <SecHand>(0.135, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_StreetSweeper_Short_Folded_SD_</li>
+          <!-- SWD Street Sweeper Short (Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.050)</MainHand>
+        <SecHand>(0.180, -0.100, -0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_StreetSweeper_Short_Folded_</li>
+          <!-- SWD Street Sweeper Short (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.055)</MainHand>
+        <SecHand>(0.130, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_StreetSweeper_Short_SD_</li>
+          <!-- SWD Street Sweeper Short (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.055)</MainHand>
+        <SecHand>(0.245, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_StreetSweeper_Short_Stockless_</li>
+          <!-- SWD Street Sweeper Short Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.055)</MainHand>
+        <SecHand>(0.125, -0.100, -0.065)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_StreetSweeper_Short_Stockless_SD_</li>
+          <!-- SWD Street Sweeper Short Stockless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.090)</MainHand>
+        <SecHand>(0.170, -0.100, -0.075)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_StreetSweeper_Stockless_</li>
+          <!-- SWD Street Sweeper Stockless -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.055)</MainHand>
+        <SecHand>(0.130, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SWD_StreetSweeper_Stockless_SD_</li>
+          <!-- SWD Street Sweeper Stockless (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.020)</MainHand>
+        <SecHand>(0.045, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Winchester_Model37_</li>
+          <!-- Winchester Model 37 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.030)</MainHand>
+        <SecHand>(0.095, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Winchester_Model88_</li>
+          <!-- Winchester Model 88 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Winchester_Model88_Scope_SD_</li>
+          <!-- Winchester Model 88 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.035)</MainHand>
+        <SecHand>(0.090, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Winchester_Model88_Scope_</li>
+          <!-- Winchester Model 88 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.105, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Winchester_Model88_SD_</li>
+          <!-- Winchester Model 88 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.045)</MainHand>
+        <SecHand>(0.145, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Winchester_Model88_Pre64_</li>
+          <!-- Winchester Model 88 Pre-64 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.030)</MainHand>
+        <SecHand>(0.105, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Winchester_Model88_Pre64_Scope_SD_</li>
+          <!-- Winchester Model 88 Pre-64 (Scope SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.040)</MainHand>
+        <SecHand>(0.135, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Winchester_Model88_Pre64_Scope_</li>
+          <!-- Winchester Model 88 Pre-64 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.060)</MainHand>
+        <SecHand>(0.015, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Winchester_Model88_Pre64_SD_</li>
+          <!-- Winchester Model 88 Pre-64 (SD) -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

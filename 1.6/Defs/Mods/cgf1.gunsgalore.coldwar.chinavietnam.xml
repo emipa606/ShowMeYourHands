@@ -1,0 +1,2234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="cgf1.gunsgalore.coldwar.chinavietnam">
+    <defName>ClutterHandsSettings_GunsGaloreColdWarChinaVietnam</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.070)</MainHand>
+        <SecHand>(0.070, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_66_136_LMG_</li>
+          <!-- 66-136 LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.075)</MainHand>
+        <SecHand>(0.070, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_66_136_Rifle_</li>
+          <!-- 66-136 Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.075)</MainHand>
+        <SecHand>(0.075, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_701_Rifle_</li>
+          <!-- 701 Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.119, 0.100, -0.050)</MainHand>
+        <SecHand>(0.125, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_701_Rifle_Bayonet_</li>
+          <!-- 701 Rifle (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.220, 0.100, -0.075)</MainHand>
+        <SecHand>(0.280, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_B40_RPG_</li>
+          <!-- B-40 RPG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.165, 0.100, -0.105)</MainHand>
+        <SecHand>(0.270, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_B50_RPG_</li>
+          <!-- B-50 RPG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.045)</MainHand>
+        <SecHand>(0.065, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_CaoThang_Mosqueton_</li>
+          <!-- Cao Thắng Mosqueton -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.286, 0.100, -0.050)</MainHand>
+        <SecHand>(0.105, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_CaoThang_Rifle_</li>
+          <!-- Cao Thắng Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.050)</MainHand>
+        <SecHand>(-0.015, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_Arisaka_Type38_</li>
+          <!-- Gǎizhuāng Arisaka Type 38 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.232, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_Arisaka_Type38_Carbine_</li>
+          <!-- Gǎizhuāng Arisaka Type 38 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.110)</MainHand>
+        <SecHand>(0.020, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_Bren_Mk2_</li>
+          <!-- Gǎizhuāng Bren Mk.2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.025, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_CarlGustaf_M45_</li>
+          <!-- Gǎizhuāng Carl Gustaf M/45 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.065)</MainHand>
+        <SecHand>(0.130, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_FN_ModelD_</li>
+          <!-- Gǎizhuāng FN Model D -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.273, 0.100, -0.050)</MainHand>
+        <SecHand>(0.060, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_M1918A2_BAR_</li>
+          <!-- Gǎizhuāng M1918A2 BAR -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.045)</MainHand>
+        <SecHand>(0.215, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_Sten_MkII_</li>
+          <!-- Gǎizhuāng Sten Mk.II -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.020, 0.100, 0.005)</MainHand>
+        <SecHand>(0.290, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_Thompson_M1921A_</li>
+          <!-- Gǎizhuāng Thompson M1921A -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.000, 0.100, 0.005)</MainHand>
+        <SecHand>(0.290, -0.100, 0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_Thompson_M1928A1_</li>
+          <!-- Gǎizhuāng Thompson M1928A1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.070)</MainHand>
+        <SecHand>(0.130, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_Type99_LMG_</li>
+          <!-- Gǎizhuāng Type 99 LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.253, 0.100, -0.050)</MainHand>
+        <SecHand>(0.135, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_Type_Zhongzheng_</li>
+          <!-- Gǎizhuāng Type Zhongzheng -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, 0.020)</MainHand>
+        <SecHand>(0.020, -0.100, 0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_Type_Zhongzheng_Bayonet_</li>
+          <!-- Gǎizhuāng Type Zhongzheng (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.080)</MainHand>
+        <SecHand>(0.120, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_ZB_vz26_</li>
+          <!-- Gǎizhuāng ZB vz.26 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.070)</MainHand>
+        <SecHand>(0.115, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_ZB_vz26_SideFeed_</li>
+          <!-- Gǎizhuāng ZB vz.26 Side-Feed -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.070)</MainHand>
+        <SecHand>(0.070, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gaizhuang_ZB_vz39_</li>
+          <!-- Gǎizhuāng ZB vz.39 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.055)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Infantry5_Rifle_</li>
+          <!-- Infantry-5 Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.168, 0.100, -0.050)</MainHand>
+        <SecHand>(0.095, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Infantry5_Rifle_Bayonet_</li>
+          <!-- Infantry-5 Rifle (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.070)</MainHand>
+        <SecHand>(0.140, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_K50M_</li>
+          <!-- K-50M -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.050)</MainHand>
+        <SecHand>(0.160, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_K50M_SD_</li>
+          <!-- K-50M (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.045)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MAT49_762_</li>
+          <!-- MAT-49 7.62 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, -0.055)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MAT49_762_FGF_</li>
+          <!-- MAT-49 7.62 (FGF) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.045)</MainHand>
+        <SecHand>(0.220, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MAT49_762_Folded_FGF_</li>
+          <!-- MAT-49 7.62 (Folded FGF) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MAT49_762_Folded_</li>
+          <!-- MAT-49 7.62 (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_CQ_</li>
+          <!-- Norinco CQ -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.182, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_CQ_SD_</li>
+          <!-- Norinco CQ (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.080)</MainHand>
+        <SecHand>(0.030, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_EM351_</li>
+          <!-- Norinco EM-351 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.020)</MainHand>
+        <SecHand>(0.090, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_EM351_Bayonet_</li>
+          <!-- Norinco EM-351 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, 0.000)</MainHand>
+        <SecHand>(0.115, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_EM351_SD_</li>
+          <!-- Norinco EM-351 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.065)</MainHand>
+        <SecHand>(0.040, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_EM352_</li>
+          <!-- Norinco EM-352 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.015)</MainHand>
+        <SecHand>(0.080, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_EM352_Bayonet_</li>
+          <!-- Norinco EM-352 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.010)</MainHand>
+        <SecHand>(0.160, -0.100, 0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_EM352_SD_</li>
+          <!-- Norinco EM-352 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.070)</MainHand>
+        <SecHand>(0.135, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_EM355_</li>
+          <!-- Norinco EM-355 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.020)</MainHand>
+        <SecHand>(0.175, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_EM355_Bayonet_</li>
+          <!-- Norinco EM-355 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.015)</MainHand>
+        <SecHand>(0.230, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_EM355_SD_</li>
+          <!-- Norinco EM-355 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.080)</MainHand>
+        <SecHand>(0.155, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_EM356_</li>
+          <!-- Norinco EM-356 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, 0.005)</MainHand>
+        <SecHand>(0.220, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_EM356_Bayonet_</li>
+          <!-- Norinco EM-356 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.020)</MainHand>
+        <SecHand>(0.190, -0.100, 0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_EM356_SD_</li>
+          <!-- Norinco EM-356 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.070, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_M320_Uzi_</li>
+          <!-- Norinco M320 Uzi -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.005, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_M320_Uzi_Folded_SD_</li>
+          <!-- Norinco M320 Uzi (Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.045, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_M320_Uzi_Folded_</li>
+          <!-- Norinco M320 Uzi (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.050, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_M320_Uzi_SD_</li>
+          <!-- Norinco M320 Uzi (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.040, 0.100, -0.005)</MainHand>
+        <SecHand>(0.190, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_MAK90_Bayonet_</li>
+          <!-- Norinco MAK-90 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.030)</MainHand>
+        <SecHand>(0.225, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_MAK90_Drum_Bayonet_</li>
+          <!-- Norinco MAK-90 (Drum Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.005)</MainHand>
+        <SecHand>(0.140, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_MAK90_Drum_SD_</li>
+          <!-- Norinco MAK-90 (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.045)</MainHand>
+        <SecHand>(0.255, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_MAK90_Drum_</li>
+          <!-- Norinco MAK-90 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, 0.010)</MainHand>
+        <SecHand>(0.210, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_MAK90_Ext_Bayonet_</li>
+          <!-- Norinco MAK-90 (Ext Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.020)</MainHand>
+        <SecHand>(0.305, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_MAK90_Ext_SD_</li>
+          <!-- Norinco MAK-90 (Ext SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.015)</MainHand>
+        <SecHand>(0.185, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_MAK90_Ext_</li>
+          <!-- Norinco MAK-90 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.035)</MainHand>
+        <SecHand>(0.195, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_MAK90_</li>
+          <!-- Norinco MAK-90 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.035, 0.100, -0.010)</MainHand>
+        <SecHand>(0.255, -0.100, 0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_MAK90_SD_</li>
+          <!-- Norinco MAK-90 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.025)</MainHand>
+        <SecHand>(0.085, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_MAK91_</li>
+          <!-- Norinco MAK-91 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.065)</MainHand>
+        <SecHand>(0.180, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_SKS_Para_Sporter_</li>
+          <!-- Norinco SKS Para Sporter -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.025)</MainHand>
+        <SecHand>(0.185, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_SKS_Para_Sporter_SD_</li>
+          <!-- Norinco SKS Para Sporter (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.055)</MainHand>
+        <SecHand>(0.085, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_SKS_Sporter_</li>
+          <!-- Norinco SKS Sporter -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.010)</MainHand>
+        <SecHand>(0.125, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_SKS_Sporter_SD_</li>
+          <!-- Norinco SKS Sporter (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.055, 0.100, -0.045)</MainHand>
+        <SecHand>(0.230, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_Type86S_</li>
+          <!-- Norinco Type 86S -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.075, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_Type86S_Bayonet_</li>
+          <!-- Norinco Type 86S (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.075, 0.100, -0.020)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_Type86S_SD_</li>
+          <!-- Norinco Type 86S (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.060)</MainHand>
+        <SecHand>(0.140, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_Type88S_</li>
+          <!-- Norinco Type 88S -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.060)</MainHand>
+        <SecHand>(0.160, -0.100, 0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_Type88S_1_</li>
+          <!-- Norinco Type 88S-1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.045)</MainHand>
+        <SecHand>(0.180, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_Type88S_2_</li>
+          <!-- Norinco Type 88S-2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.045)</MainHand>
+        <SecHand>(0.160, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Norinco_Type88S_3_</li>
+          <!-- Norinco Type 88S-3 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.040)</MainHand>
+        <SecHand>(0.055, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_TUL1_LMG_</li>
+          <!-- TUL-1 LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.035)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type50_SMG_</li>
+          <!-- Type 50 SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.120)</MainHand>
+        <SecHand>(-0.025, -0.100, -0.090)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type51_Bazooka_</li>
+          <!-- Type 51 Bazooka -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type51_Pistol_</li>
+          <!-- Type 51 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type51_Pistol_SD_</li>
+          <!-- Type 51 Pistol (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type52_Pistol_</li>
+          <!-- Type 52 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type52_Pistol_SD_</li>
+          <!-- Type 52 Pistol (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.080)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type53_LMG_</li>
+          <!-- Type 53 LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.181, 0.100, -0.050)</MainHand>
+        <SecHand>(0.160, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type53_Mosin_</li>
+          <!-- Type 53 Mosin -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.071, 0.100, -0.050)</MainHand>
+        <SecHand>(0.190, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type53_Mosin_Bayonet_</li>
+          <!-- Type 53 Mosin (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.069, 0.100, -0.050)</MainHand>
+        <SecHand>(0.195, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type53_Mosin_SD_</li>
+          <!-- Type 53 Mosin (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.169, 0.100, -0.050)</MainHand>
+        <SecHand>(0.080, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type53_Mosin_BSTG_</li>
+          <!-- Type 53 Mosin BSTG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.251, 0.100, -0.050)</MainHand>
+        <SecHand>(0.085, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type53_Sniper_</li>
+          <!-- Type 53 Sniper -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, 0.025)</MainHand>
+        <SecHand>(0.125, -0.100, 0.065)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type53_Sniper_Bayonet_</li>
+          <!-- Type 53 Sniper (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, 0.025)</MainHand>
+        <SecHand>(0.125, -0.100, 0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type53_Sniper_PU_Bayonet_</li>
+          <!-- Type 53 Sniper (PU Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.253, 0.100, -0.050)</MainHand>
+        <SecHand>(0.095, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type53_Sniper_PU_</li>
+          <!-- Type 53 Sniper (PU) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.286, 0.100, -0.050)</MainHand>
+        <SecHand>(0.005, -0.100, -0.075)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type54_HMG_</li>
+          <!-- Type 54 HMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type54_Pistol_</li>
+          <!-- Type 54 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type54_Pistol_SD_</li>
+          <!-- Type 54 Pistol (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type54_Pistol_Nickel_</li>
+          <!-- Type 54 Pistol Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type54_Pistol_Nickel_SD_</li>
+          <!-- Type 54 Pistol Nickel (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.255, 0.100, 0.085)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type54_Pistol_Nickel_Stock_</li>
+          <!-- Type 54 Pistol Nickel Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.255, 0.100, 0.085)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type54_Pistol_Stock_</li>
+          <!-- Type 54 Pistol Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.040)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type54_SMG_</li>
+          <!-- Type 54 SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type54_SMG_Folded_</li>
+          <!-- Type 54 SMG (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.080)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_</li>
+          <!-- Type 56 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.124, 0.100, -0.050)</MainHand>
+        <SecHand>(0.195, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_Bayonet_</li>
+          <!-- Type 56 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.124, 0.100, -0.050)</MainHand>
+        <SecHand>(0.195, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_Drum_Bayonet_</li>
+          <!-- Type 56 (Drum Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.112, 0.100, -0.050)</MainHand>
+        <SecHand>(0.185, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_Drum_SD_</li>
+          <!-- Type 56 (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.060)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_Drum_</li>
+          <!-- Type 56 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.050)</MainHand>
+        <SecHand>(0.120, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_PU_Bayonet_</li>
+          <!-- Type 56 (PU Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.112, 0.100, -0.050)</MainHand>
+        <SecHand>(0.185, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_PU_SD_</li>
+          <!-- Type 56 (PU SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.040)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_PU_</li>
+          <!-- Type 56 (PU) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.112, 0.100, -0.050)</MainHand>
+        <SecHand>(0.175, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_SD_</li>
+          <!-- Type 56 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.263, 0.100, -0.050)</MainHand>
+        <SecHand>(0.135, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_LMG_</li>
+          <!-- Type 56 LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.085)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_QLG91_</li>
+          <!-- Type 56 QLG-91 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.010)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_QLG91_SD_</li>
+          <!-- Type 56 QLG-91 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.135, 0.100, -0.095)</MainHand>
+        <SecHand>(0.275, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_RPG_</li>
+          <!-- Type 56 RPG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.070)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_SKS_</li>
+          <!-- Type 56 SKS -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.050)</MainHand>
+        <SecHand>(0.240, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_SKS_Bayonet_</li>
+          <!-- Type 56 SKS (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.138, 0.100, -0.050)</MainHand>
+        <SecHand>(0.210, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_SKS_SD_</li>
+          <!-- Type 56 SKS (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.214, 0.100, -0.050)</MainHand>
+        <SecHand>(0.145, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_SKS_Para_</li>
+          <!-- Type 56 SKS Para -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.076, 0.100, -0.050)</MainHand>
+        <SecHand>(0.225, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_SKS_Para_Bayonet_</li>
+          <!-- Type 56 SKS Para (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.079, 0.100, -0.050)</MainHand>
+        <SecHand>(0.235, -0.100, 0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_SKS_Para_SD_</li>
+          <!-- Type 56 SKS Para (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.050)</MainHand>
+        <SecHand>(0.185, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_SKS_D_</li>
+          <!-- Type 56 SKS-D -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.030)</MainHand>
+        <SecHand>(0.175, -0.100, 0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_SKS_D_Bayonet_</li>
+          <!-- Type 56 SKS-D (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, 0.000)</MainHand>
+        <SecHand>(0.205, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_SKS_D_SD_</li>
+          <!-- Type 56 SKS-D (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.035)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_1_</li>
+          <!-- Type 56-1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.030)</MainHand>
+        <SecHand>(0.200, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_1_Bayonet_</li>
+          <!-- Type 56-1 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.050)</MainHand>
+        <SecHand>(0.175, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_1_Drum_Bayonet_</li>
+          <!-- Type 56-1 (Drum Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.097, 0.100, -0.050)</MainHand>
+        <SecHand>(0.195, -0.100, 0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_1_Drum_SD_</li>
+          <!-- Type 56-1 (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.050)</MainHand>
+        <SecHand>(0.225, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_1_Drum_</li>
+          <!-- Type 56-1 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.099, 0.100, -0.050)</MainHand>
+        <SecHand>(0.150, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_1_PU_Bayonet_</li>
+          <!-- Type 56-1 (PU Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.094, 0.100, -0.050)</MainHand>
+        <SecHand>(0.175, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_1_PU_SD_</li>
+          <!-- Type 56-1 (PU SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.060)</MainHand>
+        <SecHand>(0.160, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_1_PU_</li>
+          <!-- Type 56-1 (PU) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.097, 0.100, -0.050)</MainHand>
+        <SecHand>(0.220, -0.100, 0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_1_SD_</li>
+          <!-- Type 56-1 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_1_QLG91_</li>
+          <!-- Type 56-1 QLG-91 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.094, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_1_QLG91_SD_</li>
+          <!-- Type 56-1 QLG-91 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.085)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_2_</li>
+          <!-- Type 56-2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.118, 0.100, -0.050)</MainHand>
+        <SecHand>(0.125, -0.100, 0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_2_Bayonet_</li>
+          <!-- Type 56-2 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.118, 0.100, -0.050)</MainHand>
+        <SecHand>(0.225, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_2_Drum_Bayonet_</li>
+          <!-- Type 56-2 (Drum Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.050)</MainHand>
+        <SecHand>(0.170, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_2_Drum_SD_</li>
+          <!-- Type 56-2 (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.080)</MainHand>
+        <SecHand>(0.230, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_2_Drum_</li>
+          <!-- Type 56-2 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.030)</MainHand>
+        <SecHand>(0.225, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_2_SD_</li>
+          <!-- Type 56-2 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.070)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_2_QLG91_</li>
+          <!-- Type 56-2 QLG-91 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, 0.000)</MainHand>
+        <SecHand>(0.240, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56_2_QLG91_SD_</li>
+          <!-- Type 56-2 QLG-91 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.060)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56C_</li>
+          <!-- Type 56C -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.030, 0.100, -0.040)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56C_SD_</li>
+          <!-- Type 56C (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.145, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type56M_LMG_</li>
+          <!-- Type 56M LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.271, 0.100, -0.050)</MainHand>
+        <SecHand>(0.000, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type58_LMG_</li>
+          <!-- Type 58 LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type59_Pistol_</li>
+          <!-- Type 59 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type59_Pistol_SD_</li>
+          <!-- Type 59 Pistol (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, 0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type59_Pistol_Nickel_</li>
+          <!-- Type 59 Pistol Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type59_Pistol_Nickel_SD_</li>
+          <!-- Type 59 Pistol Nickel (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, 0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type59_Pistol_RTT_</li>
+          <!-- Type 59 Pistol RTT -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type59_Pistol_RTT_SD_</li>
+          <!-- Type 59 Pistol RTT (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type59_Pistol_TT_</li>
+          <!-- Type 59 Pistol TT -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type59_Pistol_TT_SD_</li>
+          <!-- Type 59 Pistol TT (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.279, 0.100, -0.050)</MainHand>
+        <SecHand>(0.075, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type60_Sniper_</li>
+          <!-- Type 60 Sniper -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, 0.020)</MainHand>
+        <SecHand>(0.115, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type60_Sniper_PU_SD_</li>
+          <!-- Type 60 Sniper (PU SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.279, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type60_Sniper_PU_</li>
+          <!-- Type 60 Sniper (PU) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.157, 0.100, -0.050)</MainHand>
+        <SecHand>(0.110, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type60_Sniper_SD_</li>
+          <!-- Type 60 Sniper (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.060)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type63_</li>
+          <!-- Type 63 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.128, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type63_Bayonet_</li>
+          <!-- Type 63 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.128, 0.100, -0.050)</MainHand>
+        <SecHand>(0.135, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type63_Ext_Bayonet_</li>
+          <!-- Type 63 (Ext Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.065)</MainHand>
+        <SecHand>(0.165, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type63_Ext_</li>
+          <!-- Type 63 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.045)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type63_1_</li>
+          <!-- Type 63-1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.107, 0.100, -0.050)</MainHand>
+        <SecHand>(0.125, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type63_1_Bayonet_</li>
+          <!-- Type 63-1 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.107, 0.100, -0.050)</MainHand>
+        <SecHand>(0.160, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type63_1_Ext_Bayonet_</li>
+          <!-- Type 63-1 (Ext Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.045)</MainHand>
+        <SecHand>(0.135, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type63_1_Ext_</li>
+          <!-- Type 63-1 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.055)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type63C_</li>
+          <!-- Type 63C -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type63C_Ext_</li>
+          <!-- Type 63C (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type63C_1_</li>
+          <!-- Type 63C-1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.040)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type63C_1_Ext_</li>
+          <!-- Type 63C-1 (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type64_Pistol_</li>
+          <!-- Type 64 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type64_Pistol_SD_</li>
+          <!-- Type 64 Pistol (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.030)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type64_SilencedPistol_</li>
+          <!-- Type 64 Silenced Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.045)</MainHand>
+        <SecHand>(0.200, -0.100, 0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type64_SilencedSMG_</li>
+          <!-- Type 64 Silenced SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.060, 0.100, 0.095)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type67_Grenade_</li>
+          <!-- Type 67 Frag Grenade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.286, 0.100, -0.050)</MainHand>
+        <SecHand>(0.085, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type67_GPMG_</li>
+          <!-- Type 67 GPMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type67_SilencedPistol_</li>
+          <!-- Type 67 Silenced Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.070)</MainHand>
+        <SecHand>(0.085, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type67_1_GPMG_</li>
+          <!-- Type 67-1 GPMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.085)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type69_</li>
+          <!-- Type 69 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.194, 0.100, -0.050)</MainHand>
+        <SecHand>(0.070, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type69_SD_</li>
+          <!-- Type 69 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.140, 0.100, -0.040)</MainHand>
+        <SecHand>(0.285, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type69_RPG_</li>
+          <!-- Type 69 RPG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.065, 0.100, -0.085)</MainHand>
+        <SecHand>(0.245, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type70_RocketLauncher_</li>
+          <!-- Type 70 Rocket Launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.060, 0.100, 0.105)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type73_Grenade_</li>
+          <!-- Type 73 Frag Grenade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.267, 0.100, -0.050)</MainHand>
+        <SecHand>(0.080, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type74_LMG_</li>
+          <!-- Type 74 LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.125, 0.100, 0.135)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type77_Grenade_</li>
+          <!-- Type 77 Frag Grenade -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.296, 0.100, -0.050)</MainHand>
+        <SecHand>(0.055, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type77_HMG_</li>
+          <!-- Type 77 HMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type77_Pistol_</li>
+          <!-- Type 77 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type77_Pistol_SD_</li>
+          <!-- Type 77 Pistol (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type77_1_Pistol_</li>
+          <!-- Type 77-1 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type77_1_Pistol_SD_</li>
+          <!-- Type 77-1 Pistol (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.085)</MainHand>
+        <SecHand>(0.135, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79_MiniRocketLauncher_</li>
+          <!-- Type 79 Mini Rocket Launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.045)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79_ProposalA_</li>
+          <!-- Type 79 Proposal A -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.040)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79_ProposalB_</li>
+          <!-- Type 79 Proposal B -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.075)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79_ProposalC_</li>
+          <!-- Type 79 Proposal C -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.035)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79_SMG_</li>
+          <!-- Type 79 SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.025)</MainHand>
+        <SecHand>(0.155, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79_SMG_Folded_SD_</li>
+          <!-- Type 79 SMG (Folded SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.055)</MainHand>
+        <SecHand>(0.070, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79_SMG_Folded_</li>
+          <!-- Type 79 SMG (Folded) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.045, 0.100, -0.015)</MainHand>
+        <SecHand>(0.130, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79_SMG_SD_</li>
+          <!-- Type 79 SMG (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.055)</MainHand>
+        <SecHand>(0.060, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79_Sniper_</li>
+          <!-- Type 79 Sniper -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.010)</MainHand>
+        <SecHand>(0.105, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79_Sniper_Bayonet_</li>
+          <!-- Type 79 Sniper (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, 0.010)</MainHand>
+        <SecHand>(0.110, -0.100, 0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79_Sniper_SD_</li>
+          <!-- Type 79 Sniper (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.025, 0.100, -0.065)</MainHand>
+        <SecHand>(0.205, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79SA_SMG_</li>
+          <!-- Type 79SA SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.045)</MainHand>
+        <SecHand>(0.115, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79SA_SMG_SD_</li>
+          <!-- Type 79SA SMG (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.015)</MainHand>
+        <SecHand>(0.200, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79SB_SMG_</li>
+          <!-- Type 79SB SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.020)</MainHand>
+        <SecHand>(0.145, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type79SB_SMG_SD_</li>
+          <!-- Type 79SB SMG (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.120)</MainHand>
+        <SecHand>(0.115, -0.100, -0.085)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type80_GPMG_</li>
+          <!-- Type 80 GPMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.065)</MainHand>
+        <SecHand>(0.110, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type80_GPMG_Scope_</li>
+          <!-- Type 80 GPMG (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type80_Knife</li>
+          <!-- Type 80 Knife -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type80_Pistol_</li>
+          <!-- Type 80 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type80_Pistol_Ext_</li>
+          <!-- Type 80 Pistol (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.100, 0.100, 0.020)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type80_Pistol_Stock_</li>
+          <!-- Type 80 Pistol Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.125, 0.100, 0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type80_Pistol_Stock_Ext_</li>
+          <!-- Type 80 Pistol Stock (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.155, 0.100, 0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type80_Pistol_WoodStock_</li>
+          <!-- Type 80 Pistol Wood Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.150, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type80_Pistol_WoodStock_Ext_</li>
+          <!-- Type 80 Pistol Wood Stock (Ext) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_</li>
+          <!-- Type 81 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.020)</MainHand>
+        <SecHand>(0.175, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_Bayonet_</li>
+          <!-- Type 81 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.030)</MainHand>
+        <SecHand>(0.170, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_Drum_Bayonet_</li>
+          <!-- Type 81 (Drum Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.025)</MainHand>
+        <SecHand>(0.240, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_Drum_SD_</li>
+          <!-- Type 81 (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.070)</MainHand>
+        <SecHand>(0.180, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_Drum_</li>
+          <!-- Type 81 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.025)</MainHand>
+        <SecHand>(0.200, -0.100, 0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_SD_</li>
+          <!-- Type 81 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.040)</MainHand>
+        <SecHand>(0.215, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_LMG_</li>
+          <!-- Type 81 LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.060)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_LMG_Drum_</li>
+          <!-- Type 81 LMG (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_Pistol_</li>
+          <!-- Type 81 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.070)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_1_</li>
+          <!-- Type 81-1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.124, 0.100, -0.050)</MainHand>
+        <SecHand>(0.155, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_1_Bayonet_</li>
+          <!-- Type 81-1 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.124, 0.100, -0.050)</MainHand>
+        <SecHand>(0.205, -0.100, 0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_1_Drum_Bayonet_</li>
+          <!-- Type 81-1 (Drum Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.134, 0.100, -0.050)</MainHand>
+        <SecHand>(0.140, -0.100, 0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_1_Drum_SD_</li>
+          <!-- Type 81-1 (Drum SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.251, 0.100, -0.050)</MainHand>
+        <SecHand>(0.180, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_1_Drum_</li>
+          <!-- Type 81-1 (Drum) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.020)</MainHand>
+        <SecHand>(0.145, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81_1_SD_</li>
+          <!-- Type 81-1 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.075)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81P_</li>
+          <!-- Type 81P -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81P_1_</li>
+          <!-- Type 81P-1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type81P_2_</li>
+          <!-- Type 81P-2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type82_SMG_</li>
+          <!-- Type 82 SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.080)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type84_</li>
+          <!-- Type 84 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.050)</MainHand>
+        <SecHand>(0.175, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type84_Bayonet_</li>
+          <!-- Type 84 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.112, 0.100, -0.050)</MainHand>
+        <SecHand>(0.185, -0.100, 0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type84_SD_</li>
+          <!-- Type 84 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type84_Pistol_</li>
+          <!-- Type 84 Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type84_Pistol_SD_</li>
+          <!-- Type 84 Pistol (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.055)</MainHand>
+        <SecHand>(0.170, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type84_1_</li>
+          <!-- Type 84-1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.096, 0.100, -0.050)</MainHand>
+        <SecHand>(0.160, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type84_1_Bayonet_</li>
+          <!-- Type 84-1 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.097, 0.100, -0.050)</MainHand>
+        <SecHand>(0.225, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type84_1_SD_</li>
+          <!-- Type 84-1 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.065)</MainHand>
+        <SecHand>(0.205, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type84_2_</li>
+          <!-- Type 84-2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.113, 0.100, -0.050)</MainHand>
+        <SecHand>(0.190, -0.100, 0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type84_2_Bayonet_</li>
+          <!-- Type 84-2 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type84_2_SD_</li>
+          <!-- Type 84-2 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.405, 0.100, -0.090)</MainHand>
+        <SecHand>(-0.110, -0.100, -0.075)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type85_HMG_</li>
+          <!-- Type 85 HMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.075)</MainHand>
+        <SecHand>(0.085, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type85_SilencedSMG_</li>
+          <!-- Type 85 Silenced SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.085)</MainHand>
+        <SecHand>(0.205, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type85_SMG_</li>
+          <!-- Type 85 SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.040, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type85_SMG_SD_</li>
+          <!-- Type 85 SMG (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.075, 0.100, -0.055)</MainHand>
+        <SecHand>(0.260, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type86_</li>
+          <!-- Type 86 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.045, 0.100, -0.035)</MainHand>
+        <SecHand>(0.210, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type86_Bayonet_</li>
+          <!-- Type 86 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.055, 0.100, -0.055)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type86_SD_</li>
+          <!-- Type 86 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.090)</MainHand>
+        <SecHand>(0.085, -0.100, -0.115)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type86_WTC1_</li>
+          <!-- Type 86 WTC1 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.095)</MainHand>
+        <SecHand>(0.090, -0.100, -0.095)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type86_WTC2_</li>
+          <!-- Type 86 WTC2 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.065)</MainHand>
+        <SecHand>(0.100, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type87_</li>
+          <!-- Type 87 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.105, 0.100, -0.030)</MainHand>
+        <SecHand>(0.160, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type87_SD_</li>
+          <!-- Type 87 (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.075)</MainHand>
+        <SecHand>(0.165, -0.100, -0.065)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type87_LMG_</li>
+          <!-- Type 87 LMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.168, 0.100, -0.050)</MainHand>
+        <SecHand>(0.135, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type87_LMG_SD_</li>
+          <!-- Type 87 LMG (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.080)</MainHand>
+        <SecHand>(0.170, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type87A_</li>
+          <!-- Type 87A -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.120, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type87A_SD_</li>
+          <!-- Type 87A (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.050)</MainHand>
+        <SecHand>(0.100, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type87A_Marksman_SD_</li>
+          <!-- Type 87A (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.090)</MainHand>
+        <SecHand>(0.145, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type87A_Marksman_</li>
+          <!-- Type 87A Marksman -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.060, 0.100, -0.070)</MainHand>
+        <SecHand>(0.235, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_A_</li>
+          <!-- Type 95 Proposal A -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.095, 0.100, -0.035)</MainHand>
+        <SecHand>(0.230, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_A_SD_</li>
+          <!-- Type 95 Proposal A (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.045, 0.100, -0.105)</MainHand>
+        <SecHand>(0.180, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_B_</li>
+          <!-- Type 95 Proposal B -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.060, 0.100, -0.040)</MainHand>
+        <SecHand>(0.205, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_B_SD_</li>
+          <!-- Type 95 Proposal B (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.005, 0.100, -0.070)</MainHand>
+        <SecHand>(0.210, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_C_</li>
+          <!-- Type 95 Proposal C -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.035, 0.100, -0.010)</MainHand>
+        <SecHand>(0.220, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_C_SD_</li>
+          <!-- Type 95 Proposal C (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.055, 0.100, -0.065)</MainHand>
+        <SecHand>(0.270, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_D_</li>
+          <!-- Type 95 Proposal D -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.095, 0.100, -0.045)</MainHand>
+        <SecHand>(0.205, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_D_SD_</li>
+          <!-- Type 95 Proposal D (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.100, 0.100, -0.070)</MainHand>
+        <SecHand>(0.290, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_E_</li>
+          <!-- Type 95 Proposal E -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.075, 0.100, -0.040)</MainHand>
+        <SecHand>(0.205, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_E_SD_</li>
+          <!-- Type 95 Proposal E (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.145, 0.100, -0.095)</MainHand>
+        <SecHand>(0.335, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_F_</li>
+          <!-- Type 95 Proposal F -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.105, 0.100, -0.045)</MainHand>
+        <SecHand>(0.220, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_F_SD_</li>
+          <!-- Type 95 Proposal F (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.040, 0.100, -0.055)</MainHand>
+        <SecHand>(0.250, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_G_</li>
+          <!-- Type 95 Proposal G -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.070, 0.100, -0.045)</MainHand>
+        <SecHand>(0.250, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_G_SD_</li>
+          <!-- Type 95 Proposal G (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.020, 0.100, -0.060)</MainHand>
+        <SecHand>(0.245, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_H_</li>
+          <!-- Type 95 Proposal H -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.045, 0.100, -0.030)</MainHand>
+        <SecHand>(0.225, -0.100, 0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_H_SD_</li>
+          <!-- Type 95 Proposal H (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.080, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_I_</li>
+          <!-- Type 95 Proposal I -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.040)</MainHand>
+        <SecHand>(0.175, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Type95_Proposal_I_SD_</li>
+          <!-- Type 95 Proposal I (SD) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.060)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_VC_Handmade_BoltCarbine_</li>
+          <!-- VC Handmade Bolt Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.095, 0.100, -0.045)</MainHand>
+        <SecHand>(0.290, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_VC_Handmade_BoltShotgun_</li>
+          <!-- VC Handmade Bolt Shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.010)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_VC_Handmade_Broomhandle_</li>
+          <!-- VC Handmade Broomhandle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_VC_Handmade_Pistol_</li>
+          <!-- VC Handmade Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.055, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_VC_Handmade_Pistol_Luger_</li>
+          <!-- VC Handmade Pistol Luger -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.040)</MainHand>
+        <SecHand>(0.130, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_VC_Handmade_SlamRifle_</li>
+          <!-- VC Handmade Slam Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.060)</MainHand>
+        <SecHand>(0.185, -0.100, -0.080)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_VC_Handmade_SMG_</li>
+          <!-- VC Handmade SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.005, 0.100, -0.040)</MainHand>
+        <SecHand>(0.285, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_VC_Handmade_Thompson_Carbine_</li>
+          <!-- VC Handmade Thompson Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.000, 0.100, -0.020)</MainHand>
+        <SecHand>(0.235, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_VC_Handmade_Thompson_SMG_</li>
+          <!-- VC Handmade Thompson SMG -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.065)</MainHand>
+        <SecHand>(0.140, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_VC_SVT40_Conversion_</li>
+          <!-- VC SVT-40 Conversion -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Xiangying_Type38_M46_</li>
+          <!-- Xiangying Type 38 M46 -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

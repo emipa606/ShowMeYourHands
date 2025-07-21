@@ -1,15 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <OutputPath>..\..\1.4\Assemblies</OutputPath>
-    <TargetFramework>net48</TargetFramework>
+    <OutputPath>..\..\1.5\Assemblies</OutputPath>
+    <TargetFramework>net481</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <DebugType>None</DebugType>
     <LangVersion>latest</LangVersion>
-    <FileVersion>1.4.16</FileVersion>
+    <FileVersion>1.5.14</FileVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="ColorMine" Version="*" />
     <PackageReference Include="Krafs.Rimworld.Ref">
       <Version>*</Version>
       <ExcludeAssets>runtime</ExcludeAssets>
@@ -20,12 +20,13 @@
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
     <PackageReference Include="Mlie_Rimworld_VersionFromManifest" Version="*" />
-    <PackageReference Include="Krafs.Publicizer" Version="*">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Publicize Include="Assembly-CSharp" />
+    <Reference Include="ColorMine">
+      <HintPath>..\ColorMine.dll</HintPath>
+    </Reference>
+    <Reference Include="BigAndSmallFramework">
+	    <HintPath>..\..\..\..\..\..\workshop\content\294100\2925432336\1.5\Main\Assemblies\BetterPrerequisites.dll</HintPath>
+	    <CopyLocal>False</CopyLocal>
+	    <Private>false</Private>
+    </Reference>
   </ItemGroup>
 </Project>
