@@ -66,4 +66,6 @@
   <SMYH.rotate>Verwenden Sie das Scrollrad, um die Zeiger zu drehen, halten Sie SHIFT für eine schnellere Drehung</SMYH.rotate>
   <SMYH.showcrawling.label>Hände zeigen beim Krabbeln</SMYH.showcrawling.label>
   <SMYH.showcrawling.tooltip>Zeigt die Hände, wenn der Bauer niedergeschlagen ist und krabbelt</SMYH.showcrawling.tooltip>
+  <SMYH.style.label>Stil:</SMYH.style.label>
+  <SMYH.styledefault.label>Standard</SMYH.styledefault.label>
 </LanguageData>

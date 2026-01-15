@@ -12,7 +12,6 @@ namespace ShowMeYourHands;
 [StaticConstructorOnStartup]
 public class HandDrawer : ThingComp
 {
-    private Color handColor;
     private Mesh handMesh;
     public Vector3 ItemHeldLocation;
     private int LastDrawn;
@@ -30,35 +29,35 @@ public class HandDrawer : ThingComp
                 return Color.white;
             }
 
-            if (!pawn.IsHashIntervalTick(100) && handColor != default)
+            if (!pawn.IsHashIntervalTick(100) && field != default)
             {
-                return handColor;
+                return field;
             }
 
-            handColor = getHandColor(pawn, out var hasGloves, out var secondColor);
+            field = getHandColor(pawn, out var hasGloves, out var secondColor);
             if (!ShowMeYourHandsMain.mainHandGraphics.ContainsKey(pawn) ||
-                ShowMeYourHandsMain.mainHandGraphics[pawn].color != handColor)
+                ShowMeYourHandsMain.mainHandGraphics[pawn].color != field)
             {
                 if (hasGloves)
                 {
                     ShowMeYourHandsMain.mainHandGraphics[pawn] = GraphicDatabase.Get<Graphic_Single>("HandClean",
                         ShaderDatabase.Cutout,
                         new Vector2(1f, 1f),
-                        handColor, handColor);
+                        field, field);
                 }
                 else
                 {
                     ShowMeYourHandsMain.mainHandGraphics[pawn] = GraphicDatabase.Get<Graphic_Single>("Hand",
                         ShaderDatabase.Cutout,
                         new Vector2(1f, 1f),
-                        handColor, handColor);
+                        field, field);
                 }
             }
 
             if (ShowMeYourHandsMain.offHandGraphics.ContainsKey(pawn) &&
-                ShowMeYourHandsMain.offHandGraphics[pawn].color == handColor)
+                ShowMeYourHandsMain.offHandGraphics[pawn].color == field)
             {
-                return handColor;
+                return field;
             }
 
             if (hasGloves)
@@ -66,7 +65,7 @@ public class HandDrawer : ThingComp
                 ShowMeYourHandsMain.offHandGraphics[pawn] = GraphicDatabase.Get<Graphic_Single>("OffHandClean",
                     ShaderDatabase.Cutout,
                     new Vector2(1f, 1f),
-                    handColor, handColor);
+                    field, field);
             }
             else
             {
@@ -82,11 +81,11 @@ public class HandDrawer : ThingComp
                     ShowMeYourHandsMain.offHandGraphics[pawn] = GraphicDatabase.Get<Graphic_Single>("OffHand",
                         ShaderDatabase.Cutout,
                         new Vector2(1f, 1f),
-                        handColor, handColor);
+                        field, field);
                 }
             }
 
-            return handColor;
+            return field;
         }
     }
 
@@ -217,7 +216,7 @@ public class HandDrawer : ThingComp
         var offSingle = offHandTex.MatSingle;
         var heightOffset = new Vector3(0, 0, 0.7f * ShowMeYourHandsMain.pawnBodySizes[pawn] / 2);
         var sideOffset = new Vector3(0.2f, 0, 0);
-        var layerOffset = new Vector3(0, 0.0001f, 0);
+        var layerOffset = new Vector3(0, 0.1f, 0);
 
         var basePosition = pawn.DrawPos - heightOffset;
         if (pawn.Crawling)
@@ -250,6 +249,13 @@ public class HandDrawer : ThingComp
             {
                 basePosition -= heightOffset;
                 basePosition += new Vector3(0, 0, offset);
+            }
+        }
+        else
+        {
+            if (pawn.Downed)
+            {
+                return;
             }
         }
 
@@ -696,7 +702,7 @@ public class HandDrawer : ThingComp
         drawHandsAllTheTime(pawn);
     }
 
-    private Color getHandColor(Pawn pawn, out bool hasGloves, out Color secondColor)
+    private static Color getHandColor(Pawn pawn, out bool hasGloves, out Color secondColor)
     {
         hasGloves = false;
         secondColor = default;
@@ -744,17 +750,7 @@ public class HandDrawer : ThingComp
                 secondColor = ShowMeYourHandsMain.HediffColors[hediffAddedPart.def];
             }
 
-            if (mainColor == default)
-            {
-                return pawn.story.SkinColor;
-            }
-
-            if (secondColor == default)
-            {
-                secondColor = pawn.story.SkinColor;
-            }
-
-            return mainColor;
+            return mainColor == default ? pawn.story.SkinColor : mainColor;
         }
 
         var handApparel = from apparel in pawn.apparel.WornApparel
@@ -813,7 +809,7 @@ public class HandDrawer : ThingComp
         return ShowMeYourHandsMain.colorDictionary[outerApparel];
     }
 
-    private Color32 averageColorFromTexture(Texture2D texture)
+    private static Color32 averageColorFromTexture(Texture2D texture)
     {
         var renderTexture = RenderTexture.GetTemporary(
             texture.width,

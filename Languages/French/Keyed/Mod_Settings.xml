@@ -66,4 +66,6 @@
   <SMYH.rotate>Utilisez la molette de défilement pour faire tourner les aiguilles, maintenez la touche SHIFT enfoncée pour une rotation plus rapide.</SMYH.rotate>
   <SMYH.showcrawling.label>Montrer ses mains quand on rampe</SMYH.showcrawling.label>
   <SMYH.showcrawling.tooltip>Montre les mains lorsque le pion est renversé et qu'il rampe.</SMYH.showcrawling.tooltip>
+  <SMYH.style.label>Style :</SMYH.style.label>
+  <SMYH.styledefault.label>Défaut</SMYH.styledefault.label>
 </LanguageData>

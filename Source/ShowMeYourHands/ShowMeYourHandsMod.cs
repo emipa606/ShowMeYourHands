@@ -56,21 +56,15 @@ internal class ShowMeYourHandsMod : Mod
 
     private static Vector2 summaryScrollPosition;
 
-    private static List<ThingDef> allWeapons;
-
     private static List<string> selectedHasManualDefs;
 
     private static string currentVersion;
-
-    private static Graphic handTex;
 
     private static Dictionary<string, int> totalWeaponsByMod = new();
 
     private static Dictionary<string, int> fixedWeaponsByMod = new();
 
     public static HashSet<string> definedByDef;
-
-    private static string selectedDef = "Settings";
 
     private static string selectedSubDef;
 
@@ -110,7 +104,7 @@ internal class ShowMeYourHandsMod : Mod
 
     private static string SelectedDef
     {
-        get => selectedDef;
+        get;
         set
         {
             if (value == "Settings")
@@ -118,38 +112,38 @@ internal class ShowMeYourHandsMod : Mod
                 updateWeaponStatistics();
             }
 
-            selectedDef = value;
+            field = value;
         }
-    }
+    } = "Settings";
 
     private static List<ThingDef> AllWeapons
     {
         get
         {
-            if (allWeapons == null || allWeapons.Count == 0)
+            if (field == null || field.Count == 0)
             {
-                allWeapons = (from weapon in DefDatabase<ThingDef>.AllDefsListForReading
+                field = (from weapon in DefDatabase<ThingDef>.AllDefsListForReading
                     where weapon.IsWeapon && !weapon.destroyOnDrop && !IsShield(weapon)
                     orderby weapon.label
                     select weapon).ToList();
             }
 
-            return allWeapons;
+            return field;
         }
-        set => allWeapons = value;
+        set;
     }
 
     private static Graphic HandTex
     {
         get
         {
-            handTex ??= GraphicDatabase.Get<Graphic_Multi>("HandIcon", ShaderDatabase.CutoutSkin,
+            field ??= GraphicDatabase.Get<Graphic_Multi>("HandIcon", ShaderDatabase.CutoutSkin,
                 new Vector2(1f, 1f),
                 PawnSkinColors.GetSkinColor(0.5f), PawnSkinColors.GetSkinColor(0.5f));
 
-            return handTex;
+            return field;
         }
-        set => handTex = value;
+        set;
     }
 
     /// <summary>
@@ -274,18 +268,6 @@ internal class ShowMeYourHandsMod : Mod
         }
 
         var texture = Widgets.GetIconFor(thingDef, out _);
-
-        //var texture = thingDef.graphicData?.Graphic?.MatSingle?.mainTexture;
-        //if (thingDef.graphicData?.graphicClass == typeof(Graphic_Random))
-        //{
-        //    texture = ((Graphic_Random)thingDef.graphicData.Graphic)?.FirstSubgraphic().MatSingle.mainTexture;
-        //}
-
-        //if (thingDef.graphicData?.graphicClass == typeof(Graphic_StackCount))
-        //{
-        //    texture = ((Graphic_StackCount)thingDef.graphicData.Graphic)?.SubGraphicForStackCount(1, thingDef).MatSingle
-        //        .mainTexture;
-        //}
 
         if (texture == null)
         {
@@ -1004,7 +986,6 @@ internal class ShowMeYourHandsMod : Mod
         tabContentRect.height = (weaponsToShow.Count * 25f) + listAddition;
         Widgets.BeginScrollView(tabFrameRect, ref tabsScrollPosition, tabContentRect);
         listingStandard.Begin(tabContentRect);
-        //Text.Font = GameFont.Tiny;
         if (listingStandard.ListItemSelectable("SMYH.settings".Translate(), Color.yellow,
                 out _, SelectedDef == "Settings"))
         {
@@ -1048,7 +1029,6 @@ internal class ShowMeYourHandsMod : Mod
             GUI.color = Color.white;
             position.x = position.x + tabContentRect.width - iconSize.x;
             Widgets.ThingIcon(new Rect(position, iconSize), thingDef);
-            //drawWeapon(thingDef, new Rect(position, iconSize));
         }
 
         if (!string.IsNullOrEmpty(selectedSubDef))
@@ -1063,7 +1043,6 @@ internal class ShowMeYourHandsMod : Mod
         }
 
         listingStandard.End();
-        //Text.Font = GameFont.Small;
         Widgets.EndScrollView();
     }
 

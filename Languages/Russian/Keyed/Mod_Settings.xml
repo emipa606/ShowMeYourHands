@@ -66,4 +66,6 @@
   <SMYH.rotate>Используйте колесо прокрутки для поворота стрелок, удерживайте SHIFT для ускорения вращения.</SMYH.rotate>
   <SMYH.showcrawling.label>Показывайте руки, когда ползаете</SMYH.showcrawling.label>
   <SMYH.showcrawling.tooltip>Показывает руки, когда пешка сбита с ног и ползет.</SMYH.showcrawling.tooltip>
+  <SMYH.style.label>Стиль:</SMYH.style.label>
+  <SMYH.styledefault.label>По умолчанию</SMYH.styledefault.label>
 </LanguageData>
