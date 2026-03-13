@@ -39,6 +39,7 @@ internal class ShowMeYourHandsMod : Mod
     private static float leftSideWidth;
 
     private static Listing_Standard listingStandard;
+    private static string searchText;
 
     private static Vector3 currentMainHand;
 
@@ -55,6 +56,8 @@ internal class ShowMeYourHandsMod : Mod
     private static Vector2 tabsScrollPosition;
 
     private static Vector2 summaryScrollPosition;
+
+    private static Vector2 raceScrollPosition;
 
     private static List<string> selectedHasManualDefs;
 
@@ -123,7 +126,7 @@ internal class ShowMeYourHandsMod : Mod
             if (field == null || field.Count == 0)
             {
                 field = (from weapon in DefDatabase<ThingDef>.AllDefsListForReading
-                    where weapon.IsWeapon && !weapon.destroyOnDrop && !IsShield(weapon)
+                    where weapon.IsWeapon && !IsShield(weapon)
                     orderby weapon.label
                     select weapon).ToList();
             }
@@ -176,6 +179,7 @@ internal class ShowMeYourHandsMod : Mod
     public override void WriteSettings()
     {
         base.WriteSettings();
+        ShowMeYourHandsMain.ResetMeshes();
         RimWorld_MainMenuDrawer_MainMenuOnGUI.UpdateHandDefinitions();
     }
 
@@ -373,8 +377,8 @@ internal class ShowMeYourHandsMod : Mod
             case "Settings":
             {
                 listingStandard.Begin(frameRect);
-                listingStandard.Label("SMYH.settings".Translate());
-                listingStandard.Gap();
+                //listingStandard.Label("SMYH.settings".Translate());
+                //listingStandard.Gap();
                 if (Prefs.UIScale != 1f)
                 {
                     GUI.color = Color.yellow;
@@ -441,6 +445,10 @@ internal class ShowMeYourHandsMod : Mod
                     listingStandard.Gap((buttonSize.y * 2) + 12);
                 }
 
+                Settings.BaseHandSize = listingStandard.SliderLabeled(
+                    "SMYH.basehandsize.label".Translate(Settings.BaseHandSize.ToStringPercent()),
+                    Settings.BaseHandSize, 0.1f, 2f,
+                    tooltip: "SMYH.basehandsize.tooltip".Translate());
                 listingStandard.CheckboxLabeled("SMYH.logging.label".Translate(), ref Settings.VerboseLogging,
                     "SMYH.logging.tooltip".Translate());
                 listingStandard.CheckboxLabeled("SMYH.rotation.label".Translate(), ref Settings.Rotation,
@@ -484,15 +492,15 @@ internal class ShowMeYourHandsMod : Mod
                 }
 
                 listingStandard.GapLine();
-                Text.Font = GameFont.Medium;
-                listingStandard.Label("SMYH.summary".Translate(), -1F, "SMYH.summary.tooltip".Translate());
-                Text.Font = GameFont.Small;
-                listingStandard.Gap();
+                //Text.Font = GameFont.Medium;
+                //listingStandard.Label("SMYH.summary".Translate(), -1F, "SMYH.summary.tooltip".Translate());
+                //Text.Font = GameFont.Small;
+                //listingStandard.Gap();
                 listingStandard.End();
 
                 var tabFrameRect = frameRect;
-                tabFrameRect.y += 425;
-                tabFrameRect.height -= 425;
+                tabFrameRect.y += listingStandard.CurHeight;
+                tabFrameRect.height -= listingStandard.CurHeight;
                 var tabContentRect = tabFrameRect;
                 tabContentRect.x = 0;
                 tabContentRect.y = 0;
@@ -530,6 +538,63 @@ internal class ShowMeYourHandsMod : Mod
 
                 listingStandard.End();
 
+                Widgets.EndScrollView();
+                break;
+            }
+
+            case "ShowOnRaces":
+            {
+                listingStandard.Begin(frameRect);
+                var labelRect = listingStandard.GetRect(25);
+                Widgets.Label(labelRect, "SMYH.showonraces.label".Translate());
+                if (Widgets.ButtonText(labelRect.RightHalf(), "SMYH.showonraces.reset".Translate()))
+                {
+                    foreach (var raceDef in ShowMeYourHandsMain.allRaces)
+                    {
+                        instance.Settings.ShowOnRace[raceDef.defName] = raceDef.race.Humanlike;
+                    }
+                }
+
+                searchText = listingStandard.TextEntryLabeled("SMYH.showonraces.search".Translate(), searchText);
+                var filteredRaces = ShowMeYourHandsMain.allRaces;
+                if (!string.IsNullOrEmpty(searchText))
+                {
+                    filteredRaces = ShowMeYourHandsMain.allRaces.Where(def =>
+                        def.label.ToLower().Contains(searchText.ToLower()) ||
+                        def.defName.ToLower().Contains(searchText.ToLower()) ||
+                        def.modContentPack?.Name.ToLower().Contains(searchText.ToLower()) == true).ToList();
+                }
+
+                listingStandard.End();
+
+                var scrollViewHeight = (filteredRaces.Count * 25f) + 15;
+                var scrollRect = new Rect(frameRect.x, frameRect.y + listingStandard.CurHeight, frameRect.width,
+                    frameRect.height - listingStandard.CurHeight);
+                var scrollContentRect = new Rect(0, 0, scrollRect.width - 16, scrollViewHeight);
+                Widgets.BeginScrollView(scrollRect, ref raceScrollPosition, scrollContentRect);
+                var scrollListing = new Listing_Standard();
+                scrollListing.Begin(scrollContentRect);
+
+                foreach (var raceDef in filteredRaces)
+                {
+                    instance.Settings.ShowOnRace.TryGetValue(raceDef.defName, out var show);
+
+                    var rowRect = scrollListing.GetRect(25f);
+
+                    Widgets.ThingIcon(new Rect(rowRect.x, rowRect.y, iconSize.x, iconSize.y), raceDef);
+
+                    Widgets.Label(
+                        new Rect(rowRect.x + iconSize.x + 4f, rowRect.y, rowRect.width - iconSize.x - 30f,
+                            rowRect.height), $"{raceDef.LabelCap} ({raceDef.defName})");
+
+                    Widgets.Checkbox(rowRect.xMax - 24f, rowRect.y, ref show);
+
+                    TooltipHandler.TipRegion(rowRect, raceDef.description);
+
+                    instance.Settings.ShowOnRace[raceDef.defName] = show;
+                }
+
+                scrollListing.End();
                 Widgets.EndScrollView();
                 break;
             }
@@ -972,7 +1037,7 @@ internal class ShowMeYourHandsMod : Mod
         tabContentRect.y = 0;
         tabContentRect.width -= 20;
         var weaponsToShow = AllWeapons;
-        var listAddition = 24;
+        var listAddition = 48;
         if (!string.IsNullOrEmpty(selectedSubDef))
         {
             weaponsToShow = (from ThingDef weapon in AllWeapons
@@ -990,6 +1055,12 @@ internal class ShowMeYourHandsMod : Mod
                 out _, SelectedDef == "Settings"))
         {
             SelectedDef = SelectedDef == "Settings" ? null : "Settings";
+        }
+
+        if (listingStandard.ListItemSelectable("SMYH.showonraces.label".Translate(), Color.yellow,
+                out _, SelectedDef == "ShowOnRaces"))
+        {
+            SelectedDef = SelectedDef == "ShowOnRaces" ? null : "ShowOnRaces";
         }
 
         listingStandard.ListItemSelectable(null, Color.yellow, out _);

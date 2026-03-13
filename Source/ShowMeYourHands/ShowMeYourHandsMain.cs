@@ -23,9 +23,11 @@ public static class ShowMeYourHandsMain
     public static Dictionary<Pawn, float> pawnBodySizes = new();
     public static Dictionary<Pawn, bool> pawnsMissingAHand = new();
     public static Dictionary<Thing, Color> colorDictionary = new();
+    public static readonly Dictionary<ThingDef, Color> raceDictionary = new();
     public static Dictionary<Pawn, Mesh> pawnMeshes = new();
     public static Dictionary<Pawn, Mesh> handMeshes = new();
     public static Dictionary<Pawn, Mesh> flippedHandMeshes = new();
+    public static readonly List<ThingDef> allRaces;
 
     public static readonly MethodInfo CarryWeaponMethod =
         AccessTools.Method(typeof(PawnRenderUtility), nameof(PawnRenderUtility.CarryWeaponOpenly));
@@ -137,9 +139,10 @@ public static class ShowMeYourHandsMain
         }
 
         var compProperties = new CompProperties { compClass = typeof(HandDrawer) };
-        foreach (var thingDef in from race in DefDatabase<ThingDef>.AllDefsListForReading
-                 where race.race?.Humanlike == true
-                 select race)
+        allRaces = DefDatabase<ThingDef>.AllDefsListForReading.Where(def => def.race != null && !def.IsCorpse)
+            .OrderBy(def => def.label)
+            .ToList();
+        foreach (var thingDef in allRaces)
         {
             thingDef.comps?.Add(compProperties);
         }
@@ -193,16 +196,6 @@ public static class ShowMeYourHandsMain
         Log.Message($"[ShowMeYourHands]: {message}");
     }
 
-    public static Mesh GetMeshFromPawn(Pawn pawn)
-    {
-        if (!pawnMeshes.ContainsKey(pawn))
-        {
-            pawnMeshes[pawn] = MeshMakerPlanes.NewPlaneMesh(pawnBodySizes[pawn], false);
-        }
-
-        return pawnMeshes[pawn];
-    }
-
     public static bool HediffContainsHand(BodyPartRecord addedPart)
     {
         if (addedPart.def == HandDef)
@@ -227,13 +220,15 @@ public static class ShowMeYourHandsMain
     }
 
 
-    public static Mesh GetMeshFromPawn(Pawn pawn, bool flipped)
+    public static Mesh GetMeshFromPawn(Pawn pawn, bool flipped = false)
     {
         if (flipped)
         {
             if (!flippedHandMeshes.ContainsKey(pawn))
             {
-                flippedHandMeshes[pawn] = MeshMakerPlanes.NewPlaneMesh(pawnBodySizes[pawn], true);
+                flippedHandMeshes[pawn] =
+                    MeshMakerPlanes.NewPlaneMesh(
+                        pawnBodySizes[pawn] * ShowMeYourHandsMod.instance.Settings.BaseHandSize, true);
             }
 
             return flippedHandMeshes[pawn];
@@ -241,10 +236,18 @@ public static class ShowMeYourHandsMain
 
         if (!handMeshes.ContainsKey(pawn))
         {
-            handMeshes[pawn] = MeshMakerPlanes.NewPlaneMesh(pawnBodySizes[pawn], false);
+            handMeshes[pawn] =
+                MeshMakerPlanes.NewPlaneMesh(pawnBodySizes[pawn] * ShowMeYourHandsMod.instance.Settings.BaseHandSize,
+                    false);
         }
 
         return handMeshes[pawn];
+    }
+
+    public static void ResetMeshes()
+    {
+        handMeshes.Clear();
+        flippedHandMeshes.Clear();
     }
 
 

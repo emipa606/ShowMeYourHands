@@ -32,6 +32,66 @@
           <!-- toxbomb launcher -->
         </ThingTargets>
       </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.150)</MainHand>
+        <ThingTargets>
+          <li>Gun_ChargeBlasterTurret</li>
+          <!-- charge blaster turret -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.325)</MainHand>
+        <SecHand>(0.195, -0.100, -0.310)</SecHand>
+        <ThingTargets>
+          <li>Gun_HellsphereCannon</li>
+          <!-- hellsphere cannon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.150)</MainHand>
+        <ThingTargets>
+          <li>Gun_MiniFlameblaster</li>
+          <!-- mini-flameblaster -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.115)</MainHand>
+        <SecHand>(0.140, -0.100, -0.135)</SecHand>
+        <ThingTargets>
+          <li>Gun_MiniShotgun</li>
+          <!-- mini-shotgun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.095)</MainHand>
+        <ThingTargets>
+          <li>Gun_NeedleLauncher</li>
+          <!-- needle launcher -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.115)</MainHand>
+        <SecHand>(0.090, -0.100, -0.110)</SecHand>
+        <ThingTargets>
+          <li>Gun_Slugthrower</li>
+          <!-- slugthrower -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.090)</MainHand>
+        <ThingTargets>
+          <li>Gun_Spiner</li>
+          <!-- spiner -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.190)</MainHand>
+        <SecHand>(0.070, -0.100, -0.120)</SecHand>
+        <ThingTargets>
+          <li>Gun_ToxicNeedle</li>
+          <!-- toxic needle gun -->
+        </ThingTargets>
+      </li>
     </WeaponCompLoader>
   </WHands.ClutterHandsTDef>
 </Defs>

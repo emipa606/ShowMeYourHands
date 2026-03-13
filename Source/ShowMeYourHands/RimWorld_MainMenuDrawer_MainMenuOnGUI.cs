@@ -26,6 +26,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
 
         alreadyRun = true;
 
+        UpdateValidRaces();
         UpdateHandDefinitions();
 
         var original = typeof(PawnRenderUtility).GetMethod(nameof(PawnRenderUtility.DrawEquipmentAiming));
@@ -90,6 +91,22 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                     false, true);
             }
         }
+    }
+
+    private static void UpdateValidRaces()
+    {
+        ShowMeYourHandsMod.instance.Settings.ShowOnRace ??= new Dictionary<string, bool>();
+        foreach (var def in ShowMeYourHandsMain.allRaces)
+        {
+            if (ShowMeYourHandsMod.instance.Settings.ShowOnRace.ContainsKey(def.defName))
+            {
+                continue;
+            }
+
+            ShowMeYourHandsMod.instance.Settings.ShowOnRace[def.defName] = def.race.Humanlike;
+        }
+
+        ShowMeYourHandsMod.instance.WriteSettings();
     }
 
     public static void UpdateHandDefinitions()
@@ -159,8 +176,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
     private static void figureOutTheRest()
     {
         foreach (var weapon in from weapon in DefDatabase<ThingDef>.AllDefsListForReading
-                 where weapon.IsWeapon && !weapon.destroyOnDrop &&
-                       !doneWeapons.Contains(weapon)
+                 where weapon.IsWeapon && !doneWeapons.Contains(weapon)
                  select weapon)
         {
             if (ShowMeYourHandsMod.IsShield(weapon))

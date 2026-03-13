@@ -155,6 +155,21 @@
           <!-- alpha thrumbo horn -->
         </ThingTargets>
       </li>
+      <li>
+        <MainHand>(0.020, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>Gun_AncientArmoredTurret</li>
+          <!-- ancient defender turret gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.105)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>Gun_Scattergun</li>
+          <!-- scattergun -->
+        </ThingTargets>
+      </li>
     </WeaponCompLoader>
   </WHands.ClutterHandsTDef>
 </Defs>

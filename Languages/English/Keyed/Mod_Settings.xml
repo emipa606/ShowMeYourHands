@@ -67,4 +67,9 @@
   <SMYH.weaponrow.green>Has personal settings defined by the player</SMYH.weaponrow.green>
   <SMYH.draginfo>Left-click drag to set the main-hand position, right-click drag to set the off-hand position.</SMYH.draginfo>
   <SMYH.rotate>Use the scroll wheel to rotate the hands, hold SHIFT for faster rotation</SMYH.rotate>
+  <SMYH.basehandsize.label>Base handsize: {0}</SMYH.basehandsize.label>
+  <SMYH.basehandsize.tooltip>The base handsize before any bodysize-recalculations</SMYH.basehandsize.tooltip>
+  <SMYH.showonraces.label>Enabled races</SMYH.showonraces.label>
+  <SMYH.showonraces.search>Search</SMYH.showonraces.search>
+  <SMYH.showonraces.reset>Reset</SMYH.showonraces.reset>
 </LanguageData>

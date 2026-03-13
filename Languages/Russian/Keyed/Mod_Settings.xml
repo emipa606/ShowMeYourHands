@@ -68,4 +68,9 @@
   <SMYH.showcrawling.tooltip>Показывает руки, когда пешка сбита с ног и ползет.</SMYH.showcrawling.tooltip>
   <SMYH.style.label>Стиль:</SMYH.style.label>
   <SMYH.styledefault.label>По умолчанию</SMYH.styledefault.label>
+  <SMYH.basehandsize.label>Базовый размер рук: {0}</SMYH.basehandsize.label>
+  <SMYH.basehandsize.tooltip>Базовый размер рук перед любыми пересчетами размеров тела</SMYH.basehandsize.tooltip>
+  <SMYH.showonraces.label>Включенные расы</SMYH.showonraces.label>
+  <SMYH.showonraces.search>Поиск</SMYH.showonraces.search>
+  <SMYH.showonraces.reset>Сбросить</SMYH.showonraces.reset>
 </LanguageData>

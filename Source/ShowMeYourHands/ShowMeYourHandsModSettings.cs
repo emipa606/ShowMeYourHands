@@ -8,6 +8,7 @@ namespace ShowMeYourHands;
 /// </summary>
 internal class ShowMeYourHandsModSettings : ModSettings
 {
+    public float BaseHandSize = 1f;
     public Dictionary<string, SaveableVector3> ManualMainHandPositions = new();
 
     private List<string> manualMainHandPositionsKeys;
@@ -33,6 +34,9 @@ internal class ShowMeYourHandsModSettings : ModSettings
     public bool ResizeHands = true;
     public bool Rotation = ModsConfig.IsActive("andromeda.nicehands");
     public bool ShowCrawling;
+    public Dictionary<string, bool> ShowOnRace = new();
+    private List<string> showOnRaceKeys;
+    private List<bool> showOnRaceValues;
     public bool ShowOtherTmes;
     public bool ShowWhenCarry;
     public bool VerboseLogging;
@@ -50,6 +54,7 @@ internal class ShowMeYourHandsModSettings : ModSettings
         Scribe_Values.Look(ref ShowWhenCarry, "ShowWhenCarry");
         Scribe_Values.Look(ref ShowOtherTmes, "ShowOtherTmes");
         Scribe_Values.Look(ref ShowCrawling, "ShowCrawling");
+        Scribe_Values.Look(ref BaseHandSize, "BaseHandSize", 1f);
         Scribe_Collections.Look(ref ManualMainHandPositions, "ManualMainHandPositions", LookMode.Value,
             LookMode.Value,
             ref manualMainHandPositionsKeys, ref manualMainHandPositionsValues);
@@ -62,6 +67,9 @@ internal class ShowMeYourHandsModSettings : ModSettings
         Scribe_Collections.Look(ref ManualOffHandRotations, "ManualOffHandRotations", LookMode.Value,
             LookMode.Value,
             ref manualOffHandRotationsKeys, ref manualOffHandRotationsValues);
+        Scribe_Collections.Look(ref ShowOnRace, "ShowOnRace", LookMode.Value,
+            LookMode.Value,
+            ref showOnRaceKeys, ref showOnRaceValues);
     }
 
     public void ResetManualValues()

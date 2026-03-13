@@ -68,4 +68,9 @@
   <SMYH.showcrawling.tooltip>Montre les mains lorsque le pion est renversé et qu'il rampe.</SMYH.showcrawling.tooltip>
   <SMYH.style.label>Style :</SMYH.style.label>
   <SMYH.styledefault.label>Défaut</SMYH.styledefault.label>
+  <SMYH.basehandsize.label>Taille de base des mains : {0}</SMYH.basehandsize.label>
+  <SMYH.basehandsize.tooltip>La taille de base des mains avant tout calcul de la taille du corps.</SMYH.basehandsize.tooltip>
+  <SMYH.showonraces.label>Races activées</SMYH.showonraces.label>
+  <SMYH.showonraces.search>Recherche</SMYH.showonraces.search>
+  <SMYH.showonraces.reset>Remise à zéro</SMYH.showonraces.reset>
 </LanguageData>

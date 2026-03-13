@@ -1141,7 +1141,8 @@
       <li>
         <MainHand>(-0.095, 0.100, -0.025)</MainHand>
         <ThingTargets>
-          <li>CGF1_MWP_HK_P7M13_Longslide_</li>
+          <li>CGF1_MWP_HK_P7M13_
+		  slide_</li>
           <!-- HK P7M13 Longslide -->
         </ThingTargets>
       </li>

@@ -329,6 +329,110 @@
           <!-- wood -->
         </ThingTargets>
       </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.115)</MainHand>
+        <ThingTargets>
+          <li>Gun_AutocannonTurret</li>
+          <!-- autocannon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.145)</MainHand>
+        <ThingTargets>
+          <li>Artillery_AutoMortar</li>
+          <!-- auto-mortar -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.070, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>Gun_TurretFoam</li>
+          <!-- foam sprayer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, -0.250)</MainHand>
+        <SecHand>(0.115, -0.100, -0.195)</SecHand>
+        <ThingTargets>
+          <li>Gun_ChargeBlasterHeavy</li>
+          <!-- heavy charge blaster -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.135)</MainHand>
+        <SecHand>(0.100, -0.100, -0.140)</SecHand>
+        <ThingTargets>
+          <li>Gun_InfernoCannonTurret</li>
+          <!-- inferno cannon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.160)</MainHand>
+        <SecHand>(0.085, -0.100, -0.140)</SecHand>
+        <ThingTargets>
+          <li>Gun_InfernoCannon</li>
+          <!-- inferno cannon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.045, 0.100, -0.130)</MainHand>
+        <ThingTargets>
+          <li>Gun_ChargeBlasterHeavyTurret</li>
+          <!-- light charge blaster -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.065, 0.100, -0.055)</MainHand>
+        <ThingTargets>
+          <li>Gun_MiniTurretMech</li>
+          <!-- mini-slugger -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>Gun_MiniTurret</li>
+          <!-- mini-turret gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.045, 0.100, -0.090)</MainHand>
+        <ThingTargets>
+          <li>Artillery_Mortar</li>
+          <!-- mortar -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.140)</MainHand>
+        <SecHand>(-0.010, -0.100, -0.120)</SecHand>
+        <ThingTargets>
+          <li>Gun_Needle</li>
+          <!-- needle gun -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.175)</MainHand>
+        <ThingTargets>
+          <li>Gun_RocketswarmLauncher</li>
+          <!-- rocketswarm tube -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.215)</MainHand>
+        <SecHand>(0.050, -0.100, -0.170)</SecHand>
+        <ThingTargets>
+          <li>Gun_ThumpCannon</li>
+          <!-- thump cannon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.105)</MainHand>
+        <SecHand>(0.050, -0.100, -0.115)</SecHand>
+        <ThingTargets>
+          <li>Gun_TurretSniper</li>
+          <!-- uranium slug cannon -->
+        </ThingTargets>
+      </li>
     </WeaponCompLoader>
   </WHands.ClutterHandsTDef>
 </Defs>

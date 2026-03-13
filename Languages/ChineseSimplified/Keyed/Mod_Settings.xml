@@ -68,4 +68,9 @@
   <SMYH.showcrawling.tooltip>当小卒被击倒并爬起时，会举手示意</SMYH.showcrawling.tooltip>
   <SMYH.style.label>风格：</SMYH.style.label>
   <SMYH.styledefault.label>默认值</SMYH.styledefault.label>
+  <SMYH.basehandsize.label>基本手掌大小: {0}</SMYH.basehandsize.label>
+  <SMYH.basehandsize.tooltip>未计算身体尺寸前的基本手掌尺寸</SMYH.basehandsize.tooltip>
+  <SMYH.showonraces.label>启用的种族</SMYH.showonraces.label>
+  <SMYH.showonraces.search>搜索</SMYH.showonraces.search>
+  <SMYH.showonraces.reset>重置</SMYH.showonraces.reset>
 </LanguageData>

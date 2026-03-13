@@ -12,7 +12,6 @@ namespace ShowMeYourHands;
 [StaticConstructorOnStartup]
 public class HandDrawer : ThingComp
 {
-    private Mesh handMesh;
     public Vector3 ItemHeldLocation;
     private int LastDrawn;
     private Vector3 MainHand;
@@ -179,7 +178,7 @@ public class HandDrawer : ThingComp
 
     private void drawHandsAllTheTime(Pawn pawn)
     {
-        if (!ShowMeYourHandsMain.pawnBodySizes.ContainsKey(pawn) || GenTicks.TicksAbs % GenTicks.TickLongInterval == 0)
+        if (!ShowMeYourHandsMain.pawnBodySizes.ContainsKey(pawn))
         {
             var bodySize = 1f;
             if (ShowMeYourHandsMod.instance.Settings.ResizeHands)
@@ -199,11 +198,8 @@ public class HandDrawer : ThingComp
         }
 
         _ = HandColor;
-        if (handMesh == null)
-        {
-            handMesh = MeshMakerPlanes.NewPlaneMesh(ShowMeYourHandsMain.pawnBodySizes[pawn]);
-        }
 
+        var mesh = ShowMeYourHandsMain.GetMeshFromPawn(pawn);
         var mainHandTex = ShowMeYourHandsMain.mainHandGraphics[pawn];
         var offHandTex = ShowMeYourHandsMain.offHandGraphics[pawn];
 
@@ -261,13 +257,13 @@ public class HandDrawer : ThingComp
 
         if (pawn.Rotation == Rot4.North)
         {
-            Graphics.DrawMesh(handMesh,
+            Graphics.DrawMesh(mesh,
                 basePosition + sideOffset - layerOffset, new Quaternion(), mainSingle, 0);
         }
 
         if (pawn.Rotation == Rot4.South)
         {
-            Graphics.DrawMesh(handMesh,
+            Graphics.DrawMesh(mesh,
                 basePosition - sideOffset + layerOffset, new Quaternion(), mainSingle, 0);
         }
 
@@ -275,12 +271,12 @@ public class HandDrawer : ThingComp
         {
             if (pawn.Crawling)
             {
-                Graphics.DrawMesh(handMesh,
+                Graphics.DrawMesh(mesh,
                     basePosition + sideOffset, new Quaternion(), mainSingle, 0);
             }
             else
             {
-                Graphics.DrawMesh(handMesh,
+                Graphics.DrawMesh(mesh,
                     basePosition + layerOffset, new Quaternion(), mainSingle, 0);
                 return;
             }
@@ -288,7 +284,7 @@ public class HandDrawer : ThingComp
 
         if (pawn.Rotation == Rot4.West && pawn.Crawling)
         {
-            Graphics.DrawMesh(handMesh,
+            Graphics.DrawMesh(mesh,
                 basePosition - sideOffset, new Quaternion(), mainSingle, 0);
         }
 
@@ -299,14 +295,14 @@ public class HandDrawer : ThingComp
 
         if (pawn.Rotation == Rot4.North)
         {
-            Graphics.DrawMesh(handMesh,
+            Graphics.DrawMesh(mesh,
                 basePosition - sideOffset - layerOffset, new Quaternion(), offSingle, 0);
             return;
         }
 
         if (pawn.Rotation == Rot4.South)
         {
-            Graphics.DrawMesh(handMesh,
+            Graphics.DrawMesh(mesh,
                 basePosition + sideOffset + layerOffset, new Quaternion(), offSingle, 0);
             return;
         }
@@ -315,19 +311,19 @@ public class HandDrawer : ThingComp
         {
             if (pawn.Rotation == Rot4.West)
             {
-                Graphics.DrawMesh(handMesh,
+                Graphics.DrawMesh(mesh,
                     basePosition - (sideOffset * 2), new Quaternion(), mainSingle, 0);
             }
             else
             {
-                Graphics.DrawMesh(handMesh,
+                Graphics.DrawMesh(mesh,
                     basePosition + (sideOffset * 2), new Quaternion(), mainSingle, 0);
             }
 
             return;
         }
 
-        Graphics.DrawMesh(handMesh,
+        Graphics.DrawMesh(mesh,
             basePosition + layerOffset, new Quaternion(), offSingle, 0);
     }
 
@@ -338,7 +334,7 @@ public class HandDrawer : ThingComp
             return;
         }
 
-        if (!ShowMeYourHandsMain.pawnBodySizes.ContainsKey(pawn) || GenTicks.TicksAbs % GenTicks.TickLongInterval == 0)
+        if (!ShowMeYourHandsMain.pawnBodySizes.ContainsKey(pawn))
         {
             var bodySize = 1f;
             if (ShowMeYourHandsMod.instance.Settings.ResizeHands)
@@ -526,7 +522,7 @@ public class HandDrawer : ThingComp
             }
         }
 
-        if (!ShowMeYourHandsMain.pawnBodySizes.ContainsKey(pawn) || pawn.IsHashIntervalTick(GenTicks.TickLongInterval))
+        if (!ShowMeYourHandsMain.pawnBodySizes.ContainsKey(pawn))
         {
             var bodySize = 1f;
             if (ShowMeYourHandsMod.instance.Settings.ResizeHands)
@@ -674,6 +670,12 @@ public class HandDrawer : ThingComp
             return;
         }
 
+        if (!ShowMeYourHandsMod.instance.Settings.ShowOnRace.TryGetValue(pawn.def.defName, out var showOnRace) ||
+            !showOnRace)
+        {
+            return;
+        }
+
         if (ShowMeYourHandsMod.instance.Settings.ShowWhenCarry && pawn.carryTracker?.CarriedThing != null)
         {
             DrawHandsOnItem(pawn);
@@ -706,6 +708,20 @@ public class HandDrawer : ThingComp
     {
         hasGloves = false;
         secondColor = default;
+        if (pawn.story == null)
+        {
+            if (!ShowMeYourHandsMain.raceDictionary.ContainsKey(pawn.def))
+            {
+                ShowMeYourHandsMain.raceDictionary[pawn.def] =
+                    averageColorFromTexture((Texture2D)pawn.kindDef.lifeStages.Last().bodyGraphicData.Graphic.MatSingle
+                        .mainTexture);
+            }
+
+            return ShowMeYourHandsMain.raceDictionary[pawn.def];
+        }
+
+        var baseColor = pawn.story.SkinColor;
+
         IEnumerable<Hediff> addedHands = [];
 
         if (ShowMeYourHandsMod.instance.Settings.MatchHandAmounts ||
@@ -729,7 +745,7 @@ public class HandDrawer : ThingComp
             if (!ShowMeYourHandsMod.instance.Settings.MatchArtificialLimbColor || addedHands == null ||
                 !addedHands.Any())
             {
-                return pawn.story.SkinColor;
+                return baseColor;
             }
 
             var mainColor = (Color)default;
@@ -750,7 +766,12 @@ public class HandDrawer : ThingComp
                 secondColor = ShowMeYourHandsMain.HediffColors[hediffAddedPart.def];
             }
 
-            return mainColor == default ? pawn.story.SkinColor : mainColor;
+            return mainColor == default ? baseColor : mainColor;
+        }
+
+        if (pawn.apparel == null)
+        {
+            return baseColor;
         }
 
         var handApparel = from apparel in pawn.apparel.WornApparel
