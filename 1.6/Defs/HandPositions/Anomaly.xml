@@ -33,6 +33,13 @@
           <!-- nerve spiker -->
         </ThingTargets>
       </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>Gun_TacticalTurret</li>
+          <!-- tactical turret gun -->
+        </ThingTargets>
+      </li>
     </WeaponCompLoader>
   </WHands.ClutterHandsTDef>
 </Defs>

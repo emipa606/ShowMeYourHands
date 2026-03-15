@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.6.3 - Nullcheck for weapons without any textures
+
+
 1.6.2 - Added support for showing hands on all races
 Added general handsize slider
 

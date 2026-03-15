@@ -367,10 +367,16 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
 
     private static bool isWeaponLong(ThingDef weapon, out Vector3 mainHand, out Vector3 secHand)
     {
-        var texture = weapon.graphicData.Graphic.MatSingle.mainTexture;
+        var texture = weapon.graphicData.Graphic?.MatSingle.mainTexture;
 
         // This is not allowed
         //var icon = (Texture2D) texture;
+        if (texture == null)
+        {
+            mainHand = new Vector3(-0.3f, 0.3f, 0f);
+            secHand = Vector3.zero;
+            return false;
+        }
 
         // This is
         var renderTexture = RenderTexture.GetTemporary(
