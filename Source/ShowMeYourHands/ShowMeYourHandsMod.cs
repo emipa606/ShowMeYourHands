@@ -483,6 +483,10 @@ internal class ShowMeYourHandsMod : Mod
                         "SMYH.showcrawling.tooltip".Translate());
                 }
 
+                listingStandard.CheckboxLabeled("SMYH.showhandscolonistsonly.label".Translate(),
+                    ref Settings.ShowHandsOnlyOnColonists,
+                    "SMYH.showhandscolonistsonly.tooltip".Translate());
+
                 if (currentVersion != null)
                 {
                     listingStandard.Gap();
@@ -656,9 +660,8 @@ internal class ShowMeYourHandsMod : Mod
                     currentHasOffHand = currentOffHand != Vector3.zero;
                     currentMainBehind = compProperties.MainHand.y < 0;
                     currentOffBehind = compProperties.SecHand.y < 0 || currentOffHand == Vector3.zero;
+                    currentNoHands = currentMainHand == Vector3.zero;
                 }
-
-                currentNoHands = currentMainHand == Vector3.zero;
 
                 if (!drawIcon(currentDef, weaponRect, currentMainHand, currentOffHand, currentMainRotation,
                         currentOffRotation))
@@ -671,12 +674,19 @@ internal class ShowMeYourHandsMod : Mod
                 listingStandard.GapLine(24);
                 listingStandard.ColumnWidth = 230;
 
+                var wasNoHands = currentNoHands;
                 listingStandard.CheckboxLabeled("SMYH.nohands.label".Translate(), ref currentNoHands);
                 if (currentNoHands)
                 {
                     currentHasOffHand = false;
                     currentMainHand = Vector3.zero;
                     currentOffHand = Vector3.zero;
+                }
+                else if (wasNoHands && currentMainHand == Vector3.zero)
+                {
+                    currentMainHand = compProperties.MainHand != Vector3.zero
+                        ? compProperties.MainHand
+                        : new Vector3(0f, currentMainBehind ? -0.1f : 0.1f, 0f);
                 }
 
                 Rect lastMainLabel;
@@ -868,7 +878,6 @@ internal class ShowMeYourHandsMod : Mod
 
                 void undoAction()
                 {
-                    currentNoHands = currentMainHand == Vector3.zero;
                     currentMainHand = compProperties.MainHand;
                     currentOffHand = compProperties.SecHand;
                     currentMainRotation = compProperties.MainRotation;
@@ -876,6 +885,7 @@ internal class ShowMeYourHandsMod : Mod
                     currentHasOffHand = currentOffHand != Vector3.zero;
                     currentMainBehind = compProperties.MainHand.y < 0;
                     currentOffBehind = compProperties.SecHand.y < 0;
+                    currentNoHands = currentMainHand == Vector3.zero;
                 }
 
                 void resetAction()
@@ -891,6 +901,7 @@ internal class ShowMeYourHandsMod : Mod
                             currentHasOffHand = currentOffHand != Vector3.zero;
                             currentMainBehind = compProperties.MainHand.y < 0;
                             currentOffBehind = compProperties.SecHand.y < 0;
+                            currentNoHands = currentMainHand == Vector3.zero;
                         }));
                 }
             }
@@ -1095,6 +1106,7 @@ internal class ShowMeYourHandsMod : Mod
                 SelectedDef = SelectedDef == thingDef.defName ? null : thingDef.defName;
                 currentMainHand = Vector3.zero;
                 currentOffHand = Vector3.zero;
+                currentNoHands = false;
             }
 
             GUI.color = Color.white;

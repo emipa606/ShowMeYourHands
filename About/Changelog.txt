@@ -1,5 +1,9 @@
 # Changelog for ShowMeYourHands
 
+1.6.4 - Fixed no hands config getting stuck. Added option to only show on player controlled pawns.
+Used DeepL to update translations for ChineseSimplified, French, German, Russian
+
+
 1.6.3 - Nullcheck for weapons without any textures
 
 

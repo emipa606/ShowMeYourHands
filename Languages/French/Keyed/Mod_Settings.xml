@@ -73,4 +73,6 @@
   <SMYH.showonraces.label>Races activées</SMYH.showonraces.label>
   <SMYH.showonraces.search>Recherche</SMYH.showonraces.search>
   <SMYH.showonraces.reset>Remise à zéro</SMYH.showonraces.reset>
+  <SMYH.showhandscolonistsonly.label>Ne s'affiche que sur les colons</SMYH.showhandscolonistsonly.label>
+  <SMYH.showhandscolonistsonly.tooltip>Les mains ne seront affichées que sur les colons, les esclaves, les mechs de la colonie et les autres pions contrôlés par le joueur.</SMYH.showhandscolonistsonly.tooltip>
 </LanguageData>

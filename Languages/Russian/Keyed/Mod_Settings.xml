@@ -73,4 +73,6 @@
   <SMYH.showonraces.label>Включенные расы</SMYH.showonraces.label>
   <SMYH.showonraces.search>Поиск</SMYH.showonraces.search>
   <SMYH.showonraces.reset>Сбросить</SMYH.showonraces.reset>
+  <SMYH.showhandscolonistsonly.label>Показывать только на колонистах</SMYH.showhandscolonistsonly.label>
+  <SMYH.showhandscolonistsonly.tooltip>Руки будут показаны только у колонистов, рабов, колониальных мехов и других пешек, управляемых игроком.</SMYH.showhandscolonistsonly.tooltip>
 </LanguageData>

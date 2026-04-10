@@ -73,4 +73,6 @@
   <SMYH.showonraces.label>Freigegebene Ethnien</SMYH.showonraces.label>
   <SMYH.showonraces.search>Suche</SMYH.showonraces.search>
   <SMYH.showonraces.reset>Zurücksetzen</SMYH.showonraces.reset>
+  <SMYH.showhandscolonistsonly.label>Nur bei Kolonisten anzeigen</SMYH.showhandscolonistsonly.label>
+  <SMYH.showhandscolonistsonly.tooltip>Hände werden nur bei Kolonisten, Sklaven, Kolonie-Mechs und anderen vom Spieler kontrollierten Figuren angezeigt.</SMYH.showhandscolonistsonly.tooltip>
 </LanguageData>

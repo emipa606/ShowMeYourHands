@@ -34,6 +34,7 @@ internal class ShowMeYourHandsModSettings : ModSettings
     public bool ResizeHands = true;
     public bool Rotation = ModsConfig.IsActive("andromeda.nicehands");
     public bool ShowCrawling;
+    public bool ShowHandsOnlyOnColonists;
     public Dictionary<string, bool> ShowOnRace = new();
     private List<string> showOnRaceKeys;
     private List<bool> showOnRaceValues;
@@ -54,6 +55,7 @@ internal class ShowMeYourHandsModSettings : ModSettings
         Scribe_Values.Look(ref ShowWhenCarry, "ShowWhenCarry");
         Scribe_Values.Look(ref ShowOtherTmes, "ShowOtherTmes");
         Scribe_Values.Look(ref ShowCrawling, "ShowCrawling");
+        Scribe_Values.Look(ref ShowHandsOnlyOnColonists, "ShowHandsOnlyOnColonists");
         Scribe_Values.Look(ref BaseHandSize, "BaseHandSize", 1f);
         Scribe_Collections.Look(ref ManualMainHandPositions, "ManualMainHandPositions", LookMode.Value,
             LookMode.Value,

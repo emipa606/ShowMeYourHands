@@ -69,6 +69,8 @@
   <SMYH.rotate>Use the scroll wheel to rotate the hands, hold SHIFT for faster rotation</SMYH.rotate>
   <SMYH.basehandsize.label>Base handsize: {0}</SMYH.basehandsize.label>
   <SMYH.basehandsize.tooltip>The base handsize before any bodysize-recalculations</SMYH.basehandsize.tooltip>
+  <SMYH.showhandscolonistsonly.label>Only show on colonists</SMYH.showhandscolonistsonly.label>
+  <SMYH.showhandscolonistsonly.tooltip>Hands will only be shown on colonists, slaves, colony mechs and other player controlled pawns.</SMYH.showhandscolonistsonly.tooltip>
   <SMYH.showonraces.label>Enabled races</SMYH.showonraces.label>
   <SMYH.showonraces.search>Search</SMYH.showonraces.search>
   <SMYH.showonraces.reset>Reset</SMYH.showonraces.reset>

@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using ColorMine.ColorSpaces;
 using ColorMine.ColorSpaces.Comparisons;
@@ -666,6 +666,11 @@ public class HandDrawer : ThingComp
     public override void PostDraw()
     {
         if (parent is not Pawn { Spawned: true } pawn || pawn.Map == null)
+        {
+            return;
+        }
+
+        if (ShowMeYourHandsMod.instance.Settings.ShowHandsOnlyOnColonists && !pawn.IsPlayerControlled)
         {
             return;
         }

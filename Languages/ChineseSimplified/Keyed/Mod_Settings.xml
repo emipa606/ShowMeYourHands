@@ -73,4 +73,6 @@
   <SMYH.showonraces.label>启用的种族</SMYH.showonraces.label>
   <SMYH.showonraces.search>搜索</SMYH.showonraces.search>
   <SMYH.showonraces.reset>重置</SMYH.showonraces.reset>
+  <SMYH.showhandscolonistsonly.label>只显示在殖民者身上</SMYH.showhandscolonistsonly.label>
+  <SMYH.showhandscolonistsonly.tooltip>手只会显示在殖民者、奴隶、殖民地机械人和其他玩家控制的棋子上。</SMYH.showhandscolonistsonly.tooltip>
 </LanguageData>
