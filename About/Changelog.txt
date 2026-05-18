@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.6.5 - Customize Weapons framework patchwarning removed
+
+
 1.6.4 - Fixed no hands config getting stuck. Added option to only show on player controlled pawns.
 Used DeepL to update translations for ChineseSimplified, French, German, Russian
 

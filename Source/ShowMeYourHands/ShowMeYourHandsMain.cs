@@ -102,7 +102,9 @@ public static class ShowMeYourHandsMain
         // Projectile position
         "Mlie.BetterProjectileOrigin",
         "Explorite.rimworld.mod.HarmonyPatches",
-        "rimworld.Ogliss.comps.activator"
+        "rimworld.Ogliss.comps.activator",
+        // Customize Weapons
+        "Vortex.CustomizeWeaponFramework"
     ];
 
     static ShowMeYourHandsMain()

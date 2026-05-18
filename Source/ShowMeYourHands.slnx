@@ -196,4 +196,7 @@
     <File Path="../1.6/Defs/HandPositions/OneOff.xml" />
     <File Path="../1.6/Defs/HandPositions/Royalty.xml" />
   </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Mod_Settings.xml" />
+  </Folder>
 </Solution>
