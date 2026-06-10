@@ -6,6 +6,7 @@ using RimWorld;
 using UnityEngine;
 using Verse;
 using WHands;
+using Object = UnityEngine.Object;
 
 namespace ShowMeYourHands;
 
@@ -385,74 +386,87 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
             0,
             RenderTextureFormat.Default,
             RenderTextureReadWrite.Linear);
-        Graphics.Blit(texture, renderTexture);
         var previous = RenderTexture.active;
-        RenderTexture.active = renderTexture;
-        var icon = new Texture2D(texture.width, texture.height);
-        icon.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
-        icon.Apply();
-        RenderTexture.active = previous;
-        RenderTexture.ReleaseTemporary(renderTexture);
+        Texture2D icon = null;
 
-
-        var pixels = icon.GetPixels32();
-        var width = icon.width;
-        var startPixel = width;
-        var endPixel = 0;
-
-        for (var i = 0; i < icon.height; i++)
+        try
         {
-            for (var j = 0; j < startPixel; j++)
+            Graphics.Blit(texture, renderTexture);
+            RenderTexture.active = renderTexture;
+
+            icon = new Texture2D(texture.width, texture.height);
+            icon.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
+            icon.Apply();
+
+            var pixels = icon.GetPixels32();
+            var width = icon.width;
+            var startPixel = width;
+            var endPixel = 0;
+
+            for (var i = 0; i < icon.height; i++)
             {
-                if (pixels[j + (i * width)].a < 5)
+                for (var j = 0; j < startPixel; j++)
                 {
-                    continue;
+                    if (pixels[j + (i * width)].a < 5)
+                    {
+                        continue;
+                    }
+
+                    startPixel = j;
+                    break;
                 }
 
-                startPixel = j;
-                break;
-            }
-
-            for (var j = width - 1; j >= endPixel; j--)
-            {
-                if (pixels[j + (i * width)].a < 5)
+                for (var j = width - 1; j >= endPixel; j--)
                 {
-                    continue;
-                }
+                    if (pixels[j + (i * width)].a < 5)
+                    {
+                        continue;
+                    }
 
-                endPixel = j;
-                break;
+                    endPixel = j;
+                    break;
+                }
+            }
+
+
+            var percentWidth = (endPixel - startPixel) / (float)width;
+            var percentStart = 0f;
+            if (startPixel != 0)
+            {
+                percentStart = startPixel / (float)width;
+            }
+
+            var percentEnd = 0f;
+            if (width - endPixel != 0)
+            {
+                percentEnd = (width - endPixel) / (float)width;
+            }
+
+            ShowMeYourHandsMain.LogMessage(
+                $"{weapon.defName}: start {startPixel.ToString()}, percentstart {percentStart}, end {endPixel.ToString()}, percentend {percentEnd}, width {width}, percent {percentWidth}");
+
+            if (percentWidth > 0.7f)
+            {
+                mainHand = new Vector3(-0.3f + percentStart, 0.3f, -0.05f);
+                secHand = new Vector3(0.2f, -0.100f, -0.05f);
+            }
+            else
+            {
+                mainHand = new Vector3(-0.3f + percentStart, 0.3f, 0f);
+                secHand = Vector3.zero;
+            }
+
+            return percentWidth > 0.7f;
+        }
+        finally
+        {
+            RenderTexture.active = previous;
+            RenderTexture.ReleaseTemporary(renderTexture);
+
+            if (icon != null)
+            {
+                Object.Destroy(icon);
             }
         }
-
-
-        var percentWidth = (endPixel - startPixel) / (float)width;
-        var percentStart = 0f;
-        if (startPixel != 0)
-        {
-            percentStart = startPixel / (float)width;
-        }
-
-        var percentEnd = 0f;
-        if (width - endPixel != 0)
-        {
-            percentEnd = (width - endPixel) / (float)width;
-        }
-
-        ShowMeYourHandsMain.LogMessage(
-            $"{weapon.defName}: start {startPixel.ToString()}, percentstart {percentStart}, end {endPixel.ToString()}, percentend {percentEnd}, width {width}, percent {percentWidth}");
-
-        if (percentWidth > 0.7f)
-        {
-            mainHand = new Vector3(-0.3f + percentStart, 0.3f, -0.05f);
-            secHand = new Vector3(0.2f, -0.100f, -0.05f);
-        }
-        else
-        {
-            mainHand = new Vector3(-0.3f + percentStart, 0.3f, 0f);
-            secHand = Vector3.zero;
-        }
-
-        return percentWidth > 0.7f;
     }
 }

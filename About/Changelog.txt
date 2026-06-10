@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.6.6 - Fixed temporary textures not being destroyed correctly when calculating handpositions for weapons with no existing placement settings included
+
+
 1.6.5 - Customize Weapons framework patchwarning removed
 
 
