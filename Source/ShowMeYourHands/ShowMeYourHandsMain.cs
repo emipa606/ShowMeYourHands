@@ -67,6 +67,7 @@ public static class ShowMeYourHandsMain
         "Roolo.DualWield",
         // Vanilla Expanded Framework
         "OskarPotocki.VFECore",
+        "OskarPotocki.VEF",
         // Vanilla Weapons Expanded - Laser
         // Modifies weapon position for lasers
         "com.ogliss.rimworld.mod.VanillaWeaponsExpandedLaser",
@@ -104,7 +105,9 @@ public static class ShowMeYourHandsMain
         "Explorite.rimworld.mod.HarmonyPatches",
         "rimworld.Ogliss.comps.activator",
         // Customize Weapons
-        "Vortex.CustomizeWeaponFramework"
+        "Vortex.CustomizeWeaponFramework",
+        // RimDark 40k - Framework
+        "Core40k.Mod"
     ];
 
     static ShowMeYourHandsMain()
