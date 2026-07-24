@@ -107,7 +107,9 @@ public static class ShowMeYourHandsMain
         // Customize Weapons
         "Vortex.CustomizeWeaponFramework",
         // RimDark 40k - Framework
-        "Core40k.Mod"
+        "Core40k.Mod",
+        // Betrayal
+        "mrk.betrayal.standalone"
     ];
 
     static ShowMeYourHandsMain()

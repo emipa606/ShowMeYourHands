@@ -1,5 +1,9 @@
 # Changelog for ShowMeYourHands
 
+1.6.8 - Added search-bar to the weapon-list
+Verified that the Betrayal mod does not cause issues with its harmony patch
+
+
 1.6.7 - Added a few more known patch-signatures
 
 

@@ -79,6 +79,8 @@ internal class ShowMeYourHandsMod : Mod
     private float currentMainRotation;
 
     private float currentOffRotation;
+
+    private string searchString;
     private Rect weaponRect;
 
     /// <summary>
@@ -181,6 +183,7 @@ internal class ShowMeYourHandsMod : Mod
         base.WriteSettings();
         ShowMeYourHandsMain.ResetMeshes();
         RimWorld_MainMenuDrawer_MainMenuOnGUI.UpdateHandDefinitions();
+        searchString = string.Empty;
     }
 
     public static bool IsShield(ThingDef weapon)
@@ -1074,9 +1077,24 @@ internal class ShowMeYourHandsMod : Mod
             SelectedDef = SelectedDef == "ShowOnRaces" ? null : "ShowOnRaces";
         }
 
-        listingStandard.ListItemSelectable(null, Color.yellow, out _);
+        //listingStandard.ListItemSelectable(null, Color.yellow, out _);
+        var searchRect = listingStandard.GetRect(30f);
+        searchString = Widgets.TextField(searchRect, searchString);
+        TooltipHandler.TipRegion(searchRect, "SMYH.search.tooltip".Translate());
+
+        var filteredWeapons = weaponsToShow;
+        if (!string.IsNullOrEmpty(searchString))
+        {
+            filteredWeapons = weaponsToShow
+                .Where(weapon => weapon.label.Contains(searchString, StringComparison.OrdinalIgnoreCase) ||
+                                 weapon.defName.Contains(searchString, StringComparison.OrdinalIgnoreCase) ||
+                                 weapon.modContentPack?.Name.Contains(searchString,
+                                     StringComparison.OrdinalIgnoreCase) == true)
+                .ToList();
+        }
+
         selectedHasManualDefs = [];
-        foreach (var thingDef in weaponsToShow)
+        foreach (var thingDef in filteredWeapons)
         {
             var toolTip = "SMYH.weaponrow.red";
             if (definedByDef?.Contains(thingDef.defName) == false &&

@@ -73,5 +73,6 @@
   <SMYH.showhandscolonistsonly.tooltip>Hands will only be shown on colonists, slaves, colony mechs and other player controlled pawns.</SMYH.showhandscolonistsonly.tooltip>
   <SMYH.showonraces.label>Enabled races</SMYH.showonraces.label>
   <SMYH.showonraces.search>Search</SMYH.showonraces.search>
+  <SMYH.search.tooltip>Search by weapon name, defname or modname</SMYH.search.tooltip>
   <SMYH.showonraces.reset>Reset</SMYH.showonraces.reset>
 </LanguageData>
