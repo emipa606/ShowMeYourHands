@@ -60,4 +60,4 @@ Since modding is just a hobby for me I expect no donations to keep modding. If y
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/ShowMeYourHands?label=latest%20version&style=plastic&labelColor=0070cd&color=white)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2475965842) | tags: realism, customization, graphics
+[![Image](https://img.shields.io/github/v/release/emipa606/ShowMeYourHands?label=latest%20version&style=plastic&labelColor=0070cd&color=white)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2475965842) | realism, customization, graphics

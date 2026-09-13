@@ -134,44 +134,9 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
 
     public static void FigureOutSpecific(ThingDef weapon)
     {
-        var compProps = weapon.GetCompProperties<WhandCompProps>();
-        if (compProps == null)
-        {
-            compProps = new WhandCompProps
-            {
-                compClass = typeof(WhandComp)
-            };
-            if (weapon.IsMeleeWeapon)
-            {
-                compProps.MainHand = new Vector3(-0.25f, 0.3f, 0);
-            }
-            else
-            {
-                compProps.SecHand = isWeaponLong(weapon, out var mainHand, out var secHand)
-                    ? secHand
-                    : Vector3.zero;
-                compProps.MainHand = mainHand;
-            }
-
-            weapon.comps.Add(compProps);
-        }
-        else
-        {
-            if (weapon.IsMeleeWeapon)
-            {
-                compProps.MainHand = new Vector3(-0.25f, 0.3f, 0);
-            }
-            else
-            {
-                compProps.SecHand = isWeaponLong(weapon, out var mainHand, out var secHand)
-                    ? secHand
-                    : Vector3.zero;
-                compProps.MainHand = mainHand;
-            }
-        }
-
-        compProps.MainRotation = 0;
-        compProps.SecRotation = 0;
+        var compProps = getOrCreateCompProps(weapon);
+        applyDefaultWeaponHands(weapon, compProps);
+        resetHandRotations(compProps);
     }
 
     private static void figureOutTheRest()
@@ -186,46 +151,47 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                 continue;
             }
 
-            var compProps = weapon.GetCompProperties<WhandCompProps>();
-            if (compProps == null)
-            {
-                compProps = new WhandCompProps
-                {
-                    compClass = typeof(WhandComp)
-                };
-                if (weapon.IsMeleeWeapon)
-                {
-                    compProps.MainHand = new Vector3(-0.25f, 0.3f, 0);
-                }
-                else
-                {
-                    compProps.SecHand = isWeaponLong(weapon, out var mainHand, out var secHand)
-                        ? secHand
-                        : Vector3.zero;
-                    compProps.MainHand = mainHand;
-                }
-
-                weapon.comps.Add(compProps);
-            }
-            else
-            {
-                if (weapon.IsMeleeWeapon)
-                {
-                    compProps.MainHand = new Vector3(-0.25f, 0.3f, 0);
-                }
-                else
-                {
-                    compProps.SecHand = isWeaponLong(weapon, out var mainHand, out var secHand)
-                        ? secHand
-                        : Vector3.zero;
-                    compProps.MainHand = mainHand;
-                }
-            }
-
-            compProps.MainRotation = 0;
-            compProps.SecRotation = 0;
+            var compProps = getOrCreateCompProps(weapon);
+            applyDefaultWeaponHands(weapon, compProps);
+            resetHandRotations(compProps);
             doneWeapons.Add(weapon);
         }
+    }
+
+    private static WhandCompProps getOrCreateCompProps(ThingDef weapon)
+    {
+        var compProps = weapon.GetCompProperties<WhandCompProps>();
+        if (compProps != null)
+        {
+            return compProps;
+        }
+
+        compProps = new WhandCompProps
+        {
+            compClass = typeof(WhandComp)
+        };
+        weapon.comps.Add(compProps);
+        return compProps;
+    }
+
+    private static void applyDefaultWeaponHands(ThingDef weapon, WhandCompProps compProps)
+    {
+        if (weapon.IsMeleeWeapon)
+        {
+            compProps.MainHand = new Vector3(-0.25f, 0.3f, 0);
+            return;
+        }
+
+        compProps.SecHand = isWeaponLong(weapon, out var mainHand, out var secHand)
+            ? secHand
+            : Vector3.zero;
+        compProps.MainHand = mainHand;
+    }
+
+    private static void resetHandRotations(WhandCompProps compProps)
+    {
+        compProps.MainRotation = 0;
+        compProps.SecRotation = 0;
     }
 
     private static void loadFromSettings()
@@ -243,56 +209,38 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                 continue;
             }
 
-            var compProps = weapon.GetCompProperties<WhandCompProps>();
-            if (compProps == null)
-            {
-                compProps = new WhandCompProps
-
-                {
-                    compClass = typeof(WhandComp),
-                    MainHand = keyValuePair.Value.ToVector3(),
-                    SecHand =
-                        ShowMeYourHandsMod.instance?.Settings?.ManualOffHandPositions
-                            .ContainsKey(keyValuePair.Key) == true
-                            ? ShowMeYourHandsMod.instance.Settings.ManualOffHandPositions[keyValuePair.Key]
-                                .ToVector3()
-                            : Vector3.zero
-                };
-
-                weapon.comps.Add(compProps);
-            }
-            else
-            {
-                compProps.MainHand = keyValuePair.Value.ToVector3();
-                compProps.SecHand =
-                    ShowMeYourHandsMod.instance?.Settings?.ManualOffHandPositions.ContainsKey(keyValuePair.Key) ==
-                    true
-                        ? ShowMeYourHandsMod.instance.Settings.ManualOffHandPositions[keyValuePair.Key].ToVector3()
-                        : Vector3.zero;
-            }
-
-            if (ShowMeYourHandsMod.instance?.Settings?.ManualMainHandRotations?.TryGetValue(keyValuePair.Key,
-                    out var mainHandRotation) == true)
-            {
-                compProps.MainRotation = mainHandRotation;
-            }
-            else
-            {
-                compProps.MainRotation = 0;
-            }
-
-            if (ShowMeYourHandsMod.instance?.Settings?.ManualOffHandRotations?.TryGetValue(keyValuePair.Key,
-                    out var offHandRotation) == true)
-            {
-                compProps.SecRotation = offHandRotation;
-            }
-            else
-            {
-                compProps.SecRotation = 0;
-            }
+            var compProps = getOrCreateCompProps(weapon);
+            compProps.MainHand = keyValuePair.Value.ToVector3();
+            compProps.SecHand = getManualOffHandPosition(keyValuePair.Key);
+            compProps.MainRotation = getManualMainHandRotation(keyValuePair.Key);
+            compProps.SecRotation = getManualOffHandRotation(keyValuePair.Key);
 
             doneWeapons.Add(weapon);
         }
+    }
+
+    private static Vector3 getManualOffHandPosition(string defName)
+    {
+        return ShowMeYourHandsMod.instance?.Settings?.ManualOffHandPositions?.TryGetValue(defName, out var value) ==
+               true
+            ? value.ToVector3()
+            : Vector3.zero;
+    }
+
+    private static float getManualMainHandRotation(string defName)
+    {
+        return ShowMeYourHandsMod.instance?.Settings?.ManualMainHandRotations?.TryGetValue(defName, out var value) ==
+               true
+            ? value
+            : 0f;
+    }
+
+    private static float getManualOffHandRotation(string defName)
+    {
+        return ShowMeYourHandsMod.instance?.Settings?.ManualOffHandRotations?.TryGetValue(defName, out var value) ==
+               true
+            ? value
+            : 0f;
     }
 
     public static void LoadFromDefs(ThingDef specificDef = null)
@@ -300,78 +248,68 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
         var defs = DefDatabase<ClutterHandsTDef>.AllDefsListForReading;
         ShowMeYourHandsMod.definedByDef ??= [];
 
-        foreach (var handsTDef in defs)
+        foreach (var handsComp in defs.Select(hands => hands.WeaponCompLoader))
         {
-            if (handsTDef.WeaponCompLoader.Count <= 0)
+            if (handsComp.Count <= 0)
             {
                 return;
             }
 
-            foreach (var weaponSets in handsTDef.WeaponCompLoader)
+            foreach (var weaponSets in handsComp)
             {
                 if (weaponSets.ThingTargets.Count <= 0)
                 {
                     continue;
                 }
 
-                foreach (var weaponDefName in weaponSets.ThingTargets)
+                if (applyWeaponSetsFromDefs(weaponSets, specificDef))
                 {
-                    if (specificDef != null && weaponDefName != specificDef.defName)
-                    {
-                        continue;
-                    }
-
-                    var weapon = DefDatabase<ThingDef>.GetNamedSilentFail(weaponDefName);
-                    if (weapon == null)
-                    {
-                        continue;
-                    }
-
-                    if (specificDef == null && doneWeapons.Contains(weapon))
-                    {
-                        continue;
-                    }
-
-                    var compProps = weapon.GetCompProperties<WhandCompProps>();
-                    if (compProps == null)
-                    {
-                        compProps = new WhandCompProps
-
-                        {
-                            compClass = typeof(WhandComp),
-                            MainHand = weaponSets.MainHand,
-                            SecHand = weaponSets.SecHand,
-                            MainRotation = weaponSets.MainRotation,
-                            SecRotation = weaponSets.SecRotation
-                        };
-                        weapon.comps.Add(compProps);
-                    }
-                    else
-                    {
-                        compProps.MainHand = weaponSets.MainHand;
-                        compProps.SecHand = weaponSets.SecHand;
-                        compProps.MainRotation = weaponSets.MainRotation;
-                        compProps.SecRotation = weaponSets.SecRotation;
-                    }
-
-                    ShowMeYourHandsMod.definedByDef.Add(weapon.defName);
-                    if (specificDef != null)
-                    {
-                        return;
-                    }
-
-                    doneWeapons.Add(weapon);
+                    return;
                 }
             }
         }
     }
 
+    private static bool applyWeaponSetsFromDefs(ClutterHandsTDef.CompTargets weaponSets, ThingDef specificDef)
+    {
+        foreach (var weaponDefName in weaponSets.ThingTargets)
+        {
+            if (specificDef != null && weaponDefName != specificDef.defName)
+            {
+                continue;
+            }
+
+            var weapon = DefDatabase<ThingDef>.GetNamedSilentFail(weaponDefName);
+            if (weapon == null || specificDef == null && doneWeapons.Contains(weapon))
+            {
+                continue;
+            }
+
+            applyWeaponSetToCompProps(weapon, weaponSets);
+            ShowMeYourHandsMod.definedByDef.Add(weapon.defName);
+            if (specificDef != null)
+            {
+                return true;
+            }
+
+            doneWeapons.Add(weapon);
+        }
+
+        return false;
+    }
+
+    private static void applyWeaponSetToCompProps(ThingDef weapon, ClutterHandsTDef.CompTargets weaponSets)
+    {
+        var compProps = getOrCreateCompProps(weapon);
+        compProps.MainHand = weaponSets.MainHand;
+        compProps.SecHand = weaponSets.SecHand;
+        compProps.MainRotation = weaponSets.MainRotation;
+        compProps.SecRotation = weaponSets.SecRotation;
+    }
+
     private static bool isWeaponLong(ThingDef weapon, out Vector3 mainHand, out Vector3 secHand)
     {
         var texture = weapon.graphicData.Graphic?.MatSingle.mainTexture;
-
-        // This is not allowed
-        //var icon = (Texture2D) texture;
         if (texture == null)
         {
             mainHand = new Vector3(-0.3f, 0.3f, 0f);
@@ -379,7 +317,6 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
             return false;
         }
 
-        // This is
         var renderTexture = RenderTexture.GetTemporary(
             texture.width,
             texture.height,
@@ -391,72 +328,17 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
 
         try
         {
-            Graphics.Blit(texture, renderTexture);
-            RenderTexture.active = renderTexture;
-
-            icon = new Texture2D(texture.width, texture.height);
-            icon.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
-            icon.Apply();
-
-            var pixels = icon.GetPixels32();
+            icon = createReadableTexture(texture, renderTexture);
+            calculateTextureBounds(icon, out var startPixel, out var endPixel);
             var width = icon.width;
-            var startPixel = width;
-            var endPixel = 0;
-
-            for (var i = 0; i < icon.height; i++)
-            {
-                for (var j = 0; j < startPixel; j++)
-                {
-                    if (pixels[j + (i * width)].a < 5)
-                    {
-                        continue;
-                    }
-
-                    startPixel = j;
-                    break;
-                }
-
-                for (var j = width - 1; j >= endPixel; j--)
-                {
-                    if (pixels[j + (i * width)].a < 5)
-                    {
-                        continue;
-                    }
-
-                    endPixel = j;
-                    break;
-                }
-            }
-
-
             var percentWidth = (endPixel - startPixel) / (float)width;
-            var percentStart = 0f;
-            if (startPixel != 0)
-            {
-                percentStart = startPixel / (float)width;
-            }
-
-            var percentEnd = 0f;
-            if (width - endPixel != 0)
-            {
-                percentEnd = (width - endPixel) / (float)width;
-            }
+            var percentStart = startPixel != 0 ? startPixel / (float)width : 0f;
+            var percentEnd = width - endPixel != 0 ? (width - endPixel) / (float)width : 0f;
 
             ShowMeYourHandsMain.LogMessage(
                 $"{weapon.defName}: start {startPixel.ToString()}, percentstart {percentStart}, end {endPixel.ToString()}, percentend {percentEnd}, width {width}, percent {percentWidth}");
 
-            if (percentWidth > 0.7f)
-            {
-                mainHand = new Vector3(-0.3f + percentStart, 0.3f, -0.05f);
-                secHand = new Vector3(0.2f, -0.100f, -0.05f);
-            }
-            else
-            {
-                mainHand = new Vector3(-0.3f + percentStart, 0.3f, 0f);
-                secHand = Vector3.zero;
-            }
-
-            return percentWidth > 0.7f;
+            return setHandPositionsFromWidth(percentWidth, percentStart, out mainHand, out secHand);
         }
         finally
         {
@@ -468,5 +350,64 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                 Object.Destroy(icon);
             }
         }
+    }
+
+    private static Texture2D createReadableTexture(Texture texture, RenderTexture renderTexture)
+    {
+        Graphics.Blit(texture, renderTexture);
+        RenderTexture.active = renderTexture;
+
+        var icon = new Texture2D(texture.width, texture.height);
+        icon.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
+        icon.Apply();
+        return icon;
+    }
+
+    private static void calculateTextureBounds(Texture2D icon, out int startPixel, out int endPixel)
+    {
+        var pixels = icon.GetPixels32();
+        var width = icon.width;
+        startPixel = width;
+        endPixel = 0;
+
+        for (var i = 0; i < icon.height; i++)
+        {
+            for (var j = 0; j < startPixel; j++)
+            {
+                if (pixels[j + (i * width)].a < 5)
+                {
+                    continue;
+                }
+
+                startPixel = j;
+                break;
+            }
+
+            for (var j = width - 1; j >= endPixel; j--)
+            {
+                if (pixels[j + (i * width)].a < 5)
+                {
+                    continue;
+                }
+
+                endPixel = j;
+                break;
+            }
+        }
+    }
+
+    private static bool setHandPositionsFromWidth(float percentWidth, float percentStart, out Vector3 mainHand,
+        out Vector3 secHand)
+    {
+        if (percentWidth > 0.7f)
+        {
+            mainHand = new Vector3(-0.3f + percentStart, 0.3f, -0.05f);
+            secHand = new Vector3(0.2f, -0.100f, -0.05f);
+            return true;
+        }
+
+        mainHand = new Vector3(-0.3f + percentStart, 0.3f, 0f);
+        secHand = Vector3.zero;
+        return false;
     }
 }

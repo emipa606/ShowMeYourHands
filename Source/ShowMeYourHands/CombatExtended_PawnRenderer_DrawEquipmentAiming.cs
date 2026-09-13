@@ -11,7 +11,7 @@ public static class CombatExtended_PawnRenderer_DrawEquipmentAiming
 {
     public static bool Prepare()
     {
-        return ModLister.GetActiveModWithIdentifier("CETeam.CombatExtended", true) != null;
+        return ShowMeYourHandsMain.CELoaded;
     }
 
     public static MethodBase TargetMethod()
@@ -22,6 +22,20 @@ public static class CombatExtended_PawnRenderer_DrawEquipmentAiming
 
     public static void Postfix(Thing eq, float aimAngle, Matrix4x4 matrix)
     {
-        ShowMeYourHandsMain.weaponLocations[eq] = new Tuple<Vector3, float>(matrix.Position(), aimAngle);
+        var location = matrix.Position();
+        var owner = ShowMeYourHandsMain.TryGetWeaponOwner(eq);
+        if (owner != null)
+        {
+            var cachedLocation = location - owner.DrawPos;
+            if (cachedLocation.MagnitudeHorizontalSquared() > 0.81f)
+            {
+                return;
+            }
+
+            ShowMeYourHandsMain.weaponLocations[eq] = new Tuple<Vector3, float>(cachedLocation, aimAngle);
+            return;
+        }
+
+        ShowMeYourHandsMain.weaponLocations[eq] = new Tuple<Vector3, float>(location, aimAngle);
     }
 }

@@ -6,8 +6,11 @@
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <DebugType>None</DebugType>
     <LangVersion>latest</LangVersion>
-    <FileVersion>1.6.8</FileVersion>
+    <FileVersion>1.6.9</FileVersion>
     <Copyright>© Mlie 2026 - MIT License</Copyright>
+    <AssemblyVersion>1.6</AssemblyVersion>
+    <Product>Show Me Your Hands</Product>
+    <Nullable>warnings</Nullable>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">

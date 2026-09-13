@@ -3,7 +3,7 @@ using Verse;
 
 namespace ShowMeYourHands;
 
-public class BigAndSmallFramework
+public static class BigAndSmallFramework
 {
     public static float GetModifiedSize(Pawn pawn, float originalSize)
     {

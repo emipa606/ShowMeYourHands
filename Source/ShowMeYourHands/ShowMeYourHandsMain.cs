@@ -12,8 +12,9 @@ namespace ShowMeYourHands;
 [StaticConstructorOnStartup]
 public static class ShowMeYourHandsMain
 {
-    public static readonly Dictionary<Thing, Tuple<Vector3, float>> weaponLocations = new();
+    public static readonly bool CELoaded = ModLister.GetActiveModWithIdentifier("CETeam.CombatExtended", true) != null;
 
+    public static readonly Dictionary<Thing, Tuple<Vector3, float>> weaponLocations = new();
     public static readonly Dictionary<ThingDef, Vector3> southOffsets = new();
     public static readonly Dictionary<ThingDef, Vector3> northOffsets = new();
     public static readonly Dictionary<ThingDef, Vector3> eastOffsets = new();
@@ -215,15 +216,7 @@ public static class ShowMeYourHandsMain
             return false;
         }
 
-        foreach (var bodyPartRecord in addedPart.parts)
-        {
-            if (HediffContainsHand(bodyPartRecord))
-            {
-                return true;
-            }
-        }
-
-        return false;
+        return addedPart.parts.Any(HediffContainsHand);
     }
 
 
@@ -257,6 +250,15 @@ public static class ShowMeYourHandsMain
         flippedHandMeshes.Clear();
     }
 
+    public static Pawn TryGetWeaponOwner(Thing weapon)
+    {
+        if (weapon?.ParentHolder is Pawn_EquipmentTracker equipmentTracker)
+        {
+            return equipmentTracker.pawn;
+        }
+
+        return weapon?.ParentHolder as Pawn;
+    }
 
     private static Color getColorFromTechLevel(TechLevel techLevel)
     {
@@ -282,58 +284,55 @@ public static class ShowMeYourHandsMain
     {
         if (OversizedWeaponLoaded)
         {
-            var thingComp =
-                weapon.comps.FirstOrDefault(y => y.GetType().ToString().Contains("CompOversizedWeapon"));
-            if (thingComp == null)
-            {
-                return;
-            }
-
-            var oversizedType = thingComp.GetType();
-            var fields = oversizedType.GetFields().Where(info => info.Name.Contains("Offset"));
-
-            foreach (var fieldInfo in fields)
-            {
-                switch (fieldInfo.Name)
-                {
-                    case "northOffset":
-                        northOffsets[weapon] = fieldInfo.GetValue(thingComp) is Vector3
-                            ? (Vector3)fieldInfo.GetValue(thingComp)
-                            : Vector3.zero;
-                        break;
-                    case "southOffset":
-                        southOffsets[weapon] = fieldInfo.GetValue(thingComp) is Vector3
-                            ? (Vector3)fieldInfo.GetValue(thingComp)
-                            : Vector3.zero;
-                        break;
-                    case "westOffset":
-                        westOffsets[weapon] = fieldInfo.GetValue(thingComp) is Vector3
-                            ? (Vector3)fieldInfo.GetValue(thingComp)
-                            : Vector3.zero;
-                        break;
-                    case "eastOffset":
-                        eastOffsets[weapon] = fieldInfo.GetValue(thingComp) is Vector3
-                            ? (Vector3)fieldInfo.GetValue(thingComp)
-                            : Vector3.zero;
-                        break;
-                }
-            }
-
+            saveOversizedWeaponOffsets(weapon);
             return;
         }
 
-        if (!EnableOversizedLoaded)
+        if (!EnableOversizedLoaded || weapon.graphicData == null)
         {
             return;
         }
 
-        if (weapon.graphicData == null)
+        saveGraphicWeaponOffsets(weapon, weapon.graphicData);
+    }
+
+    private static void saveOversizedWeaponOffsets(ThingDef weapon)
+    {
+        var thingComp = weapon.comps.FirstOrDefault(y => y.GetType().ToString().Contains("CompOversizedWeapon"));
+        if (thingComp == null)
         {
             return;
         }
 
-        var graphicData = weapon.graphicData;
+        var fields = thingComp.GetType().GetFields().Where(info => info.Name.Contains("Offset"));
+        foreach (var fieldInfo in fields)
+        {
+            saveOversizedOffsetField(weapon, thingComp, fieldInfo);
+        }
+    }
 
+    private static void saveOversizedOffsetField(ThingDef weapon, object thingComp, FieldInfo fieldInfo)
+    {
+        var value = fieldInfo.GetValue(thingComp) is Vector3 vector ? vector : Vector3.zero;
+        switch (fieldInfo.Name)
+        {
+            case "northOffset":
+                northOffsets[weapon] = value;
+                break;
+            case "southOffset":
+                southOffsets[weapon] = value;
+                break;
+            case "westOffset":
+                westOffsets[weapon] = value;
+                break;
+            case "eastOffset":
+                eastOffsets[weapon] = value;
+                break;
+        }
+    }
+
+    private static void saveGraphicWeaponOffsets(ThingDef weapon, GraphicData graphicData)
+    {
         var baseOffset = graphicData.drawOffset;
 
         northOffsets[weapon] = graphicData.drawOffsetNorth ?? baseOffset;

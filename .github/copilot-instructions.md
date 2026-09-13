@@ -1,55 +1,72 @@
-# GitHub Copilot Instructions for "Show Me Your Hands" Mod
+# GitHub Copilot Instructions for Show Me Your Hands
 
 ## Mod Overview and Purpose
 
-**Mod Name**: Show Me Your Hands  
-**Author**: Mlie  
-**Package ID**: Mlie.ShowMeYourHands  
+**Mod Name:** Show Me Your Hands  
+**Author:** Mlie  
+**Description:**
 
-The "Show Me Your Hands" mod for RimWorld enhances the visual realism of the game by displaying pawns' hands on their weapons when they are drafted. This mod dynamically adjusts hand positions based on the graphics of the weapon, extending compatibility to both vanilla and most modded weapons. It builds upon the concept of Clutter Weapon Hands with dynamic flexibility, offering settings that can be customized per weapon.
+"Show Me Your Hands" enhances the visual representation of pawns in RimWorld by allowing them to display their hands on weapons when drafted. This mod aims to improve the game's immersion and aesthetic by dynamically setting hand positions based on weapon graphics, ensuring compatibility with most weapons, whether vanilla or modded.
 
 ## Key Features and Systems
 
-- **Dynamic Hand Display**: Automatically positions hands on weapons for a wide range of mods and vanilla content.
-- **Customizable Settings**: Mod settings allow for fine-tuning of hand display attributes and can be exported for integration with other mods.
-- **Compatibility**: Supports a variety of mods including, but not limited to, Enable Oversized Weapons, Yayo's Combat 3, RunAndGun, Dual Wield, Combat Extended, and Melee Animation.
-- **Visual Enhancements**: Options for hand coloring based on apparel, artificial limbs, and resizing based on pawn body size.
-- **Additional Functionality**: Can display hands when pawns carry items, with adjustments for missing limbs or oversized weapons.
+1. **Dynamic Hand Positioning:**
+   - Automatically adjusts hand positions based on weapon graphics.
+   - Utilizes pre-existing hand definitions for prior setups.
+
+2. **Mod Settings Customization:**
+   - Customize hand settings for each weapon, including exporting and importing these configurations to other mods for native support.
+   - Full support for "Continued" mods.
+
+3. **Compatibility and Integration:**
+   - Compatible with multiple mods, including "Enable Oversized Weapons", "Yayo's Combat 3", "RunAndGun", "Dual Wield", and "Combat Extended".
+   - Ensures hands follow weapon animations during additional movements.
+
+4. **Visual Customizations:**
+   - Options for hand coloring based on apparel/armor and artificial limbs.
+   - Resizing based on pawn body size, compatible with children.
+   - Hand repositioning for oversized weapons.
+   - Configurations for hand display when pawns are carrying objects, missing hands, or always showing hands.
+
+5. **Translations and Texture Support:**
+   - Includes hand definitions and texture updates, with contributions from various community members.
+   - Chinese translation by shiuanyue.
 
 ## Coding Patterns and Conventions
 
-- **C# Patterns**: Follow typical C# conventions for readability and maintainability. Use meaningful identifiers and camelCase or PascalCase as appropriate.
-- **Type Definitions**: Utilize organized type definitions as seen in classes like `BigAndSmallFramework`, `ClutterHandsTDef`, and `HandDrawer`.
-- **Member Functions**: Member functions such as `DrawHandsOnWeapon` and `GetModifiedSize` should be user-friendly and reflect their purpose clearly.
+- Use clean and readable C# code organized into relevant namespaces and classes.
+- Follow naming conventions such as PascalCase for class names and methods, camelCase for local variables.
+- Maximize modularity and reusability of code components.
+- Ensure compatibility with the Harmony library for non-intrusive modding.
 
 ## XML Integration
 
-XML files are pivotal for storing definitions and hand positions specific to mod conditions. The files found under `.../Defs/HandPositions/` include configurations like:
-- `Anomaly.xml`
-- `Biotech.xml`
-- and others.
-
-These XML files use `WHands.ClutterHandsTDef` to define hand configurations per weapon, enabling integration and easy expansion with other mods.
+- XML is heavily used to define hand positions for various scenarios within the mod.
+- Definitions including `WHands.ClutterHandsTDef` are organized for different settings and mods like "Anomaly", "Biotech", etc.
+- Ensure XML files have consistent indentations and are well-commented to facilitate understanding.
 
 ## Harmony Patching
 
-The mod employs the Harmony library (`brrainz.harmony`) for patching, allowing for safe injection of code modifications into existing game methods. Key patched methods should be articulated using `Postfix`, `Prepare`, and `TargetMethod`, ensuring seamless integration without conflicts.
-
-Key files using Harmony include:
-- `CombatExtended_PawnRenderer_DrawEquipmentAiming.cs`
-- Ensure patches do not override critical game functions unless absolutely necessary.
+- Harmony is used to patch existing game methods to allow dynamic hand positioning:
+  - Example types include `CombatExtended_PawnRenderer_DrawEquipmentAiming` for integrating with Combat Extended.
+- Harmony patches should identify and appropriately target methods without disrupting core functionality.
 
 ## Suggestions for Copilot
 
-When using GitHub Copilot within this mod, consider the following suggestions:
+- **C# Development:**
+  - Assist in generating boilerplate code for new feature inductions.
+  - Provide suggestions for Harmony patch methods and setup.
+  - Recommend optimizations for existing methods to improve performance and readability.
 
-1. **Leverage XML Definitions**: Suggest XML code that adheres to RimWorld’s schema for defining new hand positions.
-2. **Suggest Harmony Patches**: Generate common Harmony patch structures, including Postfix methods.
-3. **UI Enhancements**: Suggest improvements in `HandDrawer` methods for enhancing visual rendering of hands.
-4. **Debugging Assistance**: Provide suggestions for potential debug outputs or logging strategies to trace graphical issues.
-5. **Compatibility Checks**: Include code snippets for verifying compatibility with known popular mods.
+- **XML Development:**
+  - Auto-generate XML definitions with proper styling and structure.
+  - Suggest additions to existing XML files based on detected patterns in new mod integrations.
 
-By providing structured input and guidelines to Copilot, you can maximize productivity and maintain high code quality throughout the "Show Me Your Hands" mod development process.
+- **Debug and Testing Support:**
+  - Offer unit test templates for validating feature implementations.
+  - Suggest debugging strategies within complex Harmony patched classes.
+
+By adhering to these instructions, you'll maximize the efficiency of your development process, ensuring your mod is robust, user-friendly, and compatible with a wide range of scenarios and other mods.
 
 ## Project Solution Guidelines
 - Relevant mod XML files are included as Solution Items under the solution folder named XML, these can be read and modified from within the solution.
@@ -63,4 +80,6 @@ By providing structured input and guidelines to Copilot, you can maximize produc
 ## Hard rules (must follow)
 - Do NOT run commands that modify the repo (no git commit, git apply, dotnet format) unless explicitly asked.
 - Prefer minimal reads: read only the smallest code region needed (around the suspicious lines).
+- When mentioning SonarQube issues, automatically use the SonarQube MCP service to fetch and address issues instead of making inferred fixes without querying SonarQube first.
+- When mentioning the rimworld log, automatically use the Rimworld MCP service to fetch the log.
 
