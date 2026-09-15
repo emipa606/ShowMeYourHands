@@ -191,7 +191,8 @@ public class HandDrawer : ThingComp
         var offHandAngle = mainHandAngle;
         if (offHandWeapon != null && ShowMeYourHandsMain.weaponLocations.ContainsKey(offHandWeapon))
         {
-            offhandWeaponLocation = GetCurrentWeaponLocation(offHandWeapon, ShowMeYourHandsMain.weaponLocations[offHandWeapon].Item1);
+            offhandWeaponLocation =
+                GetCurrentWeaponLocation(offHandWeapon, ShowMeYourHandsMain.weaponLocations[offHandWeapon].Item1);
             offHandAngle = ShowMeYourHandsMain.weaponLocations[offHandWeapon].Item2;
         }
 
@@ -812,12 +813,18 @@ public class HandDrawer : ThingComp
 
     private static Color getRaceHandColor(Pawn pawn)
     {
-        if (!ShowMeYourHandsMain.raceDictionary.ContainsKey(pawn.def))
+        if (ShowMeYourHandsMain.raceDictionary.TryGetValue(pawn.def, out var color))
         {
-            ShowMeYourHandsMain.raceDictionary[pawn.def] =
-                averageColorFromTexture((Texture2D)pawn.kindDef.lifeStages[-1].bodyGraphicData.Graphic.MatSingle
-                    .mainTexture);
+            return color;
         }
+
+        var lifeStageGraphic = pawn.kindDef?.lifeStages?.LastOrDefault()?.bodyGraphicData;
+        var graphicData = lifeStageGraphic ?? pawn.def.graphicData;
+        var texture = graphicData?.Graphic?.MatSingle?.mainTexture as Texture2D;
+
+        ShowMeYourHandsMain.raceDictionary[pawn.def] = texture == null
+            ? Color.white
+            : averageColorFromTexture(texture);
 
         return ShowMeYourHandsMain.raceDictionary[pawn.def];
     }

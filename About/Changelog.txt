@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.6.10 - Fixed faulty array handler in hand-color calculations.
+
+
 1.6.9 - CE shields will now block offhand from rendering
 Fixed hand rubberbanding on movement
 Hands should now be shown on pawns instead of the siluette when using strategic positioning
