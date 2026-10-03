@@ -529,7 +529,7 @@ internal class ShowMeYourHandsMod : Mod
         GUI.contentColor = Color.white;
     }
 
-    private void drawSettingsSummary(Rect frameRect)
+    private static void drawSettingsSummary(Rect frameRect)
     {
         var tabFrameRect = frameRect;
         tabFrameRect.y += listingStandard.CurHeight;

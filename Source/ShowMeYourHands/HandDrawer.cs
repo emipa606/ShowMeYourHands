@@ -247,7 +247,7 @@ public class HandDrawer : ThingComp
         var mesh = ShowMeYourHandsMain.GetMeshFromPawn(pawn, flipped);
 
         drawMainHand(mesh, pawn, mainHandWeapon, flipped, drawSize, mainMelee, aiming, skipMainHand, mainWeaponLocation,
-            mainHandAngle, mainMeleeExtra, matSingle, offSingle);
+            mainHandAngle, mainMeleeExtra, matSingle);
 
         if (shouldSkipOffHand(pawn, skipOffHand))
         {
@@ -370,7 +370,7 @@ public class HandDrawer : ThingComp
 
     private void drawMainHand(Mesh mesh, Pawn pawn, Thing mainHandWeapon, bool flipped, float drawSize, bool mainMelee,
         bool aiming, bool skipMainHand, Vector3 mainWeaponLocation, float mainHandAngle, float mainMeleeExtra,
-        Material matSingle, Material offSingle)
+        Material matSingle)
     {
         if (MainHand == Vector3.zero || skipMainHand)
         {
@@ -395,7 +395,7 @@ public class HandDrawer : ThingComp
 
         Graphics.DrawMesh(mesh,
             mainWeaponLocation + new Vector3(x, y + mainMeleeExtra, z).RotatedBy(mainHandAngle),
-            Quaternion.AngleAxis(mainHandAngle + MainHandRotation, Vector3.up), y >= 0 ? matSingle : offSingle, 0);
+            Quaternion.AngleAxis(mainHandAngle + MainHandRotation, Vector3.up), matSingle, 0);
     }
 
     private bool shouldSkipOffHand(Pawn pawn, bool skipOffHand)
@@ -437,8 +437,7 @@ public class HandDrawer : ThingComp
 
             Graphics.DrawMesh(mesh,
                 offhandWeaponLocation + new Vector3(x2, y2 + offMeleeExtra, z2).RotatedBy(offHandAngle),
-                Quaternion.AngleAxis(offHandAngle + OffHandRotation, Vector3.up),
-                y2 >= 0 ? matSingle : offSingle, 0);
+                Quaternion.AngleAxis(offHandAngle + OffHandRotation, Vector3.up), matSingle, 0);
             return;
         }
 
@@ -449,7 +448,7 @@ public class HandDrawer : ThingComp
 
         Graphics.DrawMesh(mesh,
             mainWeaponLocation + new Vector3(x2, y2 + offMeleeExtra, z2).RotatedBy(mainHandAngle),
-            Quaternion.AngleAxis(mainHandAngle + OffHandRotation, Vector3.up), y2 >= 0 ? matSingle : offSingle, 0);
+            Quaternion.AngleAxis(mainHandAngle + OffHandRotation, Vector3.up), offSingle, 0);
     }
 
     private static float getWeaponDrawSize(Thing weapon)
@@ -499,7 +498,7 @@ public class HandDrawer : ThingComp
         ensurePawnBodySizeCached(pawn);
         _ = HandColor;
 
-        if (!TryGetAllTimeHandDrawData(pawn, out var mesh, out var mainSingle, out var offSingle, out var bodySize))
+        if (!TryGetAllTimeHandDrawData(pawn, out var mesh, out var mainSingle, out var bodySize))
         {
             return;
         }
@@ -522,26 +521,23 @@ public class HandDrawer : ThingComp
             return;
         }
 
-        DrawAllTimeOffHand(pawn, mesh, mainSingle, offSingle, basePosition, sideOffset, layerOffset);
+        DrawAllTimeOffHand(pawn, mesh, mainSingle, basePosition, sideOffset, layerOffset);
     }
 
     private static bool TryGetAllTimeHandDrawData(Pawn pawn, out Mesh mesh, out Material mainSingle,
-        out Material offSingle, out float bodySize)
+        out float bodySize)
     {
         mesh = ShowMeYourHandsMain.GetMeshFromPawn(pawn);
         mainSingle = null;
-        offSingle = null;
         bodySize = ShowMeYourHandsMain.pawnBodySizes[pawn];
 
         var mainHandTex = ShowMeYourHandsMain.mainHandGraphics[pawn];
-        var offHandTex = ShowMeYourHandsMain.offHandGraphics[pawn];
-        if (mainHandTex == null || offHandTex == null)
+        if (mainHandTex == null)
         {
             return false;
         }
 
         mainSingle = mainHandTex.MatSingle;
-        offSingle = offHandTex.MatSingle;
         return true;
     }
 
@@ -636,18 +632,18 @@ public class HandDrawer : ThingComp
             apparel.def?.thingClass?.FullName == "CombatExtended.Apparel_Shield");
     }
 
-    private static void DrawAllTimeOffHand(Pawn pawn, Mesh mesh, Material mainSingle, Material offSingle,
+    private static void DrawAllTimeOffHand(Pawn pawn, Mesh mesh, Material mainSingle,
         Vector3 basePosition, Vector3 sideOffset, Vector3 layerOffset)
     {
         if (pawn.Rotation == Rot4.North)
         {
-            Graphics.DrawMesh(mesh, basePosition - sideOffset - layerOffset, new Quaternion(), offSingle, 0);
+            Graphics.DrawMesh(mesh, basePosition - sideOffset - layerOffset, new Quaternion(), mainSingle, 0);
             return;
         }
 
         if (pawn.Rotation == Rot4.South)
         {
-            Graphics.DrawMesh(mesh, basePosition + sideOffset + layerOffset, new Quaternion(), offSingle, 0);
+            Graphics.DrawMesh(mesh, basePosition + sideOffset + layerOffset, new Quaternion(), mainSingle, 0);
             return;
         }
 
@@ -658,7 +654,7 @@ public class HandDrawer : ThingComp
             return;
         }
 
-        Graphics.DrawMesh(mesh, basePosition + layerOffset, new Quaternion(), offSingle, 0);
+        Graphics.DrawMesh(mesh, basePosition + layerOffset, new Quaternion(), mainSingle, 0);
     }
 
     private void DrawHandsOnItem(Pawn pawn)
@@ -690,17 +686,15 @@ public class HandDrawer : ThingComp
         _ = HandColor;
         var mesh = ShowMeYourHandsMain.GetMeshFromPawn(pawn);
         var mainHandTex = ShowMeYourHandsMain.mainHandGraphics[pawn];
-        var offHandTex = ShowMeYourHandsMain.offHandGraphics[pawn];
 
 
-        if (mainHandTex == null || offHandTex == null)
+        if (mainHandTex == null)
         {
             return;
         }
 
         LastDrawn = GenTicks.TicksAbs;
         var matSingle = mainHandTex.MatSingle;
-        var offSingle = offHandTex.MatSingle;
         var height = new Vector3(0, 0, 0.1f);
         var width = new Vector3(-0.2f, 0, 0);
         if (pawn.Rotation == Rot4.West)
@@ -717,7 +711,7 @@ public class HandDrawer : ThingComp
         }
 
         Graphics.DrawMesh(mesh,
-            ItemHeldLocation + (height * -1) + (width * -1), new Quaternion(), offSingle, 0);
+            ItemHeldLocation + (height * -1) + (width * -1), new Quaternion(), matSingle, 0);
     }
 
     public override void PostDraw()
@@ -771,7 +765,7 @@ public class HandDrawer : ThingComp
 
     private bool tryDrawWeaponHands(Pawn pawn)
     {
-        if (pawn.equipment?.Primary == null || pawn.CurJob?.def.neverShowWeapon != false)
+        if (!pawn.Drafted || pawn.equipment?.Primary == null || pawn.CurJob?.def.neverShowWeapon != false)
         {
             return false;
         }

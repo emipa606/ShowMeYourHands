@@ -1,5 +1,9 @@
 # Changelog for ShowMeYourHands
 
+1.6.11 - Always show hands now works for undrafted pawns with a weapon equipped.
+Darker offhand is now only used when holding a two-handed weapon
+
+
 1.6.10 - Fixed faulty array handler in hand-color calculations.
 
 
