@@ -765,7 +765,17 @@ public class HandDrawer : ThingComp
 
     private bool tryDrawWeaponHands(Pawn pawn)
     {
-        if (!pawn.Drafted || pawn.equipment?.Primary == null || pawn.CurJob?.def.neverShowWeapon != false)
+        if (pawn.equipment?.Primary == null)
+        {
+            return false;
+        }
+
+        if (pawn.CurJob?.def.neverShowWeapon == true)
+        {
+            return false;
+        }
+
+        if (!pawn.Drafted && pawn.CurJob?.def.alwaysShowWeapon == false)
         {
             return false;
         }
