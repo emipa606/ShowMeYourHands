@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.6.13 - Finally fixed the compatibility with Melee Animation
+
+
 1.6.12 - Show hands if the current job show weapon
 
 

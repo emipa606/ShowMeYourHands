@@ -102,7 +102,7 @@ public class HandDrawer : ThingComp
         }
     }
 
-    private void DrawHandsOnWeapon(Pawn pawn)
+    private bool DrawHandsOnWeapon(Pawn pawn)
     {
         var mainHandWeapon = pawn.equipment.Primary;
         var compProperties = mainHandWeapon.def.GetCompProperties<WhandCompProps>();
@@ -147,32 +147,33 @@ public class HandDrawer : ThingComp
             }
 
             DrawHandsOnWeapon(mainHandWeapon, num, pawn, offhandWeapon, false, true);
-            return;
+            return true;
         }
 
         if (!(bool)ShowMeYourHandsMain.CarryWeaponMethod.Invoke(pawn.Drawer.renderer, [pawn]))
         {
-            return;
+            return false;
         }
 
         if (pawn.Rotation == Rot4.South || pawn.Rotation == Rot4.North)
         {
             DrawHandsOnWeapon(mainHandWeapon, 143f, pawn, offhandWeapon, true);
-            return;
+            return true;
         }
 
         if (pawn.Rotation == Rot4.East)
         {
             DrawHandsOnWeapon(mainHandWeapon, 143f, pawn, offhandWeapon);
-            return;
+            return true;
         }
 
         if (pawn.Rotation != Rot4.West)
         {
-            return;
+            return false;
         }
 
         DrawHandsOnWeapon(mainHandWeapon, 217f, pawn, offhandWeapon);
+        return true;
     }
 
     private void DrawHandsOnWeapon(Thing mainHandWeapon, float aimAngle, Pawn pawn, Thing offHandWeapon = null,
@@ -770,18 +771,7 @@ public class HandDrawer : ThingComp
             return false;
         }
 
-        if (pawn.CurJob?.def.neverShowWeapon == true)
-        {
-            return false;
-        }
-
-        if (!pawn.Drafted && pawn.CurJob?.def.alwaysShowWeapon == false)
-        {
-            return false;
-        }
-
-        DrawHandsOnWeapon(pawn);
-        return true;
+        return pawn.CurJob?.def.neverShowWeapon != true && DrawHandsOnWeapon(pawn);
     }
 
     private bool shouldSkipAmbientHands(Pawn pawn)
