@@ -110,7 +110,9 @@ public static class ShowMeYourHandsMain
         // RimDark 40k - Framework
         "Core40k.Mod",
         // Betrayal
-        "mrk.betrayal.standalone"
+        "mrk.betrayal.standalone",
+        // SmartCombat
+        "lordfelix.SmartCombat"
     ];
 
     static ShowMeYourHandsMain()

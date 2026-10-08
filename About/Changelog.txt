@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.6.14 - Verified SmartCombat works as expected
+
+
 1.6.13 - Finally fixed the compatibility with Melee Animation
 
 
