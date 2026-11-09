@@ -150,7 +150,7 @@ public class HandDrawer : ThingComp
             return true;
         }
 
-        if (!(bool)ShowMeYourHandsMain.CarryWeaponMethod.Invoke(pawn.Drawer.renderer, [pawn]))
+        if (!(bool)(ShowMeYourHandsMain.CarryWeaponMethod.Invoke(pawn.Drawer.renderer, [pawn]) ?? false))
         {
             return false;
         }
@@ -357,7 +357,7 @@ public class HandDrawer : ThingComp
 
             if (ShowMeYourHandsMain.BabiesAndChildrenLoaded && ShowMeYourHandsMain.GetBodySizeScaling != null)
             {
-                bodySize = (float)ShowMeYourHandsMain.GetBodySizeScaling.Invoke(null, [pawn]);
+                bodySize = (float)(ShowMeYourHandsMain.GetBodySizeScaling.Invoke(null, [pawn]) ?? 1f);
             }
 
             if (ShowMeYourHandsMain.BigAndSmallLoaded)
@@ -677,7 +677,7 @@ public class HandDrawer : ThingComp
 
                 if (ShowMeYourHandsMain.BabiesAndChildrenLoaded && ShowMeYourHandsMain.GetBodySizeScaling != null)
                 {
-                    bodySize = (float)ShowMeYourHandsMain.GetBodySizeScaling.Invoke(null, [pawn]);
+                    bodySize = (float)(ShowMeYourHandsMain.GetBodySizeScaling.Invoke(null, [pawn]) ?? 1f);
                 }
             }
 

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="baskerville.hellsingarmsultimate">
+    <defName>ClutterHandsSettings_HellsingARMSUltimate</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.220)</MainHand>
+        <ThingTargets>
+          <li>HSAU_HLS_WDDF</li>
+          <!-- Walter's Deadly Dental Floss -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.355, 0.100, -0.345)</MainHand>
+        <ThingTargets>
+          <li>HSAU_MLN_WarWaker</li>
+          <!-- The War Waker -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.290)</MainHand>
+        <ThingTargets>
+          <li>HSAU_MLN_ValentineRazor</li>
+          <!-- Valentine Razor -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.075, 0.100, -0.140)</MainHand>
+        <SecHand>(0.045, -0.100, 0.075)</SecHand>
+        <ThingTargets>
+          <li>HSAU_MSC_Stakenator</li>
+          <!-- The Stakenator -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.125)</MainHand>
+        <ThingTargets>
+          <li>HSAU_MLN_DandyDeck</li>
+          <!-- The Dandy Deck -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.375, 0.100, -0.380)</MainHand>
+        <ThingTargets>
+          <li>HSAU_MSC_SoulReaver</li>
+          <!-- Soul Reaver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.220)</MainHand>
+        <ThingTargets>
+          <li>HSAU_MLN_Schrodagger</li>
+          <!-- Schrodagger -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.105)</MainHand>
+        <ThingTargets>
+          <li>HSAU_HLS_Casull</li>
+          <!-- .454 Casull -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>HSAU_HLS_AMR</li>
+          <!-- 13.7mm Anti-Midians Rifle -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.115)</MainHand>
+        <ThingTargets>
+          <li>HSAU_HLS_Jackal</li>
+          <!-- 13mm Jackal -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.068, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>HSAU_HLS_Harkonnen</li>
+          <!-- 30mm Harkonnen -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.046, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>HSAU_HLS_HarkonnenII</li>
+          <!-- 30mm Harkonnen II -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.005)</MainHand>
+        <SecHand>(0.160, -0.100, -0.165)</SecHand>
+        <ThingTargets>
+          <li>HSAU_MSC_MGL</li>
+          <!-- 40mm ArmsCor MGL -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.020)</MainHand>
+        <SecHand>(0.155, -0.100, -0.150)</SecHand>
+        <ThingTargets>
+          <li>HSAU_MSC_mMGL</li>
+          <!-- 40mm Modded MGL -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.295)</MainHand>
+        <ThingTargets>
+          <li>HSAU_ISC_BeatifiedBayonet</li>
+          <!-- Beatified Bayonet -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.300)</MainHand>
+        <ThingTargets>
+          <li>HSAU_ISC_BlessedBayonet</li>
+          <!-- Blessed Bayonet -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.165)</MainHand>
+        <SecHand>(0.145, -0.100, -0.145)</SecHand>
+        <ThingTargets>
+          <li>HSAU_HLS_BloodBlaster</li>
+          <!-- Blood Blaster -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.300)</MainHand>
+        <ThingTargets>
+          <li>HSAU_ISC_ConsecLongsword</li>
+          <!-- Consecrated Longsword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.215)</MainHand>
+        <SecHand>(0.105, -0.100, -0.300)</SecHand>
+        <ThingTargets>
+          <li>HSAU_MSC_CrossLaser</li>
+          <!-- Cross Laser -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.000, 0.000, 0.000)</MainHand>
+        <ThingTargets>
+          <li>HSAU_ISC_CruciformCleaver</li>
+          <!-- Cruciform Cleaver -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.275)</MainHand>
+        <ThingTargets>
+          <li>HSAU_ISC_ExplosiveBayonet</li>
+          <!-- Explosive Bayonet -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.000, 0.000, 0.000)</MainHand>
+        <ThingTargets>
+          <li>HSAU_MLN_ExtendedExtendedMauser</li>
+          <!-- Extended Extended Mauser C96 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.130)</MainHand>
+        <ThingTargets>
+          <li>HSAU_MLN_ExtendedMauser</li>
+          <!-- Extended Mauser C96 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.000, 0.000, 0.000)</MainHand>
+        <ThingTargets>
+          <li>HSAU_MSC_GarlicGrenades</li>
+          <!-- Garlic Grenades -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.355, 0.100, -0.320)</MainHand>
+        <ThingTargets>
+          <li>HSAU_HLS_HellsingSabre</li>
+          <!-- Hellsing Family Sabre -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, -0.310)</MainHand>
+        <ThingTargets>
+          <li>HSAU_HLS_ImpalerGreatsword</li>
+          <!-- Impaler Greatsword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.055)</MainHand>
+        <SecHand>(0.360, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>HSAU_MLN_MagicalMusket</li>
+          <!-- Magical Musket -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.035)</MainHand>
+        <SecHand>(0.075, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>HSAU_HLS_mAvtomatKalashnikova</li>
+          <!-- Modded AK-47 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.045)</MainHand>
+        <SecHand>(0.045, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>HSAU_HLS_mArmaliteRifle</li>
+          <!-- Modded AR-15 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.080, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>HSAU_MLN_FNP90m</li>
+          <!-- Modded FN P90 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.000, 0.000, 0.000)</MainHand>
+        <ThingTargets>
+          <li>HSAU_ISC_mPTRS</li>
+          <!-- Modded PTRS-41 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.335)</MainHand>
+        <ThingTargets>
+          <li>HSAU_ISC_Muramiesa</li>
+          <!-- Muramiesa -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.055)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>HSAU_MLN_Panzerfaust</li>
+          <!-- Panzerfaust -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.015, 0.100, -0.075)</MainHand>
+        <SecHand>(0.245, -0.100, -0.065)</SecHand>
+        <ThingTargets>
+          <li>HSAU_MLN_Panzerschreck</li>
+          <!-- Panzerschreck -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>HSAU_ISC_PiousPistol</li>
+          <!-- Pious Pistol -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.155)</MainHand>
+        <SecHand>(0.000, -0.100, 0.090)</SecHand>
+        <ThingTargets>
+          <li>HSAU_MLN_PsychoScythe</li>
+          <!-- Psycho Scythe -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

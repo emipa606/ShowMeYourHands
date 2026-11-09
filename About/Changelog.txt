@@ -1,5 +1,8 @@
 # Changelog for ShowMeYourHands
 
+1.7.0 - Mod updated for 1.7 and passed autotests
+
+
 1.6.14 - Verified SmartCombat works as expected
 
 

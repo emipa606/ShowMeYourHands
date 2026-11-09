@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="ludeon.rimworld.royalty">
+    <defName>ClutterHandsSettings_Royalty</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.275, 0.100, 0.010)</MainHand>
+        <MainRotation>10</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_Axe</li>
+          <!-- axe -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, 0.020)</MainHand>
+        <SecHand>(-0.088, -0.100, 0.000)</SecHand>
+        <MainRotation>28</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_PsyfocusStaff</li>
+          <!-- eltex staff -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, 0.015)</MainHand>
+        <MainRotation>16</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_MonoSword</li>
+          <!-- monosword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, 0.015)</MainHand>
+        <MainRotation>16</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_MonoSwordBladelink</li>
+          <!-- persona monosword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, 0.015)</MainHand>
+        <MainRotation>16</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_PlasmaSwordBladelink</li>
+          <!-- persona plasmasword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, 0.010)</MainHand>
+        <SecHand>(-0.055, -0.100, 0.000)</SecHand>
+        <MainRotation>16</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_ZeusHammerBladelink</li>
+          <!-- persona zeushammer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, 0.015)</MainHand>
+        <MainRotation>16</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_PlasmaSword</li>
+          <!-- plasmasword -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, 0.010)</MainHand>
+        <SecHand>(-0.055, -0.100, 0.000)</SecHand>
+        <MainRotation>16</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_Zeushammer</li>
+          <!-- zeushammer -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.309, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.095, -0.100, -0.010)</SecHand>
+        <MainRotation>18</MainRotation>
+        <ThingTargets>
+          <li>MeleeWeapon_Warhammer</li>
+          <!-- warhammer -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

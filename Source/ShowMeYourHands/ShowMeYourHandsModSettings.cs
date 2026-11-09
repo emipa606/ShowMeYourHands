@@ -10,22 +10,11 @@ internal class ShowMeYourHandsModSettings : ModSettings
 {
     public float BaseHandSize = 1f;
     public Dictionary<string, SaveableVector3> ManualMainHandPositions = new();
-
-    private List<string> manualMainHandPositionsKeys;
-
-    private List<SaveableVector3> manualMainHandPositionsValues;
     public Dictionary<string, float> ManualMainHandRotations = new();
-    private List<string> manualMainHandRotationsKeys;
-    private List<float> manualMainHandRotationsValues;
+    public Dictionary<string, GeneratedHandPositionCacheEntry> GeneratedHandPositions = new();
 
     public Dictionary<string, SaveableVector3> ManualOffHandPositions = new();
-
-    private List<string> manualOffHandPositionsKeys;
-
-    private List<SaveableVector3> manualOffHandPositionsValues;
     public Dictionary<string, float> ManualOffHandRotations = new();
-    private List<string> manualOffHandRotationsKeys;
-    private List<float> manualOffHandRotationsValues;
 
     public bool MatchArmorColor;
     public bool MatchArtificialLimbColor;
@@ -36,11 +25,25 @@ internal class ShowMeYourHandsModSettings : ModSettings
     public bool ShowCrawling;
     public bool ShowHandsOnlyOnColonists;
     public Dictionary<string, bool> ShowOnRace = new();
-    private List<string> showOnRaceKeys;
-    private List<bool> showOnRaceValues;
     public bool ShowOtherTmes;
     public bool ShowWhenCarry;
     public bool VerboseLogging;
+
+    private List<string> manualMainHandPositionsKeys;
+
+    private List<SaveableVector3> manualMainHandPositionsValues;
+    private List<string> manualMainHandRotationsKeys;
+    private List<float> manualMainHandRotationsValues;
+    private List<string> generatedHandPositionsKeys;
+    private List<GeneratedHandPositionCacheEntry> generatedHandPositionsValues;
+
+    private List<string> manualOffHandPositionsKeys;
+
+    private List<SaveableVector3> manualOffHandPositionsValues;
+    private List<string> manualOffHandRotationsKeys;
+    private List<float> manualOffHandRotationsValues;
+    private List<string> showOnRaceKeys;
+    private List<bool> showOnRaceValues;
 
     public override void ExposeData()
     {
@@ -66,12 +69,20 @@ internal class ShowMeYourHandsModSettings : ModSettings
         Scribe_Collections.Look(ref ManualMainHandRotations, "ManualMainHandRotations", LookMode.Value,
             LookMode.Value,
             ref manualMainHandRotationsKeys, ref manualMainHandRotationsValues);
+        Scribe_Collections.Look(ref GeneratedHandPositions, "GeneratedHandPositions", LookMode.Value,
+            LookMode.Deep,
+            ref generatedHandPositionsKeys, ref generatedHandPositionsValues);
         Scribe_Collections.Look(ref ManualOffHandRotations, "ManualOffHandRotations", LookMode.Value,
             LookMode.Value,
             ref manualOffHandRotationsKeys, ref manualOffHandRotationsValues);
         Scribe_Collections.Look(ref ShowOnRace, "ShowOnRace", LookMode.Value,
             LookMode.Value,
             ref showOnRaceKeys, ref showOnRaceValues);
+
+        if (Scribe.mode == LoadSaveMode.PostLoadInit)
+        {
+            GeneratedHandPositions ??= new Dictionary<string, GeneratedHandPositionCacheEntry>();
+        }
     }
 
     public void ResetManualValues()

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using HarmonyLib;
 using RimWorld;
@@ -16,6 +17,11 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
     private static bool alreadyRun;
 
     private static List<ThingDef> doneWeapons = [];
+    private static int manuallyDefinedCount;
+    private static int modDefinitionCount;
+    private static int cachedPositionCount;
+    private static int textureCalculatedCount;
+    private static int defaultPositionCount;
 
     [HarmonyPostfix]
     public static void MainMenuOnGUI()
@@ -97,6 +103,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
     private static void UpdateValidRaces()
     {
         ShowMeYourHandsMod.instance.Settings.ShowOnRace ??= new Dictionary<string, bool>();
+        var changed = false;
         foreach (var def in ShowMeYourHandsMain.allRaces)
         {
             if (ShowMeYourHandsMod.instance.Settings.ShowOnRace.ContainsKey(def.defName))
@@ -105,14 +112,23 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
             }
 
             ShowMeYourHandsMod.instance.Settings.ShowOnRace[def.defName] = def.race.Humanlike;
+            changed = true;
         }
 
-        ShowMeYourHandsMod.instance.WriteSettings();
+        if (changed)
+        {
+            ShowMeYourHandsMod.instance.Settings.Write();
+        }
     }
 
     public static void UpdateHandDefinitions()
     {
         doneWeapons = [];
+        manuallyDefinedCount = 0;
+        modDefinitionCount = 0;
+        cachedPositionCount = 0;
+        textureCalculatedCount = 0;
+        defaultPositionCount = 0;
         var currentStage = "LoadFromSettings";
 
         try
@@ -130,6 +146,8 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
         }
 
         ShowMeYourHandsMain.LogMessage($"Defined hand definitions of {doneWeapons.Count} weapons", true);
+        ShowMeYourHandsMain.LogMessage(
+            $"Hand-position sources: manual {manuallyDefinedCount}, mod definitions {modDefinitionCount}, cached {cachedPositionCount}, calculated from texture {textureCalculatedCount}, defaults without texture {defaultPositionCount}");
     }
 
     public static void FigureOutSpecific(ThingDef weapon)
@@ -141,6 +159,11 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
 
     private static void figureOutTheRest()
     {
+        var settings = ShowMeYourHandsMod.instance.Settings;
+        settings.GeneratedHandPositions ??= new Dictionary<string, GeneratedHandPositionCacheEntry>();
+        var modAboutFileTimes = new Dictionary<ModContentPack, long?>();
+        var cacheChanged = false;
+
         foreach (var weapon in from weapon in DefDatabase<ThingDef>.AllDefsListForReading
                  where weapon.IsWeapon && !doneWeapons.Contains(weapon)
                  select weapon)
@@ -151,11 +174,108 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
                 continue;
             }
 
+            var hasAboutFileTime = tryGetAboutFileLastWriteTime(weapon, modAboutFileTimes, out var modPackageId,
+                out var aboutFileLastWriteTimeUtcTicks);
+            if (hasAboutFileTime && settings.GeneratedHandPositions.TryGetValue(weapon.defName, out var cached) &&
+                cached.ModPackageId == modPackageId &&
+                cached.AboutFileLastWriteTimeUtcTicks == aboutFileLastWriteTimeUtcTicks)
+            {
+                var cachedCompProps = getOrCreateCompProps(weapon);
+                cachedCompProps.MainHand = cached.MainHand;
+                cachedCompProps.SecHand = cached.SecHand;
+                cachedCompProps.MainRotation = cached.MainRotation;
+                cachedCompProps.SecRotation = cached.SecRotation;
+                cachedPositionCount++;
+                doneWeapons.Add(weapon);
+                continue;
+            }
+
             var compProps = getOrCreateCompProps(weapon);
-            applyDefaultWeaponHands(weapon, compProps);
+            if (applyDefaultWeaponHands(weapon, compProps))
+            {
+                textureCalculatedCount++;
+            }
+            else
+            {
+                defaultPositionCount++;
+            }
+
             resetHandRotations(compProps);
+
+            if (hasAboutFileTime)
+            {
+                settings.GeneratedHandPositions[weapon.defName] = new GeneratedHandPositionCacheEntry
+                {
+                    MainHand = compProps.MainHand,
+                    SecHand = compProps.SecHand,
+                    MainRotation = compProps.MainRotation,
+                    SecRotation = compProps.SecRotation,
+                    ModPackageId = modPackageId,
+                    AboutFileLastWriteTimeUtcTicks = aboutFileLastWriteTimeUtcTicks
+                };
+                cacheChanged = true;
+            }
+            else if (settings.GeneratedHandPositions.Remove(weapon.defName))
+            {
+                cacheChanged = true;
+            }
+
             doneWeapons.Add(weapon);
         }
+
+        if (cacheChanged)
+        {
+            settings.Write();
+        }
+    }
+
+    private static bool tryGetAboutFileLastWriteTime(ThingDef weapon,
+        Dictionary<ModContentPack, long?> modAboutFileTimes, out string modPackageId,
+        out long aboutFileLastWriteTimeUtcTicks)
+    {
+        var modContentPack = weapon.modContentPack;
+        modPackageId = modContentPack?.PackageId;
+        aboutFileLastWriteTimeUtcTicks = 0;
+        if (modContentPack == null || string.IsNullOrEmpty(modPackageId))
+        {
+            return false;
+        }
+
+        if (!modAboutFileTimes.TryGetValue(modContentPack, out var lastWriteTimeUtcTicks))
+        {
+            var aboutFilePath = Path.Combine(modContentPack.RootDir, "About", "About.xml");
+            if (!File.Exists(aboutFilePath))
+            {
+                Log.WarningOnce(
+                    $"[ShowMeYourHands]: Could not find About-file for '{modContentPack.Name}'; hand-position cache will be skipped.",
+                    modContentPack.GetHashCode());
+                lastWriteTimeUtcTicks = null;
+            }
+            else
+            {
+                try
+                {
+                    lastWriteTimeUtcTicks = File.GetLastWriteTimeUtc(aboutFilePath).Ticks;
+                }
+                catch (Exception exception)
+                {
+                    Log.WarningOnce(
+                        $"[ShowMeYourHands]: Could not read About-file timestamp for '{modContentPack.Name}'; hand-position cache will be skipped. {exception.Message}",
+                        modContentPack.GetHashCode());
+                    lastWriteTimeUtcTicks = null;
+                }
+            }
+
+            modAboutFileTimes[modContentPack] = lastWriteTimeUtcTicks;
+        }
+
+        if (!lastWriteTimeUtcTicks.HasValue)
+        {
+            return false;
+        }
+
+        aboutFileLastWriteTimeUtcTicks = lastWriteTimeUtcTicks.Value;
+        return true;
     }
 
     private static WhandCompProps getOrCreateCompProps(ThingDef weapon)
@@ -174,18 +294,20 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
         return compProps;
     }
 
-    private static void applyDefaultWeaponHands(ThingDef weapon, WhandCompProps compProps)
+    private static bool applyDefaultWeaponHands(ThingDef weapon, WhandCompProps compProps)
     {
         if (weapon.IsMeleeWeapon)
         {
             compProps.MainHand = new Vector3(-0.25f, 0.3f, 0);
-            return;
+            return false;
         }
 
-        compProps.SecHand = isWeaponLong(weapon, out var mainHand, out var secHand)
+        var weaponHasLongGraphic = isWeaponLong(weapon, out var mainHand, out var secHand, out var usedTexture);
+        compProps.SecHand = weaponHasLongGraphic
             ? secHand
             : Vector3.zero;
         compProps.MainHand = mainHand;
+        return usedTexture;
     }
 
     private static void resetHandRotations(WhandCompProps compProps)
@@ -216,6 +338,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
             compProps.SecRotation = getManualOffHandRotation(keyValuePair.Key);
 
             doneWeapons.Add(weapon);
+            manuallyDefinedCount++;
         }
     }
 
@@ -293,6 +416,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
             }
 
             doneWeapons.Add(weapon);
+            modDefinitionCount++;
         }
 
         return false;
@@ -307,9 +431,11 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
         compProps.SecRotation = weaponSets.SecRotation;
     }
 
-    private static bool isWeaponLong(ThingDef weapon, out Vector3 mainHand, out Vector3 secHand)
+    private static bool isWeaponLong(ThingDef weapon, out Vector3 mainHand, out Vector3 secHand,
+        out bool usedTexture)
     {
         var texture = weapon.graphicData.Graphic?.MatSingle.mainTexture;
+        usedTexture = texture != null;
         if (texture == null)
         {
             mainHand = new Vector3(-0.3f, 0.3f, 0f);
@@ -317,7 +443,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
             return false;
         }
 
-        var renderTexture = RenderTexture.GetTemporary(
+        var renderTexture = new RenderTexture(
             texture.width,
             texture.height,
             0,
@@ -343,7 +469,8 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
         finally
         {
             RenderTexture.active = previous;
-            RenderTexture.ReleaseTemporary(renderTexture);
+            renderTexture.Release();
+            Object.Destroy(renderTexture);
 
             if (icon != null)
             {
@@ -358,9 +485,20 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
         RenderTexture.active = renderTexture;
 
         var icon = new Texture2D(texture.width, texture.height);
-        icon.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
-        icon.Apply();
-        return icon;
+        Texture2D result;
+        try
+        {
+            icon.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
+            icon.Apply();
+            result = icon;
+        }
+        catch
+        {
+            Object.Destroy(icon);
+            throw;
+        }
+
+        return result;
     }
 
     private static void calculateTextureBounds(Texture2D icon, out int startPixel, out int endPixel)

@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="cgf1.gunsgalore.industrialage.i">
+    <defName>ClutterHandsSettings_GunsGaloreIndustrialAgeI</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.045)</MainHand>
+        <SecHand>(0.170, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Berdan_Model1868_</li>
+          <!-- Berdan Model 1868 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.370, 0.100, 0.015)</MainHand>
+        <SecHand>(0.150, -0.100, 0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Berdan_Model1868_Bayonet_</li>
+          <!-- Berdan Model 1868 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.055)</MainHand>
+        <SecHand>(0.175, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Berdan_Model1870_</li>
+          <!-- Berdan Model 1870 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.320, 0.100, 0.005)</MainHand>
+        <SecHand>(0.120, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Berdan_Model1870_Bayonet_</li>
+          <!-- Berdan Model 1870 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.040)</MainHand>
+        <SecHand>(0.165, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Berdan_Model1870_Cavalry_</li>
+          <!-- Berdan Model 1870 Cavalry -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, 0.010)</MainHand>
+        <SecHand>(0.095, -0.100, 0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Berdan_Model1870_Cavalry_Bayonet_</li>
+          <!-- Berdan Model 1870 Cavalry (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, -0.045)</MainHand>
+        <SecHand>(0.135, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Berdan_Model1870_Cossack_</li>
+          <!-- Berdan Model 1870 Cossack -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.050)</MainHand>
+        <SecHand>(0.110, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Berdan_Model1870_Dragoon_</li>
+          <!-- Berdan Model 1870 Dragoon -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.060, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Borchardt_C93_</li>
+          <!-- Borchardt C93 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.230, 0.100, 0.080)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Borchardt_C93_Stock_</li>
+          <!-- Borchardt C93 Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_ChamelotDelvigne_M1873_</li>
+          <!-- Chamelot-Delvigne M1873 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_ChamelotDelvigne_M1873_Nickel_</li>
+          <!-- Chamelot-Delvigne M1873 Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.035)</MainHand>
+        <SecHand>(0.055, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Chassepot_1866_</li>
+          <!-- Chassepot 1866 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.375, 0.100, -0.035)</MainHand>
+        <SecHand>(-0.035, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Chassepot_1866_Bayonet_</li>
+          <!-- Chassepot 1866 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.015)</MainHand>
+        <SecHand>(0.155, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Chassepot_1866_Artillery_</li>
+          <!-- Chassepot 1866 Artillery -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.310, 0.100, -0.015)</MainHand>
+        <SecHand>(0.110, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Chassepot_1866_Cavalry_</li>
+          <!-- Chassepot 1866 Cavalry -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.385, 0.100, -0.020)</MainHand>
+        <SecHand>(0.000, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Chassepot_1866_Cavalry_Bayonet_</li>
+          <!-- Chassepot 1866 Cavalry (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.020)</MainHand>
+        <SecHand>(0.050, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Chassepot_1866_Gendarmerie_</li>
+          <!-- Chassepot 1866 Gendarmerie -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.025)</MainHand>
+        <SecHand>(0.095, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Dreyse_NeedleGun_M1860_Fusilier_</li>
+          <!-- Dreyse Needle Gun M1860 Fusilier -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.325, 0.100, -0.040)</MainHand>
+        <SecHand>(0.050, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Dreyse_NeedleGun_M1862_</li>
+          <!-- Dreyse Needle Gun M1862 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.415, 0.100, -0.005)</MainHand>
+        <SecHand>(0.000, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Dreyse_NeedleGun_M1862_Bayonet_</li>
+          <!-- Dreyse Needle Gun M1862 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Eigner_ViennaModel_</li>
+          <!-- Eigner Vienna Model -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.160, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Francotte_M1871_</li>
+          <!-- Francotte M1871 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.030)</MainHand>
+        <SecHand>(0.125, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Fruwirth_M1872_</li>
+          <!-- Früwirth M1872 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.060)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gasser_M1870_</li>
+          <!-- Gasser M1870 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.340, 0.100, -0.025)</MainHand>
+        <SecHand>(0.060, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gras_Mle66_74_</li>
+          <!-- Gras Mle 66/74 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.385, 0.100, -0.010)</MainHand>
+        <SecHand>(-0.005, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gras_Mle66_74_Bayonet_</li>
+          <!-- Gras Mle 66/74 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.030)</MainHand>
+        <SecHand>(0.155, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gras_Mle66_74_Artillery_</li>
+          <!-- Gras Mle 66/74 Artillery -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.025)</MainHand>
+        <SecHand>(0.090, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gras_Mle66_74_Artillery_Bayonet_</li>
+          <!-- Gras Mle 66/74 Artillery (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.025)</MainHand>
+        <SecHand>(0.075, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gras_Mle66_74_Cavalry_</li>
+          <!-- Gras Mle 66/74 Cavalry -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.335, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gras_Mle66_74_Gendarmerie_</li>
+          <!-- Gras Mle 66/74 Gendarmerie -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, 0.005)</MainHand>
+        <SecHand>(0.015, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gras_Mle66_74_Gendarmerie_Bayonet_</li>
+          <!-- Gras Mle 66/74 Gendarmerie (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.030)</MainHand>
+        <SecHand>(0.045, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gras_Mle74_</li>
+          <!-- Gras Mle 74 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.390, 0.100, -0.015)</MainHand>
+        <SecHand>(-0.035, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gras_Mle74_Bayonet_</li>
+          <!-- Gras Mle 74 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.040)</MainHand>
+        <SecHand>(0.145, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gras_Mle74_Artillery_</li>
+          <!-- Gras Mle 74 Artillery -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.010)</MainHand>
+        <SecHand>(0.105, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gras_Mle74_Artillery_Bayonet_</li>
+          <!-- Gras Mle 74 Artillery (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.045)</MainHand>
+        <SecHand>(0.090, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Gras_Mle74_Cavalry_</li>
+          <!-- Gras Mle 74 Cavalry -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.050)</MainHand>
+        <SecHand>(0.060, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jarmann_M1884_</li>
+          <!-- Jarmann M1884 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.395, 0.100, 0.030)</MainHand>
+        <SecHand>(-0.050, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jarmann_M1884_Bayonet_</li>
+          <!-- Jarmann M1884 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.270, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jarmann_M1884_NavalCarbine_</li>
+          <!-- Jarmann M1884 Naval Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.045)</MainHand>
+        <SecHand>(0.015, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jarmann_M1884_Prototype_</li>
+          <!-- Jarmann M1884 Prototype -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.340, 0.100, -0.035)</MainHand>
+        <SecHand>(0.070, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jarmann_M1884_Swedish_</li>
+          <!-- Jarmann M1884 Swedish -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.470, 0.100, -0.055)</MainHand>
+        <SecHand>(-0.105, -0.100, -0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jarmann_M1884_Swedish_Bayonet_</li>
+          <!-- Jarmann M1884 Swedish (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, -0.035)</MainHand>
+        <SecHand>(0.065, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jarmann_M1884_87_</li>
+          <!-- Jarmann M1884/87 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.005, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Jarmann_M1884_87_Bayonet_</li>
+          <!-- Jarmann M1884/87 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.325, 0.100, -0.020)</MainHand>
+        <SecHand>(0.040, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kammerlader_Army_M1860_</li>
+          <!-- Kammerlader Army M1860 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.375, 0.100, 0.005)</MainHand>
+        <SecHand>(-0.005, -0.100, 0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kammerlader_Army_M1860_Bayonet_</li>
+          <!-- Kammerlader Army M1860 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.035)</MainHand>
+        <SecHand>(0.095, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kammerlader_Army_M1860_Short_</li>
+          <!-- Kammerlader Army M1860 Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, -0.020)</MainHand>
+        <SecHand>(0.070, -0.100, -0.015)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kammerlader_Army_M1860_67_</li>
+          <!-- Kammerlader Army M1860/67 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.350, 0.100, 0.010)</MainHand>
+        <SecHand>(0.000, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kammerlader_Army_M1860_67_Bayonet_</li>
+          <!-- Kammerlader Army M1860/67 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.050)</MainHand>
+        <SecHand>(0.130, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kammerlader_Army_M1860_67_Short_</li>
+          <!-- Kammerlader Army M1860/67 Short -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.050)</MainHand>
+        <SecHand>(0.290, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kammerlader_Army_M1865_Cavalry_</li>
+          <!-- Kammerlader Army M1865 Cavalry -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, -0.025)</MainHand>
+        <SecHand>(0.220, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kammerlader_Army_M1865_67_Cavalry_</li>
+          <!-- Kammerlader Army M1865/67 Cavalry -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.040)</MainHand>
+        <SecHand>(0.100, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kammerlader_Navy_M1852_67_</li>
+          <!-- Kammerlader Navy M1852/67 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.035)</MainHand>
+        <SecHand>(0.135, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kammerlader_Navy_M1857_67_</li>
+          <!-- Kammerlader Navy M1857/67 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.040)</MainHand>
+        <SecHand>(0.110, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kammerlader_Navy_M1860_</li>
+          <!-- Kammerlader Navy M1860 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.280, 0.100, 0.000)</MainHand>
+        <SecHand>(0.035, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kammerlader_Navy_M1860_Bayonet_</li>
+          <!-- Kammerlader Navy M1860 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.055)</MainHand>
+        <SecHand>(0.115, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kammerlader_Navy_M1860_67_</li>
+          <!-- Kammerlader Navy M1860/67 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.295, 0.100, -0.010)</MainHand>
+        <SecHand>(0.000, -0.100, 0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Kammerlader_Navy_M1860_67_Bayonet_</li>
+          <!-- Kammerlader Navy M1860/67 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.330, 0.100, -0.065)</MainHand>
+        <SecHand>(0.050, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_KragPetersson_M1876_</li>
+          <!-- Krag-Petersson M1876 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.370, 0.100, -0.005)</MainHand>
+        <SecHand>(-0.035, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_KragPetersson_M1876_Bayonet_</li>
+          <!-- Krag-Petersson M1876 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.025)</MainHand>
+        <SecHand>(0.100, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Krnka_M1867_</li>
+          <!-- Krnka M1867 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.390, 0.100, -0.035)</MainHand>
+        <SecHand>(-0.050, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Krnka_M1867_Bayonet_</li>
+          <!-- Krnka M1867 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.065)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Lefaucheux_M1858_</li>
+          <!-- Lefaucheux M1858 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1894_</li>
+          <!-- Mannlicher M1894 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.155, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mannlicher_M1894_97_</li>
+          <!-- Mannlicher M1894/97 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C77_Target_</li>
+          <!-- Mauser C77 Target -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.075)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C78_1stModel_</li>
+          <!-- Mauser C78 1st Model -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.045)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C78_2ndModel_</li>
+          <!-- Mauser C78 2nd Model -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.040)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_</li>
+          <!-- Mauser C96 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_Scope_</li>
+          <!-- Mauser C96 (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.085, 0.100, -0.050)</MainHand>
+        <SecHand>(0.255, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_Carbine_</li>
+          <!-- Mauser C96 Carbine -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, -0.060)</MainHand>
+        <SecHand>(0.240, -0.100, 0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_Carbine_Scope_</li>
+          <!-- Mauser C96 Carbine (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.155, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_Stock_</li>
+          <!-- Mauser C96 Stock -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(0.135, 0.100, -0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Mauser_C96_Stock_Scope_</li>
+          <!-- Mauser C96 Stock (Scope) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.345, 0.100, -0.040)</MainHand>
+        <SecHand>(0.060, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MauserM1871_</li>
+          <!-- Mauser M1871 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.375, 0.100, 0.000)</MainHand>
+        <SecHand>(-0.025, -0.100, 0.000)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MauserM1871_Bayonet_</li>
+          <!-- Mauser M1871 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.020)</MainHand>
+        <SecHand>(0.120, -0.100, 0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MauserM1871_Cavalry_</li>
+          <!-- Mauser M1871 Cavalry -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.030)</MainHand>
+        <SecHand>(0.075, -0.100, -0.030)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MauserM1871_Jagerbuchse_</li>
+          <!-- Mauser M1871 Jägerbüchse -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.020)</MainHand>
+        <SecHand>(0.070, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MauserM1871_84_</li>
+          <!-- Mauser M1871/84 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.005)</MainHand>
+        <SecHand>(0.095, -0.100, -0.005)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MauserM1871_84_Bayonet_</li>
+          <!-- Mauser M1871/84 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.375, 0.100, -0.085)</MainHand>
+        <SecHand>(0.120, -0.100, -0.065)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Maxim_M1889_Prussian_</li>
+          <!-- Maxim M1889 Prussian -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.075)</MainHand>
+        <SecHand>(0.070, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_RollingBlock_M1867_</li>
+          <!-- Remington Rolling Block M1867 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.315, 0.100, -0.070)</MainHand>
+        <SecHand>(0.115, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_RollingBlock_M1867_84_</li>
+          <!-- Remington Rolling Block M1867/84 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.290, 0.100, -0.035)</MainHand>
+        <SecHand>(0.110, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Remington_RollingBlock_M1867_96_</li>
+          <!-- Remington Rolling Block M1867/96 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.165, 0.100, -0.025)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Revolver_M1871_</li>
+          <!-- Revolver M/1871 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.050)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model3_Russian_</li>
+          <!-- S&W Model 3 Russian -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.070)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SW_Model3_Russian_Nickel_</li>
+          <!-- S&W Model 3 Russian Nickel -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.050, 0.100, -0.115)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SalvatorDormus_M1893_</li>
+          <!-- Salvator-Dormus M1893 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.055)</MainHand>
+        <SecHand>(0.100, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wanzl_M1854_67_</li>
+          <!-- Wänzl M1854/67 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.271, 0.100, -0.050)</MainHand>
+        <SecHand>(0.080, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wanzl_M1862_67_</li>
+          <!-- Wänzl M1862/67 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.285, 0.100, -0.020)</MainHand>
+        <SecHand>(0.090, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wanzl_M1862_67_Bayonet_</li>
+          <!-- Wänzl M1862/67 (Bayonet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.025)</MainHand>
+        <SecHand>(0.120, -0.100, -0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_Wanzl_M1862_67_ExtraCorps_</li>
+          <!-- Wänzl M1862/67 Extra-Corps -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.275, 0.100, -0.030)</MainHand>
+        <SecHand>(0.075, -0.100, -0.010)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_WerndlHolub_M1867_</li>
+          <!-- Werndl-Holub M1867 -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, 0.000)</MainHand>
+        <SecHand>(0.025, -0.100, 0.025)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_WerndlHolub_M1867_Bayonet_</li>
+          <!-- Werndl-Holub M1867 (Bayonet) -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

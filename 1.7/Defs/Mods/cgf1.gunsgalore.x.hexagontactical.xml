@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef MayRequire="cgf1.gunsgalore.x.hexagontactical">
+    <defName>ClutterHandsSettings_GunsGaloreXHexagonTactical</defName>
+    <label>Weapon hand settings</label>
+    <thingClass>Thing</thingClass>
+    <WeaponCompLoader>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.075)</MainHand>
+        <SecHand>(0.170, -0.100, -0.085)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK101_Hex_Blue_</li>
+          <!-- AK-101 Hex (Blue) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.085)</MainHand>
+        <SecHand>(0.130, -0.100, -0.080)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK101_Hex_Cyan_</li>
+          <!-- AK-101 Hex (Cyan) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.085)</MainHand>
+        <SecHand>(0.145, -0.100, -0.085)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK101_Hex_Green_</li>
+          <!-- AK-101 Hex (Green) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.080)</MainHand>
+        <SecHand>(0.145, -0.100, -0.085)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK101_Hex_Lime_</li>
+          <!-- AK-101 Hex (Lime) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.090)</MainHand>
+        <SecHand>(0.160, -0.100, -0.065)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK101_Hex_Orange_</li>
+          <!-- AK-101 Hex (Orange) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.095)</MainHand>
+        <SecHand>(0.150, -0.100, -0.080)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK101_Hex_Pink_</li>
+          <!-- AK-101 Hex (Pink) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.075)</MainHand>
+        <SecHand>(0.145, -0.100, -0.085)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK101_Hex_Purple_</li>
+          <!-- AK-101 Hex (Purple) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.065)</MainHand>
+        <SecHand>(0.175, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK101_Hex_Violet_</li>
+          <!-- AK-101 Hex (Violet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.075)</MainHand>
+        <SecHand>(0.140, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK101_Hex_Yellow_</li>
+          <!-- AK-101 Hex (Yellow) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.075)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK102_Hex_Blue_</li>
+          <!-- AK-102 Hex (Blue) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.090)</MainHand>
+        <SecHand>(0.220, -0.100, -0.110)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK102_Hex_Cyan_</li>
+          <!-- AK-102 Hex (Cyan) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.100)</MainHand>
+        <SecHand>(0.195, -0.100, -0.090)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK102_Hex_Green_</li>
+          <!-- AK-102 Hex (Green) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.055)</MainHand>
+        <SecHand>(0.225, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK102_Hex_Lime_</li>
+          <!-- AK-102 Hex (Lime) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.060)</MainHand>
+        <SecHand>(0.195, -0.100, -0.090)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK102_Hex_Orange_</li>
+          <!-- AK-102 Hex (Orange) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.075)</MainHand>
+        <SecHand>(0.220, -0.100, -0.095)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK102_Hex_Pink_</li>
+          <!-- AK-102 Hex (Pink) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.095)</MainHand>
+        <SecHand>(0.210, -0.100, -0.080)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK102_Hex_Purple_</li>
+          <!-- AK-102 Hex (Purple) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.065)</MainHand>
+        <SecHand>(0.235, -0.100, -0.085)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK102_Hex_Violet_</li>
+          <!-- AK-102 Hex (Violet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.075)</MainHand>
+        <SecHand>(0.180, -0.100, -0.085)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK102_Hex_Yellow_</li>
+          <!-- AK-102 Hex (Yellow) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.075)</MainHand>
+        <SecHand>(0.150, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK103_Hex_Blue_</li>
+          <!-- AK-103 Hex (Blue) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.085)</MainHand>
+        <SecHand>(0.170, -0.100, -0.090)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK103_Hex_Cyan_</li>
+          <!-- AK-103 Hex (Cyan) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.060)</MainHand>
+        <SecHand>(0.150, -0.100, -0.085)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK103_Hex_Green_</li>
+          <!-- AK-103 Hex (Green) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.080)</MainHand>
+        <SecHand>(0.155, -0.100, -0.090)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK103_Hex_Lime_</li>
+          <!-- AK-103 Hex (Lime) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.225, 0.100, -0.085)</MainHand>
+        <SecHand>(0.155, -0.100, -0.100)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK103_Hex_Orange_</li>
+          <!-- AK-103 Hex (Orange) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.075)</MainHand>
+        <SecHand>(0.145, -0.100, -0.080)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK103_Hex_Pink_</li>
+          <!-- AK-103 Hex (Pink) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.050)</MainHand>
+        <SecHand>(0.140, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK103_Hex_Purple_</li>
+          <!-- AK-103 Hex (Purple) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.075)</MainHand>
+        <SecHand>(0.195, -0.100, -0.090)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK103_Hex_Violet_</li>
+          <!-- AK-103 Hex (Violet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.085)</MainHand>
+        <SecHand>(0.160, -0.100, -0.075)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK103_Hex_Yellow_</li>
+          <!-- AK-103 Hex (Yellow) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.095)</MainHand>
+        <SecHand>(0.180, -0.100, -0.085)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK104_Hex_Blue_</li>
+          <!-- AK-104 Hex (Blue) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.180, 0.100, -0.065)</MainHand>
+        <SecHand>(0.225, -0.100, -0.080)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK104_Hex_Cyan_</li>
+          <!-- AK-104 Hex (Cyan) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.065)</MainHand>
+        <SecHand>(0.215, -0.100, -0.075)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK104_Hex_Green_</li>
+          <!-- AK-104 Hex (Green) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.085)</MainHand>
+        <SecHand>(0.220, -0.100, -0.085)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK104_Hex_Lime_</li>
+          <!-- AK-104 Hex (Lime) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK104_Hex_Orange_</li>
+          <!-- AK-104 Hex (Orange) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.195, 0.100, -0.070)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK104_Hex_Pink_</li>
+          <!-- AK-104 Hex (Pink) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.080)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK104_Hex_Purple_</li>
+          <!-- AK-104 Hex (Purple) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK104_Hex_Violet_</li>
+          <!-- AK-104 Hex (Violet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.070)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK104_Hex_Yellow_</li>
+          <!-- AK-104 Hex (Yellow) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.175, 0.100, -0.090)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK105_Hex_Blue_</li>
+          <!-- AK-105 Hex (Blue) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK105_Hex_Cyan_</li>
+          <!-- AK-105 Hex (Cyan) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.170, 0.100, -0.095)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK105_Hex_Green_</li>
+          <!-- AK-105 Hex (Green) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.085)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK105_Hex_Lime_</li>
+          <!-- AK-105 Hex (Lime) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.185, 0.100, -0.085)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK105_Hex_Orange_</li>
+          <!-- AK-105 Hex (Orange) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.190, 0.100, -0.090)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK105_Hex_Pink_</li>
+          <!-- AK-105 Hex (Pink) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.215, 0.100, -0.075)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK105_Hex_Purple_</li>
+          <!-- AK-105 Hex (Purple) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.205, 0.100, -0.085)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK105_Hex_Violet_</li>
+          <!-- AK-105 Hex (Violet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.200, 0.100, -0.075)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK105_Hex_Yellow_</li>
+          <!-- AK-105 Hex (Yellow) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.075)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK74M_Hex_Blue_</li>
+          <!-- AK-74M Hex (Blue) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.080)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK74M_Hex_Cyan_</li>
+          <!-- AK-74M Hex (Cyan) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.080)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK74M_Hex_Green_</li>
+          <!-- AK-74M Hex (Green) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.070)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK74M_Hex_Lime_</li>
+          <!-- AK-74M Hex (Lime) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.085)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK74M_Hex_Orange_</li>
+          <!-- AK-74M Hex (Orange) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.230, 0.100, -0.085)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK74M_Hex_Pink_</li>
+          <!-- AK-74M Hex (Pink) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.210, 0.100, -0.080)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK74M_Hex_Purple_</li>
+          <!-- AK-74M Hex (Purple) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.235, 0.100, -0.080)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK74M_Hex_Violet_</li>
+          <!-- AK-74M Hex (Violet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, -0.085)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK74M_Hex_Yellow_</li>
+          <!-- AK-74M Hex (Yellow) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.220, 0.100, -0.080)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AK74N_HW_</li>
+          <!-- AK-74N HW -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.110, 0.100, -0.060)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AKS74U_Hex_Blue_</li>
+          <!-- AKS-74U Hex (Blue) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.055)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AKS74U_Hex_Cyan_</li>
+          <!-- AKS-74U Hex (Cyan) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.060)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AKS74U_Hex_Green_</li>
+          <!-- AKS-74U Hex (Green) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AKS74U_Hex_Lime_</li>
+          <!-- AKS-74U Hex (Lime) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.100, 0.100, -0.055)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AKS74U_Hex_Orange_</li>
+          <!-- AKS-74U Hex (Orange) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AKS74U_Hex_Pink_</li>
+          <!-- AKS-74U Hex (Pink) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.115, 0.100, -0.070)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AKS74U_Hex_Purple_</li>
+          <!-- AKS-74U Hex (Purple) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.150, 0.100, -0.045)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AKS74U_Hex_Violet_</li>
+          <!-- AKS-74U Hex (Violet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.135, 0.100, -0.085)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_AKS74U_Hex_Yellow_</li>
+          <!-- AKS-74U Hex (Yellow) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.090, 0.100, 0.015)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_CZ83_HW_</li>
+          <!-- CZ83 HW -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.253, 0.100, -0.050)</MainHand>
+        <SecHand>(0.070, -0.100, 0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_MosinNagant_M39_HW_</li>
+          <!-- Mosin-Nagant M/39 HW -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.075)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Blue_</li>
+          <!-- PKM Hex (Blue) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.260, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Cyan_</li>
+          <!-- PKM Hex (Cyan) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.250, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Green_</li>
+          <!-- PKM Hex (Green) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.265, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Lime_</li>
+          <!-- PKM Hex (Lime) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.269, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Orange_</li>
+          <!-- PKM Hex (Orange) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.269, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Pink_</li>
+          <!-- PKM Hex (Pink) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.269, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Purple_</li>
+          <!-- PKM Hex (Purple) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.269, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Violet_</li>
+          <!-- PKM Hex (Violet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.269, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Yellow_</li>
+          <!-- PKM Hex (Yellow) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.240, 0.100, -0.060)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Tactical_Blue_</li>
+          <!-- PKM Hex Tactical (Blue) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.255, 0.100, -0.045)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Tactical_Cyan_</li>
+          <!-- PKM Hex Tactical (Cyan) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Tactical_Green_</li>
+          <!-- PKM Hex Tactical (Green) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Tactical_Lime_</li>
+          <!-- PKM Hex Tactical (Lime) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Tactical_Orange_</li>
+          <!-- PKM Hex Tactical (Orange) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Tactical_Pink_</li>
+          <!-- PKM Hex Tactical (Pink) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Tactical_Purple_</li>
+          <!-- PKM Hex Tactical (Purple) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Tactical_Violet_</li>
+          <!-- PKM Hex Tactical (Violet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.277, 0.100, -0.050)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PKM_Hex_Tactical_Yellow_</li>
+          <!-- PKM Hex Tactical (Yellow) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.140, 0.100, -0.060)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PP19_VityazSN_Hex_Blue_</li>
+          <!-- PP-19 Vityaz-SN Hex (Blue) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.060)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PP19_VityazSN_Hex_Cyan_</li>
+          <!-- PP-19 Vityaz-SN Hex (Cyan) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.125, 0.100, -0.080)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PP19_VityazSN_Hex_Green_</li>
+          <!-- PP-19 Vityaz-SN Hex (Green) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.080)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PP19_VityazSN_Hex_Lime_</li>
+          <!-- PP-19 Vityaz-SN Hex (Lime) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.065)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PP19_VityazSN_Hex_Orange_</li>
+          <!-- PP-19 Vityaz-SN Hex (Orange) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.085)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PP19_VityazSN_Hex_Pink_</li>
+          <!-- PP-19 Vityaz-SN Hex (Pink) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.130, 0.100, -0.095)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PP19_VityazSN_Hex_Purple_</li>
+          <!-- PP-19 Vityaz-SN Hex (Purple) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.145, 0.100, -0.060)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PP19_VityazSN_Hex_Violet_</li>
+          <!-- PP-19 Vityaz-SN Hex (Violet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.120, 0.100, -0.060)</MainHand>
+        <SecHand>(0.200, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PP19_VityazSN_Hex_Yellow_</li>
+          <!-- PP-19 Vityaz-SN Hex (Yellow) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.005, 0.100, -0.035)</MainHand>
+        <ThingTargets>
+          <li>CGF1_MWP_PP91_Kedr_B_Tactical_</li>
+          <!-- PP-91 Kedr-B Tactical -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.288, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RPK74M_Hex_Blue_</li>
+          <!-- RPK-74M Hex (Blue) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.288, 0.100, -0.050)</MainHand>
+        <SecHand>(0.105, -0.100, -0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RPK74M_Hex_Cyan_</li>
+          <!-- RPK-74M Hex (Cyan) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.288, 0.100, -0.050)</MainHand>
+        <SecHand>(0.100, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RPK74M_Hex_Green_</li>
+          <!-- RPK-74M Hex (Green) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.288, 0.100, -0.050)</MainHand>
+        <SecHand>(0.095, -0.100, -0.080)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RPK74M_Hex_Lime_</li>
+          <!-- RPK-74M Hex (Lime) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.288, 0.100, -0.050)</MainHand>
+        <SecHand>(0.100, -0.100, -0.075)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RPK74M_Hex_Orange_</li>
+          <!-- RPK-74M Hex (Orange) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.288, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, -0.050)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RPK74M_Hex_Pink_</li>
+          <!-- RPK-74M Hex (Pink) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.288, 0.100, -0.050)</MainHand>
+        <SecHand>(0.105, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RPK74M_Hex_Purple_</li>
+          <!-- RPK-74M Hex (Purple) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.288, 0.100, -0.050)</MainHand>
+        <SecHand>(0.100, -0.100, -0.065)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RPK74M_Hex_Violet_</li>
+          <!-- RPK-74M Hex (Violet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.288, 0.100, -0.050)</MainHand>
+        <SecHand>(0.115, -0.100, -0.095)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_RPK74M_Hex_Yellow_</li>
+          <!-- RPK-74M Hex (Yellow) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.050)</MainHand>
+        <SecHand>(0.055, -0.100, -0.045)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_Blue_</li>
+          <!-- SVD Hex (Blue) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.050)</MainHand>
+        <SecHand>(0.075, -0.100, -0.075)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_Cyan_</li>
+          <!-- SVD Hex (Cyan) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.050)</MainHand>
+        <SecHand>(0.080, -0.100, -0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_Green_</li>
+          <!-- SVD Hex (Green) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.050)</MainHand>
+        <SecHand>(0.070, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_Lime_</li>
+          <!-- SVD Hex (Lime) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_Orange_</li>
+          <!-- SVD Hex (Orange) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.050)</MainHand>
+        <SecHand>(0.080, -0.100, -0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_Pink_</li>
+          <!-- SVD Hex (Pink) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.050)</MainHand>
+        <SecHand>(0.070, -0.100, -0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_Purple_</li>
+          <!-- SVD Hex (Purple) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.050)</MainHand>
+        <SecHand>(0.060, -0.100, -0.055)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_Violet_</li>
+          <!-- SVD Hex (Violet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.300, 0.100, -0.050)</MainHand>
+        <SecHand>(0.065, -0.100, -0.065)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_Yellow_</li>
+          <!-- SVD Hex (Yellow) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.070, -0.100, -0.075)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_CQB_Blue_</li>
+          <!-- SVD Hex CQB (Blue) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.075, -0.100, -0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_CQB_Cyan_</li>
+          <!-- SVD Hex CQB (Cyan) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.060, -0.100, -0.065)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_CQB_Green_</li>
+          <!-- SVD Hex CQB (Green) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.070, -0.100, -0.070)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_CQB_Lime_</li>
+          <!-- SVD Hex CQB (Lime) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.090, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_CQB_Orange_</li>
+          <!-- SVD Hex CQB (Orange) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.070, -0.100, -0.040)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_CQB_Pink_</li>
+          <!-- SVD Hex CQB (Pink) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.055, -0.100, -0.060)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_CQB_Purple_</li>
+          <!-- SVD Hex CQB (Purple) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.080, -0.100, -0.020)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_CQB_Violet_</li>
+          <!-- SVD Hex CQB (Violet) -->
+        </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.292, 0.100, -0.050)</MainHand>
+        <SecHand>(0.060, -0.100, -0.035)</SecHand>
+        <ThingTargets>
+          <li>CGF1_MWP_SVD_Hex_CQB_Yellow_</li>
+          <!-- SVD Hex CQB (Yellow) -->
+        </ThingTargets>
+      </li>
+    </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>

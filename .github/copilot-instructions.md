@@ -32,6 +32,10 @@
    - Includes hand definitions and texture updates, with contributions from various community members.
    - Chinese translation by shiuanyue.
 
+6. **Generated Hand-Position Cache:**
+   - Persists automatically calculated weapon hand positions between game starts.
+   - Recalculates positions when the source mod's `About/About.xml` last-write timestamp changes; manual settings and XML definitions remain authoritative.
+
 ## Coding Patterns and Conventions
 
 - Use clean and readable C# code organized into relevant namespaces and classes.
