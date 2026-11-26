@@ -22,6 +22,8 @@ internal class ShowMeYourHandsMod : Mod
 
     private const float ColumnSpacer = 0.1f;
 
+    private const string WeaponSearchControl = "SMYH.WeaponSearch";
+
     /// <summary>
     ///     The instance of the settings to be read by the mod
     /// </summary>
@@ -81,6 +83,7 @@ internal class ShowMeYourHandsMod : Mod
     private float currentOffRotation;
 
     private string searchString;
+    private ThingStyleDef selectedWeaponStyle;
     private Rect weaponRect;
 
     /// <summary>
@@ -264,15 +267,15 @@ internal class ShowMeYourHandsMod : Mod
         }
     }
 
-    private static bool drawIcon(ThingDef thingDef, Rect rect, Vector3 mainHandPosition, Vector3 offHandPosition,
-        float mainHandRotation, float offHandRotation)
+    private static bool drawIcon(ThingDef thingDef, ThingStyleDef style, Rect rect, Vector3 mainHandPosition,
+        Vector3 offHandPosition, float mainHandRotation, float offHandRotation)
     {
         if (thingDef == null)
         {
             return false;
         }
 
-        var texture = Widgets.GetIconFor(thingDef, out _);
+        var texture = style?.Graphic?.MatSingle.mainTexture ?? Widgets.GetIconFor(thingDef, out _);
 
         if (texture == null)
         {
@@ -350,9 +353,15 @@ internal class ShowMeYourHandsMod : Mod
         }
 
         var matrix = GUI.matrix;
-        GUIUtility.RotateAroundPivot(angle, rect.center);
-        GUI.DrawTexture(rect, texture);
-        GUI.matrix = matrix;
+        try
+        {
+            UI.RotateAroundPivot(angle, rect.center);
+            GUI.DrawTexture(rect, texture);
+        }
+        finally
+        {
+            GUI.matrix = matrix;
+        }
     }
 
     private void drawOptions(Rect rect)
@@ -395,7 +404,6 @@ internal class ShowMeYourHandsMod : Mod
     private void drawSettingsOptions(Rect frameRect)
     {
         listingStandard.Begin(frameRect);
-        drawUiScaleWarning();
         drawSettingsManualButtons();
         drawSettingsCheckboxes();
         listingStandard.GapLine();
@@ -403,22 +411,9 @@ internal class ShowMeYourHandsMod : Mod
         drawSettingsSummary(frameRect);
     }
 
-    private static void drawUiScaleWarning()
-    {
-        if (Prefs.UIScale.Equals(1f))
-        {
-            return;
-        }
-
-        GUI.color = Color.yellow;
-        listingStandard.Label("SMYH.uiscale.label".Translate(), -1F, "SMYH.uiscale.tooltip".Translate());
-        listingStandard.Gap();
-        GUI.color = Color.white;
-    }
-
     private static void drawSettingsManualButtons()
     {
-        if (instance.Settings.ManualMainHandPositions?.Count <= 0)
+        if (instance.Settings.ManualMainHandPositions.Count == 0 && instance.Settings.ManualStyleHands.Count == 0)
         {
             listingStandard.Gap((buttonSize.y * 2) + 12);
             return;
@@ -467,6 +462,7 @@ internal class ShowMeYourHandsMod : Mod
                 {
                     WhandCompProps whandCompProps = null;
                     ResetOneWeapon(weaponDef, ref whandCompProps);
+                    WeaponStyleHands.ResetAll(weaponDef);
                 }
 
                 selectedHasManualDefs = [];
@@ -633,7 +629,7 @@ internal class ShowMeYourHandsMod : Mod
             return;
         }
 
-        var compProperties = currentDef.GetCompProperties<WhandCompProps>();
+        var compProperties = WeaponStyleHands.Get(currentDef, selectedWeaponStyle);
         if (compProperties == null)
         {
             listingStandard.Label("SMYH.error.hands".Translate(SelectedDef));
@@ -642,6 +638,7 @@ internal class ShowMeYourHandsMod : Mod
         }
 
         var labelPoint = drawWeaponDefinitionInfo(currentDef);
+        drawStyleSelector(currentDef, labelPoint);
         initializeCurrentWeaponState(compProperties);
         if (!drawWeaponPreview(currentDef, labelPoint))
         {
@@ -679,11 +676,57 @@ internal class ShowMeYourHandsMod : Mod
                 description = $"{description[..250]}...";
             }
 
-            Widgets.Label(new Rect(labelPoint.x, labelPoint.y + 50, 250, 150), description);
+            var descriptionHeight = WeaponStyleHands.GetStyles(currentDef).Count > 0 ? 110 : 150;
+            Widgets.Label(new Rect(labelPoint.x, labelPoint.y + 50, 250, descriptionHeight), description);
         }
 
         listingStandard.Gap(150);
         return labelPoint;
+    }
+
+    private void drawStyleSelector(ThingDef weapon, Rect labelPoint)
+    {
+        var styles = WeaponStyleHands.GetStyles(weapon);
+        if (styles.Count == 0)
+        {
+            return;
+        }
+
+        var label = selectedWeaponStyle == null
+            ? "SMYH.styledefault.label".Translate().ToString()
+            : styleLabel(selectedWeaponStyle);
+        var buttonRect = new Rect(labelPoint.x, labelPoint.y + 170, 250, 30);
+        if (!Widgets.ButtonText(buttonRect, $"{"SMYH.style.label".Translate()} {label}"))
+        {
+            return;
+        }
+
+        var options = new List<FloatMenuOption>
+        {
+            new("SMYH.styledefault.label".Translate(), () => selectWeaponStyle(null))
+        };
+        foreach (var style in styles)
+        {
+            var selected = style;
+            options.Add(new FloatMenuOption(styleLabel(style), () => selectWeaponStyle(selected)));
+        }
+
+        Find.WindowStack.Add(new FloatMenu(options));
+    }
+
+    private static string styleLabel(ThingStyleDef style)
+    {
+        return !string.IsNullOrEmpty(style.label) ? style.LabelCap.ToString() :
+            !string.IsNullOrEmpty(style.Category?.label) ? $"{style.Category.LabelCap} ({style.defName})" :
+            style.defName;
+    }
+
+    private void selectWeaponStyle(ThingStyleDef style)
+    {
+        selectedWeaponStyle = style;
+        currentMainHand = Vector3.zero;
+        currentOffHand = Vector3.zero;
+        currentNoHands = false;
     }
 
     private void initializeCurrentWeaponState(WhandCompProps compProperties)
@@ -706,8 +749,8 @@ internal class ShowMeYourHandsMod : Mod
     private bool drawWeaponPreview(ThingDef currentDef, Rect labelPoint)
     {
         weaponRect = new Rect(labelPoint.x + 270, labelPoint.y + 5, weaponSize.x, weaponSize.y);
-        return drawIcon(currentDef, weaponRect, currentMainHand, currentOffHand, currentMainRotation,
-            currentOffRotation);
+        return drawIcon(currentDef, selectedWeaponStyle, weaponRect, currentMainHand, currentOffHand,
+            currentMainRotation, currentOffRotation);
     }
 
     private Rect drawWeaponHandControls(WhandCompProps compProperties)
@@ -725,9 +768,9 @@ internal class ShowMeYourHandsMod : Mod
         }
         else if (wasNoHands && currentMainHand == Vector3.zero)
         {
-            currentMainHand = compProperties.MainHand != Vector3.zero
-                ? compProperties.MainHand
-                : new Vector3(0f, currentMainBehind ? -0.1f : 0.1f, 0f);
+            currentMainHand = compProperties.MainHand == Vector3.zero
+                ? new Vector3(0f, currentMainBehind ? -0.1f : 0.1f, 0f)
+                : compProperties.MainHand;
         }
 
         Rect lastMainLabel;
@@ -897,7 +940,10 @@ internal class ShowMeYourHandsMod : Mod
             }
         }
 
-        if (instance.Settings.ManualMainHandPositions.ContainsKey(currentDef.defName))
+        var hasManualSettings = selectedWeaponStyle == null
+            ? instance.Settings.ManualMainHandPositions.ContainsKey(currentDef.defName)
+            : instance.Settings.ManualStyleHands.ContainsKey(WeaponStyleHands.Key(currentDef, selectedWeaponStyle));
+        if (hasManualSettings)
         {
             drawButton(() => resetCurrentWeaponHands(currentDef), "SMYH.reset.button".Translate(), resetPosition);
         }
@@ -936,6 +982,13 @@ internal class ShowMeYourHandsMod : Mod
         compProperties.SecHand = currentOffHand;
         compProperties.MainRotation = currentMainRotation;
         compProperties.SecRotation = currentOffRotation;
+        if (selectedWeaponStyle != null)
+        {
+            instance.Settings.ManualStyleHands[WeaponStyleHands.Key(currentDef, selectedWeaponStyle)] =
+                new ManualStyleHandEntry(compProperties);
+            return;
+        }
+
         instance.Settings.ManualMainHandPositions[currentDef.defName] =
             new SaveableVector3(compProperties.MainHand);
         instance.Settings.ManualOffHandPositions[currentDef.defName] =
@@ -958,11 +1011,21 @@ internal class ShowMeYourHandsMod : Mod
 
     private void resetCurrentWeaponHands(ThingDef currentDef)
     {
+        var style = selectedWeaponStyle;
         var compProperties = currentDef.GetCompProperties<WhandCompProps>();
         Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("SMYH.resetsingle.confirm".Translate(),
             delegate
             {
-                ResetOneWeapon(currentDef, ref compProperties);
+                if (style == null)
+                {
+                    ResetOneWeapon(currentDef, ref compProperties);
+                }
+                else
+                {
+                    WeaponStyleHands.Reset(currentDef, style);
+                    compProperties = WeaponStyleHands.Get(currentDef, style);
+                }
+
                 undoCurrentWeaponHands(compProperties);
             }));
     }
@@ -1015,6 +1078,24 @@ internal class ShowMeYourHandsMod : Mod
         foreach (var handPosition in getHandPositionsToExport(onlySelected))
         {
             appendWeaponHandEntry(stringBuilder, handPosition);
+        }
+
+        foreach (var entry in instance.Settings.ManualStyleHands)
+        {
+            var names = entry.Key.Split('|');
+            if (names.Length != 2)
+            {
+                continue;
+            }
+
+            var weapon = DefDatabase<ThingDef>.GetNamedSilentFail(names[0]);
+            if (weapon == null || onlySelected &&
+                (weapon.modContentPack?.Name ?? "SMYH.unknown".Translate().ToString()) != selectedSubDef)
+            {
+                continue;
+            }
+
+            appendStyleHandEntry(stringBuilder, weapon, names[1], entry.Value);
         }
 
         stringBuilder.AppendLine("      </WeaponCompLoader>");
@@ -1070,6 +1151,35 @@ internal class ShowMeYourHandsMod : Mod
 
         return instance.Settings.ManualMainHandPositions.Where(position =>
             weaponsDefsToSelectFrom.Contains(position.Key));
+    }
+
+    private static void appendStyleHandEntry(StringBuilder builder, ThingDef weapon, string styleName,
+        ManualStyleHandEntry entry)
+    {
+        builder.AppendLine("          <li>");
+        builder.AppendLine(FormattableString.Invariant(
+            $"              <MainHand>({entry.MainHand.x:F3}, {entry.MainHand.y:F3}, {entry.MainHand.z:F3})</MainHand>"));
+        if (entry.SecHand != Vector3.zero)
+        {
+            builder.AppendLine(FormattableString.Invariant(
+                $"              <SecHand>({entry.SecHand.x:F3}, {entry.SecHand.y:F3}, {entry.SecHand.z:F3})</SecHand>"));
+        }
+
+        if (entry.MainRotation != 0f)
+        {
+            builder.AppendLine(
+                FormattableString.Invariant($"              <MainRotation>{entry.MainRotation}</MainRotation>"));
+        }
+
+        if (entry.SecRotation != 0f)
+        {
+            builder.AppendLine(
+                FormattableString.Invariant($"              <SecRotation>{entry.SecRotation}</SecRotation>"));
+        }
+
+        builder.AppendLine($"              <ThingTargets><li>{weapon.defName}</li></ThingTargets>");
+        builder.AppendLine($"              <StyleTargets><li>{styleName}</li></StyleTargets>");
+        builder.AppendLine("          </li>");
     }
 
     private static void appendWeaponHandEntry(StringBuilder stringBuilder,
@@ -1145,7 +1255,19 @@ internal class ShowMeYourHandsMod : Mod
         }
 
         var searchRect = listingStandard.GetRect(30f);
+        GUI.SetNextControlName(WeaponSearchControl);
         searchString = Widgets.TextField(searchRect, searchString);
+        if (string.IsNullOrEmpty(searchString) && GUI.GetNameOfFocusedControl() != WeaponSearchControl)
+        {
+            var previousColor = GUI.color;
+            var previousAnchor = Text.Anchor;
+            GUI.color = Color.gray;
+            Text.Anchor = TextAnchor.MiddleLeft;
+            Widgets.Label(searchRect.ContractedBy(4f), "SMYH.showonraces.search".Translate());
+            Text.Anchor = previousAnchor;
+            GUI.color = previousColor;
+        }
+
         TooltipHandler.TipRegion(searchRect, "SMYH.search.tooltip".Translate());
 
         var filteredWeapons = weaponsToShow;
@@ -1159,22 +1281,21 @@ internal class ShowMeYourHandsMod : Mod
                 .ToList();
         }
 
-        selectedHasManualDefs = [];
+        selectedHasManualDefs = weaponsToShow.Where(hasManualWeaponSettings).Select(def => def.defName).ToList();
         foreach (var thingDef in filteredWeapons)
         {
             var toolTip = "SMYH.weaponrow.red";
-            if (definedByDef?.Contains(thingDef.defName) == false &&
-                Settings?.ManualMainHandPositions?.ContainsKey(thingDef.defName) == false)
+            var hasManual = hasManualWeaponSettings(thingDef);
+            if (definedByDef?.Contains(thingDef.defName) == false && !hasManual)
             {
                 GUI.color = Color.red;
             }
             else
             {
-                if (Settings?.ManualMainHandPositions?.ContainsKey(thingDef.defName) == true)
+                if (hasManual)
                 {
                     toolTip = "SMYH.weaponrow.green";
                     GUI.color = Color.green;
-                    selectedHasManualDefs.Add(thingDef.defName);
                 }
                 else
                 {
@@ -1188,9 +1309,7 @@ internal class ShowMeYourHandsMod : Mod
                     SelectedDef == thingDef.defName, false, toolTip.Translate()))
             {
                 SelectedDef = SelectedDef == thingDef.defName ? null : thingDef.defName;
-                currentMainHand = Vector3.zero;
-                currentOffHand = Vector3.zero;
-                currentNoHands = false;
+                selectWeaponStyle(null);
             }
 
             GUI.color = Color.white;
@@ -1213,11 +1332,18 @@ internal class ShowMeYourHandsMod : Mod
         Widgets.EndScrollView();
     }
 
+    private static bool hasManualWeaponSettings(ThingDef weapon)
+    {
+        return instance.Settings.ManualMainHandPositions.ContainsKey(weapon.defName) ||
+               WeaponStyleHands.GetStyles(weapon).Any(style =>
+                   instance.Settings.ManualStyleHands.ContainsKey(WeaponStyleHands.Key(weapon, style)));
+    }
+
     private static void ResetOneWeapon(ThingDef currentDef, ref WhandCompProps compProperties)
     {
         instance.Settings.ManualMainHandPositions.Remove(currentDef.defName);
         instance.Settings.ManualOffHandPositions.Remove(currentDef.defName);
-        instance.Settings.ManualMainHandPositions.Remove(currentDef.defName);
+        instance.Settings.ManualMainHandRotations.Remove(currentDef.defName);
         instance.Settings.ManualOffHandRotations.Remove(currentDef.defName);
         compProperties ??= currentDef.GetCompProperties<WhandCompProps>();
 

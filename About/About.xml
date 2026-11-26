@@ -33,7 +33,9 @@
 Pawns show their hands on their weapon when drafted. 
 Should work with most weapons, vanilla and modded.
 
-Based on [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2171708109]Clutter Weapon Hands[/url] but dynamically sets the hands based on the graphics of the weapon. It will however still use the old hand-definitions if they exist.
+Based on [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2171708109]Clutter Weapon Hands[/url] but dynamically sets the hands based on the graphics of the weapon. It will however still use the old hand-definitions if they exist. 
+
+Calculations of hand positions will be cached and only be recalculated if the mod the weapon is from is updated. This should minimize the calculations for large weapon-collections.
 
 There is also mod-settings where you can modify the settings for each weapon. These settings can be exported and included in a mod to add native support.
 All my "Continued"-mods should have native support.
@@ -93,5 +95,5 @@ Since modding is just a hobby for me I expect no donations to keep modding. If y
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2475965842][img]https://img.shields.io/github/v/release/emipa606/ShowMeYourHands?label=latest%20version&amp;style=plastic&amp;labelColor=0070cd&amp;color=white[/img][/url] | customization, graphics, realism</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.7.0</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.7.1</modVersion>
 </ModMetaData>

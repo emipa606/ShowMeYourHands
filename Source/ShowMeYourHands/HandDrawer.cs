@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using ColorMine.ColorSpaces;
 using ColorMine.ColorSpaces.Comparisons;
+using RimWorld;
 using UnityEngine;
 using Verse;
 using static System.Byte;
@@ -105,7 +106,7 @@ public class HandDrawer : ThingComp
     private bool DrawHandsOnWeapon(Pawn pawn)
     {
         var mainHandWeapon = pawn.equipment.Primary;
-        var compProperties = mainHandWeapon.def.GetCompProperties<WhandCompProps>();
+        var compProperties = WeaponStyleHands.Get(mainHandWeapon.def, mainHandWeapon.StyleDef);
         if (compProperties != null)
         {
             MainHand = compProperties.MainHand;
@@ -127,10 +128,14 @@ public class HandDrawer : ThingComp
             offhandWeapon = (from weapon in pawn.equipment.AllEquipmentListForReading
                 where weapon != mainHandWeapon
                 select weapon).First();
-            var offhandComp = offhandWeapon?.def.GetCompProperties<WhandCompProps>();
+            var offhandComp = WeaponStyleHands.Get(offhandWeapon.def, offhandWeapon.StyleDef);
             if (offhandComp != null)
             {
                 OffHand = offhandComp.MainHand;
+                if (offhandWeapon.StyleDef?.Graphic != null)
+                {
+                    OffHandRotation = offhandComp.MainRotation;
+                }
             }
         }
 
@@ -181,20 +186,31 @@ public class HandDrawer : ThingComp
     {
         var flipped = false;
 
-        if (!ShowMeYourHandsMain.weaponLocations.TryGetValue(mainHandWeapon, out var location))
+        var mainDrawn = PawnRenderer_DrawEquipmentAiming.WasWeaponDrawn(mainHandWeapon) &&
+                        ShowMeYourHandsMain.weaponLocations.TryGetValue(mainHandWeapon, out _);
+        var offDrawn = offHandWeapon != null && PawnRenderer_DrawEquipmentAiming.WasWeaponDrawn(offHandWeapon) &&
+                       ShowMeYourHandsMain.weaponLocations.TryGetValue(offHandWeapon, out _);
+        if (!mainDrawn && !offDrawn)
         {
             return;
         }
 
-        var mainWeaponLocation = GetCurrentWeaponLocation(mainHandWeapon, location.Item1);
-        var mainHandAngle = ShowMeYourHandsMain.weaponLocations[mainHandWeapon].Item2;
+        var mainWeaponLocation = Vector3.zero;
+        var mainHandAngle = 0f;
+        if (mainDrawn)
+        {
+            var location = ShowMeYourHandsMain.weaponLocations[mainHandWeapon];
+            mainWeaponLocation = GetCurrentWeaponLocation(mainHandWeapon, location.Item1);
+            mainHandAngle = location.Item2;
+        }
+
         var offhandWeaponLocation = Vector3.zero;
         var offHandAngle = mainHandAngle;
-        if (offHandWeapon != null && ShowMeYourHandsMain.weaponLocations.ContainsKey(offHandWeapon))
+        if (offDrawn && offHandWeapon != null)
         {
-            offhandWeaponLocation =
-                GetCurrentWeaponLocation(offHandWeapon, ShowMeYourHandsMain.weaponLocations[offHandWeapon].Item1);
-            offHandAngle = ShowMeYourHandsMain.weaponLocations[offHandWeapon].Item2;
+            var location = ShowMeYourHandsMain.weaponLocations[offHandWeapon];
+            offhandWeaponLocation = GetCurrentWeaponLocation(offHandWeapon, location.Item1);
+            offHandAngle = location.Item2;
         }
 
         mainHandAngle -= 90f;
@@ -233,24 +249,21 @@ public class HandDrawer : ThingComp
 
         var matSingle = mainHandTex.MatSingle;
         var offSingle = offHandTex.MatSingle;
-        var drawSize = 1f;
+        var drawSize = getWeaponDrawSize(mainHandWeapon);
         LastDrawn = GenTicks.TicksAbs;
-
-        if (ShowMeYourHandsMod.instance.Settings.RepositionHands && mainHandWeapon.def.graphicData != null &&
-            mainHandWeapon.def?.graphicData?.drawSize.x.Equals(1f) == false &&
-            mainHandWeapon.def is { graphicData: not null })
-        {
-            drawSize = mainHandWeapon.def.graphicData.drawSize.x;
-        }
 
         ensurePawnBodySizeCached(pawn);
 
         var mesh = ShowMeYourHandsMain.GetMeshFromPawn(pawn, flipped);
 
-        drawMainHand(mesh, pawn, mainHandWeapon, flipped, drawSize, mainMelee, aiming, skipMainHand, mainWeaponLocation,
-            mainHandAngle, mainMeleeExtra, matSingle);
+        if (mainDrawn)
+        {
+            drawMainHand(mesh, pawn, mainHandWeapon, flipped, drawSize, mainMelee, aiming, skipMainHand,
+                mainWeaponLocation,
+                mainHandAngle, mainMeleeExtra, matSingle);
+        }
 
-        if (shouldSkipOffHand(pawn, skipOffHand))
+        if (shouldSkipOffHand(pawn, skipOffHand) || (offHandWeapon != null ? !offDrawn : !mainDrawn))
         {
             return;
         }
@@ -369,7 +382,8 @@ public class HandDrawer : ThingComp
         ShowMeYourHandsMain.pawnBodySizes[pawn] = 0.8f * bodySize;
     }
 
-    private void drawMainHand(Mesh mesh, Pawn pawn, Thing mainHandWeapon, bool flipped, float drawSize, bool mainMelee,
+    private void drawMainHand(Mesh mesh, Pawn pawn, Thing mainHandWeapon, bool flipped, Vector2 drawSize,
+        bool mainMelee,
         bool aiming, bool skipMainHand, Vector3 mainWeaponLocation, float mainHandAngle, float mainMeleeExtra,
         Material matSingle)
     {
@@ -378,8 +392,8 @@ public class HandDrawer : ThingComp
             return;
         }
 
-        var x = MainHand.x * drawSize;
-        var z = MainHand.z * drawSize;
+        var x = MainHand.x * drawSize.x;
+        var z = MainHand.z * drawSize.y;
         var y = MainHand.y < 0 ? -0.0001f : 0.0001f;
 
         if (flipped)
@@ -409,20 +423,20 @@ public class HandDrawer : ThingComp
         return ShowMeYourHandsMain.pawnsMissingAHand.ContainsKey(pawn) && ShowMeYourHandsMain.pawnsMissingAHand[pawn];
     }
 
-    private void drawOffHand(Mesh mesh, Pawn pawn, Thing offHandWeapon, bool flipped, float drawSize, bool idle,
+    private void drawOffHand(Mesh mesh, Pawn pawn, Thing offHandWeapon, bool flipped, Vector2 drawSize, bool idle,
         bool offMelee, Vector3 offhandWeaponLocation, Vector3 mainWeaponLocation, float mainHandAngle,
         float offHandAngle,
         float offMeleeExtra, Material matSingle, Material offSingle)
     {
-        var x2 = OffHand.x * drawSize;
-        var z2 = OffHand.z * drawSize;
+        var x2 = OffHand.x * drawSize.x;
+        var z2 = OffHand.z * drawSize.y;
         var y2 = OffHand.y < 0 ? -0.0001f : 0.0001f;
 
         if (offHandWeapon != null)
         {
             drawSize = getWeaponDrawSize(offHandWeapon);
-            x2 = OffHand.x * drawSize;
-            z2 = OffHand.z * drawSize;
+            x2 = OffHand.x * drawSize.x;
+            z2 = OffHand.z * drawSize.y;
 
             if (flipped)
             {
@@ -452,15 +466,20 @@ public class HandDrawer : ThingComp
             Quaternion.AngleAxis(mainHandAngle + OffHandRotation, Vector3.up), offSingle, 0);
     }
 
-    private static float getWeaponDrawSize(Thing weapon)
+    private static Vector2 getWeaponDrawSize(Thing weapon)
     {
-        if (ShowMeYourHandsMod.instance.Settings.RepositionHands && weapon.def.graphicData != null &&
-            weapon.def?.graphicData?.drawSize.x.Equals(1f) == false)
+        if (!ShowMeYourHandsMod.instance.Settings.RepositionHands)
         {
-            return weapon.def.graphicData.drawSize.x;
+            return Vector2.one;
         }
 
-        return 1f;
+        if (weapon.StyleDef?.Graphic != null)
+        {
+            return weapon.Graphic.drawSize;
+        }
+
+        var size = weapon.def.graphicData?.drawSize.x ?? 1f;
+        return new Vector2(size, size);
     }
 
     private static Vector3 adjustRenderOffsetFromDir(Pawn pawn, ThingWithComps weapon)
@@ -715,7 +734,7 @@ public class HandDrawer : ThingComp
             ItemHeldLocation + (height * -1) + (width * -1), new Quaternion(), matSingle, 0);
     }
 
-    public override void PostDraw()
+    internal void DrawHandsAfterPawn()
     {
         if (!tryGetDrawablePawn(out var pawn) || shouldSkipPawnPostDraw(pawn))
         {
@@ -750,7 +769,29 @@ public class HandDrawer : ThingComp
         }
 
         return !ShowMeYourHandsMod.instance.Settings.ShowOnRace.TryGetValue(pawn.def.defName, out var showOnRace) ||
-               !showOnRace;
+               !showOnRace || isBodyHidden(pawn);
+    }
+
+    private static bool isBodyHidden(Pawn pawn)
+    {
+        if (pawn.Swimming)
+        {
+            return true;
+        }
+
+        if (pawn.GetPosture() == PawnPosture.Standing)
+        {
+            return false;
+        }
+
+        var drawBodyOverride = pawn.mindState?.duty?.def?.drawBodyOverride;
+        if (drawBodyOverride.HasValue)
+        {
+            return !drawBodyOverride.Value;
+        }
+
+        var bed = pawn.CurrentBed();
+        return bed != null && pawn.RaceProps.Humanlike && !bed.def.building.bed_showSleeperBody;
     }
 
     private bool tryDrawCarriedItemHands(Pawn pawn)

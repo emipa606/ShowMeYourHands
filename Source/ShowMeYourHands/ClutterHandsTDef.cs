@@ -12,6 +12,7 @@ public class ClutterHandsTDef : ThingDef
     {
         public readonly float MainRotation = 0f;
         public readonly float SecRotation = 0f;
+        public readonly List<string> StyleTargets = [];
         public readonly List<string> ThingTargets = [];
         public Vector3 MainHand = Vector3.zero;
         public Vector3 SecHand = Vector3.zero;

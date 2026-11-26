@@ -1,5 +1,10 @@
 # Changelog for ShowMeYourHands
 
+1.7.1 - Weapon styles can have different hand positions
+Non 1x UI-scale can now be used in the mod-options
+Hands should now not be drawn if the body or weapon is not shown
+
+
 1.7.0 - Mod updated for 1.7 and passed autotests
 
 

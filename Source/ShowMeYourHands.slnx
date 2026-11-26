@@ -9,8 +9,6 @@
   <Folder Name="/XML/About/">
     <File Path="../About/about.xml" />
   </Folder>
-  <Folder Name="/XML/Languages/" />
-  <Folder Name="/XML/Languages/English/" />
   <Folder Name="/XML/Languages/English/Keyed/">
     <File Path="../Languages/English/Keyed/Mod_Settings.xml" />
   </Folder>
@@ -193,9 +191,6 @@
     <File Path="../1.7/Defs/Mods/XCOMWeapons.velcroboy333.xml" />
     <File Path="../1.7/Defs/Mods/xrushha.animagear.xml" />
   </Folder>
-  <Folder Name="/XML/" />
-  <Folder Name="/XML/1.7/" />
-  <Folder Name="/XML/1.7/Defs/" />
   <Folder Name="/XML/1.7/Defs/HandPositions/">
     <File Path="../1.7/Defs/HandPositions/Anomaly.xml" />
     <File Path="../1.7/Defs/HandPositions/Biotech.xml" />

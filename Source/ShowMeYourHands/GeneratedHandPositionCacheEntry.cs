@@ -1,16 +1,16 @@
-using Verse;
 using UnityEngine;
+using Verse;
 
 namespace ShowMeYourHands;
 
 internal class GeneratedHandPositionCacheEntry : IExposable
 {
-    public Vector3 MainHand;
-    public Vector3 SecHand;
-    public float MainRotation;
-    public float SecRotation;
-    public string ModPackageId;
     public long AboutFileLastWriteTimeUtcTicks;
+    public Vector3 MainHand;
+    public float MainRotation;
+    public string ModPackageId;
+    public Vector3 SecHand;
+    public float SecRotation;
 
     public void ExposeData()
     {

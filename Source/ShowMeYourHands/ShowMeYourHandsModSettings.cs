@@ -9,12 +9,13 @@ namespace ShowMeYourHands;
 internal class ShowMeYourHandsModSettings : ModSettings
 {
     public float BaseHandSize = 1f;
+    public Dictionary<string, GeneratedHandPositionCacheEntry> GeneratedHandPositions = new();
     public Dictionary<string, SaveableVector3> ManualMainHandPositions = new();
     public Dictionary<string, float> ManualMainHandRotations = new();
-    public Dictionary<string, GeneratedHandPositionCacheEntry> GeneratedHandPositions = new();
 
     public Dictionary<string, SaveableVector3> ManualOffHandPositions = new();
     public Dictionary<string, float> ManualOffHandRotations = new();
+    public Dictionary<string, ManualStyleHandEntry> ManualStyleHands = new();
 
     public bool MatchArmorColor;
     public bool MatchArtificialLimbColor;
@@ -28,20 +29,22 @@ internal class ShowMeYourHandsModSettings : ModSettings
     public bool ShowOtherTmes;
     public bool ShowWhenCarry;
     public bool VerboseLogging;
+    private List<string> generatedHandPositionsKeys;
+    private List<GeneratedHandPositionCacheEntry> generatedHandPositionsValues;
 
     private List<string> manualMainHandPositionsKeys;
 
     private List<SaveableVector3> manualMainHandPositionsValues;
     private List<string> manualMainHandRotationsKeys;
     private List<float> manualMainHandRotationsValues;
-    private List<string> generatedHandPositionsKeys;
-    private List<GeneratedHandPositionCacheEntry> generatedHandPositionsValues;
 
     private List<string> manualOffHandPositionsKeys;
 
     private List<SaveableVector3> manualOffHandPositionsValues;
     private List<string> manualOffHandRotationsKeys;
     private List<float> manualOffHandRotationsValues;
+    private List<string> manualStyleHandsKeys;
+    private List<ManualStyleHandEntry> manualStyleHandsValues;
     private List<string> showOnRaceKeys;
     private List<bool> showOnRaceValues;
 
@@ -72,6 +75,8 @@ internal class ShowMeYourHandsModSettings : ModSettings
         Scribe_Collections.Look(ref GeneratedHandPositions, "GeneratedHandPositions", LookMode.Value,
             LookMode.Deep,
             ref generatedHandPositionsKeys, ref generatedHandPositionsValues);
+        Scribe_Collections.Look(ref ManualStyleHands, "ManualStyleHands", LookMode.Value,
+            LookMode.Deep, ref manualStyleHandsKeys, ref manualStyleHandsValues);
         Scribe_Collections.Look(ref ManualOffHandRotations, "ManualOffHandRotations", LookMode.Value,
             LookMode.Value,
             ref manualOffHandRotationsKeys, ref manualOffHandRotationsValues);
@@ -79,10 +84,13 @@ internal class ShowMeYourHandsModSettings : ModSettings
             LookMode.Value,
             ref showOnRaceKeys, ref showOnRaceValues);
 
-        if (Scribe.mode == LoadSaveMode.PostLoadInit)
+        if (Scribe.mode != LoadSaveMode.PostLoadInit)
         {
-            GeneratedHandPositions ??= new Dictionary<string, GeneratedHandPositionCacheEntry>();
+            return;
         }
+
+        GeneratedHandPositions ??= new Dictionary<string, GeneratedHandPositionCacheEntry>();
+        ManualStyleHands ??= new Dictionary<string, ManualStyleHandEntry>();
     }
 
     public void ResetManualValues()
@@ -99,6 +107,9 @@ internal class ShowMeYourHandsModSettings : ModSettings
         manualOffHandRotationsKeys = [];
         manualOffHandRotationsValues = [];
         ManualOffHandRotations = new Dictionary<string, float>();
+        manualStyleHandsKeys = [];
+        manualStyleHandsValues = [];
+        ManualStyleHands = new Dictionary<string, ManualStyleHandEntry>();
         RimWorld_MainMenuDrawer_MainMenuOnGUI.UpdateHandDefinitions();
     }
 }

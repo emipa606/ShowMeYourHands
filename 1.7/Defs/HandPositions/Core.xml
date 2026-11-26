@@ -83,6 +83,15 @@
         </ThingTargets>
       </li>
       <li>
+        <MainHand>(-0.280, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Club</li>
+        </ThingTargets>
+        <StyleTargets>
+          <li>Horaxian_Club</li>
+        </StyleTargets>
+      </li>
+      <li>
         <MainHand>(0.034, 0.100, -0.254)</MainHand>
         <SecHand>(0.211, -0.100, -0.101)</SecHand>
         <MainRotation>-50</MainRotation>
@@ -133,6 +142,15 @@
         </ThingTargets>
       </li>
       <li>
+        <MainHand>(-0.310, 0.100, 0.000)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Gladius</li>
+        </ThingTargets>
+        <StyleTargets>
+          <li>Horaxian_Gladius</li>
+        </StyleTargets>
+      </li>
+      <li>
         <MainHand>(0.100, 0.100, -0.010)</MainHand>
         <SecHand>(-0.060, -0.100, -0.015)</SecHand>
         <MainRotation>-58</MainRotation>
@@ -177,6 +195,15 @@
         </ThingTargets>
       </li>
       <li>
+        <MainHand>(-0.180, 0.100, -0.005)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Knife</li>
+        </ThingTargets>
+        <StyleTargets>
+          <li>Horaxian_Knife</li>
+        </StyleTargets>
+      </li>
+      <li>
         <MainHand>(-0.210, 0.100, -0.065)</MainHand>
         <SecHand>(0.150, -0.100, -0.040)</SecHand>
         <MainRotation>-38</MainRotation>
@@ -200,6 +227,15 @@
           <li>MeleeWeapon_Mace</li>
           <!-- mace -->
         </ThingTargets>
+      </li>
+      <li>
+        <MainHand>(-0.245, 0.100, 0.005)</MainHand>
+        <ThingTargets>
+          <li>MeleeWeapon_Mace</li>
+        </ThingTargets>
+        <StyleTargets>
+          <li>Horaxian_Mace</li>
+        </StyleTargets>
       </li>
       <li>
         <MainHand>(-0.150, 0.100, -0.080)</MainHand>

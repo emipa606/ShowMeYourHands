@@ -6,7 +6,7 @@
     <thingClass>Thing</thingClass>
     <WeaponCompLoader>
       <li>
-        <MainHand>(-0.185, 0.100, -0.070)</MainHand>
+        <MainHand>(-0.105, 0.100, -0.115)</MainHand>
         <MainRotation>-38</MainRotation>
         <ThingTargets>
           <li>Gun_Revolver_Unique</li>

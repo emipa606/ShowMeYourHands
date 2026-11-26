@@ -20,8 +20,14 @@ public static class CombatExtended_PawnRenderer_DrawEquipmentAiming
             AccessTools.TypeByName("CombatExtended.HarmonyCE.Harmony_PawnRenderer_DrawEquipmentAiming"), "DrawMesh");
     }
 
-    public static void Postfix(Thing eq, float aimAngle, Matrix4x4 matrix)
+    public static void Postfix(Thing eq, float aimAngle, Matrix4x4 matrix, bool __runOriginal)
     {
+        if (!__runOriginal)
+        {
+            return;
+        }
+
+        PawnRenderer_DrawEquipmentAiming.RecordWeaponDraw(eq);
         var location = matrix.Position();
         var owner = ShowMeYourHandsMain.TryGetWeaponOwner(eq);
         if (owner != null)

@@ -23,8 +23,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
     private static int textureCalculatedCount;
     private static int defaultPositionCount;
 
-    [HarmonyPostfix]
-    public static void MainMenuOnGUI()
+    public static void Postfix()
     {
         if (alreadyRun)
         {
@@ -38,6 +37,9 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
 
         var original = typeof(PawnRenderUtility).GetMethod(nameof(PawnRenderUtility.DrawEquipmentAiming));
         var patches = Harmony.GetPatchInfo(original);
+        var postfix = typeof(PawnRenderer_DrawEquipmentAiming).GetMethod(nameof(PawnRenderer_DrawEquipmentAiming
+            .ConfirmWeaponDraw));
+        ShowMeYourHandsMain.harmony.Patch(original, postfix: new HarmonyMethod(postfix, Priority.Last));
         var prefix =
             typeof(PawnRenderer_DrawEquipmentAiming).GetMethod(nameof(PawnRenderer_DrawEquipmentAiming
                 .SaveWeaponLocation));
@@ -138,6 +140,8 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
             LoadFromDefs();
             currentStage = "FigureOutTheRest";
             figureOutTheRest();
+            currentStage = "WeaponStyleHands";
+            WeaponStyleHands.Initialize();
         }
         catch (Exception exception)
         {
@@ -380,7 +384,7 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
 
             foreach (var weaponSets in handsComp)
             {
-                if (weaponSets.ThingTargets.Count <= 0)
+                if (weaponSets.ThingTargets.Count <= 0 || weaponSets.StyleTargets.Count > 0)
                 {
                     continue;
                 }
@@ -431,10 +435,26 @@ public static class RimWorld_MainMenuDrawer_MainMenuOnGUI
         compProps.SecRotation = weaponSets.SecRotation;
     }
 
+    internal static WhandCompProps CalculateStyleHands(ThingDef weapon, ThingStyleDef style)
+    {
+        var props = new WhandCompProps();
+        var longWeapon = isWeaponLong(weapon, style.Graphic.MatSingle.mainTexture, out var mainHand,
+            out var secHand, out _);
+        props.MainHand = mainHand;
+        props.SecHand = longWeapon && !weapon.IsMeleeWeapon ? secHand : Vector3.zero;
+        return props;
+    }
+
     private static bool isWeaponLong(ThingDef weapon, out Vector3 mainHand, out Vector3 secHand,
         out bool usedTexture)
     {
-        var texture = weapon.graphicData.Graphic?.MatSingle.mainTexture;
+        return isWeaponLong(weapon, weapon.graphicData?.Graphic?.MatSingle.mainTexture, out mainHand, out secHand,
+            out usedTexture);
+    }
+
+    private static bool isWeaponLong(ThingDef weapon, Texture texture, out Vector3 mainHand, out Vector3 secHand,
+        out bool usedTexture)
+    {
         usedTexture = texture != null;
         if (texture == null)
         {

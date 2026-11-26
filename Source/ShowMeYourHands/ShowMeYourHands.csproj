@@ -6,15 +6,15 @@
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <DebugType>None</DebugType>
     <LangVersion>latest</LangVersion>
-  <FileVersion>1.7.0</FileVersion><GenerateDependencyFile>false</GenerateDependencyFile><AssemblyVersion>1.7</AssemblyVersion><Product>Show Me Your Hands</Product><Copyright>© Mlie 2026 - MIT License</Copyright><Nullable>warnings</Nullable></PropertyGroup>
+  <FileVersion>1.7.1</FileVersion><GenerateDependencyFile>false</GenerateDependencyFile><AssemblyVersion>1.7</AssemblyVersion><Product>Show Me Your Hands</Product><Copyright>© Mlie 2026 - MIT License</Copyright><Nullable>warnings</Nullable></PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">
-      <Version>1.7.5000-unstable</Version>
+      <Version>1.7.5014-unstable</Version>
       <ExcludeAssets>runtime</ExcludeAssets>
       <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Lib.Harmony">
-      <Version>3.0.0-rc.5</Version>
+      <Version>3.0.0-rc.8</Version>
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
     <PackageReference Include="Mlie_Rimworld_VersionFromManifest" Version="*" />
