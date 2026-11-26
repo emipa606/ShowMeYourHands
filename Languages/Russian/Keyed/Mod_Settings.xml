@@ -23,7 +23,7 @@
   <SMYH.matchhandamounts.tooltip>Если у пешки отсутствует рука, она будет показывать только основную руку на двуручном оружии</SMYH.matchhandamounts.tooltip>
   <SMYH.showwhencarry.label>Показывайте руки при переноске вещей</SMYH.showwhencarry.label>
   <SMYH.showwhencarry.tooltip>Вытягивает руки, когда пешки несут вещи.</SMYH.showwhencarry.tooltip>
-  <SMYH.showothertimes.label>Всегда подавайте руку (BETA)</SMYH.showothertimes.label>
+  <SMYH.showothertimes.label>Всегда показывать руки</SMYH.showothertimes.label>
   <SMYH.showothertimes.tooltip>Будет рисовать статичные руки по бокам пешки, если не делать с ними ничего другого. Сообщалось о некоторых проблемах, и я работаю над улучшением этого способа</SMYH.showothertimes.tooltip>
   <SMYH.matcharmor.label>Постарайтесь подобрать цвет доспехов</SMYH.matcharmor.label>
   <SMYH.matcharmor.tooltip>Если пешка носит доспехи, закрывающие руки, цвет рук будет стараться соответствовать цвету доспехов.</SMYH.matcharmor.tooltip>
@@ -61,9 +61,9 @@
   <SMYH.rotation.label>Включите поддержку вращения</SMYH.rotation.label>
   <SMYH.rotation.tooltip>Позволяет задать пользовательское вращение рук, это будет иметь эффект только при использовании нестандартной текстуры рук</SMYH.rotation.tooltip>
   <SMYH.mainhandrotation.label>Вращение основной руки</SMYH.mainhandrotation.label>
-  <SMYH.offhandrotation.label>Вращение без помощи рук</SMYH.offhandrotation.label>
+  <SMYH.offhandrotation.label>Поворот второй руки</SMYH.offhandrotation.label>
   <SMYH.degree>{0}°</SMYH.degree>
-  <SMYH.rotate>Используйте колесо прокрутки для поворота стрелок, удерживайте SHIFT для ускорения вращения.</SMYH.rotate>
+  <SMYH.rotate>Прокручивайте колесо мыши для поворота рук. Удерживайте SHIFT, чтобы поворачивать быстрее.</SMYH.rotate>
   <SMYH.showcrawling.label>Показывайте руки, когда ползаете</SMYH.showcrawling.label>
   <SMYH.showcrawling.tooltip>Показывает руки, когда пешка сбита с ног и ползет.</SMYH.showcrawling.tooltip>
   <SMYH.style.label>Стиль:</SMYH.style.label>
